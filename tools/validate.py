@@ -7,7 +7,12 @@ def load(p):return json.loads((ROOT/p).read_text(encoding='utf-8'))
 D=load('data/device-records.json');S=load('data/source-catalog.json');M=load('data/screening-matrix.json')
 errors=[];ids={s['id'] for s in S};links_checked=0
 topics=['Unmet medical need','Intellectual property','Fundraising','Regulatory','Reimbursement']
-if len(D)!=9 or len(M)!=9:errors.append('Expected nine devices')
+expected_ids=['precision','rns','ceribell','saint','exablate']
+if [d['id'] for d in D]!=expected_ids or [m['device_id'] for m in M]!=expected_ids:errors.append('Expected exactly the five selected devices')
+expected_reports={Path(m['report']).name for m in M}
+actual_reports={p.name for p in (ROOT/'devices').glob('*.md') if p.name!='README.md'}
+if actual_reports!=expected_reports:errors.append('Device report files do not match the five-device scope')
+if {c['device_id'] for c in load('data/contacts.json')} != set(expected_ids):errors.append('Contact scope mismatch')
 if len(ids)!=len(S):errors.append('Duplicate source IDs')
 readme=(ROOT/'README.md').read_text(encoding='utf-8')
 if len(readme.split())>1050:errors.append('README exceeds the short comparison budget')

@@ -5,22 +5,22 @@ ROOT=Path(__file__).resolve().parents[1]
 D=json.loads((ROOT/'data/device-records.json').read_text(encoding='utf-8'))
 S=json.loads((ROOT/'data/source-catalog.json').read_text(encoding='utf-8'))
 SOURCES={s['id']:s for s in S}
-FDA={'precision':'FDA-PRECISION-K242618','rns':'FDA-RNS-P100026','ceribell':'FDA-CERIBELL-K223504','saint':'FDA-SAINT-K220177','exablate':'FDA-EXABLATE-P150038','terra':'FDA-TERRA-K170840','viz':'FDA-VIZ-DEN170073','optune':'FDA-OPTUNE-P100034S013','canvas':'FDA-CANVAS-DEN200069'}
-EXTRA={'precision':['PRECISION-HOME'],'rns':['RNS-TRIAL','RNS-LONG','RNS-2026'],'ceribell':['CERIBELL-DECIDE','CERIBELL-ED','CERIBELL-ORIGIN'],'saint':['SAINT-FACT','SAINT-ABOUT'],'exablate':['EXABLATE-UCLH','EXABLATE-LONDON'],'terra':['TERRA-KCL','TERRA-CLINICAL'],'viz':['VIZ-FOUNDER'],'optune':['OPTUNE-IMPERIAL'],'canvas':['CANVAS-UPDATE']}
+FDA={'precision':'FDA-PRECISION-K242618','rns':'FDA-RNS-P100026','ceribell':'FDA-CERIBELL-K223504','saint':'FDA-SAINT-K220177','exablate':'FDA-EXABLATE-P150038'}
+EXTRA={'precision':['PRECISION-HOME'],'rns':['RNS-TRIAL','RNS-LONG','RNS-2026'],'ceribell':['CERIBELL-DECIDE','CERIBELL-ED','CERIBELL-ORIGIN'],'saint':['SAINT-FACT','SAINT-ABOUT'],'exablate':['EXABLATE-UCLH','EXABLATE-LONDON']}
 def write(path,text): (ROOT/path).write_text(text.strip()+'\n',encoding='utf-8')
 def links(keys):return '; '.join(f'[{SOURCES[k]["title"]}]({SOURCES[k]["url"]})' for k in dict.fromkeys(keys))
 def path(d):return f'devices/{d["number"]:02d}-{d["id"]}.md'
 
 readme='''# Choosing a device for our report
 
-This repository compares nine devices by **how easy it is to find useful information for the five sections in Project spec**. Open a device report to understand what it does, how far it has developed, which sources help each section, and which first-hand contacts have a specific connection to it.
+This repository compares five devices by **how easy it is to find useful information for the five sections in Project spec**. Open a device report to understand what it does, how far it has developed, which sources help each section, and which first-hand contacts have a specific connection to it.
 
 ## TL;DR
 
-- **RNS and Optune offer clear starting points for public research.** Relevant clinical/regulatory records and company filings are identified; original financing still needs work.
-- **Optune, Exablate and Terra have documented London product or equipment connections.** Exablate has a useful UK commissioning source but harder early funding. Terra's original IP and development finance are harder.
-- **Viz has a London co-founder lead for the business history**, not a verified London stroke-product user.
-- **Ceribell and SAINT have useful clinical and IP sources, but no London product user was verified.** Precision needs a clear choice between the temporary electrode and the larger BCI. Canvas Dx has an actual US payer bulletin, but product-specific IP and local access are still gaps.
+- **RNS is a clear starting point for public research.** Clinical trials, a patent, a prospectus and an economic model are identified; early funding still needs work.
+- **Exablate has a documented London clinical team and a UK commissioning source.** It offers a direct local enquiry route, while early development funding is harder to find.
+- **Ceribell and SAINT have useful clinical and IP sources.** Their reports explain the product/version limits; no London product user was verified for either.
+- **Precision requires a clear choice of scope:** the temporary cortical electrode or the wider BCI programme. Payment and exact-product IP need more investigation.
 
 ## What information do we need?
 
@@ -43,7 +43,7 @@ These five questions follow the [project specification summary](docs/course-requ
 '''
 for d in D:readme+=f'| [{d["name"]}]({path(d)}) | '+' | '.join(s['access'] for s in d['sections'])+' |\n'
 readme+='''
-All nine have a public FDA record, making that a useful regulatory starting point. Other markets, standards and manufacturing still need to be completed. Disease-population figures alone will not answer unmet need, and a large company funding round will not answer early development finance.
+All five have a public FDA record, making that a useful regulatory starting point. Other markets, standards and manufacturing still need to be completed. Disease-population figures alone will not answer unmet need, and a large company funding round will not answer early development finance.
 
 ## Who could provide useful first-hand information in London?
 
@@ -55,15 +55,12 @@ local={
 'rns':('No London RNS user verified. Product-specific US clinical leads are identified.','Original trials, development and follow-up; remote enquiry.'),
 'ceribell':('No London Ceribell user verified. Co-founder Josef Parvizi is a US lead.','Actual invention, clinical studies and economic-model assumptions; remote enquiry.'),
 'saint':('No licensed London SAINT site verified. Co-developer Brandon Bentzley is a US lead.','Academic development, licensing and commercialization; remote enquiry.'),
-'exablate':('UCLH/NHNN paper names exact ExAblate equipment and a London clinical team.','Patient selection, treatment workflow, costs and UK adoption.'),
-'terra':("King's lists an exact Terra scanner at St Thomas' and a facility contact.",'Practical scanning, operating costs, capacity and clinical/research access.'),
-'viz':('Manoj Ramachandran is a London Viz.ai co-founder; his specialty is orthopaedics.','Company formation, early finance and first hospital relationships; not local stroke deployment.'),
-'optune':('Imperial explicitly identifies Dr Matthew Williams with introducing Optune in the UK.','Patient experience, adherence, support needs, private payment and adoption barriers.'),
-'canvas':('No London Canvas Dx user verified. Founder Dennis Wall is a US lead.','Academic/product origin and assessment design; remote enquiry.')}
-for d in [next(x for x in D if x['id']==k) for k in ['optune','exablate','terra','viz']]:
+'exablate':('UCLH/NHNN paper names exact ExAblate equipment and a London clinical team.','Patient selection, treatment workflow, costs and UK adoption.')}
+
+for d in [next(x for x in D if x['id']==k) for k in ['exablate']]:
     a,b=local[d['id']];readme+=f'| [{d["name"]}]({path(d)}) | {a} | {b} |\n'
 readme+='''
-For **Precision, RNS, Ceribell, SAINT and Canvas Dx**, no London product user was verified. Their reports identify relevant US development or clinical leads for a possible remote discussion.
+For **Precision, RNS, Ceribell and SAINT**, no London product user was verified. Their reports identify relevant US development or clinical leads for a possible remote discussion.
 
 We do **not** have London user counts. This table uses documented connections, not general subject expertise or assumed popularity. No interview or visit is arranged.
 
