@@ -35,7 +35,7 @@ The October 2025 course AI note warns about shallow generic prose and missing so
 
 ## Errors corrected versus risks caught
 
-The user requested concise selection briefs and has narrowed the shortlist to five devices. The assumption that the criticism was uniformly old was corrected using the 2026 NYT dates. Relevant checks distinguish temporary electrode clearance from a complete BCI, RNS’s blinded trial from open-label follow-up, observational workflow evidence from a mortality trial, and US clearance from NHS funding. These are recorded as checks, not claims of an independent human audit.
+The user requested concise selection briefs and narrowed the shortlist to five devices, then added ARC-EX as a sixth. The assumption that the criticism was uniformly old was corrected using the 2026 NYT dates. Relevant checks distinguish temporary electrode clearance from a complete BCI, RNS’s blinded trial from open-label follow-up, observational workflow evidence from a mortality trial, and US clearance from NHS funding. These are recorded as checks, not claims of an independent human audit.
 
 The machine-readable record is [data/checks-and-corrections.json](../data/checks-and-corrections.json). It records both completed checks and unfinished work. This is a self-audit, not an independent human audit. A team member should verify the final shortlist’s key FDA indication, patent claims, early financing trail and UK access before the team relies on them.
 

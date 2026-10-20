@@ -307,3 +307,156 @@ The device reports explain how each source helps a report section. This index re
 - Source date: See the original record
 - Checked: 2026-10-20
 - What was reviewed: London role and administrative contact checked; exact-product connection established separately by the London methods paper
+
+## FDA-ARCEX-DEN240014
+
+[FDA: ARC-EX original De Novo classification and evidence review](https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN240014.pdf)
+
+- Type: Regulator decision / evidence review
+- Source date: 2024-12-19
+- Checked: 2026-10-20
+- What was reviewed: Downloaded 15-page original. Indication, classification, device description, electrical/software testing and clinical-study sections selectively reviewed; not a complete current-label audit.
+
+## FDA-ARCEX-K251821
+
+[FDA: ARC-EX 510(k) extending the indication to home use](https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251821.pdf)
+
+- Type: Regulator decision / 510(k) summary
+- Source date: 2025-11-14
+- Checked: 2026-10-20
+- What was reviewed: Downloaded seven-page original; decision letter, indication, software changes and predicate comparison reviewed. The decision date is 14 November, separate from the 17 November company announcement.
+
+## ARCEX-IFU
+
+[ONWARD: ARC-EX Professional instructions for use](https://www.onwd.com/wp-content/uploads/2025/12/006006_IFU_Professional_ARC-EX-EXIFU02PROEN_v4.pdf)
+
+- Type: Manufacturer instructions
+- Source date: 2025 copyright; version linked from current IFU index
+- Checked: 2026-10-20
+- What was reviewed: 150-page PDF located through the manufacturer current-version link; setup/components, intended use/users, support and patent/trademark passages selectively reviewed. Not read cover to cover.
+
+## ARCEX-UPLIFT
+
+[Moritz et al.: Up-LIFT pivotal trial, Nature Medicine](https://www.nature.com/articles/s41591-024-02940-9)
+
+- Type: Peer-reviewed original clinical study
+- Source date: 2024-05-20
+- Checked: 2026-10-20
+- What was reviewed: Downloaded publisher PDF and extracted text. Mechanism, participant disposition, primary outcome, safety, trial design and limitations reviewed; 65 enrolled, 64 safety population, 60 completers, 43 primary responders. Not a randomized sham comparison.
+
+## ARCEX-PATHFINDER
+
+[Suggitt et al.: community rehabilitation Pathfinder2 pilot](https://pubmed.ncbi.nlm.nih.gov/39998450/)
+
+- Type: Peer-reviewed original study / abstract and disclosures
+- Source date: 2025-02-24 online; October 2025 issue
+- Checked: 2026-10-20
+- What was reviewed: PubMed abstract, author affiliations/contact and conflicts reviewed; publisher indexed method/funding passages checked. Full-text fetch failed. The methods describe 12 participants; provider/funder summaries describe 10 completing the programme. No complete full-text audit or efficacy extrapolation.
+
+## ARCEX-PROSPECTUS
+
+[ONWARD: prospectus dated 21 March 2024](https://ir.onwd.com/static-files/48d3e9a2-73bf-40be-a385-d37e7f1cc9bd)
+
+- Type: Company securities disclosure
+- Source date: 2024-03-21
+- Checked: 2026-10-20
+- What was reviewed: Selected PDF pages 95, 98-99 and 103-104 reviewed through indexed PDF text: NRT lineage, financing, Demcon enclosure-development agreement and UCLA/Caltech licences. Full 275-page prospectus not read; direct local download returned 403.
+
+## ARCEX-ANNUAL2025
+
+[ONWARD: Annual Report 2025](https://ir.onwd.com/static-files/7cf553fe-7094-4860-8979-678416de476f)
+
+- Type: Company annual report
+- Source date: 2025 reporting year; published 2026
+- Checked: 2026-10-20
+- What was reviewed: Search-indexed report passages on reimbursement/market access (printed p81) and regulatory/commercial operations (p107) reviewed. Full fetch and local download failed. Company strategy is not independently verified payer policy or a current code audit.
+
+## ARCEX-CE
+
+[ONWARD: ARC-EX CE Mark announcement](https://www.globenewswire.com/news-release/2025/09/08/3145824/0/en/onward-medical-receives-ce-mark-for-arc-ex-enabling-commercial-launch-of-breakthrough-spinal-cord-stimulation-system-in-europe.html)
+
+- Type: Manufacturer regulatory announcement
+- Source date: 2025-09-08
+- Checked: 2026-10-20
+- What was reviewed: CE Mark announcement and stated EU indication reviewed. Original notified-body certificate and MHRA registration were not independently obtained.
+
+## ARCEX-MERGER
+
+[GTX and NeuroRecovery Technologies: 2019 merger announcement](https://www.gimv.com/sites/default/files/media/2019-10/20191022_English_Press-release-merger-GTX-medical-NeuroRecovery-Technologies.pdf)
+
+- Type: Investor-hosted original company announcement
+- Source date: 2019-10-22
+- Checked: 2026-10-20
+- What was reviewed: Two-page announcement reviewed for external versus implanted technology lineage, shareholders and university licensing. It is a historical company/investor statement, not an ARC-EX-only spending account.
+
+## ARCEX-EARLYFIN
+
+[EPFL: G-Therapeutics raises EUR36m in 2016](https://actu.epfl.ch/news/g-therapeutics-raises-eur-36-million/)
+
+- Type: Institutional financing announcement
+- Source date: 2016-04-21
+- Checked: 2026-10-20
+- What was reviewed: Original institutional release reviewed: EUR26m equity plus EUR10m innovation loan, named investors, and explicit implanted-system development purpose. This funding must not be relabelled as an ARC-EX-specific round.
+
+## ARCEX-PATENT
+
+[US10806927B2: transcutaneous spinal cord stimulation](https://patents.google.com/patent/US10806927B2/en)
+
+- Type: Original patent document via Google Patents
+- Source date: 2020-10-20 grant; 2011-11-11 claimed priority
+- Checked: 2026-10-20
+- What was reviewed: Inventors and granted claims, especially independent claim 1, reviewed. A technology-related candidate; no verified patent-to-ARC-EX claim chart or inclusion in the licensed schedule. Google assignee/legal-status normalization was not relied on as a legal determination.
+
+## ARCEX-LOCATOR
+
+[ONWARD: centres offering ARC-EX](https://www.onwd.com/center-locator/)
+
+- Type: Manufacturer exact-product provider directory
+- Source date: See the original record
+- Checked: 2026-10-20
+- What was reviewed: Current UK listings checked, including Neurokinex Hemel Hempstead and Gatwick. Directory presence is not a guarantee of appointments, educational visits or NHS funding; these centres are outside London.
+
+## ARCEX-NEUROKINEX
+
+[Neurokinex: ARC-EX Pathfinder2 study and enquiry route](https://neurokinex.org/spinal-stimulation-study-pathfinder2/)
+
+- Type: Provider account of its own device study
+- Source date: See the original record
+- Checked: 2026-10-20
+- What was reviewed: Provider explicitly identifies the exact ARC-EX technology, its role in Pathfinder2, Spinal Research funding and public enquiry route. Outcome testimonials were not treated as controlled evidence.
+
+## ARCEX-NEUROCONTACT
+
+[Neurokinex: centre addresses and contact details](https://neurokinex.org/contact/)
+
+- Type: Provider contact information
+- Source date: See the original record
+- Checked: 2026-10-20
+- What was reviewed: Hemel Hempstead and Gatwick addresses, general email and phone checked. No personal introduction, response or visit arrangement exists.
+
+## ARCEX-SPINALPROGRAM
+
+[Spinal Research: ARC-EX Real World Programme launch](https://spinal-research.org/news/spinal-research-launches-arc-ex-real-world-programme/)
+
+- Type: Funder account of its own programme
+- Source date: 2026-07
+- Checked: 2026-10-20
+- What was reviewed: Programme launch, device-loan model and rehabilitation-centre partnerships reviewed. Charity-supported access is not an NHS commissioning or insurance-coverage decision.
+
+## ARCEX-SPINALCONTACT
+
+[Spinal Research: London office and contact routes](https://spinal-research.org/contact-us/)
+
+- Type: Institutional contact information
+- Source date: See the original record
+- Checked: 2026-10-20
+- What was reviewed: Public office address at 201 Borough High Street, London SE1 1JA, general email and phone checked. It is a funder/programme organisation, not a treatment clinic.
+
+## ARCEX-NSCISC2026
+
+[NSCISC: 2026 traumatic spinal cord injury facts and figures](https://bpb-us-w2.wpmucdn.com/sites.uab.edu/dist/f/392/files/2026/03/Facts-and-Figures-English-03.25.2026-Accessible.pdf)
+
+- Type: Academic statistical centre data sheet
+- Source date: 2026
+- Checked: 2026-10-20
+- What was reviewed: Two-page original reviewed for US incidence/prevalence, injury categories and severity-specific historical cost table in 2025 dollars. Cost model originates in 2011 and population estimation uses older underlying studies; neither is an ARC-EX savings estimate or a UK cost model.
