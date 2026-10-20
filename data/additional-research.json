@@ -1,0 +1,760 @@
+{
+  "checked": "2026-10-20",
+  "protocol": "docs/reliability-protocol.md",
+  "scope": "Targeted investigation of the extra routes learned from the examples, across six devices and five topics. Original research and access labels retained. Not a full legal, current-label or payer audit.",
+  "devices": [
+    {
+      "device_id": "precision",
+      "summary": "The extra search adds an earlier financing round, a closer array/insertion patent candidate and a real manufacturing acquisition. Acute clinical evidence is stronger than a product description; payment for the cleared temporary component is still unresolved.",
+      "topics": [
+        {
+          "topic": "Unmet medical need",
+          "search_route": "Original technical study rather than only broad paralysis statistics.",
+          "findings": [
+            {
+              "title": "What the acute human study can establish",
+              "label": "Study result",
+              "evidence": "Hettick et al. describe acute cortical-array work in five neurosurgical patients: two under general anaesthesia and three during awake language mapping. This supports feasibility in a surgical setting. It is not a trial of durable computer control for people with paralysis.",
+              "sources": [
+                "PRECISION-HETTICK-2025"
+              ],
+              "locator": "Human clinical pilot; methods; funding and competing interests",
+              "reliability": "An original study describes the actual platform and participants. Precision supported the work and many authors report company relationships; it is not independent clinical validation.",
+              "use_in_report": "Separate the immediate temporary-recording use case from the longer-term assistive BCI ambition. Define the unmet problem for the product scope chosen before estimating eligible patients.",
+              "limit": "Small acute pilot; neither long-term benefit nor patient numbers, hospital savings or stimulation efficacy for the marketed Layer 7-T are established.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "A scope-matched eligible population, prior-care costs and clinical outcomes for the selected use case are still needed."
+        },
+        {
+          "topic": "Intellectual property",
+          "search_route": "Search the named inventors and array/insertion mechanism, then read independent claims.",
+          "findings": [
+            {
+              "title": "A closer technical patent candidate",
+              "label": "Documented fact",
+              "evidence": "US20230210427A1 names Rapoport, Papageorgiou, Hettick, Poole and Ho; it claims priority from 31 December 2021 and lists a Precision assignment. Claim 1 covers a flexible, nonpenetrating electrode assembly with a pocket for an insertion paddle. Claim 5 covers the insertion method, including advancing to a subdural target and withdrawing the paddle.",
+              "sources": [
+                "PRECISION-ARRAY-IP"
+              ],
+              "locator": "Bibliographic/assignment metadata; independent claims 1 and 5",
+              "reliability": "The actual application text is more informative than a company statement that it has patents. The identified mechanics connect to the platform described in the study.",
+              "use_in_report": "Explain what the proposed protection concerns: array construction and delivery. Start a claim-to-component table for the selected Layer 7-T configuration.",
+              "limit": "This is an application publication. Exact marketed-product mapping, later prosecution/grant status, all other independent claims and inventors’ employment at invention remain unverified.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Obtain official prosecution/assignment records and map the final product to every relevant independent claim before asserting patent protection."
+        },
+        {
+          "topic": "Fundraising",
+          "search_route": "Early company announcement cross-checked against an investor account.",
+          "findings": [
+            {
+              "title": "An earlier round than the original Series B",
+              "label": "Documented fact",
+              "evidence": "Precision announced a $12 million Series A on 25 May 2021, led by Steadview Capital and B Capital Group’s Ascent Team. B Capital’s own November 2021 portfolio account confirms its relationship with Precision, but does not independently verify the amount.",
+              "sources": [
+                "PRECISION-SERIESA-2021",
+                "PRECISION-BCAPITAL-2021"
+              ],
+              "locator": "Release financing paragraph; B Capital Precision section",
+              "reliability": "The company is responsible for its announcement; the investor independently describes its involvement. They answer different parts of the financing question.",
+              "use_in_report": "Add a development-period milestone before the 2023 round. Record the round, date, investors and stated BCI development purpose.",
+              "limit": "Company/platform capital is not Layer 7-T expenditure. Valuation, earlier founders’ funds, cash deployment and the full first-version budget were not found. This is the earliest round verified here, not proof it was the first money.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Look for incorporation-period grants, seed records and investor filings; otherwise build an explicitly labelled development-cost estimate."
+        },
+        {
+          "topic": "Regulatory",
+          "search_route": "Manufacturing acquisition record alongside the original FDA decision.",
+          "findings": [
+            {
+              "title": "A specific fabrication site relationship",
+              "label": "Documented fact",
+              "evidence": "In October 2023 Precision announced its acquisition of a MEMS foundry outside Dallas through Precision BioMEMS. This is evidence of a company-controlled fabrication route at that time.",
+              "sources": [
+                "PRECISION-FACTORY-2023",
+                "FDA-PRECISION-K242618"
+              ],
+              "locator": "Manufacturing-acquisition paragraphs; existing FDA record",
+              "reliability": "The release identifies an actual site transaction and subsidiary. It is more direct than a generic supplier capability page, but remains the company’s historical account.",
+              "use_in_report": "Describe how fabrication capability was brought in-house during development; keep manufacture separate from the later clearance of the temporary electrode.",
+              "limit": "No current factory/QMS inspection, complete outsourcing chain or acquisition cost was verified. Breakthrough designation in the same release is not market authorisation.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Check present manufacturing responsibilities, relevant standards and non-US market records for the chosen component."
+        },
+        {
+          "topic": "Reimbursement",
+          "search_route": "Look for exact-product payment; use official procedure-payment context only where direct evidence is absent.",
+          "findings": [
+            {
+              "title": "Payment remains a scoped question",
+              "label": "Context",
+              "evidence": "CMS explains that some integral hospital outpatient items are included in the payment for the main service rather than paid separately. This provides a possible route to investigate, not a payment determination for Layer 7-T.",
+              "sources": [
+                "CMS-PAYMENT-SYSTEMS"
+              ],
+              "locator": "Hospital Outpatient Prospective Payment System: Packaged Costs",
+              "reliability": "CMS is the payment-system authority. The passage was read, but it does not name this product.",
+              "use_in_report": "Ask which procedure and setting use the temporary array, which provider buys it and whether its cost sits within a service payment or another arrangement. Put hospital purchasing and the clinical service on the stakeholder map.",
+              "limit": "No Layer 7-T-specific coverage policy, fee, procurement contract or verified price was found. Do not assign an outpatient mechanism to inpatient use, or infer that no separate code means no payment.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "A real use-setting/code map and buyer or payer evidence are needed; future chronic BCI reimbursement is a separate question."
+        }
+      ],
+      "what_changes": "Earlier funding and manufacturing are now better documented; exact-product IP and payment still require work. The original access labels remain a dated snapshot."
+    },
+    {
+      "device_id": "rns",
+      "summary": "A pre-approval securities filing and an actual payer policy add more than another general company summary. The new layer also distinguishes broad epilepsy burden from RNS eligibility and separates MRI labels by model.",
+      "topics": [
+        {
+          "topic": "Unmet medical need",
+          "search_route": "Original government population survey, with an explicit eligibility boundary.",
+          "findings": [
+            {
+              "title": "A dated US burden denominator",
+              "label": "Context",
+              "evidence": "Kobau et al. report an estimated 2,865,000 US adults (1.1%) with active epilepsy in the 2021 NHIS. Active epilepsy uses a reported doctor diagnosis plus current treatment and/or a seizure in the previous year.",
+              "sources": [
+                "CDC-EPILEPSY-NHIS2021"
+              ],
+              "locator": "CDC repository abstract and metadata",
+              "reliability": "This is the authors’ original survey report in the CDC repository. Only the abstract/record was reviewed here, so its reported estimate is used within that coverage.",
+              "use_in_report": "Give the unmet-need section a clear year, country and denominator, then narrow to the drug-resistant focal population and relevant treatment alternatives.",
+              "limit": "This is not an RNS-eligible patient count and is not a UK estimate. Full survey methods, uncertainty and the eligible fraction need a further read.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Quantify the narrower eligible population and before/after care costs using the original clinical/economic sources, not all epilepsy cases."
+        },
+        {
+          "topic": "Intellectual property",
+          "search_route": "Deeper patent reading plus institutional founder history.",
+          "findings": [
+            {
+              "title": "What the foundational claim says",
+              "label": "Documented fact",
+              "evidence": "In the already-listed US6016449A, independent claim 1 combines intracranial electrodes, an implanted under-scalp module that responds to brain inputs with stimulation, and external two-way communication/programming. The publication names Robert Fischell, David Fischell and Adrian Upton.",
+              "sources": [
+                "RNS-PATENT"
+              ],
+              "locator": "Independent claim 1; inventors and bibliographic/legal metadata",
+              "reliability": "This is a deeper reading of the original patent source, not a new independent confirmation. The text supports a technical explanation of responsive stimulation.",
+              "use_in_report": "Explain the sensing–decision–stimulation loop and the programming link in plain language before examining later device improvements.",
+              "limit": "Google metadata indicates lifetime expiry; current enforceability was not audited. This single claim is not the complete independent-claim analysis required by the coursework.",
+              "origin": "Deeper check of a previously listed source"
+            },
+            {
+              "title": "Founder history does not settle ownership",
+              "label": "Context",
+              "evidence": "A 2008 Johns Hopkins account identifies Robert Fischell as NeuroPace’s founder and describes his earlier 38-year APL career.",
+              "sources": [
+                "RNS-JHU-FOUNDER"
+              ],
+              "locator": "University historical article",
+              "reliability": "The university account corroborates the biographical relationship. It does not supply a patent assignment or employment contract.",
+              "use_in_report": "Use it to frame an origin timeline and a precise follow-up question about where the invention was made and who owned it.",
+              "limit": "Do not infer that Johns Hopkins owned or licensed the RNS patent, or employed him when it was filed.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Reconstruct the original employment/assignment chain and read the other relevant independent claims and current improvement patents."
+        },
+        {
+          "topic": "Fundraising",
+          "search_route": "Search SEC offering records from the pre-approval development period.",
+          "findings": [
+            {
+              "title": "A 2011 offering is documented",
+              "label": "Documented fact",
+              "evidence": "A Form D signed 30 August 2011 reports a first sale on 16 August and $49,126,004 sold in a $61,914,481 offering. The record includes equity and options/related securities.",
+              "sources": [
+                "RNS-FORMD-2011"
+              ],
+              "locator": "First-sale field; security types; section 13; signature",
+              "reliability": "This is a contemporaneous issuer filing, stronger for the offering figures than later news summaries. A Form D is a disclosure, not SEC endorsement of the investment.",
+              "use_in_report": "Add a quantified development-period financing milestone before the 2013 approval, with the amount actually reported sold separated from the total offered.",
+              "limit": "Do not describe the total offering as completed financing or all securities as cash. Valuation, investors, first-ever financing and device-specific spend remain unresolved.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Trace earlier rounds/grants and final closing records; the verified 2011 filing is not a complete early funding history."
+        },
+        {
+          "topic": "Regulatory",
+          "search_route": "Use version-specific safety labeling instead of carrying an old restriction across all models.",
+          "findings": [
+            {
+              "title": "MRI status depends on the RNS model",
+              "label": "Documented fact",
+              "evidence": "The February 2020 Rev 6 manufacturer guidelines identify RNS-320 as MR Conditional under specified conditions and RNS-300M as MR Unsafe.",
+              "sources": [
+                "RNS-MRI-2020"
+              ],
+              "locator": "Model identification and MR safety sections; DN 1017451 Rev 6",
+              "reliability": "The actual model-specific manual was read. It supplies historical labeling detail rather than an unsourced general claim about implants.",
+              "use_in_report": "Add a version timeline beside the original FDA decision. Explain why an early MRI restriction cannot be applied to every later RNS model.",
+              "limit": "This is a historical manual, not a complete current-label or FDA-supplement audit. It is not patient-specific scanning advice.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Verify the latest authorised labels/supplements, standards and manufacturing records in each market chosen for the report."
+        },
+        {
+          "topic": "Reimbursement",
+          "search_route": "Read a payer’s actual coverage criteria alongside the existing economic model.",
+          "findings": [
+            {
+              "title": "A policy is available, with defined eligibility",
+              "label": "Documented fact",
+              "evidence": "Aetna CPB 0394, last reviewed 23 June 2026, treats responsive cortical stimulation as medically necessary for selected adults with intractable focal epilepsy under stated conditions. These include no more than two localised epileptogenic regions and adequate trials of at least two antiseizure medicines; the full policy has further surgical/clinical criteria.",
+              "sources": [
+                "AETNA-RNS-0394"
+              ],
+              "locator": "Responsive Cortical Stimulation section and review date",
+              "reliability": "Aetna is the payer issuing this policy. This is direct evidence of its coverage position, whereas the earlier cost-effectiveness paper is a model.",
+              "use_in_report": "Explain which clinical evidence a payer asks for and separate coverage from economic value. Map the patient, epilepsy team, implanting centre and insurer.",
+              "limit": "It is not universal US or NHS coverage, a guaranteed patient benefit, or a payment amount. Read all criteria and plan terms before making a coverage claim.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Find the relevant payment amounts and UK access route separately; a US commercial policy does not answer NHS commissioning."
+        }
+      ],
+      "what_changes": "The financing and payment sections now have concrete additional records; earliest finance, full IP history and current multi-market labels remain incomplete."
+    },
+    {
+      "device_id": "ceribell",
+      "summary": "The extra routes uncover real Stanford licence terms, academic seed support, early company proceeds and original hardware records. The major time-sensitive finding is that the seizure-monitor NTAP has ended for FY2027; a separate delirium award must not be confused with it.",
+      "topics": [
+        {
+          "topic": "Unmet medical need",
+          "search_route": "Professional-society care-pathway evidence, not only the company’s rapid-EEG trials.",
+          "findings": [
+            {
+              "title": "Why EEG access matters in critical care",
+              "label": "Context",
+              "evidence": "The 2015 ACNS consensus describes selected critically ill patients for whom continuous EEG is indicated and practical limits from specialist staffing and resources. It concerns adults and non-neonatal children, with indications and monitoring duration depending on the clinical situation.",
+              "sources": [
+                "ACNS-CCEEG-2015"
+              ],
+              "locator": "Introduction, methods, selected indications and Table 1",
+              "reliability": "This is the society’s own consensus, grounded in the evidence available then. It is not a randomised Ceribell evaluation.",
+              "use_in_report": "Explain why non-obvious seizures and delays in obtaining conventional EEG create a problem. Use care-pathway evidence alongside the original rapid-EEG studies, which answer the device-specific question.",
+              "limit": "Cohort-specific seizure rates are not the prevalence in every ICU. The guidance does not establish that a short reduced-montage recording replaces full continuous EEG or improves outcomes.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Need a setting-specific patient denominator, contemporary access delays, full comparative clinical outcomes and observed cost data."
+        },
+        {
+          "topic": "Intellectual property",
+          "search_route": "Retrieve the university licence filed as a securities exhibit and its later extension.",
+          "findings": [
+            {
+              "title": "A licence relationship with disclosed terms",
+              "label": "Documented fact",
+              "evidence": "A Stanford/Ceribell amendment effective 1 April 2017 traces the original agreement to 15 June 2015 and identifies Stanford dockets S11-220, S13-470 and 14-459 from the Parvizi/Chafe labs. It discloses a $36,000 first-commercial-sale milestone; royalty percentages are redacted. A June 2025 disclosure reports a $250,000 payment to extend exclusivity through the last licensed patent’s expiry.",
+              "sources": [
+                "CERIBELL-STANFORD-LICENCE-2017",
+                "CERIBELL-STANFORD-LICENCE-2025"
+              ],
+              "locator": "Amendment technology/milestone schedule; June 2025 licence disclosure",
+              "reliability": "These are dated contractual/company records filed publicly, not just a founder biography. The later filing establishes the extension event within its scope.",
+              "use_in_report": "Explain academic technology transfer, licensed rights and commercial obligations. Link the dockets to patent families before discussing the independent claims already identified.",
+              "limit": "Not proof that all headband or later Clarity features fall under these patents. A licence payment is not fundraising, royalty rates remain unavailable, and no complete claim-to-product map was completed.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Map the docket families and independent claims to the original product, distinguish later AI IP and establish original inventor employment."
+        },
+        {
+          "topic": "Fundraising",
+          "search_route": "Follow university seed-grant records and early-financing notes inside the prospectus archive.",
+          "findings": [
+            {
+              "title": "Academic support before the commercial rounds",
+              "label": "Documented fact",
+              "evidence": "Stanford Bio-X attributes Ceribell’s creation to a Round 6 (2012) IIP seed grant for the Parvizi/Chafe brain-wave sonification project.",
+              "sources": [
+                "CERIBELL-BIOX-SEED"
+              ],
+              "locator": "2019 seed-grant news: Ceribell project paragraph",
+              "reliability": "The university’s own programme identifies the grant and investigators. It does not disclose the grant value.",
+              "use_in_report": "Add the academic funding stage before company equity; it helps explain how the founding technology was developed.",
+              "limit": "No amount or proof that the grant alone financed the eventual commercial product. Academic seed support is not a company equity round.",
+              "origin": "New source route"
+            },
+            {
+              "title": "Early company proceeds, with conversion kept separate",
+              "label": "Documented fact",
+              "evidence": "The August 2024 S-1 reports $1.0 million net Series Seed proceeds in August 2015/April 2016, $2.0 million of convertible-note cash in 2016, and $7.0 million net Series A proceeds in Q2 2017. The notes converted in May 2017.",
+              "sources": [
+                "CERIBELL-S1-AUG2024"
+              ],
+              "locator": "Note 10, printed F-24; physical PDF p207",
+              "reliability": "These are historical financing notes in the issuer’s registration statement. This is deeper extraction of the filing route already used, not a new independent company account.",
+              "use_in_report": "Build an early capital timeline and distinguish cash raised, net proceeds and later conversion. Do not count the same notes again when converted.",
+              "limit": "Not a complete use-of-proceeds, valuation or device-budget history. These net figures should not be silently compared with gross round announcements.",
+              "origin": "Deeper archive extraction of a previously used source route"
+            }
+          ],
+          "remaining_gap": "Find grant amounts, early valuations and allocation to the first commercial system, or label a development-cost estimate explicitly."
+        },
+        {
+          "topic": "Regulatory",
+          "search_route": "Trace separate hardware decisions, then inspect manufacturing disclosures.",
+          "findings": [
+            {
+              "title": "The original recorder is not the later AI product",
+              "label": "Documented fact",
+              "evidence": "FDA K170363 describes an eight-channel pocket EEG with visual/audio output; that version does not make automatic diagnostic conclusions or adverse-event alerts. K171459 covers the Class II EEG Headband, cleared in August 2017, for patients aged six and above in that label.",
+              "sources": [
+                "CERIBELL-RECORDER-K170363",
+                "CERIBELL-HEADBAND-K171459"
+              ],
+              "locator": "Device descriptions and indications in the two 2017 records",
+              "reliability": "Original regulator records distinguish the components and intended uses. This is more precise than treating all Ceribell clearances as one indication.",
+              "use_in_report": "Create a sequence from electrodes/recorder to later Clarity software. Explain which performance and regulatory evidence belongs to which component.",
+              "limit": "Do not apply the historical age limit or original non-AI scope to every current version. The full current clearance history still needs review.",
+              "origin": "New source route"
+            },
+            {
+              "title": "The filing identifies assembly and sourcing locations",
+              "label": "Documented fact",
+              "evidence": "The 2024 filing describes headband manufacturing by third parties in China and recorder final assembly in Sunnyvale, California; it also identifies reliance on contract manufacturers.",
+              "sources": [
+                "CERIBELL-S1-AUG2024"
+              ],
+              "locator": "Printed p31 and Manufacturing and Supply, pp119-120",
+              "reliability": "The issuer describes its actual sourcing arrangement, rather than a supplier’s general capabilities.",
+              "use_in_report": "Add a dated manufacturing/outsourcing account and explain supply-chain dependencies.",
+              "limit": "Historical 2024 disclosure, not a current site inspection or complete quality-system audit.",
+              "origin": "Deeper archive extraction of a previously used source route"
+            }
+          ],
+          "remaining_gap": "Update manufacturing/QMS evidence and map all selected current software versions to the relevant decisions and standards."
+        },
+        {
+          "topic": "Reimbursement",
+          "search_route": "Check the current official rule rather than carry forward a temporary payment announcement.",
+          "findings": [
+            {
+              "title": "Important update: seizure-monitor NTAP has expired",
+              "label": "Documented fact",
+              "evidence": "The FY2027 IPPS final rule discontinues the new technology add-on payment (NTAP) for the Ceribell Status Epilepticus Monitor. It separately approves a Ceribell Delirium Monitor System for FY2027; that is not a renewal of the seizure-monitor award.",
+              "sources": [
+                "CMS-IPPS-FY2027"
+              ],
+              "locator": "II.E.4, FR pp49694-49695; II.E.6, pp49742-49743",
+              "reliability": "This is the final government payment rule, read in the official HTML. It takes priority over older promotional descriptions of a time-limited add-on.",
+              "use_in_report": "Explain temporary support versus ongoing hospital economics. Keep seizure and delirium indications separate in the payer and stakeholder discussion.",
+              "limit": "NTAP expiry does not eliminate all underlying hospital payment. No current Ceribell purchase price, hospital contract or universal insurer coverage was established. Treat older NTAP references in Layer 1 as historical.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Verify the chosen product’s current coding/base payment and real purchase or subscription terms; the economic model is not a contract."
+        }
+      ],
+      "what_changes": "Early finance, university licensing and hardware history are substantially clearer. The new payment finding explicitly updates any older NTAP description without deleting it."
+    },
+    {
+      "device_id": "saint",
+      "summary": "University transfer/funder records and a named hardware counterparty fill useful gaps. UK comparator research helps explain service demands but is not SAINT evidence. The old inpatient NTAP route has expired for FY2027.",
+      "topics": [
+        {
+          "topic": "Unmet medical need",
+          "search_route": "Use a UK trial of an alternative TMS pathway as context, not as a substitute SAINT trial.",
+          "findings": [
+            {
+              "title": "A UK comparator with a different treatment schedule",
+              "label": "Context",
+              "evidence": "The NIHR BRIGhTMIND trial randomised 255 people with treatment-resistant depression between connectivity-guided iTBS and rTMS. Both used 20 sessions over 4–6 weeks. The report found no superiority of the connectivity-guided protocol; there was no sham group.",
+              "sources": [
+                "SAINT-NIHR-COMPARATOR"
+              ],
+              "locator": "Abstract, physical PDF pp5-6; DOI 10.3310/WVNY5029",
+              "reliability": "This is an original publicly funded UK trial report. The abstract was reviewed; the full outcome and economic appendices were not audited.",
+              "use_in_report": "Explain the existing treatment pathway and why treatment schedule, travel and service capacity matter. Compare these demands with the five-day SAINT programme using SAINT-specific evidence for SAINT’s outcomes.",
+              "limit": "This protocol is not SAINT. Do not transfer its outcomes, target selection, costs or UK access to SAINT, or treat lack of superiority as a SAINT result.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Find a scope-matched UK eligible population, prior-care costs and independent evidence of the SAINT pathway’s outcomes/resource use."
+        },
+        {
+          "topic": "Intellectual property",
+          "search_route": "Check the university technology-transfer office as well as the licensee.",
+          "findings": [
+            {
+              "title": "The licensor also describes the commercialisation",
+              "label": "Documented fact",
+              "evidence": "Stanford OTL’s FY2022 report describes the Williams lab invention, Magnus commercialisation and OTL support for the patent strategy.",
+              "sources": [
+                "SAINT-STANFORD-OTL2022",
+                "SAINT-PATENT"
+              ],
+              "locator": "OTL report physical PDF p11; previously listed patent",
+              "reliability": "The university licensor supplies an additional institutional account. It is still an interested participant in commercialisation, not an independent efficacy evaluation.",
+              "use_in_report": "Support the academic-origin and technology-transfer timeline, then use the patent text to explain what is protected.",
+              "limit": "No full licence contract, royalty schedule, original employment reconstruction or complete independent-claim-to-product map was obtained.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Link every relevant independent claim to the commercial configuration and clarify what is licensed versus later company-developed IP."
+        },
+        {
+          "topic": "Fundraising",
+          "search_route": "Separate support for the academic study from equity raised by the company.",
+          "findings": [
+            {
+              "title": "Academic study funders are identifiable",
+              "label": "Documented fact",
+              "evidence": "Stanford’s October 2021 study account names a Brain & Behavior Research Foundation Young Investigator Award and philanthropic funds, including the Charles R. Schwab and David and Amanda Chao Fund II support.",
+              "sources": [
+                "SAINT-ACADEMIC-FUNDERS"
+              ],
+              "locator": "Funding acknowledgements at the end of the study account",
+              "reliability": "The institution identifies the study’s support. This verifies named academic funders within the account, not their amounts.",
+              "use_in_report": "Describe the precommercial research-funding stage and follow the named funders’ award records if an amount is needed.",
+              "limit": "Do not count this as Magnus equity or assign the full value of a broader gift to SAINT.",
+              "origin": "New source route"
+            },
+            {
+              "title": "The launch round has a dated amount and investors",
+              "label": "Documented fact",
+              "evidence": "Magnus announced a $25 million Series A in October 2021, co-led by JAZZ Venture Partners and Red Tree Venture Capital, alongside its Stanford licence and commercial development plans.",
+              "sources": [
+                "SAINT-SERIESA-2021"
+              ],
+              "locator": "Launch-release financing and licence paragraphs",
+              "reliability": "This is the company’s actual announcement, not an unsourced database estimate. The page header and body differ by one day, so month/year is used.",
+              "use_in_report": "Add the company financing stage after academic development, stating amount, round and investors.",
+              "limit": "No valuation, complete earlier capital history or product-specific development expenditure was disclosed.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Seek award values and earliest company/angel records; keep any required-capital estimate separate from observed fundraising."
+        },
+        {
+          "topic": "Regulatory",
+          "search_route": "Verify the component supplier relationship with the counterparty.",
+          "findings": [
+            {
+              "title": "A specific stimulation-hardware supplier",
+              "label": "Documented fact",
+              "evidence": "MagVenture states that it supplies the MagPro magnetic stimulation system for SAINT and supports installation/service. The body is dated May 2024, while the page header says February 2025.",
+              "sources": [
+                "SAINT-MAGVENTURE",
+                "FDA-SAINT-K220177"
+              ],
+              "locator": "Supplier collaboration statement; original FDA device record",
+              "reliability": "The named supplier confirms an actual product relationship. The date discrepancy is retained rather than silently resolved.",
+              "use_in_report": "Describe an evidenced outsourced component/service relationship beside Magnus’s system role and the FDA configuration.",
+              "limit": "Not a complete manufacturer/QMS/standards map. Owning a MagVenture TMS system does not make a clinic a SAINT provider, and this source does not verify a London site.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Verify current system versions, full manufacturing responsibilities and relevant UK/EU market records; avoid inferring availability from a component supplier."
+        },
+        {
+          "topic": "Reimbursement",
+          "search_route": "Refresh the time-limited US inpatient payment route in the official final rule.",
+          "findings": [
+            {
+              "title": "Important update: the inpatient NTAP window has ended",
+              "label": "Documented fact",
+              "evidence": "The FY2027 IPPS final rule discontinues SAINT’s NTAP after the applicable new-technology payment window.",
+              "sources": [
+                "CMS-IPPS-FY2027"
+              ],
+              "locator": "II.E.4, FR pp49694-49695, SAINT final-policy paragraph",
+              "reliability": "The current final payment rule was read directly. It is stronger evidence of the add-on’s status than an older company reimbursement announcement.",
+              "use_in_report": "Make the business-model question explicit: how is treatment paid for after temporary inpatient support ends? Keep inpatient, outpatient and self-pay routes distinct.",
+              "limit": "This does not establish the end of all base hospital reimbursement, outpatient coverage or private payment. Older references to NTAP in Layer 1 are historical, not current FY2027 support.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Obtain current route-specific payer criteria, amounts and actual service prices; UK comparator economics is not SAINT coverage."
+        }
+      ],
+      "what_changes": "The source base now supports a clearer research-to-company-to-supplier history, with an important payment update. Exact London SAINT use remains unverified."
+    },
+    {
+      "device_id": "exablate",
+      "summary": "The extra search produces a pre-brain-approval financing milestone, a technical patent candidate and an England-specific economic analysis with a published critique/reply. UK procedure guidance also shows why essential tremor and Parkinsonian tremor must be kept separate.",
+      "topics": [
+        {
+          "topic": "Unmet medical need",
+          "search_route": "Read the actual population and treatment choices in a UK pathway/economic study.",
+          "findings": [
+            {
+              "title": "A narrower decision problem than all tremor",
+              "label": "Context",
+              "evidence": "The England model examines unilateral treatment for medication-refractory essential tremor, comparing MR-guided focused ultrasound with deep brain stimulation and no procedure. This defines a more useful report question than the total population with tremor.",
+              "sources": [
+                "EXABLATE-ENGLAND-MODEL"
+              ],
+              "locator": "Methods: population, comparators and time horizon",
+              "reliability": "The authors specify their model population and alternatives. Their assumptions do not establish real-world outcomes or the number eligible in London.",
+              "use_in_report": "Organise unmet need around failed medication and alternative procedures, then distinguish essential tremor from Parkinson’s indications.",
+              "limit": "No local eligible-patient count or observed before/after savings is established. Clinical efficacy must come from clinical evidence rather than the economic model.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Quantify eligibility and existing care burden in the intended market, including contraindications, waiting lists and patient selection."
+        },
+        {
+          "topic": "Intellectual property",
+          "search_route": "Search the mechanism that enables transcranial ultrasound, then read a candidate independent claim.",
+          "findings": [
+            {
+              "title": "A patent addressing tissue aberration",
+              "label": "Documented fact",
+              "evidence": "US8088067B2 names Kobi Vortman and Shuki Vitek, with priority from 23 December 2002. Independent claim 1 combines a transducer array, imaging/processing of intervening tissue and control that adjusts excitation to compensate for refraction and sound-speed differences.",
+              "sources": [
+                "EXABLATE-ABERRATION-PATENT"
+              ],
+              "locator": "Independent claim 1; inventors, priority and assignment/name metadata",
+              "reliability": "The granted text gives a technical basis for discussing how tissue distorts focusing. Assignment metadata connects it to the Insightec lineage, subject to official-register checks.",
+              "use_in_report": "Explain a candidate enabling invention for focusing through tissue/skull; start a claim-to-system map rather than merely listing patent numbers.",
+              "limit": "Not proven to be the first or defining Exablate Neuro patent. Full independent claims, exact commercial implementation, inventor employment and current enforceability remain unverified.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Check original patent families and official assignments; verify the exact product connection before presenting this candidate as its core protection."
+        },
+        {
+          "topic": "Fundraising",
+          "search_route": "Compare an investor filing of an agreement with the later closing announcement.",
+          "findings": [
+            {
+              "title": "A 2012 agreement and closing are not two rounds",
+              "label": "Documented fact",
+              "evidence": "An October 2012 investor filing announced a conditional investment of about $31.4 million. A December company release reported a completed $30.9 million Series C: $27.6 million from GE and $3.3 million from other investors. These describe agreement and completion stages, not amounts to add together.",
+              "sources": [
+                "EXABLATE-FINANCE-AGREEMENT-2012",
+                "EXABLATE-FINANCE-CLOSE-2012"
+              ],
+              "locator": "October financing terms/conditions; December closing paragraphs",
+              "reliability": "Two responsible-party records provide a dated transaction sequence. The October record’s headline gives a $106.4m post-money valuation while its body says $104.6m; that conflict is unresolved.",
+              "use_in_report": "Add a company financing milestone before the 2016 US brain indication. Explain the difference between proposed and completed capital and flag the inconsistent valuation.",
+              "limit": "Platform/company finance, not a brain-only budget or first-ever funding. The agreement also includes loan conversion, so the full announced value should not be called fresh cash. Neither disputed valuation is adopted.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Trace the earlier company/brain-development grants and investors; reconcile valuation from transaction documents if it is included."
+        },
+        {
+          "topic": "Regulatory",
+          "search_route": "Separate procedure guidance and commissioning from device authorisation, and separate indications.",
+          "findings": [
+            {
+              "title": "Parkinsonian tremor has a different NHS evidence position",
+              "label": "Documented fact",
+              "evidence": "NICE HTG733, published December 2024, says more evidence is needed before this focused-ultrasound procedure is used in the NHS for moderate-to-severe Parkinsonian tremor, and recommends use only in formal approved research.",
+              "sources": [
+                "NICE-PD-HTG733",
+                "NHSE-FOCUSED-ULTRASOUND-2020"
+              ],
+              "locator": "NICE recommendations 1.1-1.4, physical PDF p4; existing essential-tremor policy",
+              "reliability": "The actual NICE recommendations were retrieved and read. They address this indication and procedure, rather than every use of the device.",
+              "use_in_report": "Contrast it with the existing essential-tremor commissioning source. Keep three questions separate: device market authorisation, clinical-procedure recommendation and who funds which indication.",
+              "limit": "NICE guidance is not an MHRA/CE certificate. Do not generalise the essential-tremor route to Parkinson’s disease or claim a complete current UK device-label audit.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Verify the exact device model’s current UK/EU authorisation, standards and manufacturing sites separately from procedure guidance."
+        },
+        {
+          "topic": "Reimbursement",
+          "search_route": "Use a local economic model and read both the published criticism and authors’ response.",
+          "findings": [
+            {
+              "title": "A useful England model, with visible assumptions",
+              "label": "Study result",
+              "evidence": "In a five-year England model, body tables report total costs of £19,779 for MRgFUS, £62,348 for DBS and £3,735 for no procedure; the MRgFUS/no-procedure base-case result is £20,851 per quality-adjusted life-year (QALY). These are modelled totals, not purchase prices or observed savings.",
+              "sources": [
+                "EXABLATE-ENGLAND-MODEL"
+              ],
+              "locator": "Body Tables 3 and 5; model methods and sensitivity discussion",
+              "reliability": "A defined perspective and horizon make the result inspectable. The abstract repeats an inconsistent comparator cost; the body tables are used here.",
+              "use_in_report": "Explain the economic case and identify inputs to question: equipment/session costs, utilisation, outcomes and comparator choice. The existing NHS policy answers a different question about commissioning.",
+              "limit": "Historical model inputs and assumptions are not a current tariff, local quote or guaranteed NHS saving.",
+              "origin": "New source route"
+            },
+            {
+              "title": "The critique needs the reply beside it",
+              "label": "Context",
+              "evidence": "Published correspondence questions throughput, capital-cost and comparator assumptions. The authors reply that their NHS reimbursement-based costing accounts for capital costs and discuss the restricted comparison; they explicitly identify ExAblate 4000.",
+              "sources": [
+                "EXABLATE-MODEL-EXCHANGE"
+              ],
+              "locator": "Letter and authors’ response",
+              "reliability": "Both sides were read. A criticism alone is not treated as proof that the model omitted a cost.",
+              "use_in_report": "Use this exchange to show critical appraisal and prepare specific questions for the already-identified London focused-ultrasound team about costing and service capacity.",
+              "limit": "Publication/affiliation does not establish current willingness to discuss the work. No new interview or cost validation has occurred.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Obtain local current cost inputs and the required stakeholder-map format. Separate equipment procurement from patient-pathway funding."
+        }
+      ],
+      "what_changes": "Earlier finance and UK economics are more usable than before, but neither is a complete first-version budget. Indication-specific NHS access matters more than a blanket “used in the UK” claim."
+    },
+    {
+      "device_id": "arcex",
+      "summary": "The extra sources add a UK population context, disclosed academic/NRT lineage and exact component suppliers. They strengthen the questions for Neurokinex; they do not produce an ARC-EX price, payer contract or early product-specific financing total.",
+      "topics": [
+        {
+          "topic": "Unmet medical need",
+          "search_route": "Use UK SCI data rather than transferring a US traumatic-injury denominator.",
+          "findings": [
+            {
+              "title": "A UK burden estimate with a broader definition",
+              "label": "Context",
+              "evidence": "The Spinal Injuries Association reports a 2024 NHS-data-based estimate of about 105,000 people living with spinal cord injury in the UK and 4,400 new injuries/diagnoses each year. It includes traumatic and nontraumatic causes.",
+              "sources": [
+                "ARCEX-UK-SCI-DATA"
+              ],
+              "locator": "Revised estimates, NSCID/UKROC data explanation and scope",
+              "reliability": "This is the coalition/charity’s account of its analysis and gives the data sources. The underlying linked-data calculation was not independently replicated.",
+              "use_in_report": "Add geographically relevant context and explain why its denominator differs from the original US traumatic-SCI source. Then narrow to the authorised/studied hand-function population.",
+              "limit": "Not an ARC-EX eligibility count: injury level, completeness, chronicity and other criteria matter. Advocacy interest and the lack of a fully reviewed methods report should stay visible.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Quantify the UK device-eligible subgroup, rehabilitation access and the actual additional benefit/cost in that subgroup."
+        },
+        {
+          "topic": "Intellectual property",
+          "search_route": "Read original predecessor research disclosures for the academic-company licence link.",
+          "findings": [
+            {
+              "title": "An evidenced academic/NRT connection",
+              "label": "Documented fact",
+              "evidence": "Gerasimenko et al. (2015) disclose Edgerton/Gerasimenko shareholdings in NeuroRecovery Technologies (NRT), NRT’s supply of the stimulator and inventor rights in UC Regents IP licensed to NRT/subsidiaries.",
+              "sources": [
+                "ARCEX-EARLY-RESEARCH-LINEAGE"
+              ],
+              "locator": "Financial/IP disclosures",
+              "reliability": "This is the original authors’ explicit disclosure. It supports a genuine licence/supplier relationship while also showing commercial conflicts.",
+              "use_in_report": "Strengthen the pre-merger external-stimulation origin story and frame the next request for the actual UC licence family/schedule.",
+              "limit": "Predecessor research is not a complete ARC-EX patent map. It does not establish that the already-listed US10806927 family contains every licensed or implemented claim.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Obtain the exact licensed families, original inventor/employer history and independent-claim map for the marketed ARC-EX configuration."
+        },
+        {
+          "topic": "Fundraising",
+          "search_route": "Follow the same predecessor paper’s grant acknowledgements without treating them as company equity.",
+          "findings": [
+            {
+              "title": "Early academic support is traceable, but not fully valued",
+              "label": "Documented fact",
+              "evidence": "The 2015 paper acknowledges NIH U01EB15521 and R01EB007615 and Christopher & Dana Reeve Foundation support, alongside other funders. It does not state award amounts.",
+              "sources": [
+                "ARCEX-EARLY-RESEARCH-LINEAGE"
+              ],
+              "locator": "Acknowledgements and study scope",
+              "reliability": "Specific award identifiers are a more useful grant-search starting point than a generic statement that NIH funded the field.",
+              "use_in_report": "Add an academic research-support stage to the lineage. Search the named funders/award records if an attributable amount is needed.",
+              "limit": "The work covers predecessor stimulation research, not only the commercial hand-function product. Do not allocate whole awards to ARC-EX or treat the original G-Therapeutics implant-focused round as ARC-EX seed money.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "NRT’s earliest commercial finance and the share attributable to the first ARC-EX still remain unverified; an explicit required-capital estimate may be more defensible than an invented historical total."
+        },
+        {
+          "topic": "Regulatory",
+          "search_route": "Read the current EU manual for actual component responsibilities.",
+          "findings": [
+            {
+              "title": "Named suppliers in a dated product manual",
+              "label": "Documented fact",
+              "evidence": "ARC-EX’s professional EU manual, Rev 5 issued 29 April 2026, identifies Samsung as tablet manufacturer and Axelgaard as manufacturer of the PALS electrodes distributed by ONWARD.",
+              "sources": [
+                "ARCEX-EU-IFU-REV5"
+              ],
+              "locator": "Sections 5.5-5.6, printed pp58-59 (physical PDF pp59-60); revision on final page",
+              "reliability": "These are specific component roles in the actual product manual, stronger than a general engineering supplier page. Only selected sections were reviewed.",
+              "use_in_report": "Extend the manufacturing/outsourcing account with identifiable components and system integration responsibilities.",
+              "limit": "Not proof of who manufactures every stimulator component, a full QMS audit, MHRA registration or NHS commissioning. An EU manual alone is not the actual CE certificate.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Verify the relevant certificate/register entries, final stimulator manufacturing chain and standards for the market being discussed."
+        },
+        {
+          "topic": "Reimbursement",
+          "search_route": "Inspect an exact-device provider’s actual service description and look separately for price/payer terms.",
+          "findings": [
+            {
+              "title": "A real rehabilitation-service relationship, with payment still unknown",
+              "label": "Context",
+              "evidence": "Neurokinex explicitly describes ARC-EX alongside intensive activity-based rehabilitation. This verifies a service connection useful for a practical discussion, rather than merely finding a person who knows spinal injury.",
+              "sources": [
+                "ARCEX-NEUROKINEX-SERVICE",
+                "ARCEX-NEUROCONTACT"
+              ],
+              "locator": "Spinal-cord stimulation service page; existing centre/contact record",
+              "reliability": "The provider describes its own service. That is direct for workflow and an enquiry route, but not evidence of efficacy or a payer decision.",
+              "use_in_report": "Use the existing Hemel Hempstead/Gatwick route to ask about session resources, training, equipment ownership and how care is funded. Map ONWARD, the rehabilitation provider, patients, funders and possible commissioners.",
+              "limit": "No ARC-EX-specific fee, payer contract or NHS coverage was verified. General rehabilitation hourly fees, donations and subsidised programmes cannot be presented as this device’s price. No conversation has occurred.",
+              "origin": "New source route"
+            }
+          ],
+          "remaining_gap": "Get attributable provider/payer terms or procurement evidence; keep an economic scenario clearly labelled if actual payment remains unavailable."
+        }
+      ],
+      "what_changes": "UK context, academic lineage and suppliers are clearer. Early product-specific capital and actual payment remain the main evidence gaps, despite a useful nearby provider route."
+    }
+  ],
+  "leads_not_accepted": [
+    {
+      "question": "Earliest RNS company funding",
+      "route": "Historical financing news and archives",
+      "reason": "A 2005 $30m round appeared in secondary reporting, but no contemporaneous responsible-party record was reviewed. Excluded from accepted financing facts."
+    },
+    {
+      "question": "Layer 7-T-specific coverage or price",
+      "route": "Exact-product payer/code and hospital-payment searches",
+      "reason": "No adequate exact-product record was reviewed. General CMS packaging guidance remains context only; non-discovery is not proof of no payment."
+    },
+    {
+      "question": "ARC-EX actual price",
+      "route": "Provider service, rehabilitation fee and charity programme pages",
+      "reason": "Generic fees/donations/subsidised programmes were not attributable to an ARC-EX episode. No price claim accepted."
+    },
+    {
+      "question": "SAINT UK comparator full data",
+      "route": "PubMed/PMC/NIHR and publisher routes",
+      "reason": "Some pages were inaccessible. The NIHR original PDF was retrieved and its abstract checked, but its full economic appendices were not audited. No comparator cost was transferred to SAINT."
+    },
+    {
+      "question": "Exablate 2012 valuation",
+      "route": "Investor SEC exhibit versus closing release",
+      "reason": "The agreement record contains conflicting post-money valuations. Conflict disclosed; no settled valuation accepted."
+    },
+    {
+      "question": "Exact product-to-patent claims and legal status",
+      "route": "Named inventors, patent texts, metadata and licence exhibits",
+      "reason": "Closer technical candidates and licence relationships found, but no complete six-device claim mapping or official current-enforceability audit completed."
+    },
+    {
+      "question": "London product use/popularity",
+      "route": "Institutional, supplier, trial and provider pages",
+      "reason": "No new licensed London SAINT or London Precision/RNS/Ceribell user was verified. A TMS hardware supplier, general field expert or comparator trial is not proof of exact-device use."
+    }
+  ]
+}
