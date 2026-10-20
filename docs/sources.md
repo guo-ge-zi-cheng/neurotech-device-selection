@@ -834,3 +834,36 @@ The device reports explain how each source helps a report section. This index re
 - What was reviewed: ARC-EX with intensive activity-based rehabilitation and service relationship read. No ARC-EX-specific fee or payer contract verified. Provider marketing wording does not replace regulator terminology.
 
 - Access route: Open public record; relevant text read in the browser research tool
+
+## WHO-DEPRESSION-2026
+
+[WHO: Depressive disorder (depression)](https://www.who.int/news-room/fact-sheets/detail/depression)
+
+- Type: Intergovernmental disease-burden summary
+- Source date: 2026-09-11; reports 2023 burden
+- Checked: 2026-10-20
+- What was reviewed: Overview, dated burden estimates and cited GBD source read: 322 million and 5.2% adults. Context, not SAINT eligibility or a fresh UK survey.
+
+- Access route: Open WHO fact sheet read in browser research tool
+
+## RNS-ECON-PUBLISHER
+
+[Youngerman et al. Cost-effectiveness analysis of responsive neurostimulation for drug-resistant focal onset epilepsy. Epilepsia 62:2804-2813. DOI 10.1111/epi.17049](https://onlinelibrary.wiley.com/doi/10.1111/epi.17049)
+
+- Type: Original economic-model paper; publisher abstract
+- Source date: 2021-08-29 online
+- Checked: 2026-10-20
+- What was reviewed: Publisher abstract methods/results and conflict statement read: nine-year public-payer model, ICER range $28,825-$46,596/QALY. Full model inputs and supplement not audited. Same study as the existing RNS-ECON PubMed record, not independent corroboration.
+
+- Access route: Open publisher abstract after PubMed page failed to expose content
+
+## FDA-QMSR-2026
+
+[FDA. Medical Devices; Quality System Regulation Amendments. 89 FR 7496-7525, document 2024-01709](https://www.govinfo.gov/content/pkg/FR-2024-02-02/html/2024-01709.htm)
+
+- Type: Official final quality-system rule
+- Source date: 2024-02-02; effective 2026-02-02
+- Checked: 2026-10-20
+- What was reviewed: Dates, executive summary and incorporation-of-ISO-13485:2016 passages read. Regulatory context, not a company compliance audit. Entire rule not audited.
+
+- Access route: Official GovInfo HTML read in browser research tool
