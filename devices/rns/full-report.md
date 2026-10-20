@@ -2,11 +2,11 @@
 
 **AI-generated reference draft for selection and discussion. Not an assessed submission.** No interviews or original clinical data are claimed. Evidence cutoff: 2026-10-20.
 
-[Research notes and preserved layers](../02-rns.md) · [All six drafts](../../reports/README.md) · [Comparative review](../../reports/comparative-review.md)
+[Research notes and preserved layers](../02-rns.md) · [All drafts](../../reports/README.md) · [Comparative review](../../reports/comparative-review.md)
 
 **Scope:** Original US RNS focal-epilepsy pathway; later model/UK questions kept separate.
 
-**Word count:** 2,414, including references, tables, diagram and notices (whitespace count; verify in submission software).
+**Word count:** 2,413, including references, tables, diagram and notices (whitespace count; verify in submission software).
 
 ## Executive summary
 
