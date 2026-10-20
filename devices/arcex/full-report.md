@@ -2,11 +2,11 @@
 
 **AI-generated reference draft for selection and discussion. Not an assessed submission.** No interviews or original clinical data are claimed. Evidence cutoff: 2026-10-20.
 
-[Research notes and preserved layers](../06-arcex.md) · [All six drafts](../../reports/README.md) · [Comparative review](../../reports/comparative-review.md)
+[Research notes and preserved layers](../06-arcex.md) · [All drafts](../../reports/README.md) · [Comparative review](../../reports/comparative-review.md)
 
 **Scope:** External ARC-EX for selected cervical SCI; implant/BCI programmes and home-use extension distinguished.
 
-**Word count:** 2,516, including references, tables, diagram and notices (whitespace count; verify in submission software).
+**Word count:** 2,515, including references, tables, diagram and notices (whitespace count; verify in submission software).
 
 ## Executive summary
 
