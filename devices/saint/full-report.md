@@ -2,11 +2,11 @@
 
 **AI-generated reference draft for selection and discussion. Not an assessed submission.** No interviews or original clinical data are claimed. Evidence cutoff: 2026-10-20.
 
-[Research notes and preserved layers](../04-saint.md) · [All six drafts](../../reports/README.md) · [Comparative review](../../reports/comparative-review.md)
+[Research notes and preserved layers](../04-saint.md) · [All drafts](../../reports/README.md) · [Comparative review](../../reports/comparative-review.md)
 
 **Scope:** Academic-to-commercial SAINT and original US clearance; UK comparator context kept separate.
 
-**Word count:** 2,426, including references, tables, diagram and notices (whitespace count; verify in submission software).
+**Word count:** 2,425, including references, tables, diagram and notices (whitespace count; verify in submission software).
 
 ## Executive summary
 
