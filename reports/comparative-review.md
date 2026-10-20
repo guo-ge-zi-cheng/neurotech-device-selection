@@ -1,10 +1,10 @@
-# Comparing the six full report drafts
+# Comparing the seven full report drafts
 
-These are assessments of the **drafts and the evidence available to write them**, not rankings of clinical effectiveness or investment opportunities. Read the [six reports](README.md) alongside this review. No marks from a lecturer, independent examiner or predicted grade are claimed.
+These are assessments of the **drafts and the evidence available to write them**, not rankings of clinical effectiveness or investment opportunities. Read the [seven reports](README.md) alongside this review. No marks from a lecturer, independent examiner or predicted grade are claimed.
 
 ## Main finding
 
-**RNS currently supports the most connected public case study. Exablate offers the strongest documented London investigation route and UK service/payment story. Ceribell is particularly useful for explaining academic technology transfer and early commercial finance.** SAINT has a coherent translation narrative but less complete present service economics. ARC-EX offers useful nearby exact-device access, while original IP/finance attribution and payment remain difficult. Precision has the greatest scope mismatch between an ambitious platform story and the evidence for the selected marketed component.
+**RNS currently supports the most connected public case study. Exablate offers the strongest documented London clinical-service/payment story. Terra adds a direct central-London equipment route for imaging workflow and engineering questions, but its original IP, R&D budget and clinical payment are less complete. Ceribell is particularly useful for explaining academic technology transfer and early commercial finance.** SAINT has a coherent translation narrative but less complete present service economics. ARC-EX offers useful nearby exact-device access, while original IP/finance attribution and payment remain difficult. Precision has the greatest scope mismatch between an ambitious platform story and the evidence for the selected marketed component.
 
 These differences emerged while writing the five sections, rather than from counting sources. The original quick access labels remain unchanged historical notes. This review assesses the new full drafts, including the additional research and deeper patent checks.
 
@@ -32,6 +32,7 @@ The source guide and the Optomed/Quadsense audit informed the use of broader sou
 | [Exablate](../devices/exablate/full-report.md) | Controlled trial and a defined treatment pathway; current eligible volumes incomplete | Four independent claims explained in a relevant candidate family; exact original product attribution incomplete | Agreement/closing sequence recovered; valuation conflict and brain-only budget unresolved | Original PMA and indication-specific UK guidance; manufacturing detail incomplete | NHS policy, England model and critique/reply; local price/capacity inputs incomplete |
 | [SAINT](../devices/saint/full-report.md) | Direct small trial and UK comparator context; durability, local population and costs incomplete | Four independent claims and licensor evidence; full product/rights map incomplete | Named academic support and $25m launch round; early allocation/valuation missing | Defined cleared system, standards and a named supplier; complete current UK/EU status incomplete | Temporary inpatient support updated; current package economics and coverage incomplete |
 | [ARC-EX](../devices/arcex/full-report.md) | Defined indication and pivotal/community studies; causal and care-cost limits visible | Full selected independent claim read, exposing a product-scope mismatch | Academic support and merger context; earliest external-device capital unverified | De Novo/home sequence and actual component suppliers; certificate/current full chain incomplete | Real provider/charity access; no verified specific fee, coverage or complete economic model |
+| [Terra](../devices/terra/full-report.md) | Actual comparative diagnostic study; eligible volume, patient outcomes and MSK value incomplete | Later application claims 1/12 explained; original scanner families unresolved | Customer funders and IPO recipient distinguished; original R&D budget unavailable | Original 510(k), MR standards and named manufacturing organisations; local upgrade/UK documents incomplete | Exact London facility/funders; no verified clinical tariff, price or incremental economic model |
 | [Precision](../devices/precision/full-report.md) | Clear component boundary and acute feasibility; eligible market and comparative value missing | Four application claims explained; marketed-component mapping and later legal position incomplete | Early rounds traced; component budget/valuation missing | Specific clearance, testing and foundry acquisition; current complete supply chain incomplete | Official system context only; no exact component payment or procurement record |
 
 This table intentionally gives the reason for each assessment. “Many papers” or a polished narrative would not answer the missing questions.
@@ -86,7 +87,17 @@ The hardest writing problem is that the most compelling platform narrative conce
 
 The draft therefore has the largest unresolved connection between need, benefit and payment. A product-specific clinical/purchasing source and eligible procedure count would change its quality more than broader neurotechnology coverage. It is a valid entrepreneurship case, but currently the hardest one to finish convincingly across all five weighted topics.
 
-## What remains incomplete in all six drafts
+### Terra: strong London equipment access, harder original IP and capital history
+
+Terra has a particularly useful exact-equipment connection: King’s lists the scanner at LoCUS, St Thomas’ Hospital, with a dedicated enquiry address. Together with the original FDA submission and component/manufacturing records, this supports a detailed engineering and service account. This route is valuable for workflow, utilisation, costs and research access; it does not establish routine NHS clinical commissioning or a willingness to host the team.
+
+The largest writing difficulty was controlling attribution. Original Terra, later Terra.X upgrades and research-only options cannot be merged. A real Siemens optimisation application uses Terra experimentally, but its 2021 priority cannot explain the 2017 scanner’s first IP. Its two independent application claims are analysed as a later development illustration, leaving the original-IP requirement incomplete. The customer installation funders and the parent company’s IPO proceeds likewise answer different questions from original R&D finance.
+
+The full draft uses an actual selected-patient diagnostic study, including its reference-standard and blinding limitations. A separate epilepsy source is a protocol; no outcome is invented from it. Brain evidence does not establish a musculoskeletal value case. A local referral denominator, changed clinical decisions and actual resource/payment terms would improve the report more than another broad 7T review.
+
+Terra is a strong option if the team wants a London imaging-service investigation and is willing to narrow the clinical pathway. It is less complete than RNS for a connected public account across all five topics, and less straightforward than a disclosed startup story for fundraising. Exablate retains the stronger documented UK clinical commissioning/economic pathway; Terra may be especially useful for studying equipment, configuration and service resources in central London.
+
+## What remains incomplete in all seven drafts
 
 Each draft contains all five narrative sections, a description, claim analysis, financing discussion, an analytical stakeholder diagram, conclusion and retrievable references. Each is within the 4,000-word budget under the recorded counting method. This is structural completion, not a declaration that every specification question is answered.
 
@@ -96,6 +107,6 @@ Current local prices, full current multi-market authorisation and independently 
 
 ## Practical choice for the team
 
-For a public-source project with the fewest disconnected sections, **start with RNS**. For a London investigation that could materially improve service, cost and adoption analysis, **start with Exablate**. For a strong academic licensing and early-finance story, **consider Ceribell**. ARC-EX remains attractive if the team values its mechanism and can pursue the specific provider/funder/licensor gaps. SAINT is coherent but needs a firmer service-economics account; Precision requires the clearest scope decision and the most original procurement/eligible-market work.
+For a public-source project with the fewest disconnected sections, **start with RNS**. For a London clinical-service investigation with a documented commissioning/economic starting point, **start with Exablate**. **Consider Terra for an exact-equipment imaging investigation at St Thomas’**, provided the team accepts larger original-IP, early-capital and payment gaps and selects one clinical pathway. For a strong academic licensing and early-finance story, **consider Ceribell**. ARC-EX remains attractive if the team values its mechanism and can pursue the specific provider/funder/licensor gaps. SAINT is coherent but needs a firmer service-economics account; Precision requires the clearest scope decision and the most original procurement/eligible-market work.
 
 These recommendations concern research feasibility and draft completeness. They are not clinical recommendations or evidence that one technology is medically better than another.
