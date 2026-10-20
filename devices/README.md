@@ -7,3 +7,4 @@ Start with the [comparison](../README.md). Each report explains the device, its 
 3. [Ceribell Rapid Response EEG / Clarity](03-ceribell.md)
 4. [SAINT](04-saint.md)
 5. [Exablate Neuro](05-exablate.md)
+6. [ONWARD Medical ARC-EX System](06-arcex.md)
