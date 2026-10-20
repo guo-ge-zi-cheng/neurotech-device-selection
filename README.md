@@ -24,7 +24,9 @@ These five questions follow the [project specification summary](docs/course-requ
 
 ## How easy is it to find useful information?
 
-**Clear sources:** useful direct records are identified. **Some gaps:** the sources answer only part of the question. **Hard to find:** important information remains unverified in this search. These describe access to information, not a completed report. Each device file explains the reason and how to use the sources.
+**Clear sources:** useful records provide a supported starting point. **Some gaps:** the sources answer only part of the question. **Hard to find:** important information remains unverified in this search. These describe access to information, not a completed report. Each device file explains the reason and how to use the sources.
+
+The [five-topic research source guide](docs/research-source-guide.md) explains how investor/funder records, care-pathway studies, patent searches, procedure payment, comparators and real interviews can fill gaps. It draws on an [audit of the Optomed and Quadsense examples](docs/example-source-audit.md). The table below retains the device evidence already checked; these extra routes need investigation before any label changes.
 
 | Device | Unmet need | IP | Fundraising | Regulatory | Reimbursement |
 |---|---|---|---|---|---|
