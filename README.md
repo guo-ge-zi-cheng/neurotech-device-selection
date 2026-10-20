@@ -1,13 +1,13 @@
 # Choosing a device for our report
 
-This repository compares nine devices by **how easy it is to find useful information for the five sections in Project spec**. Open a device report to understand what it does, how far it has developed, which sources help each section, and which first-hand contacts have a specific connection to it.
+This repository compares five devices by **how easy it is to find useful information for the five sections in Project spec**. Open a device report to understand what it does, how far it has developed, which sources help each section, and which first-hand contacts have a specific connection to it.
 
 ## TL;DR
 
-- **RNS and Optune offer clear starting points for public research.** Relevant clinical/regulatory records and company filings are identified; original financing still needs work.
-- **Optune, Exablate and Terra have documented London product or equipment connections.** Exablate has a useful UK commissioning source but harder early funding. Terra's original IP and development finance are harder.
-- **Viz has a London co-founder lead for the business history**, not a verified London stroke-product user.
-- **Ceribell and SAINT have useful clinical and IP sources, but no London product user was verified.** Precision needs a clear choice between the temporary electrode and the larger BCI. Canvas Dx has an actual US payer bulletin, but product-specific IP and local access are still gaps.
+- **RNS is a clear starting point for public research.** Clinical trials, a patent, a prospectus and an economic model are identified; early funding still needs work.
+- **Exablate has a documented London clinical team and a UK commissioning source.** It offers a direct local enquiry route, while early development funding is harder to find.
+- **Ceribell and SAINT have useful clinical and IP sources.** Their reports explain the product/version limits; no London product user was verified for either.
+- **Precision requires a clear choice of scope:** the temporary cortical electrode or the wider BCI programme. Payment and exact-product IP need more investigation.
 
 ## What information do we need?
 
@@ -32,23 +32,16 @@ These five questions follow the [project specification summary](docs/course-requ
 | [Rapid Response EEG / Clarity](devices/03-ceribell.md) | Clear sources | Clear sources | Some gaps | Clear sources | Some gaps |
 | [SAINT](devices/04-saint.md) | Some gaps | Clear sources | Some gaps | Clear sources | Some gaps |
 | [Exablate Neuro](devices/05-exablate.md) | Clear sources | Some gaps | Hard to find | Clear sources | Clear sources |
-| [MAGNETOM Terra 7T MRI](devices/06-terra.md) | Some gaps | Hard to find | Hard to find | Clear sources | Hard to find |
-| [Viz LVO](devices/07-viz.md) | Some gaps | Hard to find | Hard to find | Clear sources | Hard to find |
-| [Optune Gio](devices/08-optune.md) | Clear sources | Some gaps | Some gaps | Clear sources | Clear sources |
-| [Canvas Dx](devices/09-canvas.md) | Some gaps | Hard to find | Some gaps | Clear sources | Some gaps |
 
-All nine have a public FDA record, making that a useful regulatory starting point. Other markets, standards and manufacturing still need to be completed. Disease-population figures alone will not answer unmet need, and a large company funding round will not answer early development finance.
+All five have a public FDA record, making that a useful regulatory starting point. Other markets, standards and manufacturing still need to be completed. Disease-population figures alone will not answer unmet need, and a large company funding round will not answer early development finance.
 
 ## Who could provide useful first-hand information in London?
 
 | Device | What is actually connected to the device? | What could it help us investigate? |
 |---|---|---|
-| [Optune Gio](devices/08-optune.md) | Imperial explicitly identifies Dr Matthew Williams with introducing Optune in the UK. | Patient experience, adherence, support needs, private payment and adoption barriers. |
 | [Exablate Neuro](devices/05-exablate.md) | UCLH/NHNN paper names exact ExAblate equipment and a London clinical team. | Patient selection, treatment workflow, costs and UK adoption. |
-| [MAGNETOM Terra 7T MRI](devices/06-terra.md) | King's lists an exact Terra scanner at St Thomas' and a facility contact. | Practical scanning, operating costs, capacity and clinical/research access. |
-| [Viz LVO](devices/07-viz.md) | Manoj Ramachandran is a London Viz.ai co-founder; his specialty is orthopaedics. | Company formation, early finance and first hospital relationships; not local stroke deployment. |
 
-For **Precision, RNS, Ceribell, SAINT and Canvas Dx**, no London product user was verified. Their reports identify relevant US development or clinical leads for a possible remote discussion.
+For **Precision, RNS, Ceribell and SAINT**, no London product user was verified. Their reports identify relevant US development or clinical leads for a possible remote discussion.
 
 We do **not** have London user counts. This table uses documented connections, not general subject expertise or assumed popularity. No interview or visit is arranged.
 
