@@ -235,3 +235,7 @@ Sources: [CMS: Medicare payment systems and packaged outpatient costs](https://w
 Earlier funding and manufacturing are now better documented; exact-product IP and payment still require work. The original access labels remain a dated snapshot.
 
 These additions answer specific questions rather than re-grade the original table. See the [cross-device overview and unsuccessful searches](../docs/additional-research-summary.md). The required lecture stakeholder-map format still needs to be supplied.
+
+## Full case-study reference draft
+
+[Read the full Layer 7 Cortical Interface report](precision/full-report.md), with the five narrative sections, independent-claim explanations, stakeholder map and numbered references. The [comparative review](../reports/comparative-review.md) explains its strengths, gaps and writing difficulties. The two research layers above are preserved.

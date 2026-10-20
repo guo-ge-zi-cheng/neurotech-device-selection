@@ -249,3 +249,7 @@ Sources: [Neurokinex: ARC-EX spinal-cord stimulation service](https://neurokinex
 UK context, academic lineage and suppliers are clearer. Early product-specific capital and actual payment remain the main evidence gaps, despite a useful nearby provider route.
 
 These additions answer specific questions rather than re-grade the original table. See the [cross-device overview and unsuccessful searches](../docs/additional-research-summary.md). The required lecture stakeholder-map format still needs to be supplied.
+
+## Full case-study reference draft
+
+[Read the full ARC-EX System report](arcex/full-report.md), with the five narrative sections, independent-claim explanations, stakeholder map and numbered references. The [comparative review](../reports/comparative-review.md) explains its strengths, gaps and writing difficulties. The two research layers above are preserved.

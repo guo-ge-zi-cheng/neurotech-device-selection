@@ -251,3 +251,7 @@ Sources: [Published critique and author reply on MRgFUS cost assumptions](https:
 Earlier finance and UK economics are more usable than before, but neither is a complete first-version budget. Indication-specific NHS access matters more than a blanket “used in the UK” claim.
 
 These additions answer specific questions rather than re-grade the original table. See the [cross-device overview and unsuccessful searches](../docs/additional-research-summary.md). The required lecture stakeholder-map format still needs to be supplied.
+
+## Full case-study reference draft
+
+[Read the full Exablate Neuro report](exablate/full-report.md), with the five narrative sections, independent-claim explanations, stakeholder map and numbered references. The [comparative review](../reports/comparative-review.md) explains its strengths, gaps and writing difficulties. The two research layers above are preserved.

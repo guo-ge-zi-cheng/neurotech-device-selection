@@ -265,3 +265,7 @@ Sources: [CMS FY2027 IPPS final rule: NTAP expiry and new technology decisions](
 Early finance, university licensing and hardware history are substantially clearer. The new payment finding explicitly updates any older NTAP description without deleting it.
 
 These additions answer specific questions rather than re-grade the original table. See the [cross-device overview and unsuccessful searches](../docs/additional-research-summary.md). The required lecture stakeholder-map format still needs to be supplied.
+
+## Full case-study reference draft
+
+[Read the full Rapid Response EEG / Clarity report](ceribell/full-report.md), with the five narrative sections, independent-claim explanations, stakeholder map and numbered references. The [comparative review](../reports/comparative-review.md) explains its strengths, gaps and writing difficulties. The two research layers above are preserved.

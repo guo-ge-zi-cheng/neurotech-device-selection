@@ -251,3 +251,7 @@ Sources: [CMS FY2027 IPPS final rule: NTAP expiry and new technology decisions](
 The source base now supports a clearer research-to-company-to-supplier history, with an important payment update. Exact London SAINT use remains unverified.
 
 These additions answer specific questions rather than re-grade the original table. See the [cross-device overview and unsuccessful searches](../docs/additional-research-summary.md). The required lecture stakeholder-map format still needs to be supplied.
+
+## Full case-study reference draft
+
+[Read the full SAINT report](saint/full-report.md), with the five narrative sections, independent-claim explanations, stakeholder map and numbered references. The [comparative review](../reports/comparative-review.md) explains its strengths, gaps and writing difficulties. The two research layers above are preserved.
