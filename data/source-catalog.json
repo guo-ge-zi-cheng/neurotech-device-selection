@@ -124,7 +124,7 @@
     "type": "Manufacturer website",
     "review_coverage": "Product positioning and investigational-system caveat reviewed",
     "source_date": null,
-    "checked": "2026-10-19"
+    "checked": "2026-10-20"
   },
   {
     "id": "RNS-S1",
@@ -181,15 +181,6 @@
     "checked": "2026-10-19"
   },
   {
-    "id": "WALKER",
-    "title": "UCLH: Professor Matthew Walker",
-    "url": "https://www.uclh.nhs.uk/our-services/find-consultant/professor-matthew-walker",
-    "type": "Institutional clinical profile",
-    "review_coverage": "Public search-index profile checked; direct fetch restricted",
-    "source_date": null,
-    "checked": "2026-10-19"
-  },
-  {
     "id": "CERIBELL-S1",
     "title": "Ceribell September 2024 S-1",
     "url": "https://investors.ceribell.com/static-files/b3b5515d-d70c-423d-a61c-a1849a5b9e88",
@@ -223,16 +214,7 @@
     "type": "Manufacturer research contact route",
     "review_coverage": "Relevant sections reviewed; not a full independent audit",
     "source_date": null,
-    "checked": "2026-10-19"
-  },
-  {
-    "id": "SCOTT",
-    "title": "Imperial: Dr Gregory Scott",
-    "url": "https://profiles.imperial.ac.uk/gregory.scott99",
-    "type": "Institutional academic profile",
-    "review_coverage": "Research relevance and published academic contact checked",
-    "source_date": null,
-    "checked": "2026-10-19"
+    "checked": "2026-10-20"
   },
   {
     "id": "SAINT-FACT",
@@ -250,7 +232,7 @@
     "type": "Manufacturer website",
     "review_coverage": "Stanford origin, licensing and founder profile reviewed; page has inconsistent CMO/CSO titles",
     "source_date": null,
-    "checked": "2026-10-19"
+    "checked": "2026-10-20"
   },
   {
     "id": "SAINT-PROVIDERS",
@@ -277,7 +259,7 @@
     "type": "NHS clinical service information",
     "review_coverage": "Procedure, risks, location and public contact reviewed",
     "source_date": "Updated 2026-06-18",
-    "checked": "2026-10-19"
+    "checked": "2026-10-20"
   },
   {
     "id": "EXABLATE-FIN",
@@ -304,7 +286,7 @@
     "type": "Institutional equipment listing",
     "review_coverage": "Exact model, location and enquiry email checked",
     "source_date": null,
-    "checked": "2026-10-19"
+    "checked": "2026-10-20"
   },
   {
     "id": "TERRA-CLINICAL",
@@ -331,7 +313,7 @@
     "type": "First-person professional website",
     "review_coverage": "Viz co-founder role, London base and non-clinical enquiry form checked",
     "source_date": null,
-    "checked": "2026-10-19"
+    "checked": "2026-10-20"
   },
   {
     "id": "BARTS-TEAM",
@@ -368,7 +350,7 @@
     "type": "Institutional academic/clinical profile",
     "review_coverage": "Brain tumour expertise, direct Optune experience and work email checked",
     "source_date": null,
-    "checked": "2026-10-19"
+    "checked": "2026-10-20"
   },
   {
     "id": "OPTUNE-PRIVATE",
@@ -416,12 +398,111 @@
     "checked": "2026-10-19"
   },
   {
-    "id": "MANDY",
-    "title": "UCL clinical psychology academic staff: Professor Will Mandy",
-    "url": "https://www.ucl.ac.uk/brain-sciences/pals/research/clinical-educational-and-health-psychology/academic-staff",
-    "type": "Institutional academic directory",
-    "review_coverage": "Neurodevelopmental expertise and academic email checked",
+    "id": "CERIBELL-ORIGIN",
+    "title": "Stanford: development of the brain stethoscope and Ceribell",
+    "url": "https://neuroscience.stanford.edu/news/stanford-researchers-listen-silent-seizures-brain-stethoscope-turns-brain-waves-sound",
+    "type": "University account of product origin",
+    "review_coverage": "Device connection of Parvizi and Chafe reviewed; not a current London deployment source",
+    "source_date": "2018",
+    "checked": "2026-10-20"
+  },
+  {
+    "id": "CERIBELL-PATENT",
+    "title": "US10136862B2: sonifying brain electrical activity",
+    "url": "https://patents.google.com/patent/US10136862B2/en",
+    "type": "Published patent record",
+    "review_coverage": "Inventors, university assignee and invention description reviewed; full claim-to-product mapping unfinished",
+    "source_date": "2018 grant; 2012 claimed priority",
+    "checked": "2026-10-20"
+  },
+  {
+    "id": "CERIBELL-ECON",
+    "title": "Ney, Gururangan and Parvizi: economic model of Ceribell Rapid Response EEG",
+    "url": "https://ceribell.com/wp-content/uploads/2023/10/ROI-Paper-Ney-241-p318-327-J-Med-Econ-2021-4.pdf",
+    "type": "Original economic-model paper, manufacturer-hosted copy",
+    "review_coverage": "Abstract, methods, corresponding-author contact and limitation reviewed; model not reproduced",
+    "source_date": "2021; DOI 10.1080/13696998.2021.1887877",
+    "checked": "2026-10-20"
+  },
+  {
+    "id": "CERIBELL-FIN",
+    "title": "Ceribell announces $35m Series B",
+    "url": "https://www.prnewswire.com/news-releases/ceribell-announces-completion-of-35-million-series-b-financing-300717976.html",
+    "type": "Company-issued financing release",
+    "review_coverage": "Amount, investors and commercialization purpose reviewed; not first-development spending",
+    "source_date": "2018-09-25",
+    "checked": "2026-10-20"
+  },
+  {
+    "id": "SAINT-PATENT",
+    "title": "US10595735B2: personalized accelerated theta-burst stimulation",
+    "url": "https://patents.google.com/patent/US10595735B2/en",
+    "type": "Published patent record",
+    "review_coverage": "Named inventors, Stanford assignee and opening claim language reviewed; complete independent-claim analysis unfinished",
+    "source_date": "2020 grant; 2018 claimed priority",
+    "checked": "2026-10-20"
+  },
+  {
+    "id": "SAINT-IP",
+    "title": "Magnus identifies licensed Stanford patents and describes IP enforcement",
+    "url": "https://www.magnusmedical.com/press-release/magnus-medical-saint-ip-protection/",
+    "type": "Manufacturer statement about its IP",
+    "review_coverage": "Patent numbers, licence statement and Bentzley development connection reviewed; allegations are not a court finding",
+    "source_date": "2026-02-18",
+    "checked": "2026-10-20"
+  },
+  {
+    "id": "PRECISION-PATENT",
+    "title": "US20230000564A1: minimally invasive brain-computer interfaces",
+    "url": "https://patents.google.com/patent/US20230000564A1/en",
+    "type": "Published patent application record",
+    "review_coverage": "Inventors, company assignee and broad insertion/interface scope reviewed; exact Layer 7-T mapping not verified",
+    "source_date": "2023 publication; 2021 claimed priority",
+    "checked": "2026-10-20"
+  },
+  {
+    "id": "RNS-PEOPLE",
+    "title": "NeuroPace Investor Day: named clinical and development presenters",
+    "url": "https://investors.neuropace.com/investor-day/",
+    "type": "Manufacturer investor event and professional contact page",
+    "review_coverage": "RNS-specific roles, presentation topics and published IR route reviewed; recordings not watched",
     "source_date": null,
-    "checked": "2026-10-19"
+    "checked": "2026-10-20"
+  },
+  {
+    "id": "CANVAS-ORIGIN",
+    "title": "Cognoa clinical research: origin and product development",
+    "url": "https://cognoa.com/clinical-research/",
+    "type": "Manufacturer research account",
+    "review_coverage": "Canvas Dx lineage, Dennis Wall founder connection and research stages reviewed; underlying linked papers not all read",
+    "source_date": null,
+    "checked": "2026-10-20"
+  },
+  {
+    "id": "CANVAS-WYOMING",
+    "title": "Wyoming Medicaid: Canvas Dx provider bulletin",
+    "url": "https://www.wyomingmedicaid.com/portal/sites/default/files/inline-files/Manuals_and_Bulletins/Canvas_DX_Provider_Bulletin.pdf",
+    "type": "Public payer bulletin",
+    "review_coverage": "Full two-page original payer bulletin downloaded and text reviewed; historical policy, not a complete 2026 coverage audit",
+    "source_date": "Effective 2024-07-01; deployed 2024-07-12",
+    "checked": "2026-10-20"
+  },
+  {
+    "id": "CANVAS-UPDATE",
+    "title": "FDA K243558: later Canvas Dx software record",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243558.pdf",
+    "type": "FDA 510(k) record",
+    "review_coverage": "Later software-change record located and selectively reviewed; original study results not transferred to later versions",
+    "source_date": "2025",
+    "checked": "2026-10-20"
+  },
+  {
+    "id": "EXABLATE-SURGEON",
+    "title": "UCLH: Professor Ludvic Zrinzo",
+    "url": "https://www.uclh.nhs.uk/our-services/find-consultant/professor-ludvic-zrinzo",
+    "type": "NHS consultant profile",
+    "review_coverage": "London role and administrative contact checked; exact-product connection established separately by the London methods paper",
+    "source_date": null,
+    "checked": "2026-10-20"
   }
 ]

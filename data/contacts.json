@@ -1,103 +1,151 @@
 [
   {
+    "device_id": "precision",
     "device": "Layer 7 Cortical Interface",
-    "checked": "2026-10-19",
-    "outreach_status": "Not contacted",
-    "person": "Ben Rapoport / Precision clinical or research team",
-    "kind": "Exact-product origin, remote lead",
-    "route": "Company website enquiry route; request an educational introduction",
-    "source": "PRECISION-FIN",
-    "route_source": "PRECISION-HOME"
+    "person": "Ben Rapoport / Precision development team",
+    "location": "US; remote enquiry",
+    "connection": "The company names Rapoport as a co-founder, and a published interface patent names him as an inventor.",
+    "how_helpful": "A focused enquiry could clarify why the first temporary electrode was developed, which inventions belong to it and how it was financed.",
+    "limits": "This is a product-origin connection, not evidence of London use. A broad interface patent is not automatically a patent on the selected marketed component.",
+    "route": "Use the company website to request a development-history contact. No personal introduction has been obtained.",
+    "sources": [
+      "PRECISION-FIN",
+      "PRECISION-PATENT",
+      "PRECISION-HOME"
+    ],
+    "checked": "2026-10-20",
+    "outreach_status": "Not contacted"
   },
   {
+    "device_id": "rns",
     "device": "RNS System",
-    "checked": "2026-10-19",
-    "outreach_status": "Not contacted",
-    "person": "Professor Matthew Walker, UCLH",
-    "kind": "London epilepsy domain expert; RNS use unverified",
-    "route": "Public UCLH consultant profile / departmental academic enquiry",
-    "source": "WALKER"
+    "person": "Martha Morrell / NeuroPace clinical team",
+    "location": "US; remote enquiry",
+    "connection": "Morrell is associated with the original RNS trial and is named in the company’s RNS-specific clinical presentations.",
+    "how_helpful": "Useful for the early clinical need, trial design, regulatory development and how chronic recordings changed follow-up.",
+    "limits": "A company clinical perspective does not independently establish payer coverage or disclose the first investors. This is not a London visit lead.",
+    "route": "NeuroPace’s Investor Day page publishes investors@neuropace.com; request routing to the appropriate clinical/development contact.",
+    "sources": [
+      "RNS-TRIAL",
+      "RNS-S1",
+      "RNS-PEOPLE"
+    ],
+    "checked": "2026-10-20",
+    "outreach_status": "Not contacted"
   },
   {
+    "device_id": "ceribell",
     "device": "Rapid Response EEG / Clarity",
-    "checked": "2026-10-19",
-    "outreach_status": "Not contacted",
-    "person": "Dr Gregory Scott, Imperial",
-    "kind": "Local EEG domain expert; Ceribell use unverified",
-    "route": "gregory.scott99@imperial.ac.uk",
-    "source": "SCOTT"
+    "person": "Josef Parvizi",
+    "location": "Stanford, US; remote enquiry",
+    "connection": "Stanford describes his role in the brain-stethoscope development and Ceribell; he co-authored the device-specific economic paper, which publishes his contact.",
+    "how_helpful": "He is relevant to invention origin, the clinical problem and the assumptions behind the economic case—not simply to EEG in general.",
+    "limits": "He has a commercial connection to the company. A developer’s account should be checked against patents, trials and payer records; it does not establish London use.",
+    "route": "jparvizi@stanford.edu is the corresponding-author address in the 2021 economic paper; verify it before outreach. A company research route is also listed.",
+    "sources": [
+      "CERIBELL-ORIGIN",
+      "CERIBELL-ECON",
+      "CERIBELL-RESEARCH"
+    ],
+    "checked": "2026-10-20",
+    "outreach_status": "Not contacted"
   },
   {
-    "device": "Rapid Response EEG / Clarity",
-    "checked": "2026-10-19",
-    "outreach_status": "Not contacted",
-    "person": "Ceribell research programme",
-    "kind": "Remote product-specific research route",
-    "route": "Manufacturer research programme page",
-    "source": "CERIBELL-RESEARCH"
-  },
-  {
+    "device_id": "saint",
     "device": "SAINT",
-    "checked": "2026-10-19",
-    "outreach_status": "Not contacted",
-    "person": "Brandon Bentzley / Magnus clinical team",
-    "kind": "Exact-product developer; remote lead",
-    "route": "Magnus provider enquiry route; request a student research introduction",
-    "source": "SAINT-ABOUT",
-    "route_source": "SAINT-PROVIDERS"
+    "person": "Brandon Bentzley / Magnus development team",
+    "location": "US; remote enquiry",
+    "connection": "Magnus identifies Bentzley as a co-founder who co-developed SAINT at Stanford; its IP statement identifies licensed Stanford patents.",
+    "how_helpful": "Useful for how the academic protocol became a product, what was licensed and the practical requirements of commercialization.",
+    "limits": "He is a developer/company source, not an independent efficacy reviewer or evidence of a London clinic. Patent inventorship must come from the patent, not the founder title.",
+    "route": "Use the Magnus provider/company enquiry route and ask for a development-history contact.",
+    "sources": [
+      "SAINT-ABOUT",
+      "SAINT-IP",
+      "SAINT-PROVIDERS"
+    ],
+    "checked": "2026-10-20",
+    "outreach_status": "Not contacted"
   },
   {
+    "device_id": "exablate",
     "device": "Exablate Neuro",
-    "checked": "2026-10-19",
-    "outreach_status": "Not contacted",
-    "person": "UCLH/NHNN functional neurosurgery team; Harith Akram or Ludvic Zrinzo",
-    "kind": "Exact-system London clinical experience documented",
-    "route": "Queen Square Imaging Centre: treatment@queensquare.com; 020 3280 2472; ask for the appropriate educational contact",
-    "source": "EXABLATE-UCLH"
+    "person": "Professor Ludvic Zrinzo / UCLH-NHNN functional neurosurgery team",
+    "location": "Queen Square, London",
+    "connection": "The London methods paper documents ExAblate equipment and includes Zrinzo; the NHS profile confirms his local role and provides an administrative contact.",
+    "how_helpful": "Useful for patient selection, comparison with DBS, treatment workflow, scanner/staff costs and barriers to UK adoption.",
+    "limits": "The clinical team is not automatically a source for the manufacturer’s original private financing or patent negotiations. A published service does not guarantee an observation visit.",
+    "route": "uclh.neurosurgery.admin@nhs.net for the consultant’s team, or treatment@queensquare.com via the service page; request an educational staff discussion.",
+    "sources": [
+      "EXABLATE-LONDON",
+      "EXABLATE-SURGEON",
+      "EXABLATE-UCLH"
+    ],
+    "checked": "2026-10-20",
+    "outreach_status": "Not contacted"
   },
   {
+    "device_id": "terra",
     "device": "MAGNETOM Terra 7T MRI",
-    "checked": "2026-10-19",
-    "outreach_status": "Not contacted",
-    "person": "LoCUS 7T facility physicist or manager, King’s/St Thomas’",
-    "kind": "Exact local equipment; suitable person to be assigned",
-    "route": "LOCUS-7T-enquiries@kcl.ac.uk",
-    "source": "TERRA-KCL"
+    "person": "LoCUS 7T facility team, King’s College London / St Thomas’",
+    "location": "London",
+    "connection": "The institutional equipment listing names the exact scanner and the local facility.",
+    "how_helpful": "Useful for which scans benefit from 7T, practical safety constraints, capacity, operating costs and how research versus clinical access is organized.",
+    "limits": "A facility operator may not know Siemens’ original R&D budget or patent history. Equipment proximity does not solve those sections.",
+    "route": "LOCUS-7T-enquiries@kcl.ac.uk; ask which physicist or facility manager could discuss the scanner.",
+    "sources": [
+      "TERRA-KCL",
+      "TERRA-CLINICAL"
+    ],
+    "checked": "2026-10-20",
+    "outreach_status": "Not contacted"
   },
   {
+    "device_id": "viz",
     "device": "Viz LVO",
-    "checked": "2026-10-19",
-    "outreach_status": "Not contacted",
     "person": "Professor Manoj Ramachandran",
-    "kind": "London co-founder / commercial-origin lead; not a verified stroke-product user",
-    "route": "Research/teaching enquiry form on his professional website",
-    "source": "VIZ-FOUNDER"
+    "location": "Royal London / London-based founder connection",
+    "connection": "His professional site identifies him as a Viz.ai co-founder; Barts confirms his local consultant role.",
+    "how_helpful": "Useful for why the company was formed, initial hospital/data relationships, early finance and commercialization decisions.",
+    "limits": "His clinical specialty is orthopaedics. The founder connection is relevant to the business history; it does not make him a stroke-product clinician or prove Royal London deployment.",
+    "route": "Use the research/teaching enquiry form on his professional website.",
+    "sources": [
+      "VIZ-FOUNDER",
+      "BARTS-TEAM"
+    ],
+    "checked": "2026-10-20",
+    "outreach_status": "Not contacted"
   },
   {
+    "device_id": "optune",
     "device": "Optune Gio",
-    "checked": "2026-10-19",
-    "outreach_status": "Not contacted",
-    "person": "Dr Matthew Williams, Imperial / Charing Cross",
-    "kind": "Exact-product first-hand London clinical experience documented",
-    "route": "matthew.williams@imperial.ac.uk",
-    "source": "OPTUNE-IMPERIAL"
+    "person": "Dr Matthew Williams",
+    "location": "Imperial / Charing Cross, London",
+    "connection": "His Imperial profile explicitly describes introducing Optune in the UK; a trust private-care article discusses a clinic supporting Optune patients.",
+    "how_helpful": "Useful for why clinicians offered the device, patient burden/adherence, support needs, private payment and barriers to UK adoption.",
+    "limits": "Direct clinical experience does not establish knowledge of Novocure’s original patent negotiations or first funding rounds; use the filings for those.",
+    "route": "matthew.williams@imperial.ac.uk, as published on the institutional profile.",
+    "sources": [
+      "OPTUNE-IMPERIAL",
+      "OPTUNE-PRIVATE"
+    ],
+    "checked": "2026-10-20",
+    "outreach_status": "Not contacted"
   },
   {
+    "device_id": "canvas",
     "device": "Canvas Dx",
-    "checked": "2026-10-19",
-    "outreach_status": "Not contacted",
-    "person": "Professor Will Mandy, UCL",
-    "kind": "Local autism domain expert; Canvas Dx use unverified",
-    "route": "w.mandy@ucl.ac.uk",
-    "source": "MANDY"
-  },
-  {
-    "device": "Canvas Dx",
-    "checked": "2026-10-19",
-    "outreach_status": "Not contacted",
-    "person": "Cognoa care / product team",
-    "kind": "Remote exact-product enquiry route",
-    "route": "support@cognoa.com; clearly identify a student research enquiry",
-    "source": "CANVAS-CONTACT"
+    "person": "Dennis Wall / Cognoa product-development team",
+    "location": "US; remote enquiry",
+    "connection": "Cognoa’s Canvas Dx research history identifies Wall as its founder and places the foundational research at Harvard.",
+    "how_helpful": "Useful for the original clinical problem, development of the assessment inputs and the academic-to-company history.",
+    "limits": "This does not establish an exact licence or independent patent claims, nor does it make him a London product user. Obtain documents to verify any origin account.",
+    "route": "Use support@cognoa.com, the published general enquiry route, to request a product-development introduction; no direct introduction is held.",
+    "sources": [
+      "CANVAS-ORIGIN",
+      "CANVAS-CONTACT"
+    ],
+    "checked": "2026-10-20",
+    "outreach_status": "Not contacted"
   }
 ]

@@ -2,410 +2,118 @@
   {
     "device_id": "precision",
     "report": "devices/01-precision.md",
-    "grades": [
-      "P",
-      "G",
-      "P",
-      "P",
-      "G"
+    "information_access": [
+      "Some gaps",
+      "Some gaps",
+      "Some gaps",
+      "Clear sources",
+      "Hard to find"
     ],
-    "fit": "Direct cortical recording; future assistive BCI is a separate scope",
-    "short": "Scope-sensitive BCI option",
-    "access": "No exact London user verified; remote company-origin lead",
-    "why": [
-      "Temporary electrode use and future paralysis applications have different need and evidence bases.",
-      "A candidate invention area is visible, but no complete family, original-employer or independent-claim map was verified.",
-      "A dated early company round is available; component-specific cost and earlier allocations remain missing.",
-      "The temporary-component 510(k) is strong; current-market scope and manufacturing attribution still need work.",
-      "The actual purchasing and payment pathway for the selected temporary electrode is unresolved."
-    ],
-    "topic_sources": [
-      [
-        "FDA-PRECISION-K242618",
-        "PRECISION-HOME"
-      ],
-      [
-        "PRECISION-FIN"
-      ],
-      [
-        "PRECISION-FIN"
-      ],
-      [
-        "FDA-PRECISION-K242618",
-        "PRECISION-CLEAR"
-      ],
-      []
-    ],
-    "next": [
-      "Fix the case boundary as Layer 7-T: capture its intended use and separate the chronic assistive-system roadmap.",
-      "Request the first relevant patent families and map independent claims to the electrode, insertion method and associated equipment.",
-      "Build an early financing timeline, then identify the hospital purchaser and any separate payment for the component."
-    ],
-    "stakeholders": "Neurosurgical patient; surgeon and neurophysiology team; hospital purchasing team; electrode manufacturer and integration partners; regulator and relevant payer.",
-    "alternative": "RNS offers a more mature implanted recording-and-stimulation case. Choose Precision when cortical-interface interest outweighs the added product-scope and payment uncertainty."
+    "summary": "Interesting BCI technology, but first decide whether the report concerns the temporary electrode or the broader platform. Payment and exact-product IP are the main information gaps.",
+    "london": "No London Layer 7-T user was verified. The useful product-origin lead is overseas."
   },
   {
     "device_id": "rns",
     "report": "devices/02-rns.md",
-    "grades": [
-      "S",
-      "P",
-      "P",
-      "P",
-      "P"
+    "information_access": [
+      "Clear sources",
+      "Clear sources",
+      "Some gaps",
+      "Clear sources",
+      "Some gaps"
     ],
-    "fit": "Intracranial recording and responsive electrical stimulation",
-    "short": "Best mature neural-interface fit",
-    "access": "London epilepsy specialist verified; exact RNS use unverified",
-    "why": [
-      "A randomized trial and long-term follow-up provide a substantial, interpretable evidence base.",
-      "An early patent record and prospectus give a concrete origin trail, but independent claims and assignments remain to be mapped.",
-      "Public filings are available; the earliest device-specific financing and expenditure have not been reconstructed.",
-      "The original PMA and manufacturing disclosures are accessible; later supplements and UK availability need separate checks.",
-      "US economic models provide a starting point, but model assumptions and UK access remain open."
-    ],
-    "topic_sources": [
-      [
-        "RNS-TRIAL",
-        "RNS-LONG"
-      ],
-      [
-        "RNS-PATENT",
-        "RNS-S1"
-      ],
-      [
-        "RNS-S1"
-      ],
-      [
-        "FDA-RNS-P100026",
-        "RNS-S1",
-        "RNS-2026"
-      ],
-      [
-        "RNS-ECON"
-      ]
-    ],
-    "next": [
-      "Create a timeline from early patent priority through first PMA and market entry; verify inventor employers and assignments.",
-      "Extract pre-approval financing from filings separately from post-launch capital and IPO proceeds.",
-      "Use the London epilepsy route to investigate UK alternatives, and a US product user for RNS-specific implementation if available."
-    ],
-    "stakeholders": "Person with drug-resistant focal epilepsy; epilepsy multidisciplinary team and implanting surgeon; manufacturer and follow-up staff; hospital; insurer or public payer.",
-    "alternative": "Choose RNS over Precision for a mature closed-loop case with a stronger public clinical history. Choose Exablate or Optune when verified local product experience is more important than neural-signal recording."
+    "summary": "One of the clearer choices for public research: trials, an early patent, a detailed prospectus and an economic model are already identified. Early financing still needs careful extraction.",
+    "london": "No exact RNS user in London was verified. Use product-specific US evidence rather than presenting a general London epilepsy specialist as an RNS contact."
   },
   {
     "device_id": "ceribell",
     "report": "devices/03-ceribell.md",
-    "grades": [
-      "S",
-      "P",
-      "P",
-      "P",
-      "P"
+    "information_access": [
+      "Clear sources",
+      "Clear sources",
+      "Some gaps",
+      "Clear sources",
+      "Some gaps"
     ],
-    "fit": "Scalp EEG acquisition with algorithm-assisted interpretation",
-    "short": "Strong EEG workflow case",
-    "access": "Imperial EEG expert verified; Ceribell use unverified",
-    "why": [
-      "Several original studies examine deployment and decisions; availability is strong even though designs have important limits.",
-      "The prospectus is a useful entry point for licences and IP; exact claims and original inventors remain unfinished.",
-      "An IPO prospectus can support the financing timeline, but early rounds and costs still require extraction.",
-      "Public FDA records exist, with a substantial need to distinguish headband, software and status-epilepticus versions.",
-      "A hospital procurement and payment story is identifiable; historical add-on payments require current eligibility checks."
-    ],
-    "topic_sources": [
-      [
-        "CERIBELL-DECIDE",
-        "CERIBELL-ED"
-      ],
-      [
-        "CERIBELL-S1"
-      ],
-      [
-        "CERIBELL-S1"
-      ],
-      [
-        "FDA-CERIBELL-K223504"
-      ],
-      [
-        "CERIBELL-S1"
-      ]
-    ],
-    "next": [
-      "Choose a first marketed hardware/software configuration and record the later changes separately.",
-      "Extract the prospectus financing, university-licensing and manufacturing sections; trace the relevant patents.",
-      "Compare a documented London EEG workflow with a remote Ceribell deployment account, without calling the former a product-user interview."
-    ],
-    "stakeholders": "Critically ill patient; emergency/ICU team; EEG technologist and neurologist; hospital procurement and finance; manufacturer and consumable suppliers.",
-    "alternative": "Choose Ceribell for clinical workflow and rapid neural recording. RNS is more directly about responsive stimulation; Viz offers a parallel software/workflow case without measuring EEG."
+    "summary": "Useful public clinical and economic sources exist. The task is to choose the hardware/software version and reconstruct its early licensing and funding history.",
+    "london": "No exact Ceribell user in London was verified. A general London EEG researcher is not enough to support a product-specific contact recommendation."
   },
   {
     "device_id": "saint",
     "report": "devices/04-saint.md",
-    "grades": [
-      "S",
-      "P",
-      "P",
-      "P",
-      "P"
+    "information_access": [
+      "Some gaps",
+      "Clear sources",
+      "Some gaps",
+      "Clear sources",
+      "Some gaps"
     ],
-    "fit": "fMRI-informed targeting and accelerated magnetic stimulation",
-    "short": "University licensing and stimulation",
-    "access": "Exact London SAINT provider unverified; remote developer lead",
-    "why": [
-      "The FDA review describes a small randomized study: useful evidence to critique, not definitive evidence for every setting.",
-      "Stanford licensing is documented, but licensed patent families and independent claims still need identification.",
-      "An early company round is reported; academic funding and device-specific translation costs remain separate gaps.",
-      "A 510(k) is accessible, but academic protocols, commercial components and UK status must not be merged.",
-      "Public US payment-pathway leads exist; current codes, care settings and UK coverage are not established here."
-    ],
-    "topic_sources": [
-      [
-        "FDA-SAINT-K220177"
-      ],
-      [
-        "SAINT-ABOUT",
-        "SAINT-FACT"
-      ],
-      [
-        "SAINT-FACT"
-      ],
-      [
-        "FDA-SAINT-K220177"
-      ],
-      [
-        "SAINT-ABOUT"
-      ]
-    ],
-    "next": [
-      "Map the Stanford academic work to the first commercial Magnus system and its exact licence scope.",
-      "Identify the relevant patent claims and academic grants before using the company funding announcement as a development narrative.",
-      "Verify whether a proposed UK clinic uses the licensed Magnus system; otherwise plan for remote product-specific evidence."
-    ],
-    "stakeholders": "Person receiving treatment for depression; psychiatrist and TMS staff; MRI/targeting provider; Stanford licensing stakeholders and Magnus; hospital or outpatient payer.",
-    "alternative": "Choose SAINT for personalized stimulation and university technology transfer. Exablate has stronger verified London product access; RNS has a longer public clinical history."
+    "summary": "A relatively clear university-to-company IP story, strengthened by named patents. Local product access and a fully verified payment pathway are less straightforward.",
+    "london": "No licensed Magnus SAINT site in London was verified. A clinic’s use of accelerated TMS alone does not establish SAINT use."
   },
   {
     "device_id": "exablate",
     "report": "devices/05-exablate.md",
-    "grades": [
-      "S",
-      "P",
-      "G",
-      "P",
-      "S"
+    "information_access": [
+      "Clear sources",
+      "Some gaps",
+      "Hard to find",
+      "Clear sources",
+      "Clear sources"
     ],
-    "fit": "Direct brain thermal ablation; no neural-signal interface",
-    "short": "Best balanced London case",
-    "access": "Exact ExAblate London clinical use and service route verified",
-    "why": [
-      "Original regulatory evidence plus a London clinical methods paper support a well-bounded essential-tremor case.",
-      "Technical records provide leads, but the early patent families, inventors and independent claims were not mapped.",
-      "A later growth round is public; early device-development finance remains a selection-critical gap.",
-      "PMA evidence is strong, but original versus expanded indications and supply-chain facts require further work.",
-      "A specific NHS England commissioning policy gives a concrete UK pathway and eligibility boundary."
-    ],
-    "topic_sources": [
-      [
-        "FDA-EXABLATE-P150038",
-        "EXABLATE-LONDON"
-      ],
-      [
-        "FDA-EXABLATE-P150038"
-      ],
-      [
-        "EXABLATE-FIN"
-      ],
-      [
-        "FDA-EXABLATE-P150038"
-      ],
-      [
-        "NHSE-FOCUSED-ULTRASOUND-2020"
-      ]
-    ],
-    "next": [
-      "Bound the case to medication-refractory essential tremor and separate later Parkinson’s/bilateral indications.",
-      "Trace early ultrasound/MR-guidance patent families and the finance preceding the original brain indication.",
-      "Ask the London functional neurosurgery team about patient selection, throughput and commissioning barriers."
-    ],
-    "stakeholders": "Person with medication-refractory tremor; movement-disorder and functional-neurosurgery teams; MRI facility; Insightec and system suppliers; NHS commissioner/payer.",
-    "alternative": "Choose Exablate for a combined clinical, regulatory and UK-adoption case. Optune offers a sharper NHS-versus-private adoption contrast; RNS fits neural recording and closed-loop interests more closely."
+    "summary": "A clear clinical and UK-payment starting point with a direct London team. Early development funding remains a harder section.",
+    "london": "A London methods paper names ExAblate equipment and the UCL/NHNN team. UCLH provides a service contact."
   },
   {
     "device_id": "terra",
     "report": "devices/06-terra.md",
-    "grades": [
-      "P",
-      "G",
-      "G",
-      "P",
-      "P"
+    "information_access": [
+      "Some gaps",
+      "Hard to find",
+      "Hard to find",
+      "Clear sources",
+      "Hard to find"
     ],
-    "fit": "Ultra-high-field imaging; functional signals are indirect",
-    "short": "Best local equipment enquiry",
-    "access": "Exact Terra scanner and King’s facility enquiry verified",
-    "why": [
-      "Public technical and clinical-use evidence exists, but a specific decision-changing use case still needs to be selected.",
-      "A multi-component corporate patent landscape makes the first-device origin difficult to bound.",
-      "Corporate R&D, public installation funding and device development costs are distinct; attribution is unresolved.",
-      "The original clearance is available; version-specific safety, production and present indications need further work.",
-      "Capital and service-cost questions are tractable with a facility interview, but a complete economic comparison is missing."
-    ],
-    "topic_sources": [
-      [
-        "FDA-TERRA-K170840",
-        "TERRA-CLINICAL"
-      ],
-      [],
-      [],
-      [
-        "FDA-TERRA-K170840"
-      ],
-      [
-        "TERRA-KCL"
-      ]
-    ],
-    "next": [
-      "Choose one clinical task and specify what extra information 7T supplies relative to the relevant comparator.",
-      "Ask the facility to distinguish acquisition/installation, ongoing operation and research-funded access.",
-      "Locate early Terra development partnerships and a bounded patent subset before committing to the topic."
-    ],
-    "stakeholders": "Patient or research participant; radiologist and referring clinical team; MR physicist and facility manager; Siemens and service suppliers; hospital capital committee and research funder/payer.",
-    "alternative": "Choose Terra when seeing and discussing exact local equipment is central. Exablate gives a more bounded treatment and commissioning story; RNS offers a cleaner single-device commercialization history."
+    "summary": "A good local equipment discussion is plausible. Early IP and device-specific development finance are harder to reconstruct than the technical story.",
+    "london": "King’s lists the exact Terra scanner at the LoCUS facility in St Thomas’ Hospital and publishes a facility enquiry email."
   },
   {
     "device_id": "viz",
     "report": "devices/07-viz.md",
-    "grades": [
-      "P",
-      "G",
-      "G",
-      "P",
-      "P"
+    "information_access": [
+      "Some gaps",
+      "Hard to find",
+      "Hard to find",
+      "Clear sources",
+      "Hard to find"
     ],
-    "fit": "CTA-based stroke triage and care coordination",
-    "short": "Best London founder lead",
-    "access": "London co-founder verified; exact local clinical deployment unverified",
-    "why": [
-      "The original FDA performance review is accessible; downstream outcome and cost evidence needs separate verification.",
-      "Original claims, data rights and trade-secret boundaries are unresolved despite a plausible software-IP story.",
-      "A later Series D is documented, but first-product/seed finance has not been reconstructed.",
-      "A De Novo record is a strong start; subsequent versions, deployment and UK status need follow-up.",
-      "Hospital purchasing and US payment leads are available, but current UK product-specific payment is unverified."
-    ],
-    "topic_sources": [
-      [
-        "FDA-VIZ-DEN170073"
-      ],
-      [],
-      [
-        "VIZ-FIN"
-      ],
-      [
-        "FDA-VIZ-DEN170073"
-      ],
-      [
-        "VIZ-FIN"
-      ]
-    ],
-    "next": [
-      "Trace the first ContaCT authorization to the chosen Viz LVO version and define the notification task.",
-      "Use a founder-origin enquiry to seek early patent, data-access, hospital-customer and seed-financing records.",
-      "Find a confirmed stroke-product deployment separately from the founder’s orthopaedic clinical role."
-    ],
-    "stakeholders": "Person with suspected LVO stroke; radiology, stroke and thrombectomy teams; hospital/network IT and procurement; Viz; payer and data-governance stakeholders.",
-    "alternative": "Choose Viz for entrepreneurship and a local founder-origin lead. Ceribell has a closer neural-recording connection; Optune and Exablate have stronger verified London product-user evidence."
+    "summary": "A clear software-regulation source and a relevant London co-founder. Original IP, early financing and a verified payer source need more work.",
+    "london": "A London Viz.ai co-founder is verified. A London stroke service using Viz LVO was not verified."
   },
   {
     "device_id": "optune",
     "report": "devices/08-optune.md",
-    "grades": [
-      "S",
-      "P",
-      "P",
-      "P",
-      "S"
+    "information_access": [
+      "Clear sources",
+      "Some gaps",
+      "Some gaps",
+      "Clear sources",
+      "Clear sources"
     ],
-    "fit": "Anti-tumour electric fields; no neural recording or neuromodulation",
-    "short": "Best Imperial product-user lead",
-    "access": "Direct Optune experience documented at Imperial/Charing Cross",
-    "why": [
-      "PMA evidence and a substantial public business history support a clearly bounded glioblastoma case.",
-      "The S-1 provides an early inventor/ownership trail, but patent claims and assignments need a complete map.",
-      "Filings expose financing history; original grants and device-specific costs still need reconstruction.",
-      "Versioned PMA records exist; distinguish original recurrent disease, later indications and current branding.",
-      "NICE recommendations and documented private-care experience provide a useful UK adoption/payment contrast."
-    ],
-    "topic_sources": [
-      [
-        "FDA-OPTUNE-P100034S013"
-      ],
-      [
-        "OPTUNE-S1"
-      ],
-      [
-        "OPTUNE-S1"
-      ],
-      [
-        "FDA-OPTUNE-P100034S013"
-      ],
-      [
-        "NICE-OPTUNE",
-        "OPTUNE-PRIVATE",
-        "OPTUNE-IMPERIAL"
-      ]
-    ],
-    "next": [
-      "Choose recurrent or newly diagnosed GBM and trace the first corresponding device/indication.",
-      "Map the Palti/Technion/company IP and financing chronology using original filings and patent records.",
-      "Discuss adherence, patient support, payer decisions and UK adoption with the verified Imperial clinician if available."
-    ],
-    "stakeholders": "Person with glioblastoma and caregiver; neuro-oncology team and support nurses; Novocure and device-support staff; hospital/private provider; NHS, insurer or self-funding payer.",
-    "alternative": "Choose Optune for local product experience and an adoption/payment tension that is central to the case. Exablate has a more direct UK commissioning pathway; RNS is closer to neural information processing."
+    "summary": "A strong starting point for the overall project: substantial public business/regulatory records and a London clinician with documented experience of the exact product.",
+    "london": "Imperial identifies Dr Matthew Williams as having helped introduce Optune for brain tumours in the UK."
   },
   {
     "device_id": "canvas",
     "report": "devices/09-canvas.md",
-    "grades": [
-      "P",
-      "G",
-      "P",
-      "P",
-      "G"
+    "information_access": [
+      "Some gaps",
+      "Hard to find",
+      "Some gaps",
+      "Clear sources",
+      "Some gaps"
     ],
-    "fit": "Behavioural/video/questionnaire diagnostic aid; no brain-signal measurement",
-    "short": "Diagnostic uncertainty and access",
-    "access": "London autism expert verified; exact Canvas Dx use unverified",
-    "why": [
-      "The original FDA study is informative, but high indeterminate output and later-version changes limit simple performance claims.",
-      "Academic origin is described, but product-specific assignments, data rights and independent claims remain unresolved.",
-      "An early company round is available; it is not an audited Canvas-only development budget.",
-      "The original De Novo record is accessible; software revisions and UK status require distinct review.",
-      "Manufacturer advocacy is available, but a proposed payment or coverage policy is not evidence of adopted coverage."
-    ],
-    "topic_sources": [
-      [
-        "FDA-CANVAS-DEN200069"
-      ],
-      [
-        "CANVAS-FIN"
-      ],
-      [
-        "CANVAS-FIN"
-      ],
-      [
-        "FDA-CANVAS-DEN200069"
-      ],
-      [
-        "CANVAS-POLICY"
-      ]
-    ],
-    "next": [
-      "Record the original study’s full denominator, determinate subgroup and no-result pathway.",
-      "Trace product-specific academic IP and later software modifications without importing unrelated therapeutic licences.",
-      "Verify an actual payer policy and seek a product-user introduction; use local autism expertise for pathway context only."
-    ],
-    "stakeholders": "Child and caregiver; assessing clinician and referral team; video-analysis/product staff; Cognoa and data-rights holders; payer and specialist assessment service.",
-    "alternative": "Choose Canvas Dx for diagnostic uncertainty, service access and medical-AI regulation. Choose a different topic if direct neural interfaces or a verified London product visit are essential."
+    "summary": "There is more concrete payer information than the earlier comparison showed: an actual state Medicaid bulletin is available. Product-specific IP and London access remain harder.",
+    "london": "No Canvas Dx user in London was verified. A general autism researcher is not a substitute for a product developer or clinical user."
   }
 ]
