@@ -1,62 +1,46 @@
-"""Check repository integrity, local references and comparison consistency."""
+"""Check document/data consistency and references, not the truth of every claim."""
 from pathlib import Path
-from urllib.parse import urlparse, unquote
-import json, re, sys
-
+from urllib.parse import urlparse,unquote
+import json,re,sys
 ROOT=Path(__file__).resolve().parents[1]
-errors=[]
-def read(path): return json.loads((ROOT/path).read_text(encoding='utf-8'))
-D=read('data/device-records.json')
-C=read('data/screening-matrix.json')
-S=read('data/source-catalog.json')
-ids={s['id'] for s in S}
-if len(ids)!=len(S): errors.append('Duplicate source IDs')
-if len(D)!=9 or len(C)!=9: errors.append('Expected nine device records and nine comparison rows')
-if {d['id'] for d in D}!={c['device_id'] for c in C}: errors.append('Comparison/device ID mismatch')
+def load(p):return json.loads((ROOT/p).read_text(encoding='utf-8'))
+D=load('data/device-records.json');S=load('data/source-catalog.json');M=load('data/screening-matrix.json')
+errors=[];ids={s['id'] for s in S};links_checked=0
+topics=['Unmet medical need','Intellectual property','Fundraising','Regulatory','Reimbursement']
+if len(D)!=9 or len(M)!=9:errors.append('Expected nine devices')
+if len(ids)!=len(S):errors.append('Duplicate source IDs')
 readme=(ROOT/'README.md').read_text(encoding='utf-8')
-if readme.count('## TL;DR')!=1: errors.append('TL;DR missing or duplicated')
-
-for d,c in zip(D,C):
-    if d['id']!=c['device_id']: errors.append('Device ordering mismatch')
-    if len(c['grades'])!=5 or set(c['grades'])-{'S','P','G'}: errors.append('Invalid readiness labels')
-    if not(len(c['why'])==len(c['topic_sources'])==5): errors.append('Incomplete grade explanations')
-    p=ROOT/c['report']
-    if not p.is_file(): errors.append(f'Missing report {p}');continue
-    text=p.read_text(encoding='utf-8')
-    expected='| ['+d['name']+']('+c['report']+') | '+' | '.join(c['grades'])+' |'
-    if expected not in readme: errors.append(f'Comparison row out of sync: {d["id"]}')
-    for i in range(1,6):
-        if f'### {i}. ' not in text: errors.append(f'Missing coursework topic in {d["id"]}')
-    all_refs=d['sources']+[k for keys in c['topic_sources'] for k in keys]
-    for contact in d['contacts']:
-        all_refs.append(contact['source'])
-        if contact.get('route_source'): all_refs.append(contact['route_source'])
-    for key in all_refs:
-        if key not in ids: errors.append(f'Unknown source {key} in {d["id"]}')
-
-checked=0
+if len(readme.split())>1050:errors.append('README exceeds the short comparison budget')
+for d,m in zip(D,M):
+    if d['id']!=m['device_id']:errors.append('Matrix/device mismatch')
+    if [s['topic'] for s in d['sections']]!=topics:errors.append(f'Five required topics missing: {d["id"]}')
+    if len(' '.join(d['description']).split())<150:errors.append(f'Device explanation too short: {d["id"]}')
+    expected=f'| [{d["name"]}]({m["report"]}) | '+' | '.join(s['access'] for s in d['sections'])+' |'
+    if expected not in readme:errors.append(f'Comparison out of sync: {d["id"]}')
+    text=(ROOT/m['report']).read_text(encoding='utf-8')
+    for field in ['What we found:','How it helps write this section:','Still needed:','How close is it to this device?']:
+        if text.count(field)!=5:errors.append(f'Missing source-use explanation: {d["id"]}: {field}')
+    for s in d['sections']:
+        for k in s['sources']:
+            if k not in ids:errors.append(f'Unknown source: {k}')
+    for c in d['contacts']:
+        for key in ['connection','how_helpful','limits','route','sources']:
+            if not c.get(key):errors.append(f'Contact has no {key}: {d["id"]}')
+        for k in c['sources']:
+            if k not in ids:errors.append(f'Unknown contact source: {k}')
 for p in ROOT.rglob('*'):
-    if not p.is_file() or '.git' in p.parts: continue
-    if p.suffix.lower() in ['.pdf','.zip']: errors.append(f'Unintended binary/source archive: {p}')
-    if p.suffix not in ['.md','.json','.py'] and p.name not in ['.gitignore','.gitattributes']: continue
+    if not p.is_file() or '.git' in p.parts or p.suffix not in ['.md','.json','.py']:continue
     text=p.read_text(encoding='utf-8')
-    if re.search(r'[\u3400-\u4dbf\u4e00-\u9fff]',text): errors.append(f'Non-English CJK text: {p}')
-    if re.search(r'[A-Za-z]:[\\/](?:Users|home)[\\/]',text): errors.append(f'Nonportable local user path: {p}')
-    if p.suffix!='.md': continue
-    definitions=dict(re.findall(r'^\[([^\]]+)\]:\s*(\S+)',text,re.M))
-    links=re.findall(r'(?<!!)\[[^\]\n]+\]\(([^)]+)\)',text)
-    for label in re.findall(r'\[[^\]\n]+\]\[([^\]\n]+)\]',text):
-        if label not in definitions: errors.append(f'Unresolved reference {label} in {p.name}')
-    for link in links:
-        u=urlparse(link.strip('<>'))
-        if u.scheme or link.startswith('#'): continue
-        if not (p.parent/unquote(u.path)).exists(): errors.append(f'Broken local link in {p.name}: {link}')
-        checked+=1
-
+    if p.suffix in ['.md','.json'] and re.search(r'Gregory Scott|Matthew Walker|Will Mandy|gregory\.scott99|w\.mandy',text,re.I):errors.append(f'Unjustified broad-domain recommendation remains: {p.name}')
+    if re.search(r'[\u3400-\u4dbf\u4e00-\u9fff]',text):errors.append(f'CJK text in English repository: {p}')
+    if p.suffix=='.md':
+        for url in re.findall(r'(?<!!)\[[^\]\n]+\]\(([^)]+)\)',text):
+            u=urlparse(url)
+            if u.scheme or url.startswith('#'):continue
+            if not (p.parent/unquote(u.path)).exists():errors.append(f'Broken link in {p.name}: {url}')
+            links_checked+=1
 for p in (ROOT/'tools').glob('*.py'):
-    try: compile(p.read_text(encoding='utf-8'),str(p),'exec')
-    except SyntaxError as e: errors.append(f'Script syntax: {e}')
-result={'status':'PASS' if not errors else 'FAIL','devices':len(D),'public_sources':len(S),'local_links_checked':checked,'errors':errors,
-        'limits':'Structural consistency and local references only; not a fresh clinical, patent, payer, contact or independent human audit.'}
-print(json.dumps(result,indent=2))
-sys.exit(bool(errors))
+    try:compile(p.read_text(encoding='utf-8'),str(p),'exec')
+    except SyntaxError as e:errors.append(str(e))
+result=dict(status='PASS' if not errors else 'FAIL',devices=len(D),sources=len(S),contacts=sum(len(d['contacts']) for d in D),local_links_checked=links_checked,readme_words=len(readme.split()),errors=errors,limits='Structure, source pointers and consistency only; no interview or independent clinical/patent/payer audit.')
+print(json.dumps(result,indent=2));sys.exit(bool(errors))
