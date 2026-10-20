@@ -1,6 +1,6 @@
 # Repository instructions
 
-Read CONTEXT.md and docs/methodology.md before editing. Write in plain English. Keep exactly the five selected companies/devices: Precision Neuroscience Layer 7, NeuroPace RNS, Ceribell, Magnus Medical SAINT and Insightec Exablate Neuro.
+Read CONTEXT.md and docs/methodology.md before editing. Write in plain English. Keep the six selected companies/devices: Precision Neuroscience Layer 7, NeuroPace RNS, Ceribell, Magnus Medical SAINT, Insightec Exablate Neuro and ONWARD Medical ARC-EX.
 
 The user wants one simple comparison: how easy it is to find useful information for the five sections in Project spec—unmet medical need, intellectual property, fundraising, regulatory and reimbursement. Explain what each source provides, how directly it concerns the chosen device and how it helps write that section. A source count or a vague readiness grade is not enough.
 

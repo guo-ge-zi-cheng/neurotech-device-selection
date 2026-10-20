@@ -1,10 +1,11 @@
 # Choosing a device for our report
 
-This repository compares five devices by **how easy it is to find useful information for the five sections in Project spec**. Open a device report to understand what it does, how far it has developed, which sources help each section, and which first-hand contacts have a specific connection to it.
+This repository compares six devices by **how easy it is to find useful information for the five sections in Project spec**. Open a device report to understand what it does, how far it has developed, which sources help each section, and which first-hand contacts have a specific connection to it.
 
 ## TL;DR
 
 - **RNS is a clear starting point for public research.** Clinical trials, a patent, a prospectus and an economic model are identified; early funding still needs work.
+- **ARC-EX combines good public records with nearby exact-device contacts.** Neurokinex lists Hemel Hempstead and Gatwick centres outside London; London-based Spinal Research can help with funding and UK access. Early product-specific finance and payment remain gaps.
 - **Exablate has a documented London clinical team and a UK commissioning source.** It offers a direct local enquiry route, while early development funding is harder to find.
 - **Ceribell and SAINT have useful clinical and IP sources.** Their reports explain the product/version limits; no London product user was verified for either.
 - **Precision requires a clear choice of scope:** the temporary cortical electrode or the wider BCI programme. Payment and exact-product IP need more investigation.
@@ -32,14 +33,16 @@ These five questions follow the [project specification summary](docs/course-requ
 | [Rapid Response EEG / Clarity](devices/03-ceribell.md) | Clear sources | Clear sources | Some gaps | Clear sources | Some gaps |
 | [SAINT](devices/04-saint.md) | Some gaps | Clear sources | Some gaps | Clear sources | Some gaps |
 | [Exablate Neuro](devices/05-exablate.md) | Clear sources | Some gaps | Hard to find | Clear sources | Clear sources |
+| [ARC-EX System](devices/06-arcex.md) | Clear sources | Some gaps | Some gaps | Clear sources | Some gaps |
 
-All five have a public FDA record, making that a useful regulatory starting point. Other markets, standards and manufacturing still need to be completed. Disease-population figures alone will not answer unmet need, and a large company funding round will not answer early development finance.
+All six have a public FDA record, making that a useful regulatory starting point. Other markets, standards and manufacturing still need to be completed. Disease-population figures alone will not answer unmet need, and a large company funding round will not answer early development finance.
 
-## Who could provide useful first-hand information in London?
+## Who could provide useful first-hand information in or near London?
 
 | Device | What is actually connected to the device? | What could it help us investigate? |
 |---|---|---|
 | [Exablate Neuro](devices/05-exablate.md) | UCLH/NHNN paper names exact ExAblate equipment and a London clinical team. | Patient selection, treatment workflow, costs and UK adoption. |
+| [ARC-EX System](devices/06-arcex.md) | Neurokinex lists exact-device centres in Hemel Hempstead and Gatwick, outside London. Spinal Research has a London office and an ARC-EX programme. | Device-study and rehabilitation workflow; programme funding and UK access. A charity office is not a clinic. |
 
 For **Precision, RNS, Ceribell and SAINT**, no London product user was verified. Their reports identify relevant US development or clinical leads for a possible remote discussion.
 
