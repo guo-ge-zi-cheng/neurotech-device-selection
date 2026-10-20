@@ -37,7 +37,9 @@ These five questions follow the [project specification summary](docs/course-requ
 
 ## How easy is it to find useful information?
 
-**Clear sources:** useful direct records are identified. **Some gaps:** the sources answer only part of the question. **Hard to find:** important information remains unverified in this search. These describe access to information, not a completed report. Each device file explains the reason and how to use the sources.
+**Clear sources:** useful records provide a supported starting point. **Some gaps:** the sources answer only part of the question. **Hard to find:** important information remains unverified in this search. These describe access to information, not a completed report. Each device file explains the reason and how to use the sources.
+
+The [five-topic research source guide](docs/research-source-guide.md) explains how investor/funder records, care-pathway studies, patent searches, procedure payment, comparators and real interviews can fill gaps. It draws on an [audit of the Optomed and Quadsense examples](docs/example-source-audit.md). The table below retains the device evidence already checked; these extra routes need investigation before any label changes.
 
 | Device | Unmet need | IP | Fundraising | Regulatory | Reimbursement |
 |---|---|---|---|---|---|
@@ -92,6 +94,8 @@ Sources for this description and stage: {links([FDA[d['id']]]+EXTRA[d['id']])}.
 **Practical takeaway:** {d['summary']}
 
 ## Finding information for the five report sections
+
+For gaps, use the [shared research source guide](../docs/research-source-guide.md). Its alternative routes need checking for this device before they become evidence.
 
 '''
     for i,s in enumerate(d['sections'],1):
@@ -154,3 +158,53 @@ for s in S:
 
 '''
 write('docs/sources.md',source_text)
+
+audit=json.loads((ROOT/'data/example-source-audit.json').read_text(encoding='utf-8'))
+audit_text='''# Sources used in the two course examples
+
+This audit records what the examples used, what those sources help explain and where the inference stops. Use the [research source guide](research-source-guide.md) for the practical method. Checked 20 October 2026. Physical PDF page numbers include the opening anonymisation page and differ from printed page numbers.
+
+## Authority and review scope
+
+'''
+for item in audit['authority']:
+    audit_text+=f'- **{item["level"]}:** {item["finding"]} ({item["provenance"]}).\n'
+audit_text+='\n'+audit['review_scope']+'\n\n'
+for topic in dict.fromkeys(r['topic'] for r in audit['rows']):
+    audit_text+=f'## {topic}\n\n'
+    for r in [x for x in audit['rows'] if x['topic']==topic]:
+        audit_text+=f'''### {r['report']}
+
+Location: {r['pages']}. References: {r['references']}.
+
+**Sources used:** {r['sources']}.
+
+**What they help explain:** {r['use']}
+
+**Extra route for our research:** {r['alternative']}
+
+**Limits:** {r['limit']}
+
+**Lecturer evidence:** {r['lecturer_status']}
+
+'''
+audit_text+='## Selected external checks\n\nThese targeted checks were made on 20 October 2026; they do not verify every reference in either example.\n\n'
+for c in audit['external_checks']:
+    audit_text+=f'''### {c['title']}
+
+[{c['source_title']}]({c['url']})
+
+**Checked finding:** {c['finding']}
+
+**Use and limit:** {c['limit']}
+
+**Review coverage:** {c['coverage']}
+
+'''
+audit_text+='''## Reference handling
+
+Optomed's opening note reports that embedded reference links were lost in submission, causing a mark deduction. The supplied copy nevertheless contains recoverable link annotations. These observations concern different copies and can both be true. Quadsense has a printed bibliography; its image-based body was read with OCR and visual checks. Use full retrievable references in the eventual report as the specification requires.
+
+The original course/example PDFs and interview material have not been republished. Interviews described in the examples were conducted by those reports' authors, not this team. No complete patent-status, database-valuation or payer audit is claimed. This example audit does not change the six devices' access labels.
+'''
+write('docs/example-source-audit.md',audit_text)
