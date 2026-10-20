@@ -1,7 +1,7 @@
 {
   "checked": "2026-10-20",
   "protocol": "docs/reliability-protocol.md",
-  "scope": "Targeted investigation of the extra routes learned from the examples, across six devices and five topics. Original research and access labels retained. Not a full legal, current-label or payer audit.",
+  "scope": "Targeted investigation of the extra routes learned from the examples, across seven devices and five topics. Original research and access labels retained. Not a full legal, current-label or payer audit.",
   "devices": [
     {
       "device_id": "precision",
@@ -718,6 +718,144 @@
         }
       ],
       "what_changes": "UK context, academic lineage and suppliers are clearer. Early product-specific capital and actual payment remain the main evidence gaps, despite a useful nearby provider route."
+    },
+    {
+      "device_id": "terra",
+      "summary": "Added on 20 October 2026. The extra-source approach identifies actual institutional equipment, development/manufacturing locations, later application claims, a comparative diagnostic study and distinct financing flows. These do not remove the original-IP, development-budget or clinical-payment gaps.",
+      "topics": [
+        {
+          "topic": "Unmet medical need",
+          "search_route": "Search original clinical studies for the exact scanner and comparator; distinguish completed findings from protocols.",
+          "findings": [
+            {
+              "title": "A product-specific diagnostic question",
+              "label": "Study result",
+              "evidence": "A selected neurovascular cohort was scanned on Terra and Prisma; the design supports investigation of diagnostic uncertainty, with important reference-standard and blinding limits.",
+              "sources": [
+                "TERRA-ANEURYSM"
+              ],
+              "locator": "Methods, Data Collection/Image Analysis; Discussion limitations",
+              "reliability": "Original publisher full text identifies the scanner and method.",
+              "use_in_report": "Define a narrow prior-care problem and critically assess incremental information.",
+              "limit": "No general accuracy, patient outcome, economic saving or London eligible volume established.",
+              "origin": "New primary-source route checked for Terra"
+            },
+            {
+              "title": "Epilepsy as a planned comparison, not a result",
+              "label": "Context",
+              "evidence": "The published prospective protocol defines a nonlesional presurgical pathway with Terra/3T comparison.",
+              "sources": [
+                "TERRA-EPILEPSY-PROTOCOL"
+              ],
+              "locator": "Protocol objectives, scanner/procedure and planned assessment passages",
+              "reliability": "Original protocol clearly separates plan from completed outcomes.",
+              "use_in_report": "Show how an appropriate comparator and referral group could be investigated.",
+              "limit": "No diagnostic yield or treatment benefit can be taken from a protocol.",
+              "origin": "New primary-source route checked for Terra"
+            }
+          ],
+          "remaining_gap": "Select one pathway; obtain eligible local volume, actual patient-decision changes, costs and MSK-specific evidence if using the knee case."
+        },
+        {
+          "topic": "Intellectual property",
+          "search_route": "Follow manufacturer development attribution and search Siemens applications containing the actual product name.",
+          "findings": [
+            {
+              "title": "A later optimisation application exposes the attribution boundary",
+              "label": "Documented fact",
+              "evidence": "GB2606208A names Siemens as original assignee and describes Terra experiments. Its 2021 priority is after original market entry; published independent claims 1 and 12 concern image optimisation.",
+              "sources": [
+                "TERRA-PATENT-LATER"
+              ],
+              "locator": "Metadata, Terra example and claims 1–13",
+              "reliability": "Published text was read, including dependencies; it is a real technical source rather than a portfolio count.",
+              "use_in_report": "Explain the later method and why it cannot stand in for the original scanner invention.",
+              "limit": "No original family match, current legal opinion, inventor-employment audit or marketed implementation is established.",
+              "origin": "New primary-source route checked for Terra"
+            },
+            {
+              "title": "Development and manufacturing organisations guide the next search",
+              "label": "Documented fact",
+              "evidence": "The manufacturer attributes the magnet to Oxford; the original FDA summary identifies system and coil manufacturing organisations.",
+              "sources": [
+                "TERRA-BROCHURE",
+                "FDA-TERRA-K170840"
+              ],
+              "locator": "Brochure physical pp34–35; FDA manufacturing table",
+              "reliability": "Responsible organisations are named in direct records.",
+              "use_in_report": "Route original subsystem/IP enquiries to the relevant organisations.",
+              "limit": "Manufacture or development location alone does not identify first inventor or patent ownership.",
+              "origin": "New primary-source route checked for Terra"
+            }
+          ],
+          "remaining_gap": "Verified original magnet/system/coil families and their inventor/employer/assignment/implementation chain."
+        },
+        {
+          "topic": "Fundraising",
+          "search_route": "Separate original corporate programme finance from customer installation and later corporate transactions.",
+          "findings": [
+            {
+              "title": "Two funding records with different recipients and purposes",
+              "label": "Documented fact",
+              "evidence": "The London announcement attributes project funding to King’s and Wellcome; the IPO record identifies parent Siemens as recipient of gross placement proceeds.",
+              "sources": [
+                "TERRA-KCL-2018",
+                "TERRA-IPO-2018"
+              ],
+              "locator": "Installation funding paragraph; IPO gross-proceeds paragraph",
+              "reliability": "Direct institutional and corporate records identify the funding purpose or recipient.",
+              "use_in_report": "Build a financing timeline with explicit exclusions; request attributable inputs before estimating early capital.",
+              "limit": "Neither record discloses original Terra R&D spending, an early device valuation or the scanner-only acquisition price.",
+              "origin": "New primary-source route checked for Terra"
+            }
+          ],
+          "remaining_gap": "Original programme capital and allocation; justified numerical estimate if direct disclosure remains unavailable."
+        },
+        {
+          "topic": "Regulatory",
+          "search_route": "Read the original 510(k) and manufacturer component/development account; separate successor configurations.",
+          "findings": [
+            {
+              "title": "Actual standards and supply-chain details",
+              "label": "Documented fact",
+              "evidence": "K170840 supplies the original US classification, scope, testing and named system/head/knee-coil manufacturers. The brochure adds Oxford magnet manufacturing; Terra.X is a later configuration.",
+              "sources": [
+                "FDA-TERRA-K170840",
+                "TERRA-BROCHURE",
+                "TERRA-X-2024"
+              ],
+              "locator": "FDA indication/manufacturing/testing tables; brochure pp34–35; 2024 successor announcement",
+              "reliability": "Primary regulator record anchors historical facts; manufacturer claims are labelled and version-bounded.",
+              "use_in_report": "Write a concrete regulatory/manufacturing section, explaining why safety testing is not a diagnostic-benefit trial.",
+              "limit": "Current UK/EU documents, installed upgrade, supplier arrangements and complete compliance not audited.",
+              "origin": "New primary-source route checked for Terra"
+            }
+          ],
+          "remaining_gap": "Current site configuration and market documentation, including research-versus-clinical options."
+        },
+        {
+          "topic": "Reimbursement",
+          "search_route": "Use actual facility/funder records and care-pathway evidence, then search payment and procurement records.",
+          "findings": [
+            {
+              "title": "An exact-device London enquiry can improve the service model",
+              "label": "Documented fact",
+              "evidence": "King’s lists Terra at LoCUS/St Thomas’ and publishes a dedicated institutional enquiry route.",
+              "sources": [
+                "TERRA-KCL-FACILITY",
+                "TERRA-KCL-2018"
+              ],
+              "locator": "Equipment model, location, enquiry details; project funding paragraph",
+              "reliability": "Direct institutional equipment connection is more specific than general MRI expertise.",
+              "use_in_report": "Ask about workflow, utilisation, resource use and access funding; separate capital, research and clinical payment.",
+              "limit": "No price, payer eligibility, 7T premium, routine NHS clinical use or meeting availability is established.",
+              "origin": "New primary-source route checked for Terra"
+            }
+          ],
+          "remaining_gap": "Actual service/access terms, commissioning or coverage route and an incremental economic evaluation."
+        }
+      ],
+      "what_changes": "Terra adds a strong central-London exact-equipment investigation route and detailed engineering/regulatory records. It remains weaker on original product IP and development capital; diagnostic benefit and payment need a scoped service study, not generic MRI statistics."
     }
   ],
   "leads_not_accepted": [
@@ -755,6 +893,21 @@
       "question": "London product use/popularity",
       "route": "Institutional, supplier, trial and provider pages",
       "reason": "No new licensed London SAINT or London Precision/RNS/Ceribell user was verified. A TMS hardware supplier, general field expert or comparator trial is not proof of exact-device use."
+    },
+    {
+      "question": "Original Terra procurement price",
+      "route": "University of Minnesota February 2019 finance/operations docket search",
+      "reason": "The large PDF could not be retrieved (browser tool size limit; direct request denied). Search snippets remain leads; no price or service amount accepted. URL: https://regents.umn.edu/sites/regents.umn.edu/files/2019-08/docket-finance_operations_committee-feb2019.pdf"
+    },
+    {
+      "question": "Current NHS payment mechanism applied to Terra",
+      "route": "2026/27 NHS Payment Scheme official publication and long-read pages",
+      "reason": "Both actual pages returned a JavaScript verification challenge. Search metadata was not treated as reviewed payment rules; no Terra-specific coverage, tariff or premium accepted. URL: https://www.england.nhs.uk/publication/2026-27-nhs-payment-scheme/"
+    },
+    {
+      "question": "Terra original patent and legal position",
+      "route": "Siemens magnet/7T patent search and GB2606208 family",
+      "reason": "The accepted A publication was read, but the B full text could not be retrieved. The 2021-priority application is a later optimisation example, not original 2017 system IP; no granted-claim or implementation conclusion accepted."
     }
   ]
 }

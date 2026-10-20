@@ -118,5 +118,21 @@
     ],
     "checked": "2026-10-20",
     "outreach_status": "Not contacted"
+  },
+  {
+    "device_id": "terra",
+    "device": "MAGNETOM Terra 7T MRI",
+    "person": "LoCUS 7T MAGNETOM Terra facility team",
+    "location": "Advanced MRI Centre, St Thomas’ Hospital, London SE1 7EH",
+    "connection": "King’s equipment page names the exact MAGNETOM Terra, its LoCUS location at St Thomas’ and a dedicated enquiry address. This is a documented equipment connection, not general MRI expertise.",
+    "how_helpful": "Ask about installed model/upgrades and coils, research versus clinical use, suitable referral pathways, safety screening, scan/staff resources, site costs and access funding. These questions improve unmet need, implementation and reimbursement analysis.",
+    "limits": "The listing does not establish routine NHS clinical use, current original-versus-upgraded configuration, a right to visit or willingness to meet. Facility staff need not know Siemens’ original patent or development-budget history.",
+    "route": "LOCUS-7T-enquiries@kcl.ac.uk. Request an educational staff discussion about the named system and whether the team can discuss workflow/resources.",
+    "sources": [
+      "TERRA-KCL-FACILITY",
+      "TERRA-KCL-2018"
+    ],
+    "checked": "2026-10-20",
+    "outreach_status": "Not contacted"
   }
 ]

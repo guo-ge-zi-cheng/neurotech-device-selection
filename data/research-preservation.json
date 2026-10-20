@@ -3,27 +3,72 @@
   "files": [
     {
       "path": "data/device-records.json",
-      "mode": "exact",
+      "mode": "json_prefix",
       "bytes": 44780,
-      "sha256": "50c08d2da51bd04c7690cba482a183df7a0366af0d9e0f396ee8fcbd328bbbc0"
+      "sha256": "7d4c999cef369a92fe4423cc94f347ed07ebf78ddbb3414943c966aaddf57b60",
+      "entries": 6
     },
     {
       "path": "data/additional-research.json",
-      "mode": "exact",
+      "mode": "json_devices_prefix",
       "bytes": 58746,
-      "sha256": "f995830e469f23de81f5502d3b870300fc90c7f504ff3635e21bb3e0ba4ce6f9"
+      "sha256": "f6fa21f260869b6833128e31e0831489d5cce7a44409c361fd963fcfa7f7ae72",
+      "entries": 6,
+      "preserved_metadata": {
+        "checked": "2026-10-20",
+        "protocol": "docs/reliability-protocol.md"
+      },
+      "original_leads": [
+        {
+          "question": "Earliest RNS company funding",
+          "route": "Historical financing news and archives",
+          "reason": "A 2005 $30m round appeared in secondary reporting, but no contemporaneous responsible-party record was reviewed. Excluded from accepted financing facts."
+        },
+        {
+          "question": "Layer 7-T-specific coverage or price",
+          "route": "Exact-product payer/code and hospital-payment searches",
+          "reason": "No adequate exact-product record was reviewed. General CMS packaging guidance remains context only; non-discovery is not proof of no payment."
+        },
+        {
+          "question": "ARC-EX actual price",
+          "route": "Provider service, rehabilitation fee and charity programme pages",
+          "reason": "Generic fees/donations/subsidised programmes were not attributable to an ARC-EX episode. No price claim accepted."
+        },
+        {
+          "question": "SAINT UK comparator full data",
+          "route": "PubMed/PMC/NIHR and publisher routes",
+          "reason": "Some pages were inaccessible. The NIHR original PDF was retrieved and its abstract checked, but its full economic appendices were not audited. No comparator cost was transferred to SAINT."
+        },
+        {
+          "question": "Exablate 2012 valuation",
+          "route": "Investor SEC exhibit versus closing release",
+          "reason": "The agreement record contains conflicting post-money valuations. Conflict disclosed; no settled valuation accepted."
+        },
+        {
+          "question": "Exact product-to-patent claims and legal status",
+          "route": "Named inventors, patent texts, metadata and licence exhibits",
+          "reason": "Closer technical candidates and licence relationships found, but no complete six-device claim mapping or official current-enforceability audit completed."
+        },
+        {
+          "question": "London product use/popularity",
+          "route": "Institutional, supplier, trial and provider pages",
+          "reason": "No new licensed London SAINT or London Precision/RNS/Ceribell user was verified. A TMS hardware supplier, general field expert or comparator trial is not proof of exact-device use."
+        }
+      ]
     },
     {
       "path": "data/screening-matrix.json",
-      "mode": "exact",
+      "mode": "json_prefix",
       "bytes": 3591,
-      "sha256": "ced3566d2efc8b2b324294226fd64ec3bbd6d9c52113a1ab95c117746c656e4e"
+      "sha256": "099b58e8b084d894b2837e685a6a6d3f19914f658a3301419afaf35f9bcbfd60",
+      "entries": 6
     },
     {
       "path": "data/contacts.json",
-      "mode": "exact",
+      "mode": "json_prefix",
       "bytes": 7563,
-      "sha256": "0a591c07b9d3713a481a8024b0fd03c1553207f117e0b4de909c73efc9933403"
+      "sha256": "86fbf2e0a4c7a8dccc1f18e1cdf000126440d2353048eb8da7a124c1b28b1de3",
+      "entries": 7
     },
     {
       "path": "data/example-source-audit.json",
@@ -68,6 +113,9 @@
       "sha256": "5ae78a367756a786cb53a0eace054137d049fa54e6029adea687469f76e028b8"
     }
   ],
-  "source_entries": 85,
-  "source_catalog_prefix_sha256": "c8ee7b01bc1e01b95576237685b7ce4c38ec4d1eabfec8dddf35154bbfb3ea5c"
+  "source_entries": 88,
+  "source_catalog_prefix_sha256": "4ca2be449194293cab4ace71709051a93457515f73de08c065617fb3b36376d2",
+  "full_report_body_entries": 6,
+  "full_report_body_prefix_sha256": "c1c670cdc58c009007a1ecf709b48fbbf00422045245e9ac9db75a39a418439d",
+  "extension_note": "20 October 2026: verified prior byte baselines before extending to Terra; original six JSON records/finding sets, seven contact records, 88 source records and six authored narrative bodies protected by canonical prefix hashes. Historical guide prefixes and example audit remain protected."
 }

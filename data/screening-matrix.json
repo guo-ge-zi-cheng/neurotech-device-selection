@@ -76,5 +76,18 @@
     ],
     "summary": "A useful addition for both public research and first-hand investigation: FDA records and a pivotal paper are accessible, and exact-device providers are near London. Product-specific patent mapping, earliest development spending and verified payment terms remain gaps.",
     "london": "Neurokinex Hemel Hempstead and Gatwick are listed for ARC-EX and have a direct study connection, but are outside London. Spinal Research has a London office and a documented ARC-EX funding/access programme; it is not a treatment clinic. No central-London clinical user or London user-count comparison was verified."
+  },
+  {
+    "device_id": "terra",
+    "report": "devices/07-terra.md",
+    "information_access": [
+      "Some gaps",
+      "Some gaps",
+      "Hard to find",
+      "Clear sources",
+      "Some gaps"
+    ],
+    "summary": "Strong regulatory/manufacturing records and a direct London equipment route make Terra worth considering. Original product IP, early development expenditure, local eligible volume and incremental value/payment remain harder.",
+    "london": "King’s names a MAGNETOM Terra at LoCUS, St Thomas’ Hospital, with a dedicated enquiry address. This is an exact-device central-London route for workflow and access questions; routine NHS use and visit availability are unverified."
   }
 ]

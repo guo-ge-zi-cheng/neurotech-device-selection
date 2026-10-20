@@ -583,5 +583,106 @@
     ],
     "snapshot": "2026-10-20",
     "targeted_checks": "2026-10-20"
+  },
+  {
+    "id": "terra",
+    "number": 7,
+    "company": "Siemens Healthineers",
+    "name": "MAGNETOM Terra 7T MRI",
+    "description": [
+      "MAGNETOM Terra is a 7 tesla magnetic resonance imaging scanner. It combines a powerful static magnet, gradient coils, radiofrequency hardware, dedicated imaging coils and software to produce detailed images. It is a diagnostic imaging platform, rather than a brain stimulation or neural recording interface. The useful product boundary includes installation, safety screening, image interpretation and service support, because a magnet alone cannot deliver a clinical decision.",
+      "The original US-cleared configuration supports head and extremity imaging in patients above 30 kg, with the appropriate coils; the submission includes a head coil and a knee coil. This makes neuroimaging and selected musculoskeletal imaging relevant, but does not establish all-body clinical use or every possible joint examination. The scanner has separate clinical and research modes. An experimental sequence or coil should not be treated as authorised clinical functionality merely because it runs on a Terra.",
+      "A typical pathway begins with a clinical or research question, eligibility and implant/safety checks, selection of an appropriate coil and protocol, acquisition, and specialist interpretation. The potential value is additional information that changes care after existing imaging. That needs to be demonstrated for a defined patient group. Terra.X and later upgrade features belong to later configurations, so a London facility must confirm what it actually operates before the team compares performance, workflow or payment."
+    ],
+    "stage": "The original system received US 510(k) clearance K170840 on 12 October 2017, Class II under 21 CFR 892.1000. King’s lists an exact-model London installation. This review does not independently establish the original EU certificate, present UK documentation or the current local upgrade. Terra.X was announced as a later cleared generation in 2024.",
+    "clinical_evidence": "An actual Terra-versus-Prisma study assessed diagnostic clarification in 53 selected patients with equivocal neurovascular findings. It supports a scoped question, with retrospective design, no independent invasive reference standard and no blinding to field strength. A separate focal-epilepsy source is a prospective protocol, not completed results. No Terra-specific musculoskeletal outcome/economic study was accepted in this search. FDA safety-limit testing must not be called a patient-benefit trial.",
+    "summary": "Strong regulatory/manufacturing records and a direct London equipment route make Terra worth considering. Original product IP, early development expenditure, local eligible volume and incremental value/payment remain harder.",
+    "london_summary": "King’s names a MAGNETOM Terra at LoCUS, St Thomas’ Hospital, with a dedicated enquiry address. This is an exact-device central-London route for workflow and access questions; routine NHS use and visit availability are unverified.",
+    "contacts": [
+      {
+        "person": "LoCUS 7T MAGNETOM Terra facility team",
+        "location": "Advanced MRI Centre, St Thomas’ Hospital, London SE1 7EH",
+        "connection": "King’s equipment page names the exact MAGNETOM Terra, its LoCUS location at St Thomas’ and a dedicated enquiry address. This is a documented equipment connection, not general MRI expertise.",
+        "how_helpful": "Ask about installed model/upgrades and coils, research versus clinical use, suitable referral pathways, safety screening, scan/staff resources, site costs and access funding. These questions improve unmet need, implementation and reimbursement analysis.",
+        "limits": "The listing does not establish routine NHS clinical use, current original-versus-upgraded configuration, a right to visit or willingness to meet. Facility staff need not know Siemens’ original patent or development-budget history.",
+        "route": "LOCUS-7T-enquiries@kcl.ac.uk. Request an educational staff discussion about the named system and whether the team can discuss workflow/resources.",
+        "sources": [
+          "TERRA-KCL-FACILITY",
+          "TERRA-KCL-2018"
+        ],
+        "checked": "2026-10-20",
+        "outreach_status": "Not contacted"
+      }
+    ],
+    "sections": [
+      {
+        "topic": "Unmet medical need",
+        "access": "Some gaps",
+        "found": "A direct Terra comparative study examines an unresolved neurovascular diagnosis; an epilepsy protocol defines another referral question.",
+        "relationship": "Exact-device study plus a separate study plan; neither represents every brain or joint disorder",
+        "how_to_use": "Choose one pathway, compare the prior investigation with Terra and identify the patient decision that might change.",
+        "missing": "Local eligible population, prior/after pathway costs, downstream patient benefit and musculoskeletal-specific incremental evidence.",
+        "sources": [
+          "TERRA-ANEURYSM",
+          "TERRA-EPILEPSY-PROTOCOL",
+          "FDA-TERRA-K170840"
+        ]
+      },
+      {
+        "topic": "Intellectual property",
+        "access": "Some gaps",
+        "found": "Oxford magnet-development attribution and a later Siemens application using Terra are publicly accessible.",
+        "relationship": "Development-location evidence and later optimisation IP; no verified original scanner patent map",
+        "how_to_use": "Use manufacturing/development organisations to trace original inventors. Explain application claims 1 and 12 only as a later technical illustration.",
+        "missing": "Original magnet/system/coil families, contemporaneous inventor employment, assignments/licences and exact implemented claim mapping.",
+        "sources": [
+          "TERRA-BROCHURE",
+          "TERRA-PATENT-LATER",
+          "FDA-TERRA-K170840"
+        ]
+      },
+      {
+        "topic": "Fundraising",
+        "access": "Hard to find",
+        "found": "King’s/Wellcome financed the London project. The 2018 corporate IPO proceeds went to parent Siemens.",
+        "relationship": "Customer infrastructure funding and a later ownership transaction; neither is the original Terra development budget",
+        "how_to_use": "Separate corporate product development, customer installation and ongoing access funding. Use a justified estimate only with attributable inputs.",
+        "missing": "Original programme funding, development expenditure and any external grants; no device valuation or defensible numerical early-capital estimate recovered.",
+        "sources": [
+          "TERRA-KCL-2018",
+          "TERRA-IPO-2018",
+          "TERRA-BROCHURE"
+        ]
+      },
+      {
+        "topic": "Regulatory",
+        "access": "Clear sources",
+        "found": "The original FDA submission identifies class, indication, standards, manufacturing site and head/knee coil suppliers.",
+        "relationship": "Direct historical record for the original system; later Terra.X and current local configuration separate",
+        "how_to_use": "Explain the 510(k) route, MR-specific testing, clinical/research boundaries and distributed component supply chain.",
+        "missing": "Original EU/UK documents, installed configuration, current supplier arrangements and current applicable compliance.",
+        "sources": [
+          "FDA-TERRA-K170840",
+          "TERRA-BROCHURE",
+          "TERRA-X-2024",
+          "FDA-QMSR-2026"
+        ]
+      },
+      {
+        "topic": "Reimbursement",
+        "access": "Some gaps",
+        "found": "The actual London installation and its funders are identifiable; the clinical paper supplies a potential downstream-care question.",
+        "relationship": "Infrastructure/access evidence and diagnostic study, not a coverage decision or cost-effectiveness model",
+        "how_to_use": "Map capital purchase, research access and clinical service payments separately; build the incremental pathway-cost question.",
+        "missing": "Current local price, contracts/codes/clinical commissioning, a 7T-specific payment premium and a tested incremental economic case.",
+        "sources": [
+          "TERRA-KCL-FACILITY",
+          "TERRA-KCL-2018",
+          "TERRA-ANEURYSM"
+        ]
+      }
+    ],
+    "snapshot": "2026-10-20",
+    "targeted_checks": "2026-10-20"
   }
 ]

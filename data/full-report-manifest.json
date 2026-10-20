@@ -5,7 +5,7 @@
     {
       "device_id": "precision",
       "path": "devices/precision/full-report.md",
-      "total_words": 2340,
+      "total_words": 2339,
       "narrative_words": 2066,
       "references": 10,
       "source_ids": [
@@ -27,12 +27,13 @@
         13,
         17
       ],
-      "sha256": "1b7e0b8d968411ffe07f5f62c3dd0d40a9e6a5143555d308601594c54f0e6ffd"
+      "sha256": "82f273634a265fe739639ebee5bf2792d743b008109c5f0030c7f33c893fe94d",
+      "patent_scope": "Selected original research publication; exact product mapping may remain incomplete"
     },
     {
       "device_id": "rns",
       "path": "devices/rns/full-report.md",
-      "total_words": 2414,
+      "total_words": 2413,
       "narrative_words": 2104,
       "references": 12,
       "source_ids": [
@@ -54,12 +55,13 @@
         1,
         46
       ],
-      "sha256": "373e5753dbff3b5fddd097b8d4bd53e7fa610faa2303c709927e4c58e26db503"
+      "sha256": "01c06715b00929a0f87547d1c2468875dbfd14dec0c9d3679d897f5c9b87226f",
+      "patent_scope": "Selected original research publication; exact product mapping may remain incomplete"
     },
     {
       "device_id": "ceribell",
       "path": "devices/ceribell/full-report.md",
-      "total_words": 2558,
+      "total_words": 2557,
       "narrative_words": 2183,
       "references": 16,
       "source_ids": [
@@ -87,12 +89,13 @@
         20,
         26
       ],
-      "sha256": "f0eb600c94ad4d9ee0e7a0f129d9c73d1b1a6ab0116dd4c13876055129520cb1"
+      "sha256": "b133936c8d9fd8cbbdddb5fdfa1e8bfb5c004d4c402fe027fa9391ee19923020",
+      "patent_scope": "Selected original research publication; exact product mapping may remain incomplete"
     },
     {
       "device_id": "saint",
       "path": "devices/saint/full-report.md",
-      "total_words": 2426,
+      "total_words": 2425,
       "narrative_words": 2128,
       "references": 11,
       "source_ids": [
@@ -115,12 +118,13 @@
         19,
         24
       ],
-      "sha256": "03732efe1b925e7e6ccdad7e38561c1b44e5920fab53dc383ad3034109745a1c"
+      "sha256": "2291bbaecdd0758c9cc748f746b7219e91e4ea62ee75de35cc5e47e572baf3db",
+      "patent_scope": "Selected original research publication; exact product mapping may remain incomplete"
     },
     {
       "device_id": "exablate",
       "path": "devices/exablate/full-report.md",
-      "total_words": 2474,
+      "total_words": 2473,
       "narrative_words": 2153,
       "references": 13,
       "source_ids": [
@@ -145,12 +149,13 @@
         21,
         26
       ],
-      "sha256": "930716b3698fbf65b7052ae0e2640627a5114919371d984438c5da8c69a856e1"
+      "sha256": "20332f55d0b65088294d48e93c8f421571653b2975c585fa39c44fcf001a1740",
+      "patent_scope": "Selected original research publication; exact product mapping may remain incomplete"
     },
     {
       "device_id": "arcex",
       "path": "devices/arcex/full-report.md",
-      "total_words": 2516,
+      "total_words": 2515,
       "narrative_words": 2118,
       "references": 19,
       "source_ids": [
@@ -178,7 +183,34 @@
       "independent_claims": [
         1
       ],
-      "sha256": "71e048fb1ed204c62815b9011485141e683721bcfd4224b9411192f0caad33bd"
+      "sha256": "df364de7bc90c16b0706a30f7bb75b6259a769e0f5dfd7470cb56a7ed6d43f9a",
+      "patent_scope": "Selected original research publication; exact product mapping may remain incomplete"
+    },
+    {
+      "device_id": "terra",
+      "path": "devices/terra/full-report.md",
+      "total_words": 2574,
+      "narrative_words": 2253,
+      "references": 10,
+      "source_ids": [
+        "FDA-TERRA-K170840",
+        "TERRA-X-2024",
+        "TERRA-BROCHURE",
+        "TERRA-ANEURYSM",
+        "TERRA-EPILEPSY-PROTOCOL",
+        "TERRA-PATENT-LATER",
+        "TERRA-KCL-2018",
+        "TERRA-IPO-2018",
+        "FDA-QMSR-2026",
+        "TERRA-KCL-FACILITY"
+      ],
+      "selected_patent": "TERRA-PATENT-LATER",
+      "independent_claims": [
+        1,
+        12
+      ],
+      "sha256": "1bf7ba1238db42ce693af521e3dbfca3d41d43be2a956eee67b01a2b10e304a1",
+      "patent_scope": "Later 2021-priority application used as a bounded technical illustration; not verified original 2017 scanner IP"
     }
   ]
 }
