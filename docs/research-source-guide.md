@@ -4,6 +4,8 @@ Use this guide when an important question remains unanswered by the device compa
 
 This guide draws on Project spec 2026 and a source audit of the Optomed Aurora and Quadsense examples. [The audit](example-source-audit.md) records their PDF pages, references, feedback and selected external checks. The specification is the authority for requirements. Sources used in an example demonstrate search routes; they do not establish blanket lecturer approval.
 
+Before accepting evidence, apply the [reliability protocol](reliability-protocol.md). These routes have now been tested for all six devices: [see the findings overview](additional-research-summary.md) and Layer 2 in each device report. New findings supplement the preserved original research; unresolved questions stay visible.
+
 ## 1. Unmet medical need
 
 **Questions to answer:** Who had the problem when the device was developed? How many patients, in which places? What care did they receive, what failed and what did it cost? What benefit has this particular device demonstrated?

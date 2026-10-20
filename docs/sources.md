@@ -460,3 +460,377 @@ The device reports explain how each source helps a report section. This index re
 - Source date: 2026
 - Checked: 2026-10-20
 - What was reviewed: Two-page original reviewed for US incidence/prevalence, injury categories and severity-specific historical cost table in 2025 dollars. Cost model originates in 2011 and population estimation uses older underlying studies; neither is an ARC-EX savings estimate or a UK cost model.
+
+## PRECISION-HETTICK-2025
+
+[Hettick et al.: cortical-array technology and acute human pilot](https://www.nature.com/articles/s41551-025-01501-w)
+
+- Type: Original experimental study; company-supported
+- Source date: 2025-10-02 (online; June 2026 issue)
+- Checked: 2026-10-20
+- What was reviewed: Selected system overview, human pilot, methods and funding/conflict sections read. Five neurosurgical patients; animal and human experiments have different scope. Not a full audit of all experiments.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## PRECISION-ARRAY-IP
+
+[US20230210427A1: neural interfaces and insertion system](https://patents.google.com/patent/US20230210427A1/en)
+
+- Type: Published patent application and aggregated assignment metadata
+- Source date: 2023-07-06
+- Checked: 2026-10-20
+- What was reviewed: Bibliographic/assignment metadata and independent claims 1 and 5 read. Complete claim set, prosecution, official legal status and exact marketed-product mapping not audited.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## PRECISION-SERIESA-2021
+
+[Precision: $12m Series A announcement](https://www.prnewswire.com/news-releases/precision-neuroscience-raises-12m-to-develop-next-generation-brain-computer-interface-technology-301298952.html)
+
+- Type: Company-issued financing release
+- Source date: 2021-05-25
+- Checked: 2026-10-20
+- What was reviewed: Relevant release read: amount, round, co-leads and stated BCI development purpose. No valuation or product expenditure schedule disclosed.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## PRECISION-BCAPITAL-2021
+
+[B Capital: early Precision portfolio-company account](https://b.capital/insights/how-two-very-different-startups-adapted-to-the-covid-19-pandemic/)
+
+- Type: Investor account
+- Source date: 2021-11-01
+- Checked: 2026-10-20
+- What was reviewed: Precision portfolio relationship, January 2021 founding and early engineering/hiring discussion read. Does not independently establish the $12m transaction amount.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## PRECISION-FACTORY-2023
+
+[Precision: acquisition of a US MEMS manufacturing facility](https://www.globenewswire.com/news-release/2023/10/05/2755458/0/en/precision-neuroscience-acquires-u-s-manufacturing-facility-and-receives-fda-breakthrough-device-designation.html)
+
+- Type: Company-issued manufacturing announcement
+- Source date: 2023-10-05
+- Checked: 2026-10-20
+- What was reviewed: Acquired foundry outside Dallas and Precision BioMEMS relationship read. Historical company account, not a current site/QMS audit or acquisition-price record.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## CMS-PAYMENT-SYSTEMS
+
+[CMS: Medicare payment systems and packaged outpatient costs](https://www.cms.gov/outreach-and-education/medicare-learning-network-mln/mlnproducts/html/medicare-payment-systems.html)
+
+- Type: Government payment-system explanation
+- Source date: FY2027 version visible when checked
+- Checked: 2026-10-20
+- What was reviewed: Hospital outpatient Packaged Costs passage read. General system context only; no Layer 7-T-specific coverage, code or price established.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## CDC-EPILEPSY-NHIS2021
+
+[Kobau et al.: active epilepsy in US adults, 2021 NHIS](https://stacks.cdc.gov/view/cdc/154714)
+
+- Type: Original population survey paper; CDC repository record
+- Source date: 2023
+- Checked: 2026-10-20
+- What was reviewed: Repository abstract and metadata read: 2021 NHIS adult active-epilepsy definition and estimate. Full methods and uncertainty intervals not reviewed; not an RNS eligibility count.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## RNS-FORMD-2011
+
+[NeuroPace: August 2011 Form D](https://www.sec.gov/Archives/edgar/data/1528287/000152828711000001/xslFormDX01/primary_doc.xml)
+
+- Type: Issuer securities-offering filing
+- Source date: 2011-08-30 signature
+- Checked: 2026-10-20
+- What was reviewed: First-sale date, security types, section 13 offering/sold amounts and signature read. Reports securities sold, not necessarily all cash; no final-round closing or use-of-proceeds budget established.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## RNS-JHU-FOUNDER
+
+[Johns Hopkins Engineering: Robert Fischell and NeuroPace history](https://engineering.jhu.edu/magazine-archive/2008/09/fischell-awarded-honorary-degree/)
+
+- Type: University historical account
+- Source date: Fall 2008
+- Checked: 2026-10-20
+- What was reviewed: Short article read: NeuroPace founder attribution and earlier APL career. Does not establish employer at patent filing or university ownership/licensing of a particular patent.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## RNS-MRI-2020
+
+[NeuroPace: model-specific MRI guidelines, Rev 6](https://www.neuropace.com/wp-content/uploads/2021/02/neuropace-rns-system-mri-guidelines.pdf)
+
+- Type: Manufacturer safety/labeling manual
+- Source date: 2020-02; DN 1017451 Rev 6
+- Checked: 2026-10-20
+- What was reviewed: Selected model-identification, MR Conditional/MR Unsafe and safety passages/tables read. Historical RNS-320 versus RNS-300M distinction, not a complete current FDA supplement audit.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## AETNA-RNS-0394
+
+[Aetna CPB 0394: epilepsy surgery and responsive cortical stimulation](https://www.aetna.com/cpb/medical/data/300_399/0394.html)
+
+- Type: Primary payer coverage policy
+- Source date: Last review 2026-06-23
+- Checked: 2026-10-20
+- What was reviewed: Responsive Cortical Stimulation criteria and policy review date read. Selected criteria summarized; complete plan benefits, all exclusions and payment amounts not audited.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## ACNS-CCEEG-2015
+
+[ACNS consensus: continuous EEG in critically ill adults and children, indications](https://www.acns.org/UserFiles/file/Consensus_Statement_on_Continuous_EEG_in.1.pdf)
+
+- Type: Professional-society clinical consensus
+- Source date: 2015
+- Checked: 2026-10-20
+- What was reviewed: Introduction, methods, selected indications and Table 1 read from the society PDF. Consensus and cohort context, not Ceribell device efficacy or universal ICU seizure prevalence.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## CERIBELL-STANFORD-LICENCE-2017
+
+[Ceribell/Stanford licence amendment: disclosed technology and milestones](https://www.sec.gov/Archives/edgar/data/1861107/000095017024100574/cbll-ex10_08.htm)
+
+- Type: Executed licence amendment filed as an SEC exhibit
+- Source date: Effective 2017-04-01; original agreement 2015-06-15
+- Checked: 2026-10-20
+- What was reviewed: Amendment and attached technology description read: Stanford dockets, labs, $36,000 first-commercial-sale milestone. Royalty rates redacted; not a complete marketed-product claim map.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## CERIBELL-STANFORD-LICENCE-2025
+
+[Ceribell: Stanford exclusivity extension](https://www.sec.gov/Archives/edgar/data/1861107/000095017025088309/cbll-20250612.htm)
+
+- Type: Issuer current report and licence disclosure
+- Source date: Event 2025-06-12; filing 2025-06-20
+- Checked: 2026-10-20
+- What was reviewed: Extension through the last licensed patent expiry and $250,000 payment read. Specific dated licence, not ownership of all Ceribell IP or perpetual protection.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## CERIBELL-BIOX-SEED
+
+[Stanford Bio-X: academic seed grant behind Ceribell](https://biox.stanford.edu/2019-seed-grants-news)
+
+- Type: University seed-programme account
+- Source date: 2019 account of Round 6 (2012)
+- Checked: 2026-10-20
+- What was reviewed: Parvizi/Chafe project and 2012 seed-grant attribution read. No grant amount disclosed and no company-equity transaction established.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## CERIBELL-S1-AUG2024
+
+[Ceribell: August 2024 S-1 with exhibits, public issuer archive](https://ceribell.gcs-web.com/static-files/2d3fe925-344d-40d7-b32c-cfeb9261c271)
+
+- Type: Issuer registration statement; deeper archive retrieval of an already-used filing route
+- Source date: 2024-08-26
+- Checked: 2026-10-20
+- What was reviewed: Selected passages only from a 1,057-page file: Note 10 printed F-24 (physical PDF p207), risk discussion printed p31, Manufacturing and Supply printed pp119-120. Early net proceeds and assembly/sourcing read; exhibits not reviewed in full.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## CERIBELL-RECORDER-K170363
+
+[FDA K170363: original Ceribell pocket EEG device](https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170363.pdf)
+
+- Type: Regulator 510(k) summary
+- Source date: 2017; summary dated 2017-02-02
+- Checked: 2026-10-20
+- What was reviewed: Device description and indications read in the five-page record: eight-channel recording, visual/audio signals, no automatic diagnostic conclusion/adverse-event alerts in this version.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## CERIBELL-HEADBAND-K171459
+
+[FDA K171459: Ceribell EEG Headband](https://www.accessdata.fda.gov/cdrh_docs/pdf17/K171459.pdf)
+
+- Type: Regulator decision and 510(k) summary
+- Source date: 2017-08-21 clearance
+- Checked: 2026-10-20
+- What was reviewed: Decision and selected indications/device description in eight-page record read. Class II cutaneous electrodes; age six and above in that historical label, not a current all-product indication.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## CMS-IPPS-FY2027
+
+[CMS FY2027 IPPS final rule: NTAP expiry and new technology decisions](https://www.govinfo.gov/content/pkg/FR-2026-08-04/html/2026-15833.htm)
+
+- Type: Official government final payment rule
+- Source date: 2026-08-04; FY2027
+- Checked: 2026-10-20
+- What was reviewed: Official HTML downloaded and parsed locally after browser fetch failed. Targeted section II.E.4 (FR pp49694-49695) and II.E.6 (pp49742-49743) read: SAINT and Ceribell Status Epilepticus Monitor NTAP expiry; separate delirium decision. Not the entire rule.
+
+- Access route: Open official HTML retrieved with Python urllib; targeted text read locally
+
+## SAINT-STANFORD-OTL2022
+
+[Stanford OTL FY2022 annual report: SAINT commercialisation](https://otl.stanford.edu/sites/g/files/sbiybj16766/files/media/file/stanford-office-of-technology-licensing_fy-2022-annual-report_final.pdf)
+
+- Type: University technology-transfer office report
+- Source date: FY2022
+- Checked: 2026-10-20
+- What was reviewed: SAINT/Williams lab/Magnus commercialisation and patent-strategy account on physical PDF p11 read. Not the full licence contract, royalty schedule or inventor-employment audit.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## SAINT-ACADEMIC-FUNDERS
+
+[Stanford: 2021 SNT study and academic funders](https://med.stanford.edu/news/all-news/2021/10/depression-treatment)
+
+- Type: University study/funding account
+- Source date: 2021-10-29
+- Checked: 2026-10-20
+- What was reviewed: Study context and funding acknowledgements read. Named academic funders, not award amounts or company capital; clinical efficacy not independently re-audited here.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## SAINT-SERIESA-2021
+
+[Magnus Medical: launch and $25m Series A](https://www.magnusmedical.com/press-release/magnus-medical-launch/)
+
+- Type: Company-issued financing/launch announcement
+- Source date: October 2021 (header 28 Oct; body 29 Oct)
+- Checked: 2026-10-20
+- What was reviewed: Amount, co-leads, Stanford licence and development purpose read. No valuation or complete R&D cost history disclosed; header/body dates differ by a day.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## SAINT-NIHR-COMPARATOR
+
+[Morriss et al.: BRIGhTMIND RCT, NIHR EME 12(2)](https://njl-admin.nihr.ac.uk/document/download/2047157)
+
+- Type: Original UK randomised trial report; DOI 10.3310/WVNY5029
+- Source date: 2025
+- Checked: 2026-10-20
+- What was reviewed: Full 282-page PDF retrieved locally; abstract physical pp5-6 and contents read. Design, 255 participants, 20 sessions over 4-6 weeks, lack of superiority and no sham control checked. Main data, economic appendices and every trial site not audited.
+
+- Access route: Open NIHR PDF retrieved with Python urllib after browser/NCBI access failed; selected pages text-extracted
+
+## SAINT-MAGVENTURE
+
+[MagVenture: supplying the magnetic stimulation system for SAINT](https://magventure.com/magventure-announces-collaboration-with-magnus-medical/)
+
+- Type: Named supplier/counterparty announcement
+- Source date: Body dated 2024-05-01; page header 2025-02-17
+- Checked: 2026-10-20
+- What was reviewed: MagPro supply, installation and service relationship read. Conflicting page/body dates retained; not complete manufacturing/QMS evidence or proof all MagVenture sites offer SAINT.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## EXABLATE-FINANCE-AGREEMENT-2012
+
+[Elbit/Insightec: conditional 2012 investment agreement](https://www.sec.gov/Archives/edgar/data/1027662/000117891312002831/exhibit_99-1.htm)
+
+- Type: Investor/issuer announcement filed as an SEC exhibit
+- Source date: 2012-10-11
+- Checked: 2026-10-20
+- What was reviewed: Agreement amounts, cash/loan-conversion distinction, conditions and valuation passages read. Headline $106.4m and body $104.6m post-money valuations conflict; neither adopted as settled.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## EXABLATE-FINANCE-CLOSE-2012
+
+[Insightec: completed $30.9m Series C](https://www.prnewswire.com/news-releases/insightec-completes-additional-financing-round-of-309-million-182710041.html)
+
+- Type: Company-issued closing announcement
+- Source date: 2012-12-09
+- Checked: 2026-10-20
+- What was reviewed: Completed $30.9m Series C and GE $27.6m/other investors $3.3m read. Company/platform funding, not a brain-only development budget; differs from earlier conditional agreement.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## EXABLATE-ABERRATION-PATENT
+
+[US8088067B2: tissue aberration correction in ultrasound therapy](https://patents.google.com/patent/US8088067B2/en)
+
+- Type: Granted patent text and aggregated assignment metadata
+- Source date: 2012-01-03 grant publication; priority 2002-12-23
+- Checked: 2026-10-20
+- What was reviewed: Inventors, assignment/name history and independent claim 1 read. Technical candidate for aberration correction; full independent-claim set, exact product map and current official status not audited.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## NICE-PD-HTG733
+
+[NICE HTG733: MR-guided focused ultrasound for Parkinsonian tremor](https://www.nice.org.uk/guidance/htg733/resources/mriguided-focused-ultrasound-thalamotomy-for-treating-moderate-to-severe-tremor-in-parkinsons-pdf-1809600701173189)
+
+- Type: NHS procedure guidance; not device market authorisation
+- Source date: 2024-12-18
+- Checked: 2026-10-20
+- What was reviewed: Title/date and recommendations 1.1-1.4 on physical PDF p4 read. Formal-research-only recommendation for this Parkinsonian-tremor procedure; distinct from essential-tremor commissioning.
+
+- Access route: Open NICE PDF retrieved with Python urllib after browser fetch returned 403; selected pages text-extracted
+
+## EXABLATE-ENGLAND-MODEL
+
+[Jameel et al.: England MRgFUS cost-effectiveness model](https://pmc.ncbi.nlm.nih.gov/articles/PMC9733625/)
+
+- Type: Original health-economic model; DOI 10.1259/bjr.20220137
+- Source date: 2022
+- Checked: 2026-10-20
+- What was reviewed: Selected model methods, tables 3 and 5, costs, sensitivity discussion and affiliations read. Five-year England model, not observed hospital savings. Abstract comparator-cost inconsistency checked against body tables.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## EXABLATE-MODEL-EXCHANGE
+
+[Published critique and author reply on MRgFUS cost assumptions](https://academic.oup.com/bjr/article/96/1150/20220995/7498967)
+
+- Type: Scientific correspondence and original model authors response
+- Source date: 2023, BJR 96(1150)
+- Checked: 2026-10-20
+- What was reviewed: Both critique and authors reply read: throughput/capital-cost/comparator concerns, reply about NHS reimbursement-based costing and explicit ExAblate 4000 reference. Criticism not treated as proven error without the reply.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## ARCEX-UK-SCI-DATA
+
+[Spinal Injuries Association: revised UK spinal cord injury estimates](https://www.spinal.co.uk/news/new-spinal-cord-injury-data-revealed/)
+
+- Type: Patient-organisation/coalition account of NHS data analysis
+- Source date: 2024 analysis; undated page when checked
+- Checked: 2026-10-20
+- What was reviewed: 105,000 living with SCI and 4,400 new injuries/diagnoses annually, NHS NSCID/UKROC basis and traumatic/nontraumatic scope read. Underlying linked-data analysis not independently replicated.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## ARCEX-EARLY-RESEARCH-LINEAGE
+
+[Gerasimenko et al.: transcutaneous spinal-cord stimulation in humans](https://pmc.ncbi.nlm.nih.gov/articles/PMC5021439/)
+
+- Type: Original predecessor research with IP/funding disclosures; DOI 10.1016/j.rehab.2015.05.003
+- Source date: 2015
+- Checked: 2026-10-20
+- What was reviewed: Selected mechanism, acknowledgements and financial/IP disclosures read. NRT supplied the stimulator; UC Regents licence relationship and NIH/Reeve support disclosed. Predecessor research, not an exact ARC-EX hand-function trial or complete licence schedule.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## ARCEX-EU-IFU-REV5
+
+[ONWARD: ARC-EX professional EU manual, Rev 5](https://www.onwd.com/wp-content/uploads/2025/12/007351_IFU_Professional_EU_ARC-EX-EN-EXIFU01PROEUEN_v5.pdf)
+
+- Type: Manufacturer EU product manual
+- Source date: 2026-04-29 issue date, Rev 5
+- Checked: 2026-10-20
+- What was reviewed: Selected sections 5.5-5.6 (printed pp58-59; physical PDF pp59-60), system description and final-page revision read. Samsung tablet and Axelgaard PALS electrode roles; not all 150 pages or the EU certificate/MHRA register.
+
+- Access route: Open public record; relevant text read in the browser research tool
+
+## ARCEX-NEUROKINEX-SERVICE
+
+[Neurokinex: ARC-EX spinal-cord stimulation service](https://neurokinex.org/spinal-cord-stimulation/)
+
+- Type: Exact-device provider service description
+- Source date: Undated live page; checked 2026-10-20
+- Checked: 2026-10-20
+- What was reviewed: ARC-EX with intensive activity-based rehabilitation and service relationship read. No ARC-EX-specific fee or payer contract verified. Provider marketing wording does not replace regulator terminology.
+
+- Access route: Open public record; relevant text read in the browser research tool
