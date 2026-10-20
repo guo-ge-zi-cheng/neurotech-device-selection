@@ -2,6 +2,8 @@
 
 Read CONTEXT.md, docs/methodology.md and docs/research-source-guide.md before editing. For research updates also use docs/example-source-audit.md and its structured provenance in data/example-source-audit.json. Write in plain English. Keep the six selected companies/devices: Precision Neuroscience Layer 7, NeuroPace RNS, Ceribell, Magnus Medical SAINT, Insightec Exablate Neuro and ONWARD Medical ARC-EX.
 
+Apply docs/reliability-protocol.md before accepting new evidence. The targeted 20 October investigation is in data/additional-research.json and docs/additional-research-summary.md. Device reports preserve Layer 1 and append Layer 2, with five topic headings and claim-specific source, locator, reliability, report use and limits. Preserve the original device-records, contacts, access matrix and source entries. Add future findings as dated layers; flag corrections rather than silently editing historical text. A deeper read of an existing source is not a new independent confirmation. Temporary payment support must be checked against the latest applicable official rule.
+
 The user wants one simple comparison: how easy it is to find useful information for the five sections in Project spec—unmet medical need, intellectual property, fundraising, regulatory and reimbursement. Explain what each source provides, how directly it concerns the chosen device and how it helps write that section. A source count or a vague readiness grade is not enough.
 
 Keep README concise. Each separate device report needs a fuller explanation of what the device does, its workflow and its stage of development, followed by the five-section evidence guide. Do not add extra screening frameworks or long repeated caveats to the main reading path.

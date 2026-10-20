@@ -4,9 +4,9 @@ This repository compares six devices by **how easy it is to find useful informat
 
 ## TL;DR
 
-- **RNS is a clear starting point for public research.** Clinical trials, a patent, a prospectus and an economic model are identified; early funding still needs work.
+- **RNS is a clear starting point for public research.** Trials, IP and economics now have a pre-approval financing filing and a payer policy alongside them; the earliest funding still needs work.
 - **ARC-EX combines good public records with nearby exact-device contacts.** Neurokinex lists Hemel Hempstead and Gatwick centres outside London; London-based Spinal Research can help with funding and UK access. Early product-specific finance and payment remain gaps.
-- **Exablate has a documented London clinical team and a UK commissioning source.** It offers a direct local enquiry route, while early development funding is harder to find.
+- **Exablate has a documented London clinical team and UK commissioning evidence.** New financing records and an England economic model add useful detail; a brain-specific early budget remains missing.
 - **Ceribell and SAINT have useful clinical and IP sources.** Their reports explain the product/version limits; no London product user was verified for either.
 - **Precision requires a clear choice of scope:** the temporary cortical electrode or the wider BCI programme. Payment and exact-product IP need more investigation.
 
@@ -26,7 +26,9 @@ These five questions follow the [project specification summary](docs/course-requ
 
 **Clear sources:** useful records provide a supported starting point. **Some gaps:** the sources answer only part of the question. **Hard to find:** important information remains unverified in this search. These describe access to information, not a completed report. Each device file explains the reason and how to use the sources.
 
-The [five-topic research source guide](docs/research-source-guide.md) explains how investor/funder records, care-pathway studies, patent searches, procedure payment, comparators and real interviews can fill gaps. It draws on an [audit of the Optomed and Quadsense examples](docs/example-source-audit.md). The table below retains the device evidence already checked; these extra routes need investigation before any label changes.
+The [source guide](docs/research-source-guide.md) draws on the [two course examples](docs/example-source-audit.md). We have now investigated its extra routes for all six devices using a [reliability protocol](docs/reliability-protocol.md): read the actual evidence, match the product/market, examine the method and check important ambiguities.
+
+**The table retains the original access labels.** Each device file has **Layer 1: original research** and **Layer 2: new findings**, covering all five topics. The [new-research overview](docs/additional-research-summary.md) explains what improved and what remains missing. Important update: SAINT and Ceribell's seizure-monitor US inpatient NTAP add-ons have ended for FY2027; this does not mean all hospital payment ends.
 
 | Device | Unmet need | IP | Fundraising | Regulatory | Reimbursement |
 |---|---|---|---|---|---|
