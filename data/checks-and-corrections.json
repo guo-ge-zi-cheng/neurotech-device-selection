@@ -33,5 +33,10 @@
     "date": "2026-10-20",
     "issue": "The user narrowed the shortlist to five companies/devices.",
     "change": "Retained exactly the five selected device reports and their relevant sources/contacts; updated the comparison, supporting context and maintenance scripts."
+  },
+  {
+    "date": "2026-10-20",
+    "issue": "ARC-EX was added as a sixth device and required its own evidence and contact check.",
+    "change": "Kept external spinal stimulation separate from ARC-IM/BCI, original clinic authorization separate from home clearance, 43/60 responders separate from all enrolled participants, near-London providers separate from a London charity office, and manufacturer payment strategy separate from payer coverage. The 2016 implanted-programme funds and an unverified SBIR search result were not assigned to ARC-EX."
   }
 ]

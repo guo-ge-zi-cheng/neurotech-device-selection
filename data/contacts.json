@@ -83,5 +83,40 @@
     ],
     "checked": "2026-10-20",
     "outreach_status": "Not contacted"
+  },
+  {
+    "device_id": "arcex",
+    "device": "ARC-EX System",
+    "person": "Jane Symonds / Neurokinex ARC-EX and Pathfinder2 team",
+    "location": "Hemel Hempstead and Gatwick; outside London",
+    "connection": "Symonds is a named Pathfinder2 author with a Neurokinex Hemel Hempstead affiliation. Neurokinex identifies its ARC-EX study, and ONWARD lists its Hemel Hempstead and Gatwick centres for the exact product.",
+    "how_helpful": "Ask about patient selection, session structure, therapist training, equipment/consumable costs, outcome measurement and how community rehabilitation is funded. This is direct device-study/provider experience, not a recommendation based only on general SCI expertise.",
+    "limits": "The 2025 paper gives a historical affiliation, not a verified current appointment. Neurokinex discloses a shareholder interest in ONWARD; co-author Jenny Suggitt discloses ONWARD employment. Check claims against independent records. A provider cannot automatically answer original patent ownership or all early financing questions.",
+    "route": "info@neurokinex.org; 0300 77 77 188. Request the current ARC-EX team or routing to the Pathfinder2 investigators, and ask whether an educational staff discussion is possible.",
+    "sources": [
+      "ARCEX-PATHFINDER",
+      "ARCEX-NEUROKINEX",
+      "ARCEX-LOCATOR",
+      "ARCEX-NEUROCONTACT"
+    ],
+    "checked": "2026-10-20",
+    "outreach_status": "Not contacted"
+  },
+  {
+    "device_id": "arcex",
+    "device": "ARC-EX System",
+    "person": "Spinal Research ARC-EX / Recovery Alliance programme team",
+    "location": "201 Borough High Street, London SE1 1JA",
+    "connection": "The charity funded Pathfinder2 and is running an ARC-EX device-loan programme with UK rehabilitation centres; its contact page confirms a London office.",
+    "how_helpful": "Ask how the UK study and device-access programme were funded, which centres have direct experience, what evidence is needed for wider adoption, and how charity support differs from long-term payment.",
+    "limits": "This is a funder and access-programme perspective, not a clinical examination or a promise of access to patients. Programme support is not proof of routine NHS coverage, and the charity has an interest in the programme’s success.",
+    "route": "info@spinal-research.org; 0203 8247 400. Request the ARC-EX/Recovery Alliance programme team, rather than treating the office address as an invitation to visit.",
+    "sources": [
+      "ARCEX-NEUROKINEX",
+      "ARCEX-SPINALPROGRAM",
+      "ARCEX-SPINALCONTACT"
+    ],
+    "checked": "2026-10-20",
+    "outreach_status": "Not contacted"
   }
 ]

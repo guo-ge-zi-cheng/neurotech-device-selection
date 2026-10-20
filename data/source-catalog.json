@@ -310,5 +310,175 @@
     "review_coverage": "London role and administrative contact checked; exact-product connection established separately by the London methods paper",
     "source_date": null,
     "checked": "2026-10-20"
+  },
+  {
+    "id": "FDA-ARCEX-DEN240014",
+    "title": "FDA: ARC-EX original De Novo classification and evidence review",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN240014.pdf",
+    "type": "Regulator decision / evidence review",
+    "source_date": "2024-12-19",
+    "checked": "2026-10-20",
+    "review_coverage": "Downloaded 15-page original. Indication, classification, device description, electrical/software testing and clinical-study sections selectively reviewed; not a complete current-label audit.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
+  },
+  {
+    "id": "FDA-ARCEX-K251821",
+    "title": "FDA: ARC-EX 510(k) extending the indication to home use",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251821.pdf",
+    "type": "Regulator decision / 510(k) summary",
+    "source_date": "2025-11-14",
+    "checked": "2026-10-20",
+    "review_coverage": "Downloaded seven-page original; decision letter, indication, software changes and predicate comparison reviewed. The decision date is 14 November, separate from the 17 November company announcement.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
+  },
+  {
+    "id": "ARCEX-IFU",
+    "title": "ONWARD: ARC-EX Professional instructions for use",
+    "url": "https://www.onwd.com/wp-content/uploads/2025/12/006006_IFU_Professional_ARC-EX-EXIFU02PROEN_v4.pdf",
+    "type": "Manufacturer instructions",
+    "source_date": "2025 copyright; version linked from current IFU index",
+    "checked": "2026-10-20",
+    "review_coverage": "150-page PDF located through the manufacturer current-version link; setup/components, intended use/users, support and patent/trademark passages selectively reviewed. Not read cover to cover.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
+  },
+  {
+    "id": "ARCEX-UPLIFT",
+    "title": "Moritz et al.: Up-LIFT pivotal trial, Nature Medicine",
+    "url": "https://www.nature.com/articles/s41591-024-02940-9",
+    "type": "Peer-reviewed original clinical study",
+    "source_date": "2024-05-20",
+    "checked": "2026-10-20",
+    "review_coverage": "Downloaded publisher PDF and extracted text. Mechanism, participant disposition, primary outcome, safety, trial design and limitations reviewed; 65 enrolled, 64 safety population, 60 completers, 43 primary responders. Not a randomized sham comparison.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
+  },
+  {
+    "id": "ARCEX-PATHFINDER",
+    "title": "Suggitt et al.: community rehabilitation Pathfinder2 pilot",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39998450/",
+    "type": "Peer-reviewed original study / abstract and disclosures",
+    "source_date": "2025-02-24 online; October 2025 issue",
+    "checked": "2026-10-20",
+    "review_coverage": "PubMed abstract, author affiliations/contact and conflicts reviewed; publisher indexed method/funding passages checked. Full-text fetch failed. The methods describe 12 participants; provider/funder summaries describe 10 completing the programme. No complete full-text audit or efficacy extrapolation.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
+  },
+  {
+    "id": "ARCEX-PROSPECTUS",
+    "title": "ONWARD: prospectus dated 21 March 2024",
+    "url": "https://ir.onwd.com/static-files/48d3e9a2-73bf-40be-a385-d37e7f1cc9bd",
+    "type": "Company securities disclosure",
+    "source_date": "2024-03-21",
+    "checked": "2026-10-20",
+    "review_coverage": "Selected PDF pages 95, 98-99 and 103-104 reviewed through indexed PDF text: NRT lineage, financing, Demcon enclosure-development agreement and UCLA/Caltech licences. Full 275-page prospectus not read; direct local download returned 403.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
+  },
+  {
+    "id": "ARCEX-ANNUAL2025",
+    "title": "ONWARD: Annual Report 2025",
+    "url": "https://ir.onwd.com/static-files/7cf553fe-7094-4860-8979-678416de476f",
+    "type": "Company annual report",
+    "source_date": "2025 reporting year; published 2026",
+    "checked": "2026-10-20",
+    "review_coverage": "Search-indexed report passages on reimbursement/market access (printed p81) and regulatory/commercial operations (p107) reviewed. Full fetch and local download failed. Company strategy is not independently verified payer policy or a current code audit.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
+  },
+  {
+    "id": "ARCEX-CE",
+    "title": "ONWARD: ARC-EX CE Mark announcement",
+    "url": "https://www.globenewswire.com/news-release/2025/09/08/3145824/0/en/onward-medical-receives-ce-mark-for-arc-ex-enabling-commercial-launch-of-breakthrough-spinal-cord-stimulation-system-in-europe.html",
+    "type": "Manufacturer regulatory announcement",
+    "source_date": "2025-09-08",
+    "checked": "2026-10-20",
+    "review_coverage": "CE Mark announcement and stated EU indication reviewed. Original notified-body certificate and MHRA registration were not independently obtained.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
+  },
+  {
+    "id": "ARCEX-MERGER",
+    "title": "GTX and NeuroRecovery Technologies: 2019 merger announcement",
+    "url": "https://www.gimv.com/sites/default/files/media/2019-10/20191022_English_Press-release-merger-GTX-medical-NeuroRecovery-Technologies.pdf",
+    "type": "Investor-hosted original company announcement",
+    "source_date": "2019-10-22",
+    "checked": "2026-10-20",
+    "review_coverage": "Two-page announcement reviewed for external versus implanted technology lineage, shareholders and university licensing. It is a historical company/investor statement, not an ARC-EX-only spending account.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
+  },
+  {
+    "id": "ARCEX-EARLYFIN",
+    "title": "EPFL: G-Therapeutics raises EUR36m in 2016",
+    "url": "https://actu.epfl.ch/news/g-therapeutics-raises-eur-36-million/",
+    "type": "Institutional financing announcement",
+    "source_date": "2016-04-21",
+    "checked": "2026-10-20",
+    "review_coverage": "Original institutional release reviewed: EUR26m equity plus EUR10m innovation loan, named investors, and explicit implanted-system development purpose. This funding must not be relabelled as an ARC-EX-specific round.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
+  },
+  {
+    "id": "ARCEX-PATENT",
+    "title": "US10806927B2: transcutaneous spinal cord stimulation",
+    "url": "https://patents.google.com/patent/US10806927B2/en",
+    "type": "Original patent document via Google Patents",
+    "source_date": "2020-10-20 grant; 2011-11-11 claimed priority",
+    "checked": "2026-10-20",
+    "review_coverage": "Inventors and granted claims, especially independent claim 1, reviewed. A technology-related candidate; no verified patent-to-ARC-EX claim chart or inclusion in the licensed schedule. Google assignee/legal-status normalization was not relied on as a legal determination.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
+  },
+  {
+    "id": "ARCEX-LOCATOR",
+    "title": "ONWARD: centres offering ARC-EX",
+    "url": "https://www.onwd.com/center-locator/",
+    "type": "Manufacturer exact-product provider directory",
+    "source_date": null,
+    "checked": "2026-10-20",
+    "review_coverage": "Current UK listings checked, including Neurokinex Hemel Hempstead and Gatwick. Directory presence is not a guarantee of appointments, educational visits or NHS funding; these centres are outside London.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
+  },
+  {
+    "id": "ARCEX-NEUROKINEX",
+    "title": "Neurokinex: ARC-EX Pathfinder2 study and enquiry route",
+    "url": "https://neurokinex.org/spinal-stimulation-study-pathfinder2/",
+    "type": "Provider account of its own device study",
+    "source_date": null,
+    "checked": "2026-10-20",
+    "review_coverage": "Provider explicitly identifies the exact ARC-EX technology, its role in Pathfinder2, Spinal Research funding and public enquiry route. Outcome testimonials were not treated as controlled evidence.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
+  },
+  {
+    "id": "ARCEX-NEUROCONTACT",
+    "title": "Neurokinex: centre addresses and contact details",
+    "url": "https://neurokinex.org/contact/",
+    "type": "Provider contact information",
+    "source_date": null,
+    "checked": "2026-10-20",
+    "review_coverage": "Hemel Hempstead and Gatwick addresses, general email and phone checked. No personal introduction, response or visit arrangement exists.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
+  },
+  {
+    "id": "ARCEX-SPINALPROGRAM",
+    "title": "Spinal Research: ARC-EX Real World Programme launch",
+    "url": "https://spinal-research.org/news/spinal-research-launches-arc-ex-real-world-programme/",
+    "type": "Funder account of its own programme",
+    "source_date": "2026-07",
+    "checked": "2026-10-20",
+    "review_coverage": "Programme launch, device-loan model and rehabilitation-centre partnerships reviewed. Charity-supported access is not an NHS commissioning or insurance-coverage decision.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
+  },
+  {
+    "id": "ARCEX-SPINALCONTACT",
+    "title": "Spinal Research: London office and contact routes",
+    "url": "https://spinal-research.org/contact-us/",
+    "type": "Institutional contact information",
+    "source_date": null,
+    "checked": "2026-10-20",
+    "review_coverage": "Public office address at 201 Borough High Street, London SE1 1JA, general email and phone checked. It is a funder/programme organisation, not a treatment clinic.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
+  },
+  {
+    "id": "ARCEX-NSCISC2026",
+    "title": "NSCISC: 2026 traumatic spinal cord injury facts and figures",
+    "url": "https://bpb-us-w2.wpmucdn.com/sites.uab.edu/dist/f/392/files/2026/03/Facts-and-Figures-English-03.25.2026-Accessible.pdf",
+    "type": "Academic statistical centre data sheet",
+    "source_date": "2026",
+    "checked": "2026-10-20",
+    "review_coverage": "Two-page original reviewed for US incidence/prevalence, injury categories and severity-specific historical cost table in 2025 dollars. Cost model originates in 2011 and population estimation uses older underlying studies; neither is an ARC-EX savings estimate or a UK cost model.",
+    "archive_status": "Public source link; selected FDA/trial PDFs archived locally for research and not redistributed in this repository"
   }
 ]

@@ -464,5 +464,124 @@
     ],
     "snapshot": "2026-10-19",
     "targeted_checks": "2026-10-20"
+  },
+  {
+    "id": "arcex",
+    "number": 6,
+    "company": "ONWARD Medical",
+    "name": "ARC-EX System",
+    "description": [
+      "ARC-EX is an external spinal cord stimulation system used alongside rehabilitation to improve hand sensation and strength after selected cervical spinal cord injuries. Electrodes sit on the skin and connect to a programmable stimulator. It acts on spinal pathways rather than directly on the brain. It does not require a surgically implanted electrode and should be kept separate from ONWARD’s ARC-IM implant and ARC-BCI development programmes.",
+      "The treatment aims to make surviving neural pathways more responsive while a person practises useful movements. A rehabilitation professional selects the programme and combines stimulation with functional tasks such as reaching, grasping and manipulating objects. The product includes the stimulator, electrodes, control software and training/support workflow. The later home-use version lets a patient and, where needed, a helper use settings defined by the professional. It is not a stand-alone cure or a system that reads movement intentions from the brain.",
+      "For an engineering and business report, the useful unit of analysis is the whole rehabilitation pathway. Ask which patients can benefit, how many sessions and staff hours are needed, what equipment and consumables cost, and whether improvements remain useful outside sessions. These questions connect the technology to unmet need and payment. A nearby provider can explain that practical workflow, while company and university records are needed for the invention and financing history."
+    ],
+    "stage": "A marketed device with original US De Novo authorization on 19 December 2024 (DEN240014) and a home-use extension cleared on 14 November 2025 (K251821). ONWARD announced CE marking in September 2025; its 2025 annual report says UK registration was completed. Exact-product UK provider listings are available. The original certificate/MHRA record and routine NHS commissioning were not independently verified here.",
+    "clinical_evidence": "The 2024 Up-LIFT paper describes a prospective, single-arm, sequential study: two months of rehabilitation alone followed by two months with ARC-EX added. Of 65 enrolled participants, 60 completed; 43/60 (71.7%, rounded to 72%) met the predefined combined strength-and-function responder endpoint. The safety population was 64, with no device-related serious adverse events reported. The trial was not randomized or sham-controlled, so cumulative training, treatment order and expectation remain relevant limits. The smaller UK Pathfinder2 pilot provides community-workflow evidence; its abstract reports no significant group-level change in ISNCSCI motor/sensory scores despite improvements in selected functional measures. It should not be presented as universal neurological recovery.",
+    "summary": "A useful addition for both public research and first-hand investigation: FDA records and a pivotal paper are accessible, and exact-device providers are near London. Product-specific patent mapping, earliest development spending and verified payment terms remain gaps.",
+    "london_summary": "Neurokinex Hemel Hempstead and Gatwick are listed for ARC-EX and have a direct study connection, but are outside London. Spinal Research has a London office and a documented ARC-EX funding/access programme; it is not a treatment clinic. No central-London clinical user or London user-count comparison was verified.",
+    "contacts": [
+      {
+        "person": "Jane Symonds / Neurokinex ARC-EX and Pathfinder2 team",
+        "location": "Hemel Hempstead and Gatwick; outside London",
+        "connection": "Symonds is a named Pathfinder2 author with a Neurokinex Hemel Hempstead affiliation. Neurokinex identifies its ARC-EX study, and ONWARD lists its Hemel Hempstead and Gatwick centres for the exact product.",
+        "how_helpful": "Ask about patient selection, session structure, therapist training, equipment/consumable costs, outcome measurement and how community rehabilitation is funded. This is direct device-study/provider experience, not a recommendation based only on general SCI expertise.",
+        "limits": "The 2025 paper gives a historical affiliation, not a verified current appointment. Neurokinex discloses a shareholder interest in ONWARD; co-author Jenny Suggitt discloses ONWARD employment. Check claims against independent records. A provider cannot automatically answer original patent ownership or all early financing questions.",
+        "route": "info@neurokinex.org; 0300 77 77 188. Request the current ARC-EX team or routing to the Pathfinder2 investigators, and ask whether an educational staff discussion is possible.",
+        "sources": [
+          "ARCEX-PATHFINDER",
+          "ARCEX-NEUROKINEX",
+          "ARCEX-LOCATOR",
+          "ARCEX-NEUROCONTACT"
+        ],
+        "checked": "2026-10-20",
+        "outreach_status": "Not contacted"
+      },
+      {
+        "person": "Spinal Research ARC-EX / Recovery Alliance programme team",
+        "location": "201 Borough High Street, London SE1 1JA",
+        "connection": "The charity funded Pathfinder2 and is running an ARC-EX device-loan programme with UK rehabilitation centres; its contact page confirms a London office.",
+        "how_helpful": "Ask how the UK study and device-access programme were funded, which centres have direct experience, what evidence is needed for wider adoption, and how charity support differs from long-term payment.",
+        "limits": "This is a funder and access-programme perspective, not a clinical examination or a promise of access to patients. Programme support is not proof of routine NHS coverage, and the charity has an interest in the programme’s success.",
+        "route": "info@spinal-research.org; 0203 8247 400. Request the ARC-EX/Recovery Alliance programme team, rather than treating the office address as an invitation to visit.",
+        "sources": [
+          "ARCEX-NEUROKINEX",
+          "ARCEX-SPINALPROGRAM",
+          "ARCEX-SPINALCONTACT"
+        ],
+        "checked": "2026-10-20",
+        "outreach_status": "Not contacted"
+      }
+    ],
+    "sections": [
+      {
+        "topic": "Unmet medical need",
+        "access": "Clear sources",
+        "found": "The Up-LIFT paper defines the hand/arm rehabilitation problem and measures changes in the selected chronic-SCI group. The NSCISC 2026 sheet supplies public US population and severity-specific cost estimates.",
+        "relationship": "Direct device trial plus broader US traumatic-SCI statistics; population totals are not the number eligible for ARC-EX",
+        "how_to_use": "Explain why hand function matters, define the eligible subgroup, quantify the broader burden and compare measured outcomes with rehabilitation alone.",
+        "missing": "A justified estimate for eligible chronic incomplete C2-C8 patients and UK-specific care costs. The cost sheet’s historical model does not demonstrate savings caused by ARC-EX.",
+        "sources": [
+          "ARCEX-UPLIFT",
+          "ARCEX-NSCISC2026",
+          "FDA-ARCEX-DEN240014"
+        ]
+      },
+      {
+        "topic": "Intellectual property",
+        "access": "Some gaps",
+        "found": "The 2019 merger release connects the external stimulation lineage with NRT and renewed university licences. The 2024 prospectus describes UCLA and Caltech agreements. US10806927B2 names Edgerton, Gerasimenko, Roy and Lu and provides a candidate transcutaneous-stimulation claim set.",
+        "relationship": "Documented company/licensing lineage plus a related patent; the exact licensed schedule and marketed-product claim match remain unverified",
+        "how_to_use": "Trace academic inventors to NRT and ONWARD. Read granted claim 1: it concerns enabling spinal circuitry to support functions, rather than directly electrically inducing the function. Compare every claim element with the selected device.",
+        "missing": "Confirm original inventor employment, the exact ARC-EX patent families and independent claims, and whether the candidate patent is actually in the licensed schedule. Broad descriptions and portfolio counts are insufficient.",
+        "sources": [
+          "ARCEX-MERGER",
+          "ARCEX-PROSPECTUS",
+          "ARCEX-PATENT"
+        ]
+      },
+      {
+        "topic": "Fundraising",
+        "access": "Some gaps",
+        "found": "The 2016 EPFL release identifies EUR26m equity and a EUR10m innovation loan, explicitly for the implanted programme. The 2024 prospectus records EUR5m from former NRT investors in the merger context. Spinal Research documents funding the UK ARC-EX study.",
+        "relationship": "Traceable company and trial financing, with an important split between the external device and the implanted programme",
+        "how_to_use": "Build a dated, attributed financing timeline and identify which money supported the external technology, the combined company or a specific study.",
+        "missing": "The earliest NRT/ARC-EX grants and equity, valuations, and device-specific development expenditure. Do not count the 2016 implanted-system package as ARC-EX funding or a charity access programme as original R&D.",
+        "sources": [
+          "ARCEX-EARLYFIN",
+          "ARCEX-PROSPECTUS",
+          "ARCEX-MERGER",
+          "ARCEX-NEUROKINEX"
+        ]
+      },
+      {
+        "topic": "Regulatory",
+        "access": "Clear sources",
+        "found": "DEN240014 establishes Class II, product code SDO, under 21 CFR 890.5851; K251821 adds home use. The label concerns ages 18–75 with chronic incomplete C2-C8 injury. The FDA review lists electrical, EMC, software and bench testing. A 2024 disclosure names Demcon for enclosure development.",
+        "relationship": "Direct US decisions, manufacturer EU status statement and a historical device-specific supplier disclosure",
+        "how_to_use": "Explain the De Novo-to-510(k) sequence, distinguish clinic and home users, and identify applicable testing such as IEC 60601-1-2 and IEC 60601-2-10. Use the Demcon record as a starting point for outsourcing questions.",
+        "missing": "Original EU certificate, verified MHRA entry, applicable UK conditions and the present supplier/manufacturing arrangements. A clearance or registration does not establish NHS reimbursement.",
+        "sources": [
+          "FDA-ARCEX-DEN240014",
+          "FDA-ARCEX-K251821",
+          "ARCEX-CE",
+          "ARCEX-ANNUAL2025",
+          "ARCEX-PROSPECTUS"
+        ]
+      },
+      {
+        "topic": "Reimbursement",
+        "access": "Some gaps",
+        "found": "ONWARD’s 2025 annual report describes using existing rehabilitation billing routes for clinic sessions while home-device benefit/category and coding work continued. Spinal Research’s July 2026 programme loans devices to UK rehabilitation centres.",
+        "relationship": "Manufacturer payment strategy and a real charity-supported access route; neither is a general payer coverage decision",
+        "how_to_use": "Separate payment for a rehabilitation session, purchase of the stimulator and home use. Identify the clinic, patient, charity and payer in the required stakeholder map.",
+        "missing": "Verified current codes/fees and payer policies, patient/session prices, routine NHS commissioning and a device-specific cost-effectiveness analysis. A provider listing or a loaned device does not establish sustainable funding.",
+        "sources": [
+          "ARCEX-ANNUAL2025",
+          "ARCEX-SPINALPROGRAM"
+        ]
+      }
+    ],
+    "snapshot": "2026-10-20",
+    "targeted_checks": "2026-10-20"
   }
 ]
