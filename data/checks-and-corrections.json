@@ -1,0 +1,80 @@
+[
+  {
+    "type": "Actual scope correction",
+    "issue": "An earlier proposed path included a full selected-device report.",
+    "resolution": "Changed to nine concise selection briefs after the user clarified the decision and audience.",
+    "evidence": "User clarification in this chat"
+  },
+  {
+    "type": "Date correction",
+    "issue": "Assuming the supplied AI criticism was uniformly old.",
+    "resolution": "The NYT PDFs are dated 4 and 26 August 2026; the philosophical paper is 2024 and the course AI note is October 2025.",
+    "evidence": "Course PDF captures and source-text"
+  },
+  {
+    "type": "Source coverage check",
+    "issue": "A downloaded file can create the impression that its full content was reviewed.",
+    "resolution": "Jeff Fredburg PDF is a link only; the 152-page textbook was reviewed selectively. PDF extraction is not full reading.",
+    "evidence": "Source inventory and extracted files"
+  },
+  {
+    "type": "Product-scope check",
+    "issue": "Layer 7 can be mistaken for an already authorized chronic assistive BCI.",
+    "resolution": "Anchored the marketed component to Layer 7-T temporary electrodes, less than 30 days; broader BCI remains distinct.",
+    "evidence": "FDA-PRECISION-K242618"
+  },
+  {
+    "type": "Mechanism check",
+    "issue": "Treating all technologies in group A as reversible electrical neuromodulation.",
+    "resolution": "Exablate thermal ablation is irreversible; SAINT is MRI-targeted TMS, not real-time EEG closed loop.",
+    "evidence": "FDA-EXABLATE-P150038; FDA-SAINT-K220177"
+  },
+  {
+    "type": "Denominator check",
+    "issue": "Canvas Dx sensitivity can appear to cover every enrolled child.",
+    "resolution": "Kept 290/425 no-result cases and sensitivity/specificity conditional on determinate outputs; numbers not transferred to later software.",
+    "evidence": "FDA-CANVAS-DEN200069"
+  },
+  {
+    "type": "Clinical-evidence check",
+    "issue": "Combining trial designs or manufacturer comparison charts.",
+    "resolution": "Separated RNS randomized phase from open-label follow-up; small Ceribell pilot and SAINT trial from broad efficacy claims.",
+    "evidence": "RNS-TRIAL; RNS-LONG; CERIBELL-ED; FDA-SAINT-K220177"
+  },
+  {
+    "type": "Local-access check",
+    "issue": "London specialist or founder can be mistaken for an exact-device clinical user.",
+    "resolution": "Explicitly graded contacts: exact system, founder/origin, or domain only. No interview or visit is claimed arranged.",
+    "evidence": "Institutional profiles and contact records"
+  },
+  {
+    "type": "Time-sensitive check",
+    "issue": "TRIDENT trial sites can look like recruiting opportunities.",
+    "resolution": "Official API record checked: completed, actual completion 19 February 2026; London sites retained only as historical expertise leads.",
+    "evidence": "OPTUNE-TRIAL"
+  },
+  {
+    "type": "Jurisdiction check",
+    "issue": "US authorization or private access can be mistaken for routine NHS funding.",
+    "resolution": "Separated NHS England essential-tremor criteria, NICE GBM recommendation, private Optune experience and US FDA decisions.",
+    "evidence": "NHSE-FOCUSED-ULTRASOUND-2020; NICE-OPTUNE; OPTUNE-IMPERIAL"
+  },
+  {
+    "type": "Financial interpretation check",
+    "issue": "Company funding can be mistaken for device R&D cost.",
+    "resolution": "Labelled dates, company-wide scope, early versus later growth funding; missing original costs remain gaps.",
+    "evidence": "Company financing releases and SEC records"
+  },
+  {
+    "type": "Access failure recorded",
+    "issue": "A 2026 Optune tender looked useful but the official page returned HTTP 403.",
+    "resolution": "Excluded the tender from recommendation evidence; used Imperial’s own profile and the official trial registry instead.",
+    "evidence": "https://www.find-tender.service.gov.uk/Notice/070955-2026"
+  },
+  {
+    "type": "Remaining work",
+    "issue": "Citation existence does not complete patent, label or payer verification.",
+    "resolution": "No full nine-device claim maps, global current-label audit, independent human review or interviews have been completed.",
+    "evidence": "Research protocol and device-specific gaps"
+  }
+]

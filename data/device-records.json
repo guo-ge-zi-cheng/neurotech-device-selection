@@ -1,0 +1,557 @@
+[
+  {
+    "id": "precision",
+    "number": 1,
+    "group": "A",
+    "company": "Precision Neuroscience",
+    "name": "Layer 7 Cortical Interface",
+    "tag": "Closest to BCI interests; hardest product-boundary problem",
+    "desk": "Mixed",
+    "local": "No exact London use verified",
+    "difficulty": "Higher",
+    "verdict": "Choose if the team wants cortical interfaces enough to accept a US-centred, partly investigational story. Anchor the assessed device to the marketed Layer 7-T electrode component.",
+    "mechanism": "A flexible surface array samples electrical activity over the cortex without the penetrating shanks used by some intracortical BCIs. It is especially relevant to spatial sampling, signal quality and translating neural activity into useful information. However, a recording array is only one part of an assistive BCI: amplifiers, decoding, implantation and long-term reliability also matter.",
+    "evidence": "The reviewed FDA record, K242618 (2025), covers Layer 7-T cortical electrodes used with recording, monitoring and stimulation equipment for temporary use of less than 30 days. It does not establish approval of a permanent implant that restores computer control. The company separately describes the broader BCI system as investigational. This boundary changes the need, evidence and reimbursement sections.",
+    "topics": [
+      [
+        "Need",
+        "Separate today’s surgical cortical-mapping/recording use from future paralysis communication. Do not apply the entire neurological-disease population as the electrode’s addressable market."
+      ],
+      [
+        "IP",
+        "Microfabrication, array geometry and insertion may be relevant. No complete patent family, inventor-employer history or independent-claim map was verified here: substantial follow-up."
+      ],
+      [
+        "Funding",
+        "A primary 25 January 2023 release reports a $41m Series B, bringing company funding to $53m. This is an early financing anchor, not expenditure on Layer 7-T alone."
+      ],
+      [
+        "Regulatory / manufacture",
+        "Clear Class II 510(k) record and predicate. Manufacturer reporting gives a manufacturing lead; verify the production site and outsourcing against filings/interview evidence."
+      ],
+      [
+        "Payment",
+        "Distinguish hospital purchase of temporary electrodes from a future chronic BCI payment model. Product-specific public payment evidence remains thin in this search."
+      ]
+    ],
+    "access": "Most of the core commercial and clinical leads found were US-based. No London Layer 7-T user was verified. Ben Rapoport is a documented company co-founder and a sensible product-origin interview target, through the company’s published contact route. A London cortical-recording specialist could discuss alternatives, but that would be domain evidence rather than first-hand Precision experience.",
+    "contacts": [
+      {
+        "person": "Ben Rapoport / Precision clinical or research team",
+        "kind": "Exact-product origin, remote lead",
+        "route": "Company website enquiry route; request an educational introduction",
+        "source": "PRECISION-FIN",
+        "route_source": "PRECISION-HOME"
+      }
+    ],
+    "questions": [
+      "Which problem and purchaser justified the temporary electrode before the chronic BCI?",
+      "Which patents protect the marketed array, and where did those inventors work?",
+      "Which early funds and manufacturing milestones were specific to this component?"
+    ],
+    "gap": "Before selecting: confirm the group will study Layer 7-T rather than assume the future assistive system is already marketed; obtain a patent-family starting point and a realistic company interview route.",
+    "sources": [
+      "FDA-PRECISION-K242618",
+      "PRECISION-FIN",
+      "PRECISION-CLEAR",
+      "PRECISION-HOME"
+    ],
+    "as_of": "2026-10-19",
+    "assessment_basis": "Qualitative feasibility judgement from the sources inspected; not a literature count or probability of interview access"
+  },
+  {
+    "id": "rns",
+    "number": 2,
+    "group": "A",
+    "company": "NeuroPace",
+    "name": "RNS System",
+    "tag": "Best fit for neural recording plus closed-loop stimulation",
+    "desk": "Strong",
+    "local": "Domain expert; exact local use unverified",
+    "difficulty": "More manageable from public sources",
+    "verdict": "A leading choice if neural signal interfaces matter most. The mature US evidence and filings support a complete case even if a London product-user interview cannot be arranged.",
+    "mechanism": "An implanted neurostimulator records intracranial electrical activity through leads near identified seizure foci. A clinician configures detection and stimulation, and the device responds to detected patterns. This is closed-loop therapy: sensing influences stimulation. It is not a system that reads arbitrary thoughts or guarantees seizure freedom.",
+    "evidence": "The original 2013 PMA concerns adults with drug-resistant focal/partial-onset seizures, with no more than two localized foci and other label criteria. In the 191-person randomized study, seizure frequency fell 37.9% with active stimulation versus 17.3% with sham during the blinded evaluation. The nine-year study reports a 75% median reduction, but that later figure comes from open-label follow-up, not another nine-year randomized comparison. A July 2026 company FDA update did not establish approval for generalized epilepsy.",
+    "topics": [
+      [
+        "Need",
+        "A bounded focal-epilepsy population, continued medication, surgical alternatives and seizure-related costs give a clear problem. Quantify UK and US populations separately in the eventual report."
+      ],
+      [
+        "IP",
+        "US6016449A gives an early 1997-priority trail naming Robert Fischell, David Fischell and Adrian Upton. It is a starting point: map independent claims, assignments and original employers before claiming origin is reconstructed."
+      ],
+      [
+        "Funding",
+        "SEC prospectuses expose business and financing history. Distinguish pre-approval development capital from later commercial growth and IPO proceeds; earliest device-specific costs are still unresolved."
+      ],
+      [
+        "Regulatory / manufacture",
+        "Detailed PMA evidence and SEC manufacturing disclosures are unusually accessible. The original label is not a complete audit of later supplements."
+      ],
+      [
+        "Payment",
+        "Published US health-economic models and payer pathways exist. Modelled cost-effectiveness is not an observed saving, and US reimbursement does not prove NHS access."
+      ]
+    ],
+    "access": "Professor Matthew Walker at UCLH is a verified London epilepsy specialist, useful for understanding patient selection and UK alternatives. His public profile does not prove that he implants or uses RNS. Treat a local interview as clinical-context evidence unless direct RNS experience is confirmed. Product-specific first-hand evidence may require a remote NeuroPace or US implant-centre interview.",
+    "contacts": [
+      {
+        "person": "Professor Matthew Walker, UCLH",
+        "kind": "London epilepsy domain expert; RNS use unverified",
+        "route": "Public UCLH consultant profile / departmental academic enquiry",
+        "source": "WALKER"
+      }
+    ],
+    "questions": [
+      "Which UK patients would be candidates, and what do they receive instead?",
+      "What clinical and payment barriers separate a US device from UK adoption?",
+      "Which original detection/stimulation claims were essential to the first marketed system?"
+    ],
+    "gap": "Before selecting: read the early patent claims and prospectus financing sections in depth. Do not make a London visit the critical dependency.",
+    "sources": [
+      "FDA-RNS-P100026",
+      "RNS-TRIAL",
+      "RNS-LONG",
+      "RNS-S1",
+      "RNS-PATENT",
+      "RNS-ECON",
+      "RNS-2026",
+      "WALKER"
+    ],
+    "as_of": "2026-10-19",
+    "assessment_basis": "Qualitative feasibility judgement from the sources inspected; not a literature count or probability of interview access"
+  },
+  {
+    "id": "ceribell",
+    "number": 3,
+    "group": "A",
+    "company": "Ceribell",
+    "name": "Rapid Response EEG / Clarity",
+    "tag": "Strong workflow case at the intersection of EEG and AI",
+    "desk": "Strong, with version care",
+    "local": "Imperial EEG expert; product use unverified",
+    "difficulty": "Moderate",
+    "verdict": "A good choice for bedside neural recording and service design. Define whether the case centres on the original EEG platform, seizure-burden software, or the later status-epilepticus indication.",
+    "mechanism": "A rapidly applied scalp electrode headband connects to a bedside recorder; clinicians can inspect EEG and use software assistance. Clarity-family algorithms analyse seizure-related patterns. The commercial value is not just classification accuracy: making EEG available promptly can change treatment while a conventional EEG team is unavailable.",
+    "evidence": "The DECIDE prospective observational study enrolled 181 critically ill patients and assessed workflow and physician decisions. It supports a rapid-access story, not a randomized mortality benefit. A separate 38-patient emergency-care pilot contained only one NCSE case: its nominal 100% sensitivity has a very wide confidence interval. K223504 reviews the Ceribell Status Epilepticus Monitor, so it should not be silently treated as the original headband clearance or every later Clarity version.",
+    "topics": [
+      [
+        "Need",
+        "Quantify suspected non-convulsive seizures, delays to conventional EEG and the consequences of unnecessary or delayed anti-seizure treatment. Hospital workflow is the relevant unit of value."
+      ],
+      [
+        "IP",
+        "Separate disposable electrode design, hardware, sonification, algorithm/software and university licences. A prospectus is available; inventor/assignment and independent-claim work remains."
+      ],
+      [
+        "Funding",
+        "The public 2024 IPO prospectus provides a much better route than a private funding aggregator. Early rounds and development spending still need extraction and attribution."
+      ],
+      [
+        "Regulatory / manufacture",
+        "Several hardware/software clearances create a useful development history but also a scope trap. Audit the selected version’s population, electrode coverage and intended clinical decisions."
+      ],
+      [
+        "Payment",
+        "Hospital procurement, disposable use and US add-on payments offer a business story. Historical NTAP announcements cannot be assumed to remain applicable in 2026 or transfer to the NHS."
+      ]
+    ],
+    "access": "Imperial’s Dr Gregory Scott works on EEG, impaired consciousness and computational neuroscience; his academic profile publishes gregory.scott99@imperial.ac.uk. This is an accessible institutional route in London, but no Ceribell use was verified. For exact-product implementation, the manufacturer’s research programme is a more direct remote lead. A local EEG lab visit would illuminate the comparator workflow, not demonstrate Ceribell deployment.",
+    "contacts": [
+      {
+        "person": "Dr Gregory Scott, Imperial",
+        "kind": "Local EEG domain expert; Ceribell use unverified",
+        "route": "gregory.scott99@imperial.ac.uk",
+        "source": "SCOTT"
+      },
+      {
+        "person": "Ceribell research programme",
+        "kind": "Remote product-specific research route",
+        "route": "Manufacturer research programme page",
+        "source": "CERIBELL-RESEARCH"
+      }
+    ],
+    "questions": [
+      "What delays occur in a London ICU before a conventional EEG is available?",
+      "Which clinical decisions can reduced-channel EEG support, and what still needs full EEG?",
+      "Who purchases the system and consumables, and where does any operational saving accrue?"
+    ],
+    "gap": "Before selecting: fix the hardware/software version and confirm a product-specific interview route if first-hand deployment experience is essential.",
+    "sources": [
+      "FDA-CERIBELL-K223504",
+      "CERIBELL-DECIDE",
+      "CERIBELL-ED",
+      "CERIBELL-S1",
+      "CERIBELL-RESEARCH",
+      "SCOTT"
+    ],
+    "as_of": "2026-10-19",
+    "assessment_basis": "Qualitative feasibility judgement from the sources inspected; not a literature count or probability of interview access"
+  },
+  {
+    "id": "saint",
+    "number": 4,
+    "group": "A",
+    "company": "Magnus Medical",
+    "name": "SAINT",
+    "tag": "Clear university-to-company stimulation story; local access uncertain",
+    "desk": "Mixed to strong",
+    "local": "No licensed London SAINT site verified",
+    "difficulty": "Moderate to higher",
+    "verdict": "Choose for personalized stimulation and technology licensing. It is less convenient if the team’s project depends on visiting the exact device locally.",
+    "mechanism": "Functional MRI informs selection of a patient-specific cortical target, and an accelerated intermittent theta-burst TMS schedule delivers repeated magnetic stimulation over five days. The intended target is a network relevant to depression. The MRI is used for targeting; this is not continuous neural recording driving a real-time closed loop.",
+    "evidence": "K220177 cleared the Magnus Neuromodulation System with SAINT technology in 2022 for adults with major depressive disorder who had not improved satisfactorily with prior antidepressant medication in the current episode. The early double-blind trial randomized 29 participants (14 active, 15 sham). Its size and follow-up constrain generalization. Manufacturer comparisons with remission percentages from unrelated treatments do not substitute for a head-to-head randomized study.",
+    "topics": [
+      [
+        "Need",
+        "Treatment-resistant depression provides a substantial clinical problem, but define the population and comparator: standard TMS, ECT, medication and ketamine pathways have different eligibility and costs."
+      ],
+      [
+        "IP",
+        "The documented Stanford-to-Magnus exclusive licence offers a tractable commercialization narrative. Retrieve the exact patent families and independent claims; a licence announcement alone does not show what is protected."
+      ],
+      [
+        "Funding",
+        "The April 2024 manufacturer fact sheet reports a $25m Series A led by Jazz Venture Partners and Red Tree. Reconstruct academic grants and translation costs separately from company financing."
+      ],
+      [
+        "Regulatory / manufacture",
+        "FDA clearance is accessible. Separate academic SAINT/SNT protocols from the marketed Magnus system, and check the actual component suppliers and selected-market label."
+      ],
+      [
+        "Payment",
+        "MRI targeting, intensive staff time, a stimulation course and possible continuation care make payment interesting. US payment announcements require current code/setting checks; UK SAINT coverage was not verified."
+      ]
+    ],
+    "access": "No exact licensed London SAINT delivery site was verified in this search. A London clinic advertising accelerated TMS is not sufficient evidence that it uses the Magnus product and protocol. Co-founder Brandon Bentzley is a documented developer; the manufacturer’s provider/contact route is a realistic remote enquiry target. The current company page uses inconsistent CMO/CSO titles, so the stable co-founder description is used here.",
+    "contacts": [
+      {
+        "person": "Brandon Bentzley / Magnus clinical team",
+        "kind": "Exact-product developer; remote lead",
+        "route": "Magnus provider enquiry route; request a student research introduction",
+        "source": "SAINT-ABOUT",
+        "route_source": "SAINT-PROVIDERS"
+      }
+    ],
+    "questions": [
+      "What is licensed separately: targeting software, stimulation schedule, hardware or know-how?",
+      "What operational bottleneck appears when delivering many sessions each day?",
+      "Who pays for MRI targeting and continuation treatment, and in which setting?"
+    ],
+    "gap": "Before selecting: verify a current product-specific UK provider, or accept remote first-hand evidence and unresolved local reimbursement.",
+    "sources": [
+      "FDA-SAINT-K220177",
+      "SAINT-FACT",
+      "SAINT-ABOUT",
+      "SAINT-PROVIDERS"
+    ],
+    "as_of": "2026-10-19",
+    "assessment_basis": "Qualitative feasibility judgement from the sources inspected; not a literature count or probability of interview access"
+  },
+  {
+    "id": "exablate",
+    "number": 5,
+    "group": "A",
+    "company": "Insightec",
+    "name": "Exablate Neuro",
+    "tag": "Strongest balance of local clinical evidence and a complete case",
+    "desk": "Strong",
+    "local": "Exact product and clinical team verified",
+    "difficulty": "More manageable",
+    "verdict": "First shortlist choice when London first-hand clinical access and a well-bounded reimbursement story matter together. Study one indication, preferably medication-refractory essential tremor.",
+    "mechanism": "An ultrasound array focuses energy through the skull while MRI guides targeting and monitors heating. Thermal ablation creates a small lesion in a tremor-related brain target. This can avoid an implanted stimulation system, but the lesion is irreversible: it is not the reversible ultrasound neuromodulation being explored in other technologies.",
+    "evidence": "The original US PMA (2016) concerns unilateral thalamotomy for medication-refractory essential tremor in adults meeting its label criteria. Later Parkinson’s and bilateral indications are separate regulatory events. A 2025 UCL/NHNN methods paper explicitly reports ExAblate Neuro equipment in London, providing stronger local evidence than a generic focused-ultrasound service description.",
+    "topics": [
+      [
+        "Need",
+        "Tremor-related disability, unsuccessful medication and selection between DBS, lesion procedures and no surgery provide a focused clinical problem. Candidate eligibility limits the market relative to all people with tremor."
+      ],
+      [
+        "IP",
+        "Array control, skull correction, MR guidance and thermometry suggest a complex patent landscape. Identify first-version inventors, employers and core independent claims; these were not fully mapped here."
+      ],
+      [
+        "Funding",
+        "Primary financing announcements exist, including $150m in 2024, but this is growth funding. Earlier device-development finance and valuations require additional historical work."
+      ],
+      [
+        "Regulatory / manufacture",
+        "The PMA gives clinical and technical evidence. Keep the initial indication separate from subsequent expansions; verify production and supply-chain facts for the selected version."
+      ],
+      [
+        "Payment",
+        "NHS England’s November 2020 policy commissions MR-guided focused-ultrasound thalamotomy for a defined adult essential-tremor population unsuitable for DBS. It does not mean all uses are routinely funded."
+      ]
+    ],
+    "access": "The UCL/NHNN paper names clinicians including Harith Akram and Ludvic Zrinzo and describes the exact system. UCLH’s service page supplies the Queen Square Imaging Centre route: treatment@queensquare.com, 020 3280 2472. A student request could ask for a short staff interview or non-patient equipment discussion. Clinical observation, a company representative and a visit are not confirmed by having a service address.",
+    "contacts": [
+      {
+        "person": "UCLH/NHNN functional neurosurgery team; Harith Akram or Ludvic Zrinzo",
+        "kind": "Exact-system London clinical experience documented",
+        "route": "Queen Square Imaging Centre: treatment@queensquare.com; 020 3280 2472; ask for the appropriate educational contact",
+        "source": "EXABLATE-UCLH"
+      }
+    ],
+    "questions": [
+      "Why do some patients qualify for focused ultrasound rather than DBS?",
+      "How do scanner time, skull eligibility, staffing and follow-up affect cost and throughput?",
+      "Which commissioning criteria determine access, and what evidence changed adoption?"
+    ],
+    "gap": "Before selecting: close the early IP/funding gaps. Do not describe the UK as uniformly “research only” using older NICE wording while ignoring the later commissioning policy.",
+    "sources": [
+      "FDA-EXABLATE-P150038",
+      "EXABLATE-LONDON",
+      "EXABLATE-UCLH",
+      "NHSE-FOCUSED-ULTRASOUND-2020",
+      "EXABLATE-FIN",
+      "NICE-OLD-FUS"
+    ],
+    "as_of": "2026-10-19",
+    "assessment_basis": "Qualitative feasibility judgement from the sources inspected; not a literature count or probability of interview access"
+  },
+  {
+    "id": "terra",
+    "number": 6,
+    "group": "B",
+    "company": "Siemens Healthineers",
+    "name": "MAGNETOM Terra 7T MRI",
+    "tag": "Clearest local equipment route; difficult early financial attribution",
+    "desk": "Strong technical; mixed business",
+    "local": "Exact scanner and enquiry route verified",
+    "difficulty": "Moderate; funding harder",
+    "verdict": "Choose if seeing and understanding advanced imaging equipment is a priority. It is less straightforward as an early venture-financing case than a single-product start-up.",
+    "mechanism": "A 7-tesla magnetic field enables MR signals from nuclear spins to be measured with high signal-to-noise potential and fine spatial detail. Brain functional MRI typically measures a blood-oxygenation-related response indirectly, rather than neuronal voltage. Field inhomogeneity, RF exposure, coil design, implants and patient tolerability complicate translation beyond a stronger magnet.",
+    "evidence": "K170840 records the original 2017 Class II clearance for the 7T system, including head and extremity imaging within its stated patient constraints. Do not extend that original label to every body region, all patients or newer Terra.X capabilities. King’s lists an exact MAGNETOM Terra at its LoCUS advanced MRI facility at St Thomas’, and a 2023 institutional report documents clinical/research use.",
+    "topics": [
+      [
+        "Need",
+        "Choose a diagnostic or research use case, such as selected epilepsy imaging, rather than claim that all brain imaging needs 7T. Show whether additional detail changes an actual clinical decision."
+      ],
+      [
+        "IP",
+        "The product combines magnet, gradient, RF, reconstruction and safety inventions. Narrow to the first Terra’s enabling advances and trace selected independent claims; a generic Siemens patent count is unhelpful."
+      ],
+      [
+        "Funding",
+        "Corporate R&D and academic/hospital partnerships differ from angel/VC finance. A hospital installation grant or Siemens total R&D spend is not the device’s development budget. This is the largest assignment risk."
+      ],
+      [
+        "Regulatory / manufacture",
+        "A public clearance and technical literature give a strong starting point. Safety, eligible implants, manufacturing and service requirements should be version-specific."
+      ],
+      [
+        "Payment",
+        "Separate capital procurement, facility upgrades, service contracts, staffing and payment for scans. Clinical benefit must justify incremental cost over 3T; research grant access does not equal NHS reimbursement."
+      ]
+    ],
+    "access": "King’s publishes LOCUS-7T-enquiries@kcl.ac.uk for the Terra facility, located in the lower ground floor, North Wing, St Thomas’ Hospital, London SE1 7EH. This is the strongest exact-equipment educational enquiry route in the list. Ask for an MRI physicist or facility manager; no named individual was confirmed as the appropriate student contact. Access still depends on scheduling, the team’s permission and MR safety procedures.",
+    "contacts": [
+      {
+        "person": "LoCUS 7T facility physicist or manager, King’s/St Thomas’",
+        "kind": "Exact local equipment; suitable person to be assigned",
+        "route": "LOCUS-7T-enquiries@kcl.ac.uk",
+        "source": "TERRA-KCL"
+      }
+    ],
+    "questions": [
+      "Which patient or research decisions actually benefit over 3T?",
+      "What were the installation and ongoing costs, and which were research-funded?",
+      "Can early development partners or the relevant Siemens product team explain financing and IP origin?"
+    ],
+    "gap": "Before selecting: find a credible way to reconstruct early product development finance. Easy physical proximity does not make every assessed topic easy.",
+    "sources": [
+      "FDA-TERRA-K170840",
+      "TERRA-KCL",
+      "TERRA-CLINICAL"
+    ],
+    "as_of": "2026-10-19",
+    "assessment_basis": "Qualitative feasibility judgement from the sources inspected; not a literature count or probability of interview access"
+  },
+  {
+    "id": "viz",
+    "number": 7,
+    "group": "B",
+    "company": "Viz.ai",
+    "name": "Viz LVO",
+    "tag": "Promising London founder route; no local deployment verified",
+    "desk": "Strong regulatory; mixed early IP",
+    "local": "Named London co-founder verified",
+    "difficulty": "Moderate",
+    "verdict": "An attractive entrepreneurship choice if the team prefers medical AI and a potential founder conversation. It has less direct neural-interface content than RNS or cortical electrodes.",
+    "mechanism": "The software analyses CT angiography for patterns suspicious for large-vessel occlusion and sends notifications to help stroke teams prioritize review and coordinate care. Its purpose concerns time-critical workflow. It does not directly measure neural activity, replace the diagnostic scan, or independently authorize thrombectomy.",
+    "evidence": "The original 2018 FDA De Novo record, DEN170073, uses the name ContaCT and establishes the triage/notification category. The first authorization is a strong primary source for what the algorithm was allowed to do and how performance was evaluated. A complete case must connect diagnostic performance to time-to-treatment and patient outcomes without assuming that one proves the other.",
+    "topics": [
+      [
+        "Need",
+        "LVO stroke creates a time-dependent care problem. Explain which patients are scanned, who receives an alert and where the avoidable delay occurs rather than treating all stroke as the market."
+      ],
+      [
+        "IP",
+        "Software patents, datasets, trade secrets and workflow integration may all matter. Exact independent claims and first inventors/employers remain unresolved; proprietary weights are unlikely to be fully public."
+      ],
+      [
+        "Funding",
+        "The company’s April 2022 release reports a $100m Series D at a $1.2bn valuation. This is company-wide later-stage finance; obtain seed/early development history separately."
+      ],
+      [
+        "Regulatory / manufacture",
+        "A software-specific De Novo pathway is well documented. Follow version changes, deployment and quality management rather than inventing a conventional factory story."
+      ],
+      [
+        "Payment",
+        "Distinguish a hospital/network software contract, US payment incentives, and any claimed downstream savings. No current UK product-specific NHS reimbursement was verified here."
+      ]
+    ],
+    "access": "Manoj Ramachandran identifies himself as Viz.ai co-founder and a Royal London Hospital surgeon; Barts independently lists his consultant role. His professional website has a research/teaching enquiry form. This is a concrete London-origin/business lead, not proof that Royal London uses Viz LVO for stroke: his clinical specialty is orthopaedics. A local stroke implementation interview would require a separate verified user.",
+    "contacts": [
+      {
+        "person": "Professor Manoj Ramachandran",
+        "kind": "London co-founder / commercial-origin lead; not a verified stroke-product user",
+        "route": "Research/teaching enquiry form on his professional website",
+        "source": "VIZ-FOUNDER"
+      }
+    ],
+    "questions": [
+      "Which initial workflow problem convinced the first hospital buyer?",
+      "How were first clinical data access, IP and seed finance arranged?",
+      "What evidence links an alert to faster treatment, and who receives the financial value?"
+    ],
+    "gap": "Before selecting: confirm founder interview availability and obtain a first-product patent/early-financing trail. Do not make an interview response a prerequisite for finishing.",
+    "sources": [
+      "FDA-VIZ-DEN170073",
+      "VIZ-FIN",
+      "VIZ-FOUNDER",
+      "BARTS-TEAM"
+    ],
+    "as_of": "2026-10-19",
+    "assessment_basis": "Qualitative feasibility judgement from the sources inspected; not a literature count or probability of interview access"
+  },
+  {
+    "id": "optune",
+    "number": 8,
+    "group": "B",
+    "company": "Novocure",
+    "name": "Optune Gio",
+    "tag": "Strong local clinician and rich commercial/IP history",
+    "desk": "Strong",
+    "local": "Exact-product Imperial clinician verified",
+    "difficulty": "More manageable",
+    "verdict": "Alongside Exablate, a leading London-based choice. Particularly good for studying the gap between evidence, patient burden, reimbursement and adoption.",
+    "mechanism": "Scalp arrays deliver alternating electric fields intended to disrupt dividing tumour cells. The portable system is used over prolonged daily periods, making adherence, skin effects, support and everyday acceptability part of its value proposition. These Tumor Treating Fields are anti-tumour treatment, not EEG recording or stimulation intended to alter neural signalling.",
+    "evidence": "The product lineage matters: the original NovoTTF-100A recurrent-glioblastoma pathway, the 2015 PMA supplement for newly diagnosed glioblastoma with temozolomide after standard initial treatment, and the later Optune Gio branding should be traced separately. This brief concerns brain-tumour use; do not borrow indications for Novocure devices used in other cancers. FDA evidence and the company’s public prospectus provide an unusually substantial starting set.",
+    "topics": [
+      [
+        "Need",
+        "Glioblastoma has a clear unmet need, but benefits and burdens should be expressed for the selected treatment setting and comparator. Compare survival, daily use and quality of life together."
+      ],
+      [
+        "IP",
+        "The 2015 S-1 describes Yoram Palti, the early company and a Technion-related settlement. This is a useful origin/ownership trail, not a finding of infringement. Map actual independent claims and assignments."
+      ],
+      [
+        "Funding",
+        "IPO and later filings make historical financing more inspectable than at many private firms. Earliest grants, investors and device-specific development costs still need reconstruction."
+      ],
+      [
+        "Regulatory / manufacture",
+        "PMA records show a versioned evidence path. Trace the generator/array supply chain and approval history rather than treating the present brand as the first device."
+      ],
+      [
+        "Payment",
+        "A particularly valuable UK contrast: NICE NG99 recommendation 1.2.26 advises against offering TTF for newly diagnosed GBM, while Imperial documents private-care experience. Private use and trials do not establish routine NHS funding."
+      ]
+    ],
+    "access": "Imperial’s Dr Matthew Williams publicly describes direct experience introducing Optune for brain tumours in the UK; his work email is matthew.williams@imperial.ac.uk. This is a much stronger first-hand lead than a generic oncology contact. The TRIDENT registry also lists Charing Cross and Guy’s, but the checked record marks the study completed in February 2026. It is a historical site lead, not an open recruitment opportunity. Ask about staff experience, not access to patients.",
+    "contacts": [
+      {
+        "person": "Dr Matthew Williams, Imperial / Charing Cross",
+        "kind": "Exact-product first-hand London clinical experience documented",
+        "route": "matthew.williams@imperial.ac.uk",
+        "source": "OPTUNE-IMPERIAL"
+      }
+    ],
+    "questions": [
+      "What prevented broader NHS adoption despite clinical evidence?",
+      "How do patients manage daily use, skin care and adherence?",
+      "Which early IP and financing decisions turned the original concept into a viable treatment service?"
+    ],
+    "gap": "Before selecting: read the original independent patent claims and separate new-diagnosis evidence from recurrent-disease and later product-family studies.",
+    "sources": [
+      "FDA-OPTUNE-P100034S013",
+      "OPTUNE-S1",
+      "OPTUNE-IMPERIAL",
+      "OPTUNE-PRIVATE",
+      "OPTUNE-TRIAL",
+      "NICE-OPTUNE"
+    ],
+    "as_of": "2026-10-19",
+    "assessment_basis": "Qualitative feasibility judgement from the sources inspected; not a literature count or probability of interview access"
+  },
+  {
+    "id": "canvas",
+    "number": 9,
+    "group": "B",
+    "company": "Cognoa",
+    "name": "Canvas Dx",
+    "tag": "Good diagnostic-AI critique; weak exact-product London access",
+    "desk": "Mixed",
+    "local": "Local autism expertise; product use unverified",
+    "difficulty": "Moderate to higher",
+    "verdict": "Choose for an AI diagnostic-service case, especially uncertainty, access and payer incentives. It is the least aligned with direct brain recording or stimulation.",
+    "mechanism": "The diagnostic aid combines caregiver and clinician questionnaires with information derived from caregiver videos of a child’s behaviour. It provides a result to support a qualified clinician’s assessment. There is no implanted sensor or EEG measurement; the important interface is between behavioural data, an algorithm and a clinical decision pathway.",
+    "evidence": "The original 2021 De Novo record, DEN200069, covers children aged 18–72 months with potential developmental delay and use alongside professional assessment. Its original study included 425 children: 290 (68.24%) received no result. Sensitivity of 63/64 (98.44%) and specificity of 56/71 (78.87%) apply to the 135 determinate cases, not all 425. Those are historical-version results, not a benchmark for every later software threshold or population.",
+    "topics": [
+      [
+        "Need",
+        "Delayed assessment is a service-access problem, but earlier algorithmic classification is useful only if it changes appropriate care. Evaluate the pathway for children receiving no result as well as those classified."
+      ],
+      [
+        "IP",
+        "Trace the academic behavioural-ML origin, assignments, training-data rights and exact patent claims. A separate Cognoa digital therapeutic or Google Glass licence should not be attributed automatically to Canvas Dx."
+      ],
+      [
+        "Funding",
+        "A primary 2017 announcement reports $11.6m from Morningside and more than $20m raised since founding. It predates authorization and concerns the broader company, not a disclosed Canvas-only development budget."
+      ],
+      [
+        "Regulatory / manufacture",
+        "The De Novo review is informative about uncertainty and clinical safeguards. Later changes need their own review; SaaS validation, video processing and data governance replace a simplistic hardware-factory account."
+      ],
+      [
+        "Payment",
+        "Coverage varies by payer and setting. Cognoa’s 2026 Medicaid material advocates a policy: its requested coverage or assessment payment is not evidence that it has been adopted."
+      ]
+    ],
+    "access": "Professor Will Mandy at UCL is a documented neurodevelopmental/autism expert with public academic email w.mandy@ucl.ac.uk, but exact Canvas Dx experience was not verified. Cognoa lists support@cognoa.com and a provider-demo request, which could route a remote educational enquiry. No London deployment was confirmed. An NHS autism team could explain pathway needs, not validate US product use or UK authorization.",
+    "contacts": [
+      {
+        "person": "Professor Will Mandy, UCL",
+        "kind": "Local autism domain expert; Canvas Dx use unverified",
+        "route": "w.mandy@ucl.ac.uk",
+        "source": "MANDY"
+      },
+      {
+        "person": "Cognoa care / product team",
+        "kind": "Remote exact-product enquiry route",
+        "route": "support@cognoa.com; clearly identify a student research enquiry",
+        "source": "CANVAS-CONTACT"
+      }
+    ],
+    "questions": [
+      "What happens to children with an indeterminate result?",
+      "Does the tool reduce time to appropriate care in the intended pathway?",
+      "Which payer policy actually covers this version, and can the licence/patent origin be documented?"
+    ],
+    "gap": "Before selecting: verify a product-specific clinical interview and an early IP trail. Preserve the determinate-result denominator throughout the report.",
+    "sources": [
+      "FDA-CANVAS-DEN200069",
+      "CANVAS-FIN",
+      "CANVAS-POLICY",
+      "CANVAS-CONTACT",
+      "MANDY"
+    ],
+    "as_of": "2026-10-19",
+    "assessment_basis": "Qualitative feasibility judgement from the sources inspected; not a literature count or probability of interview access"
+  }
+]

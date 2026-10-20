@@ -1,0 +1,427 @@
+[
+  {
+    "id": "FDA-PRECISION-K242618",
+    "title": "FDA • PRECISION K242618",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf24/K242618.pdf",
+    "type": "Regulator decision / evidence review",
+    "review_coverage": "Downloaded, text extracted, indication and relevant evidence sections reviewed",
+    "source_date": null,
+    "checked": "2026-10-19",
+    "archive_status": "Archived in the separate local source workspace; original document not redistributed in this repository"
+  },
+  {
+    "id": "FDA-RNS-P100026",
+    "title": "FDA • RNS P100026",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100026B.pdf",
+    "type": "Regulator decision / evidence review",
+    "review_coverage": "Downloaded, text extracted, indication and relevant evidence sections reviewed",
+    "source_date": null,
+    "checked": "2026-10-19",
+    "archive_status": "Archived in the separate local source workspace; original document not redistributed in this repository"
+  },
+  {
+    "id": "FDA-CERIBELL-K223504",
+    "title": "FDA • CERIBELL K223504",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K223504.pdf",
+    "type": "Regulator decision / evidence review",
+    "review_coverage": "Downloaded, text extracted, indication and relevant evidence sections reviewed",
+    "source_date": null,
+    "checked": "2026-10-19",
+    "archive_status": "Archived in the separate local source workspace; original document not redistributed in this repository"
+  },
+  {
+    "id": "FDA-SAINT-K220177",
+    "title": "FDA • SAINT K220177",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf22/K220177.pdf",
+    "type": "Regulator decision / evidence review",
+    "review_coverage": "Downloaded, text extracted, indication and relevant evidence sections reviewed",
+    "source_date": null,
+    "checked": "2026-10-19",
+    "archive_status": "Archived in the separate local source workspace; original document not redistributed in this repository"
+  },
+  {
+    "id": "FDA-EXABLATE-P150038",
+    "title": "FDA • EXABLATE P150038",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf15/p150038b.pdf",
+    "type": "Regulator decision / evidence review",
+    "review_coverage": "Downloaded, text extracted, indication and relevant evidence sections reviewed",
+    "source_date": null,
+    "checked": "2026-10-19",
+    "archive_status": "Archived in the separate local source workspace; original document not redistributed in this repository"
+  },
+  {
+    "id": "FDA-TERRA-K170840",
+    "title": "FDA • TERRA K170840",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170840.pdf",
+    "type": "Regulator decision / evidence review",
+    "review_coverage": "Downloaded, text extracted, indication and relevant evidence sections reviewed",
+    "source_date": null,
+    "checked": "2026-10-19",
+    "archive_status": "Archived in the separate local source workspace; original document not redistributed in this repository"
+  },
+  {
+    "id": "FDA-VIZ-DEN170073",
+    "title": "FDA • VIZ DEN170073",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN170073.pdf",
+    "type": "Regulator decision / evidence review",
+    "review_coverage": "Downloaded, text extracted, indication and relevant evidence sections reviewed",
+    "source_date": null,
+    "checked": "2026-10-19",
+    "archive_status": "Archived in the separate local source workspace; original document not redistributed in this repository"
+  },
+  {
+    "id": "FDA-OPTUNE-P100034S013",
+    "title": "FDA • OPTUNE P100034S013",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100034S013B.pdf",
+    "type": "Regulator decision / evidence review",
+    "review_coverage": "Downloaded, text extracted, indication and relevant evidence sections reviewed",
+    "source_date": null,
+    "checked": "2026-10-19",
+    "archive_status": "Archived in the separate local source workspace; original document not redistributed in this repository"
+  },
+  {
+    "id": "FDA-CANVAS-DEN200069",
+    "title": "FDA • CANVAS DEN200069",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN200069.pdf",
+    "type": "Regulator decision / evidence review",
+    "review_coverage": "Downloaded, text extracted, indication and relevant evidence sections reviewed",
+    "source_date": null,
+    "checked": "2026-10-19",
+    "archive_status": "Archived in the separate local source workspace; original document not redistributed in this repository"
+  },
+  {
+    "id": "NHSE-FOCUSED-ULTRASOUND-2020",
+    "title": "NHSE FOCUSED ULTRASOUND 2020",
+    "url": "https://www.england.nhs.uk/wp-content/uploads/2020/11/1904-transcranial-magnetic-resonance-guided-focused-ultrasound-thalamotomy-for-treatment-of-medication-refract.pdf",
+    "type": "NHS England commissioning policy",
+    "review_coverage": "Downloaded, text extracted, indication and relevant evidence sections reviewed",
+    "source_date": null,
+    "checked": "2026-10-19",
+    "archive_status": "Archived in the separate local source workspace; original document not redistributed in this repository"
+  },
+  {
+    "id": "PRECISION-FIN",
+    "title": "Precision: $41m Series B announcement",
+    "url": "https://www.globenewswire.com/news-release/2023/01/25/2595114/0/en/Precision-Neuroscience-Raises-41-Million-to-Build-and-Scale-the-Next-Generation-of-Treatments-for-Neurological-Illnesses.html",
+    "type": "Company-issued release",
+    "review_coverage": "Relevant sections reviewed; not a full independent audit",
+    "source_date": "2023-01-25",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "PRECISION-CLEAR",
+    "title": "Precision announces Layer 7-T clearance",
+    "url": "https://www.globenewswire.com/news-release/2025/04/17/3063418/0/en/Precision-Neuroscience-Receives-FDA-Clearance-for-High-Resolution-Cortical-Electrode-Array.html",
+    "type": "Company-issued release",
+    "review_coverage": "Relevant sections reviewed; not a full independent audit",
+    "source_date": "2025-04-17",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "PRECISION-HOME",
+    "title": "Precision Neuroscience product and company site",
+    "url": "https://www.precisionneuro.io/",
+    "type": "Manufacturer website",
+    "review_coverage": "Product positioning and investigational-system caveat reviewed",
+    "source_date": null,
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "RNS-S1",
+    "title": "NeuroPace: 2021 IPO prospectus amendment",
+    "url": "https://www.sec.gov/Archives/edgar/data/1528287/000162828021006852/neuropaces-1a1.htm",
+    "type": "Company SEC filing",
+    "review_coverage": "Selected business, manufacturing, finance and IP sections reviewed",
+    "source_date": "2021",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "RNS-TRIAL",
+    "title": "Morrell et al.: responsive cortical stimulation trial",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21917777/",
+    "type": "Original clinical trial: indexed abstract",
+    "review_coverage": "Trial abstract reviewed",
+    "source_date": "2011",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "RNS-LONG",
+    "title": "Nair et al.: nine-year prospective RNS follow-up",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32690786/",
+    "type": "Original clinical study: indexed abstract",
+    "review_coverage": "Abstract and study design reviewed",
+    "source_date": "2020",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "RNS-PATENT",
+    "title": "US6016449A: implantable seizure warning/treatment system",
+    "url": "https://patents.google.com/patent/US6016449A/en",
+    "type": "Published patent record",
+    "review_coverage": "Inventors, priority and opening claim text reviewed; complete claim mapping and official legal status not audited",
+    "source_date": "Priority 1997-10-27",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "RNS-ECON",
+    "title": "Youngerman et al.: cost-effectiveness model for RNS",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34458986/",
+    "type": "Original health-economic model: indexed abstract",
+    "review_coverage": "Abstract reviewed; model assumptions not independently reproduced",
+    "source_date": "2021",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "RNS-2026",
+    "title": "NeuroPace July 2026 FDA update on generalized epilepsy supplement",
+    "url": "https://www.sec.gov/Archives/edgar/data/1528287/000119312526321083/d138221dex991.htm",
+    "type": "Company announcement filed with SEC",
+    "review_coverage": "Relevant sections reviewed; not a full independent audit",
+    "source_date": "2026-07-28",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "WALKER",
+    "title": "UCLH: Professor Matthew Walker",
+    "url": "https://www.uclh.nhs.uk/our-services/find-consultant/professor-matthew-walker",
+    "type": "Institutional clinical profile",
+    "review_coverage": "Public search-index profile checked; direct fetch restricted",
+    "source_date": null,
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "CERIBELL-S1",
+    "title": "Ceribell September 2024 S-1",
+    "url": "https://investors.ceribell.com/static-files/b3b5515d-d70c-423d-a61c-a1849a5b9e88",
+    "type": "Company SEC prospectus on investor site",
+    "review_coverage": "Public record located and selected indexed sections checked; full prospectus not read",
+    "source_date": "2024-09-19",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "CERIBELL-DECIDE",
+    "title": "Vespa et al.: DECIDE prospective observational study",
+    "url": "https://ceribell.com/wp-content/uploads/2023/10/Vespa-online-CCM-DECIDE-Study-2020-1-4.pdf",
+    "type": "Original clinical paper, manufacturer-hosted copy",
+    "review_coverage": "Study design and main findings reviewed; not a randomized outcomes trial",
+    "source_date": "2020",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "CERIBELL-ED",
+    "title": "Wright et al.: rapid EEG emergency-care pilot",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34039642/",
+    "type": "Original clinical pilot: indexed abstract",
+    "review_coverage": "Abstract reviewed",
+    "source_date": "2021",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "CERIBELL-RESEARCH",
+    "title": "Ceribell research programme",
+    "url": "https://ceribell.com/evidence/research-program/",
+    "type": "Manufacturer research contact route",
+    "review_coverage": "Relevant sections reviewed; not a full independent audit",
+    "source_date": null,
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "SCOTT",
+    "title": "Imperial: Dr Gregory Scott",
+    "url": "https://profiles.imperial.ac.uk/gregory.scott99",
+    "type": "Institutional academic profile",
+    "review_coverage": "Research relevance and published academic contact checked",
+    "source_date": null,
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "SAINT-FACT",
+    "title": "Magnus Medical company fact sheet",
+    "url": "https://statics.magnusmed.com/docs/MagnusMedical_Fact_Sheet-2024-04.pdf",
+    "type": "Manufacturer fact sheet",
+    "review_coverage": "Funding, licensing, launch and trial description reviewed",
+    "source_date": "2024-04",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "SAINT-ABOUT",
+    "title": "Magnus: company origin and team",
+    "url": "https://www.magnusmedical.com/about/",
+    "type": "Manufacturer website",
+    "review_coverage": "Stanford origin, licensing and founder profile reviewed; page has inconsistent CMO/CSO titles",
+    "source_date": null,
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "SAINT-PROVIDERS",
+    "title": "Magnus: provider information and contact route",
+    "url": "https://www.magnusmedical.com/providers/",
+    "type": "Manufacturer website",
+    "review_coverage": "Contact route reviewed; cross-study marketing comparisons not treated as head-to-head evidence",
+    "source_date": null,
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "EXABLATE-LONDON",
+    "title": "Xu, Akram et al.: FAT1-weighted MRgFUS thalamotomy",
+    "url": "https://neurologyopen.bmj.com/content/bmjno/7/2/e001104.full.pdf",
+    "type": "Original London clinical methods study",
+    "review_coverage": "Methods, exact ExAblate equipment and affiliations reviewed",
+    "source_date": "2025; BMJ Neurology Open 7:e001104; DOI 10.1136/bmjno-2025-001104",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "EXABLATE-UCLH",
+    "title": "UCLH: MR-guided focused ultrasound thalamotomy service",
+    "url": "https://www.uclh.nhs.uk/patients-and-visitors/patient-information-pages/thalamotomy-tremor-using-transcranial-mri-guided-focused-ultrasound",
+    "type": "NHS clinical service information",
+    "review_coverage": "Procedure, risks, location and public contact reviewed",
+    "source_date": "Updated 2026-06-18",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "EXABLATE-FIN",
+    "title": "Insightec announces $150m growth financing",
+    "url": "https://www.prnewswire.com/news-releases/insightec-announces-150m-financing-to-fund-continued-growth-302176098.html",
+    "type": "Company-issued release",
+    "review_coverage": "Relevant sections reviewed; not a full independent audit",
+    "source_date": "2024-06-18",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "NICE-OLD-FUS",
+    "title": "NICE HTG474: committee considerations",
+    "url": "https://www.nice.org.uk/guidance/htg474/chapter/3-Committee-considerations",
+    "type": "NICE guidance",
+    "review_coverage": "Historical recommendation context checked",
+    "source_date": "2018 guidance",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "TERRA-KCL",
+    "title": "King’s: 7T MAGNETOM Terra scanner and enquiries",
+    "url": "https://www.kcl.ac.uk/research/facilities/equipment/7t-magnetom-terra-mri-scanner",
+    "type": "Institutional equipment listing",
+    "review_coverage": "Exact model, location and enquiry email checked",
+    "source_date": null,
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "TERRA-CLINICAL",
+    "title": "King’s: first 7T MRI scan under general anaesthesia",
+    "url": "https://www.kcl.ac.uk/news/world-first-7t-mri-scan-under-general-anaesthesia",
+    "type": "Institutional clinical/research news",
+    "review_coverage": "Exact Terra installation and use context checked",
+    "source_date": "2023-03-22",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "VIZ-FIN",
+    "title": "Viz.ai announces $100m Series D",
+    "url": "https://www.viz.ai/news/viz-ai-raises-100-million-in-series-d-funding",
+    "type": "Company-issued release",
+    "review_coverage": "Relevant sections reviewed; not a full independent audit",
+    "source_date": "2022-04-07",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "VIZ-FOUNDER",
+    "title": "Manoj Ramachandran: founder profile and contact form",
+    "url": "https://manojramachandran.com/",
+    "type": "First-person professional website",
+    "review_coverage": "Viz co-founder role, London base and non-clinical enquiry form checked",
+    "source_date": null,
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "BARTS-TEAM",
+    "title": "Barts Bone & Joint Health team",
+    "url": "https://bonejointhealth.ac.uk/team/",
+    "type": "Institutional team page",
+    "review_coverage": "Manoj Ramachandran listed as consultant orthopaedic surgeon",
+    "source_date": null,
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "OPTUNE-S1",
+    "title": "Novocure: 2015 IPO S-1",
+    "url": "https://www.sec.gov/Archives/edgar/data/1645113/000119312515308245/d940664ds1.htm",
+    "type": "Company SEC filing",
+    "review_coverage": "Selected origin, IP and Technion settlement sections reviewed",
+    "source_date": "2015-08-31",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "OPTUNE-TRIAL",
+    "title": "TRIDENT / EF-32, NCT04471844",
+    "url": "https://clinicaltrials.gov/study/NCT04471844",
+    "type": "Sponsor-submitted public trial registry",
+    "review_coverage": "Official API record saved; study status and UK locations checked",
+    "source_date": "Record posted 2026-10-05",
+    "checked": "2026-10-19",
+    "archive_status": "Archived in the separate local source workspace; original document not redistributed in this repository"
+  },
+  {
+    "id": "OPTUNE-IMPERIAL",
+    "title": "Imperial: Dr Matthew Williams",
+    "url": "https://profiles.imperial.ac.uk/matthew.williams",
+    "type": "Institutional academic/clinical profile",
+    "review_coverage": "Brain tumour expertise, direct Optune experience and work email checked",
+    "source_date": null,
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "OPTUNE-PRIVATE",
+    "title": "Imperial Private Healthcare: supporting Optune patients",
+    "url": "https://www.private.imperial.nhs.uk/news-and-blogs/supporting-patients-using-optune-to-treat-glioblastoma",
+    "type": "NHS trust private-care service article",
+    "review_coverage": "Detailed search-index text reviewed; direct fetch returned 403",
+    "source_date": "2023-04-27",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "NICE-OPTUNE",
+    "title": "NICE NG99: adult brain tumour recommendations",
+    "url": "https://www.nice.org.uk/guidance/ng99/chapter/recommendations",
+    "type": "NICE guidance",
+    "review_coverage": "Public indexed recommendation 1.2.26 checked; direct fetch restricted",
+    "source_date": null,
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "CANVAS-FIN",
+    "title": "Cognoa: $11.6m financing announcement",
+    "url": "https://www.globenewswire.com/news-release/2017/03/28/1228424/0/en/Cognoa-Raises-11-6-Million-Reaching-More-Than-20-Million-Invested-to-Advance-Earlier-Diagnosis-of-Developmental-Delays-in-Children.html",
+    "type": "Company-issued release",
+    "review_coverage": "Historical amount, investor and proposed use of funds reviewed",
+    "source_date": "2017-03-28",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "CANVAS-POLICY",
+    "title": "Cognoa Medicaid policy brief",
+    "url": "https://cognoa.com/medicaid/",
+    "type": "Manufacturer policy advocacy",
+    "review_coverage": "Proposed coverage distinguished from confirmed payer policy",
+    "source_date": "2026",
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "CANVAS-CONTACT",
+    "title": "Cognoa contact routes",
+    "url": "https://cognoa.com/contact/",
+    "type": "Manufacturer contact page",
+    "review_coverage": "General support, investor relations and demo request routes checked",
+    "source_date": null,
+    "checked": "2026-10-19"
+  },
+  {
+    "id": "MANDY",
+    "title": "UCL clinical psychology academic staff: Professor Will Mandy",
+    "url": "https://www.ucl.ac.uk/brain-sciences/pals/research/clinical-educational-and-health-psychology/academic-staff",
+    "type": "Institutional academic directory",
+    "review_coverage": "Neurodevelopmental expertise and academic email checked",
+    "source_date": null,
+    "checked": "2026-10-19"
+  }
+]

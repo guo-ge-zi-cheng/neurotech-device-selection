@@ -1,0 +1,103 @@
+[
+  {
+    "device": "Layer 7 Cortical Interface",
+    "checked": "2026-10-19",
+    "outreach_status": "Not contacted",
+    "person": "Ben Rapoport / Precision clinical or research team",
+    "kind": "Exact-product origin, remote lead",
+    "route": "Company website enquiry route; request an educational introduction",
+    "source": "PRECISION-FIN",
+    "route_source": "PRECISION-HOME"
+  },
+  {
+    "device": "RNS System",
+    "checked": "2026-10-19",
+    "outreach_status": "Not contacted",
+    "person": "Professor Matthew Walker, UCLH",
+    "kind": "London epilepsy domain expert; RNS use unverified",
+    "route": "Public UCLH consultant profile / departmental academic enquiry",
+    "source": "WALKER"
+  },
+  {
+    "device": "Rapid Response EEG / Clarity",
+    "checked": "2026-10-19",
+    "outreach_status": "Not contacted",
+    "person": "Dr Gregory Scott, Imperial",
+    "kind": "Local EEG domain expert; Ceribell use unverified",
+    "route": "gregory.scott99@imperial.ac.uk",
+    "source": "SCOTT"
+  },
+  {
+    "device": "Rapid Response EEG / Clarity",
+    "checked": "2026-10-19",
+    "outreach_status": "Not contacted",
+    "person": "Ceribell research programme",
+    "kind": "Remote product-specific research route",
+    "route": "Manufacturer research programme page",
+    "source": "CERIBELL-RESEARCH"
+  },
+  {
+    "device": "SAINT",
+    "checked": "2026-10-19",
+    "outreach_status": "Not contacted",
+    "person": "Brandon Bentzley / Magnus clinical team",
+    "kind": "Exact-product developer; remote lead",
+    "route": "Magnus provider enquiry route; request a student research introduction",
+    "source": "SAINT-ABOUT",
+    "route_source": "SAINT-PROVIDERS"
+  },
+  {
+    "device": "Exablate Neuro",
+    "checked": "2026-10-19",
+    "outreach_status": "Not contacted",
+    "person": "UCLH/NHNN functional neurosurgery team; Harith Akram or Ludvic Zrinzo",
+    "kind": "Exact-system London clinical experience documented",
+    "route": "Queen Square Imaging Centre: treatment@queensquare.com; 020 3280 2472; ask for the appropriate educational contact",
+    "source": "EXABLATE-UCLH"
+  },
+  {
+    "device": "MAGNETOM Terra 7T MRI",
+    "checked": "2026-10-19",
+    "outreach_status": "Not contacted",
+    "person": "LoCUS 7T facility physicist or manager, King’s/St Thomas’",
+    "kind": "Exact local equipment; suitable person to be assigned",
+    "route": "LOCUS-7T-enquiries@kcl.ac.uk",
+    "source": "TERRA-KCL"
+  },
+  {
+    "device": "Viz LVO",
+    "checked": "2026-10-19",
+    "outreach_status": "Not contacted",
+    "person": "Professor Manoj Ramachandran",
+    "kind": "London co-founder / commercial-origin lead; not a verified stroke-product user",
+    "route": "Research/teaching enquiry form on his professional website",
+    "source": "VIZ-FOUNDER"
+  },
+  {
+    "device": "Optune Gio",
+    "checked": "2026-10-19",
+    "outreach_status": "Not contacted",
+    "person": "Dr Matthew Williams, Imperial / Charing Cross",
+    "kind": "Exact-product first-hand London clinical experience documented",
+    "route": "matthew.williams@imperial.ac.uk",
+    "source": "OPTUNE-IMPERIAL"
+  },
+  {
+    "device": "Canvas Dx",
+    "checked": "2026-10-19",
+    "outreach_status": "Not contacted",
+    "person": "Professor Will Mandy, UCL",
+    "kind": "Local autism domain expert; Canvas Dx use unverified",
+    "route": "w.mandy@ucl.ac.uk",
+    "source": "MANDY"
+  },
+  {
+    "device": "Canvas Dx",
+    "checked": "2026-10-19",
+    "outreach_status": "Not contacted",
+    "person": "Cognoa care / product team",
+    "kind": "Remote exact-product enquiry route",
+    "route": "support@cognoa.com; clearly identify a student research enquiry",
+    "source": "CANVAS-CONTACT"
+  }
+]
