@@ -2,11 +2,11 @@
 
 **AI-generated reference draft for selection and discussion. Not an assessed submission.** No interviews or original clinical data are claimed. Evidence cutoff: 2026-10-20.
 
-[Research notes and preserved layers](../05-exablate.md) · [All six drafts](../../reports/README.md) · [Comparative review](../../reports/comparative-review.md)
+[Research notes and preserved layers](../05-exablate.md) · [All drafts](../../reports/README.md) · [Comparative review](../../reports/comparative-review.md)
 
 **Scope:** Original unilateral essential-tremor market entry, with an England/London service focus.
 
-**Word count:** 2,474, including references, tables, diagram and notices (whitespace count; verify in submission software).
+**Word count:** 2,473, including references, tables, diagram and notices (whitespace count; verify in submission software).
 
 ## Executive summary
 
