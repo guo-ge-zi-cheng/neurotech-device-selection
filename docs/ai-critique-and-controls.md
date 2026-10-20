@@ -30,7 +30,7 @@ The October 2025 course AI note warns about shallow generic prose and missing so
 2. **Scope and mechanism:** checked exact product names and indications. Temporary Layer 7-T clearance is separated from the future chronic BCI; Exablate is ablation; Optune treats tumours; Viz is triage; Canvas Dx is behavioural assessment.
 3. **Numbers and study design:** retained the Canvas Dx no-result group and conditional denominators; distinguished RNS’s blinded study from open-label follow-up; avoided treating small pilots or unrelated-study comparisons as definitive efficacy evidence.
 4. **Dates and jurisdictions:** checked the completed TRIDENT registry, separated US authorization from UK access, and distinguished old NICE focused-ultrasound wording from later NHS England commissioning.
-5. **First-hand evidence:** labelled exact-device clinicians, a founder and related-domain experts separately. Public contact details do not establish willingness, product use or permission to observe patients. No outreach was sent.
+5. **First-hand evidence:** retained only contacts with a documented device, equipment or development connection, and explained their specific value. Public contact details do not establish willingness, product use or permission to observe patients. No outreach was sent.
 6. **Knowledge boundaries:** missing independent patent-claim maps, earliest device budgets and some payer policies remain visible. No fictitious amount fills a gap. Source extraction and a coherent layout are not proof of complete research.
 
 ## Errors corrected versus risks caught
