@@ -17,6 +17,8 @@ readme='''# Choosing a device for our report
 
 This repository compares six devices by **how easy it is to find useful information for the five sections in Project spec**. Open a device report to understand what it does, how far it has developed, which sources help each section, and which first-hand contacts have a specific connection to it.
 
+**New:** [Six full case-study drafts](reports/README.md) turn that research into narratives. The [comparative review](reports/comparative-review.md) assesses their strengths, missing evidence and actual writing difficulties. Existing research layers are retained.
+
 ## TL;DR
 
 - **RNS is a clear starting point for public research.** Trials, IP and economics now have a pre-approval financing filing and a payer policy alongside them; the earliest funding still needs work.
@@ -197,6 +199,10 @@ Sources: {links(f['sources'])}.
 
 These additions answer specific questions rather than re-grade the original table. See the [cross-device overview and unsuccessful searches](../docs/additional-research-summary.md). The required lecture stakeholder-map format still needs to be supplied.
 '''
+    layered+=f'''\n## Full case-study reference draft
+
+[Read the full {d['name']} report]({d['id']}/full-report.md), with the five narrative sections, independent-claim explanations, stakeholder map and numbered references. The [comparative review](../reports/comparative-review.md) explains its strengths, gaps and writing difficulties. The two research layers above are preserved.
+'''
     write(path(d),layered)
 
 source_text='''# Sources and what was checked
@@ -309,3 +315,7 @@ Optomed's opening note reports that embedded reference links were lost in submis
 The original course/example PDFs and interview material have not been republished. Interviews described in the examples were conducted by those reports' authors, not this team. No complete patent-status, database-valuation or payer audit is claimed. This example audit does not change the six devices' access labels.
 '''
 write('docs/example-source-audit.md',audit_text)
+
+# The full drafts are authored separately from the preserved research layers.
+import runpy
+runpy.run_path(str(ROOT/'tools/build_full_reports.py'))
