@@ -1,21 +1,15 @@
-# Project context
+# Current project context
 
-Updated 20 October 2026. Research snapshot: 19 October 2026.
+Updated 20 October 2026.
 
-## Purpose
+The team is choosing one of nine devices for the Medical Device Entrepreneurship report. The user corrected the first version: it was too complicated, device descriptions were too short, and broad-domain experts were included without a device-specific reason.
 
-A London-based biomedical engineering team is choosing one medical-device entrepreneurship case. Compare nine proposed devices with enough mechanism, evidence, commercial-development and local-access detail to support a decision. The current deliverable is a comparative README and nine detailed selection reports, not nine full assessed submissions.
+The agreed structure is a short README comparing access to information for the five required sections, plus nine separate reports. Each report explains what the device does and how far it has progressed, then identifies sources, their connection to the device, how to use them and what is missing. Follow Project spec as summarized in docs/course-requirements.md.
 
-## Recommendation and uncertainty
+Contacts must be justified by direct use, exact equipment, invention or founding/development. The previous general EEG, epilepsy and autism recommendations were removed. Strong documented London routes concern Optune at Imperial, ExAblate at UCLH/NHNN and Terra at King's/St Thomas'. Viz has a London founder route, which is useful for business history but does not establish clinical use. Exact London users were not verified for the other five devices. No user-count or popularity comparison is supported.
 
-The first shortlist is Exablate Neuro, Optune Gio and RNS: respectively balanced London clinical/commissioning evidence, direct Imperial product-user experience, and a mature neural recording/closed-loop case. Terra is attractive for exact local equipment; Viz has a London founder-origin lead. These are feasibility judgements, not treatment rankings or the team's final selection.
+The original research snapshot dates to 19 October 2026. Targeted source/contact checks and new patent/economic/payer sources date to 20 October; each catalog entry retains its actual date and coverage. No complete patent-claim map, original funding reconstruction or global current-label audit is claimed. No interviews or visits have been arranged.
 
-## Source authority
+RNS and Optune offer clear starting points for public research. Exablate has useful clinical/UK-payer evidence but harder early funding. Terra is attractive for an equipment discussion, while original IP/funding are harder. The README explains the practical differences rather than imposing a numerical score.
 
-The course requirements are summarized in docs/course-requirements.md. The full local workspace retains original course files and downloaded records; the repository provides analysis, public URLs and coverage metadata. The lecture-specific stakeholder-map template and student examples are still missing. Source catalog entries distinguish selective review, indexed-only access and manufacturer claims. Complete patent-claim maps, early device budgets and a global current-label audit remain unfinished.
-
-## Maintaining the work
-
-README and reports are generated from the structured records and templates in tools/build_docs.py. Edit the records and regenerate, then validate local links and evidence IDs. Update an evidence-check date only after actually revisiting the source. No interviews or visits have been arranged; public contact routes must be rechecked before outreach.
-
-The materials are openly AI-generated preparatory research. The supplied course policy restricts generated assessed coursework; improved capabilities do not automatically revise that policy. The AI-reading appendix records criticisms, specific controls and remaining limits.
+Data under data/ generate the README, reports and source index through tools/build_docs.py. Static course and AI-reading notes remain supporting material. Only this repository is being revised; the separate original course/archive and HTML workspace are outside scope.
