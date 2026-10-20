@@ -2,11 +2,11 @@
 
 **AI-generated reference draft for selection and discussion. Not an assessed submission.** No interviews or original clinical data are claimed. Evidence cutoff: 2026-10-20.
 
-[Research notes and preserved layers](../01-precision.md) · [All six drafts](../../reports/README.md) · [Comparative review](../../reports/comparative-review.md)
+[Research notes and preserved layers](../01-precision.md) · [All drafts](../../reports/README.md) · [Comparative review](../../reports/comparative-review.md)
 
 **Scope:** Temporary Layer 7-T; original US component market, with wider BCI development treated separately.
 
-**Word count:** 2,340, including references, tables, diagram and notices (whitespace count; verify in submission software).
+**Word count:** 2,339, including references, tables, diagram and notices (whitespace count; verify in submission software).
 
 ## Executive summary
 
