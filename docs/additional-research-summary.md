@@ -1,6 +1,6 @@
 # Additional research: what the extra sources actually add
 
-Checked 20 October 2026. We investigated all six devices across the same five topics, using the [reliability protocol](reliability-protocol.md) before accepting claims. The extra routes came from the [course-example source audit](example-source-audit.md); using a route does not make its claims automatically correct.
+Checked 20 October 2026. We investigated all seven devices across the same five topics, using the [reliability protocol](reliability-protocol.md) before accepting claims. The extra routes came from the [course-example source audit](example-source-audit.md); using a route does not make its claims automatically correct.
 
 Each device report preserves its original research as Layer 1 and adds the findings as Layer 2. The original device data, contacts and access labels have not been replaced. A deeper read of an already-used patent or prospectus is labelled as such; it is not a new independent confirmation. Dates and actual review limits appear in the [source index](sources.md).
 
@@ -14,6 +14,7 @@ Each device report preserves its original research as Layer 1 and adds the findi
 | [SAINT](../devices/04-saint.md#layer-2-additional-research-20-october-2026) | The source base now supports a clearer research-to-company-to-supplier history, with an important payment update. Exact London SAINT use remains unverified. |
 | [Exablate Neuro](../devices/05-exablate.md#layer-2-additional-research-20-october-2026) | Earlier finance and UK economics are more usable than before, but neither is a complete first-version budget. Indication-specific NHS access matters more than a blanket “used in the UK” claim. |
 | [ARC-EX System](../devices/06-arcex.md#layer-2-additional-research-20-october-2026) | UK context, academic lineage and suppliers are clearer. Early product-specific capital and actual payment remain the main evidence gaps, despite a useful nearby provider route. |
+| [MAGNETOM Terra 7T MRI](../devices/07-terra.md#layer-2-additional-research-20-october-2026) | Terra adds a strong central-London exact-equipment investigation route and detailed engineering/regulatory records. It remains weaker on original product IP and development capital; diagnostic benefit and payment need a scoped service study, not generic MRI statistics. |
 
 ## Important dated updates
 
@@ -68,8 +69,26 @@ Closer technical candidates and licence relationships found, but no complete six
 
 No new licensed London SAINT or London Precision/RNS/Ceribell user was verified. A TMS hardware supplier, general field expert or comparator trial is not proof of exact-device use.
 
+### Original Terra procurement price
+
+**Route tried:** University of Minnesota February 2019 finance/operations docket search.
+
+The large PDF could not be retrieved (browser tool size limit; direct request denied). Search snippets remain leads; no price or service amount accepted. URL: https://regents.umn.edu/sites/regents.umn.edu/files/2019-08/docket-finance_operations_committee-feb2019.pdf
+
+### Current NHS payment mechanism applied to Terra
+
+**Route tried:** 2026/27 NHS Payment Scheme official publication and long-read pages.
+
+Both actual pages returned a JavaScript verification challenge. Search metadata was not treated as reviewed payment rules; no Terra-specific coverage, tariff or premium accepted. URL: https://www.england.nhs.uk/publication/2026-27-nhs-payment-scheme/
+
+### Terra original patent and legal position
+
+**Route tried:** Siemens magnet/7T patent search and GB2606208 family.
+
+The accepted A publication was read, but the B full text could not be retrieved. The 2021-priority application is a later optimisation example, not original 2017 system IP; no granted-claim or implementation conclusion accepted.
+
 ## How to continue
 
 Choose the precise device/version and geography before narrowing population, claims or payment. Use each topic's remaining gap as the next research question. An unpublished price or earliest round can remain unknown; an explicit estimate is a different kind of answer. No new outreach, interview, site visit or access permission is implied by these records.
 
-The 34 added catalog entries and 35 findings are an audit trail, not a quality score. Reliability is assessed claim by claim; this targeted review is not a full legal, clinical, global regulatory or payer audit.
+The original six-device extension added 34 catalog entries and 35 findings; Terra adds its separately dated evidence above. These are an audit trail, not a quality score. Reliability is assessed claim by claim; this targeted review is not a full legal, clinical, global regulatory or payer audit.

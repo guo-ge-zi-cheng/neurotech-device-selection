@@ -1,6 +1,6 @@
 # How we find and judge reliable information
 
-Working protocol for the additional six-device research, 20 October 2026. Apply it to each claim before adding it to a report. Reliability means that a source supports a particular statement within a stated scope; it is not a property conferred by a familiar organisation's name.
+Working protocol for the additional seven-device research, 20 October 2026. Apply it to each claim before adding it to a report. Reliability means that a source supports a particular statement within a stated scope; it is not a property conferred by a familiar organisation's name.
 
 ## Start with an answerable question
 

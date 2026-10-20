@@ -4,7 +4,7 @@ Use this guide when an important question remains unanswered by the device compa
 
 This guide draws on Project spec 2026 and a source audit of the Optomed Aurora and Quadsense examples. [The audit](example-source-audit.md) records their PDF pages, references, feedback and selected external checks. The specification is the authority for requirements. Sources used in an example demonstrate search routes; they do not establish blanket lecturer approval.
 
-Before accepting evidence, apply the [reliability protocol](reliability-protocol.md). These routes have now been tested for all six devices: [see the findings overview](additional-research-summary.md) and Layer 2 in each device report. New findings supplement the preserved original research; unresolved questions stay visible.
+Before accepting evidence, apply the [reliability protocol](reliability-protocol.md). These routes have now been tested for all seven devices: [see the findings overview](additional-research-summary.md) and Layer 2 in each device report. New findings supplement the preserved original research; unresolved questions stay visible.
 
 ## 1. Unmet medical need
 
@@ -92,7 +92,7 @@ Recommend a named person only when a documented role or activity explains why th
 
 Broad field expertise alone does not justify singling out a contact. Do not infer willingness to meet from a public email, or an interview from a published profile. Cite personal communications only after a real conversation, with date and attribution agreed. No outreach is currently authorised.
 
-## Use this context in the six-device comparison
+## Use this context in the seven-device comparison
 
 Keep the existing five topics and concise README. For each missing answer, identify a useful alternative route, investigate it, then explain what remains unknown. Do not increase an access label merely because alternatives exist. A useful comparison states which questions can be answered, which need inference or an estimate, and which remain unsupported. Keep information access effort separate from evidence strength.
 

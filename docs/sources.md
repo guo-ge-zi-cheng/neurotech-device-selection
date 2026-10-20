@@ -867,3 +867,102 @@ The device reports explain how each source helps a report section. This index re
 - What was reviewed: Dates, executive summary and incorporation-of-ISO-13485:2016 passages read. Regulatory context, not a company compliance audit. Entire rule not audited.
 
 - Access route: Official GovInfo HTML read in browser research tool
+
+## FDA-TERRA-K170840
+
+[FDA. MAGNETOM Terra: K170840 clearance and 510(k) summary](https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170840.pdf)
+
+- Type: Original regulator decision and technical summary
+- Source date: 2017-10-12
+- Checked: 2026-10-20
+- What was reviewed: All 12 pages available in the downloaded original; decision, indications, system/coils, manufacturing table, standards and PNS/image assessment passages reviewed. Historical submission, not a current global label audit.
+
+- Access route: Original source read through browser research tool; FDA original also retained outside repository
+
+## TERRA-KCL-FACILITY
+
+[King’s College London. 7T MAGNETOM Terra MRI scanner: LoCUS facility and enquiries](https://www.kcl.ac.uk/research/facilities/equipment/7t-magnetom-terra-mri-scanner)
+
+- Type: Institutional exact-equipment listing and public contact
+- Source date: Undated; checked 2026-10-20
+- Checked: 2026-10-20
+- What was reviewed: Exact model, LoCUS/St Thomas’ location and dedicated enquiry email read. No interview or confirmation of current upgrade, routine clinical use or visit availability.
+
+- Access route: Original source read through browser research tool; FDA original also retained outside repository
+
+## TERRA-KCL-2018
+
+[King’s College London. London’s most powerful MRI scanner to transform research](https://www.kcl.ac.uk/news/londons-most-powerful-mri-scanner-to-transform-research-copy)
+
+- Type: Institutional installation and funding announcement
+- Source date: 2018-02-21
+- Checked: 2026-10-20
+- What was reviewed: Installation, collaborators, King’s/Wellcome funding attribution and building-work passages read. No scanner-only price or funding amount is stated in the reviewed announcement; projected benefit is not observed clinical effectiveness.
+
+- Access route: Original source read through browser research tool; FDA original also retained outside repository
+
+## TERRA-BROCHURE
+
+[Siemens Healthineers. MAGNETOM Terra brochure](https://cdn0.scrvt.com/39b415fb07de4d9656c7b516d8e2d907/1800000006633504/e6260b86a79c/2019-MAGNETOM-Terra-brochure_1800000006633504.pdf)
+
+- Type: Manufacturer technical/development brochure
+- Source date: 2019 file; see original imprint
+- Checked: 2026-10-20
+- What was reviewed: Selected dual-mode and magnet development/manufacturing passages, including physical PDF pp34–35, read in the 52-page brochure. Manufacturer attribution, not independent outcomes, exact first-patent identification or project expenditure.
+
+- Access route: Original source read through browser research tool; FDA original also retained outside repository
+
+## TERRA-X-2024
+
+[Siemens Healthineers. MAGNETOM Terra.X receives FDA clearance](https://www.siemens-healthineers.com/en-us/press-room/press-releases/magnetom-terra-x-fda-clearance)
+
+- Type: Manufacturer successor and upgrade announcement
+- Source date: 2024-03-27
+- Checked: 2026-10-20
+- What was reviewed: Later generation, XA60A/parallel-transmit and upgrade passages read to distinguish them from the original 2017 product. This is not an independent audit of every successor clearance or a London configuration check.
+
+- Access route: Original source read through browser research tool; FDA original also retained outside repository
+
+## TERRA-IPO-2018
+
+[Siemens Healthineers. Shares start trading: IPO placement and proceeds](https://www.siemens-healthineers.com/press/releases/pr-2018030202coen.html)
+
+- Type: Corporate transaction announcement
+- Source date: 2018-03-16
+- Checked: 2026-10-20
+- What was reviewed: Placement/gross-proceeds paragraph read: approximately EUR4.2bn to parent Siemens. Used to exclude incorrect attribution as Terra R&D finance; not a complete corporate finance history.
+
+- Access route: Original source read through browser research tool; FDA original also retained outside repository
+
+## TERRA-EPILEPSY-PROTOCOL
+
+[Study protocol: value of 7-T MRI with prospective motion correction and postprocessing for patients with nonlesional epilepsy](https://link.springer.com/article/10.1007/s10309-023-00618-9)
+
+- Type: Original published prospective study protocol
+- Source date: 2023-08-14
+- Checked: 2026-10-20
+- What was reviewed: Protocol scope, prior nonlesional 3T pathway, Terra/Prisma comparison and planned blinded assessment read. No completed clinical outcome or diagnostic yield is inferred from the protocol.
+
+- Access route: Original source read through browser research tool; FDA original also retained outside repository
+
+## TERRA-PATENT-LATER
+
+[GB2606208A. Computer-implemented magnetic resonance image optimisation method](https://patents.google.com/patent/GB2606208A/en)
+
+- Type: Published patent application and metadata
+- Source date: Priority 2021-04-29; published 2022-11-02
+- Checked: 2026-10-20
+- What was reviewed: Metadata, Terra experimental example and all 13 published application claims read. Independent claims 1 and 12 explained; claim 13 refers back to earlier method claims. Later development example only; original 2017 scanner IP, granted-claim text, employment, implementation and current status not established.
+
+- Access route: Original source read through browser research tool; FDA original also retained outside repository
+
+## TERRA-ANEURYSM
+
+[Radojewski et al. Diagnosis of Small Unruptured Intracranial Aneurysms: Comparison of 7T versus 3T MRI](https://link.springer.com/article/10.1007/s00062-023-01282-2)
+
+- Type: Original retrospective comparative diagnostic study
+- Source date: Online 2023-03-31; Clinical Neuroradiology 34:45–49 (2024)
+- Checked: 2026-10-20
+- What was reviewed: Publisher full-text methods, results and limitations read. 53 selected patients; exact Terra clinical-mode versus Prisma comparison; no DSA reference standard and no field-strength blinding. No measured cost-effectiveness or general diagnostic superiority inferred.
+
+- Access route: Original source read through browser research tool; FDA original also retained outside repository
