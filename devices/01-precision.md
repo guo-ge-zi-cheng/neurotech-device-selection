@@ -24,6 +24,8 @@ The reviewed FDA record, K242618 (2025), covers Layer 7-T cortical electrodes us
 
 ## Finding information for the five report sections
 
+For gaps, use the [shared research source guide](../docs/research-source-guide.md). Its alternative routes need checking for this device before they become evidence.
+
 ### 1. Unmet medical need
 
 **Access to useful information: Some gaps.**

@@ -24,6 +24,8 @@ The 2024 Up-LIFT paper describes a prospective, single-arm, sequential study: tw
 
 ## Finding information for the five report sections
 
+For gaps, use the [shared research source guide](../docs/research-source-guide.md). Its alternative routes need checking for this device before they become evidence.
+
 ### 1. Unmet medical need
 
 **Access to useful information: Clear sources.**

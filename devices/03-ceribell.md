@@ -24,6 +24,8 @@ The DECIDE prospective observational study enrolled 181 critically ill patients 
 
 ## Finding information for the five report sections
 
+For gaps, use the [shared research source guide](../docs/research-source-guide.md). Its alternative routes need checking for this device before they become evidence.
+
 ### 1. Unmet medical need
 
 **Access to useful information: Clear sources.**
