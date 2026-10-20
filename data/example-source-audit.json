@@ -1,0 +1,219 @@
+{
+  "checked": "2026-10-20",
+  "purpose": "Shared research context for the five coursework topics; source-use observations are not device evidence or blanket lecturer endorsement.",
+  "documents": [
+    {
+      "filename": "Project spec 2026.pdf",
+      "pages": 3,
+      "role": "Course requirements; original retained outside repository"
+    },
+    {
+      "filename": "Optomed_Aurora_MDE_Report.pdf",
+      "pages": 18,
+      "role": "Example source-use audit; original retained outside repository"
+    },
+    {
+      "filename": "Quadsense_MDE.pdf",
+      "pages": 17,
+      "role": "Example source-use and feedback audit; original retained outside repository"
+    }
+  ],
+  "authority": [
+    {
+      "level": "Explicit course requirements",
+      "finding": "Personal communications are allowed if actually obtained. When earliest funding is unavailable, estimate required capital using bottom-up/top-down approaches and state the method. Relevant source suggestions include filings, registries, Imperial Library/PitchBook, patents and market-specific payment resources.",
+      "provenance": "Project spec 2026.pdf, physical PDF pages 1-3"
+    },
+    {
+      "level": "Observed source use",
+      "finding": "The examples combine direct product records with disease/workflow studies, investors, grant programmes, transaction databases, supplier material, provider prices, comparisons and reported interviews. Appearance in an example does not establish approval of every attached claim.",
+      "provenance": "The ten report/topic entries below"
+    },
+    {
+      "level": "Visible positive feedback",
+      "finding": "Good coverage is annotated beside Quadsense fundraising and the stakeholder map; its scope should not be extended to every reference or conclusion.",
+      "provenance": "Quadsense_MDE.pdf, physical PDF pages 7 and 13"
+    },
+    {
+      "level": "Visible corrective feedback",
+      "finding": "Quadsense has comments requesting citations for paraphrases, less basic information and better paragraph structure. Optomed has a warning about lost embedded references and mark deductions.",
+      "provenance": "Quadsense_MDE.pdf, physical PDF pages 8-9 and 11-12; Optomed_Aurora_MDE_Report.pdf, physical PDF page 1"
+    },
+    {
+      "level": "Our methodological recommendation",
+      "finding": "Assess how well each question can be answered using fact, background, inference and explicit estimates; retain unknowns. Record source fit and access effort before changing a device access label.",
+      "provenance": "Synthesis of the specification, example audit and selected source checks; not a lecturer quotation"
+    }
+  ],
+  "review_scope": "All three specification pages were reviewed. Both examples were rendered and their relevant sections and references inspected using extraction/OCR plus visual checks. Important feedback and selected citation details were checked visually. External checking was selective, as recorded below. Database valuations, interview accounts, all patent legal statuses and all payer conclusions were not independently re-established.",
+  "rows": [
+    {
+      "topic": "Unmet medical need",
+      "report": "Optomed Aurora",
+      "pages": "PDF 2-4; interviews listed on PDF 18",
+      "references": "[1-18]; interviews A and B",
+      "sources": "WHO; AAO/NEI and disease organisations; epidemiology and screening/cost papers; ophthalmologist and device-company interviews",
+      "use": "Describe who lacks screening, the burden and geographic distribution of disease, the old care pathway, and practical barriers to access.",
+      "alternative": "Use disease-level data and studies of the existing care pathway when exact-brand outcome or cost data are limited. Interview a clinician who knows that pathway.",
+      "limit": "Disease burden is not device benefit. The example itself says savings could not be reliably quantified. A clinician cannot establish product performance outside their experience.",
+      "lecturer_status": "Source use observed; no source-specific endorsement identified."
+    },
+    {
+      "topic": "Unmet medical need",
+      "report": "Quadsense",
+      "pages": "PDF 3-4; bibliography PDF 15",
+      "references": "[2-16], especially [4-5], [8], [10-14]",
+      "sources": "Journal studies; WHO/NHS; company projections; commercial market research; studies of dissatisfaction and painful/revision knee replacement",
+      "use": "Connect osteoarthritis and knee surgery volumes to the specific unresolved problem: poor outcomes, dissatisfaction and the cost of investigation or revision.",
+      "alternative": "Use procedure registries, epidemiology and studies of current treatment failures, rather than waiting for a device-specific market report.",
+      "limit": "Overall knee-surgery market size is not the device-eligible population. Company forecasts and commercial market shares need their methods and denominators checked.",
+      "lecturer_status": "Source use observed; no source-specific endorsement identified."
+    },
+    {
+      "topic": "Intellectual property",
+      "report": "Optomed Aurora",
+      "pages": "PDF 10",
+      "references": "[51-55], [57]",
+      "sources": "EPO and USPTO records; patent classification search; company IP list; trademark records",
+      "use": "Find candidate patent families, dates, jurisdictions and likely inventors; distinguish technical protection from branding.",
+      "alternative": "Search the original employer/assignee, inventor names, technical features and predecessor devices when the marketed device name returns little.",
+      "limit": "The authors explicitly assume pre-launch patents may relate to Aurora. Date overlap and common inventors do not prove claim coverage. Independent-claim analysis is still required by the specification.",
+      "lecturer_status": "Source use observed; not permission to replace claim analysis with a portfolio count."
+    },
+    {
+      "topic": "Intellectual property",
+      "report": "Quadsense",
+      "pages": "PDF 5-7; bibliography PDF 15-16",
+      "references": "[19-23]; personal communication [17] for development context",
+      "sources": "Espacenet patent family and publications; UK IPO trademark register; reported developer/inventor history",
+      "use": "Follow the trial-patella kit family and paraphrase its first independent claim, then connect the invention to the device design and development timeline.",
+      "alternative": "A patent may be filed under a generic technical title, an inventor or an earlier legal entity rather than the product brand. Follow the family and priority chain.",
+      "limit": "Read the claims of the exact publication/jurisdiction used. Patent status and claims can differ across family members. A trademark supports a branding claim, not technical exclusivity.",
+      "lecturer_status": "Source use observed; current patent status and all example legal interpretations were not independently re-audited."
+    },
+    {
+      "topic": "Fundraising",
+      "report": "Optomed Aurora",
+      "pages": "PDF 7-9; interviews PDF 18",
+      "references": "[43], [46-50]; interviews C and D",
+      "sources": "IPO prospectus; PitchBook; Tracxn; Tesi investor portfolio; Halma investor annual report; company annual report; former-board interviews",
+      "use": "Reconstruct the company funding timeline from several sides of each transaction and explain the remaining gaps in early funding and valuations.",
+      "alternative": "Search investors, grant funders, university commercialisation offices and accelerators as well as the company. If early financing remains unknown, build a labelled estimate under the specification.",
+      "limit": "Company finance is not spending on Aurora. The example could not calculate valuations. The investor source records EUR 2 million in 2010; the example chart labels a $2 million entry, so retain original currencies and explain conversions.",
+      "lecturer_status": "Source use observed. Opening lecturer note criticises lost embedded references, not the absence of confidential valuations."
+    },
+    {
+      "topic": "Fundraising",
+      "report": "Quadsense",
+      "pages": "PDF 7-8; bibliography PDF 16",
+      "references": "[17], [24-30]",
+      "sources": "PitchBook; FinSMEs announcements; company statement; Mercia investor material; Innovate UK Business Connect; CEO personal communication",
+      "use": "Combine round size, investors, stated use of proceeds and interview-only development/operating costs to explain the path to market.",
+      "alternative": "Use an investor announcement to check press coverage; funder case studies can identify grants, incubators, partners and non-cash support. Genuine interviews can fill private details.",
+      "limit": "Database valuations were not independently verified here. Recent grants and funding may also support Hipsense, a different product. Do not assign all company funding to Quadsense.",
+      "lecturer_status": "A visible \"Good coverage\" annotation sits beside the fundraising heading on PDF 7. It is positive section feedback, not approval of each number."
+    },
+    {
+      "topic": "Regulatory",
+      "report": "Optomed Aurora",
+      "pages": "PDF 11-14",
+      "references": "[43], [59], [61-69], [92-93]; interview B",
+      "sources": "Exact FDA 510(k); GUDID and EUDAMED; government guidance; commercial regulatory explainers; prospectus; manufacturer website/certificates; device-company interview",
+      "use": "Connect the device to its intended use, market pathway, classification, tested standards and manufacturing arrangements.",
+      "alternative": "Use the regulator decision/summary and instructions for use if the company website is vague; use a prospectus or counterparty record for outsourcing details.",
+      "limit": "A generic rule does not prove the device complied with it. A supplier capability page does not prove a customer relationship; the prospectus provides the relationship evidence in this example.",
+      "lecturer_status": "Source use observed; no blanket approval of the example regulatory wording or commercial explainers."
+    },
+    {
+      "topic": "Regulatory",
+      "report": "Quadsense",
+      "pages": "PDF 8-11; bibliography PDF 16-17",
+      "references": "[31-44]",
+      "sources": "Company launch announcement; FDA classification and exact 510(k) summaries; predicate brochure; MHRA registry; GOV.UK approved-body list; Medsafe guidance; IFU; research papers; supplier sites",
+      "use": "Explain the original clearance and later version, compare relevant devices, and identify standards and manufacturing tasks.",
+      "alternative": "The predicate decision and device IFU can explain the evidence route even when detailed development files are unavailable; official registers identify actors and dates.",
+      "limit": "A predicate brochure is supporting context, not the clearance decision. Registration is not approval. Supplier websites establish capability unless a separate source links them to the exact product.",
+      "lecturer_status": "Visible comments include \"Include citation for paraphrasing\" and \"Basic Info not needed\". These favour precise case evidence over a generic regulation tutorial."
+    },
+    {
+      "topic": "Reimbursement",
+      "report": "Optomed Aurora",
+      "pages": "PDF 15-17",
+      "references": "[94-99]; interviews B and D",
+      "sources": "Company/distributor price pages; a manufacturer blog listing CPT amounts; newer product pages; NCQA HEDIS; reported interviews; a stakeholder map",
+      "use": "Separate hospital purchase or subscription from the payment for screening, and discuss workflow, access and possible economic incentives.",
+      "alternative": "Use a clearly labelled successor/comparator price to make a range; study the service payment and procurement route rather than searching only for a brand-specific code.",
+      "limit": "Aurora IQ pricing is a proxy, not verified original-Aurora pricing. Reference [97] does contain tariff amounts, but is a manufacturer blog dated 2021, not a current payer rate table. A newer AI product cannot automatically establish the original device workflow or savings.",
+      "lecturer_status": "Source use observed; no visible positive annotation specifically validating these proxy or tariff claims."
+    },
+    {
+      "topic": "Reimbursement",
+      "report": "Quadsense",
+      "pages": "PDF 11-13; bibliography PDF 17",
+      "references": "[17], [45-51]",
+      "sources": "CMS; NHS OPCS; New Zealand coding/device purchasing resources; private-provider surgery prices; NHS recovery information; company FAQ; CEO personal communication",
+      "use": "Map who buys the sensor, how it fits within surgery, what costs might change and where benefits and money flow.",
+      "alternative": "Use procedure-level payment, hospital procurement and a transparent scenario model when a distinct device payment code or long-term economic study is absent.",
+      "limit": "The example says true economic impact remains predictive. No separate device code does not establish lack of payment. A private surgery charge is not an NHS cost or tariff; the CMS homepage alone cannot establish a coverage conclusion.",
+      "lecturer_status": "\"Good coverage\" appears beside the stakeholder map on PDF 13; \"Poor paragraph structure\" appears on PDF 12. Do not extend the map praise to every reimbursement claim."
+    }
+  ],
+  "external_checks": [
+    {
+      "title": "Investor evidence for early financing",
+      "source_title": "Halma annual report 2011",
+      "url": "https://www.halma.com/~/media/Files/H/Halma/Corp-V2/reports-and-presentations/reports-archive/halma-annual-report-2011.pdf",
+      "finding": "The associate-investment discussion records EUR 2 million invested in Optomed in December 2010.",
+      "limit": "Direct evidence of a company investment, not Aurora R&D spend. The example chart labels a $2 million entry; retain original currency and explain conversions.",
+      "coverage": "Targeted associate-investment passage, printed page 41; not the entire report"
+    },
+    {
+      "title": "Primary check of a funding announcement",
+      "source_title": "Mercia: Medtech firm raises GBP 2.5 million, 15 March 2023",
+      "url": "https://www.mercia.co.uk/medtech-firm-raises-2-5m-for-device-to-improve-success-of-knee-surgery/",
+      "finding": "The investor announcement identifies Eventum's GBP 2.5 million Series A, participants and intended expansion.",
+      "limit": "Confirms a round beyond secondary funding news. It does not independently establish PitchBook pre/post valuations or exact device development spend.",
+      "coverage": "Full announcement text"
+    },
+    {
+      "title": "Product allocation of grants",
+      "source_title": "Innovate UK Business Connect: Eventum growth case study, 2 June 2025",
+      "url": "https://iuk-business-connect.org.uk/casestudy/eventum-orthopaedics-steps-up-growth-with-innovate-uk-backing/",
+      "finding": "The case study describes GBP 67,000 and GBP 100,000 grants, university support and development associated with Hipsense.",
+      "limit": "Useful company development/support evidence. Do not assign all grants to original Quadsense development.",
+      "coverage": "Case-study text, including grant and Hipsense passages"
+    },
+    {
+      "title": "Historical manufacturer reimbursement figures",
+      "source_title": "Optomed: diabetic retinopathy prevention blog, 2 March 2021",
+      "url": "https://www.optomed.com/us/es/9-consejos-para-la-prevencion-de-la-retinopatia-diabetica",
+      "finding": "The recovered target for Optomed reference [97] contains CPT 92250 and a reimbursement range.",
+      "limit": "The figures are present, but a manufacturer blog from 2021 does not establish the current payer rate, eligibility, place or configuration.",
+      "coverage": "Dated page and billing/code passage"
+    },
+    {
+      "title": "Bundled service payment",
+      "source_title": "CMS: Medicare Payment Systems, outpatient packaged costs",
+      "url": "https://www.cms.gov/outreach-and-education/medicare-learning-network-mln/mlnproducts/html/medicare-payment-systems.html",
+      "finding": "CMS explains that some integral items and services are included in the main outpatient hospital payment.",
+      "limit": "Supports investigation of procedure-level payment when a separate device payment is absent; does not establish Quadsense coverage.",
+      "coverage": "Targeted outpatient Packaged Costs passage"
+    },
+    {
+      "title": "Citation fit for an IPO figure",
+      "source_title": "TechEmerge: Optomed and Eye-Q Hospitals pilot",
+      "url": "https://techemerge.org/pilots/optomed-eyeq-hospitals-pilot/",
+      "finding": "The recovered link for Optomed reference [45] concerns a 2017 Smartscope pilot; Figure 8 also cites [45] for 2019 IPO shares.",
+      "limit": "Useful for pilot/accelerator context, not IPO share figures or an automatic Aurora-specific result. Figure 8's separate reference [46] requires its own check.",
+      "coverage": "Pilot dates and named device passages, compared with the PDF figure/citation link"
+    },
+    {
+      "title": "Actual manufacturing relationship",
+      "source_title": "Optomed prospectus, 21 November 2019",
+      "url": "https://www.optomed.com/wp-content/uploads/2019/11/Optomed-Plc-Prospectus-21-November-2019.pdf",
+      "finding": "The prospectus names Fabrinet and a manufacturing/engineering agreement dated 11 April 2016.",
+      "limit": "Establishes the relationship beyond a supplier capability page; does not independently verify all supplier certification or present-day manufacturing claims.",
+      "coverage": "Selected manufacturing and agreement passages, printed pages 78 and 82; not the full prospectus"
+    }
+  ]
+}
