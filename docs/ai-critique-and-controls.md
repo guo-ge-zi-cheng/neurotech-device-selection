@@ -1,6 +1,6 @@
 # What the supplied AI readings argue, and how this packet responds
 
-Prepared 19 October 2026. This is an AI-generated research-preparation document. The summaries describe the supplied authors’ arguments; they are not an endorsement of every empirical or philosophical claim. The actual self-checks below reduce specific risks, but they do not certify the packet as error-free or as independently human-reviewed.
+Prepared 19 October 2026; scope updated 20 October 2026. This is an AI-generated research-preparation document. The summaries describe the supplied authors’ arguments; they are not an endorsement of every empirical or philosophical claim. The actual self-checks below reduce specific risks, but they do not certify the packet as error-free or as independently human-reviewed.
 
 ## Bret Stephens: “I’m Begging You: Never Write With A.I.”
 
@@ -27,15 +27,15 @@ The October 2025 course AI note warns about shallow generic prose and missing so
 ## Controls applied in this work
 
 1. **Source reality and support:** saved original FDA records, recorded public URLs and review coverage, and distinguished an abstract, manufacturer release, institutional page and regulatory decision. A real citation is insufficient unless it supports the attached claim.
-2. **Scope and mechanism:** checked exact product names and indications. Temporary Layer 7-T clearance is separated from the future chronic BCI; Exablate is ablation; Optune treats tumours; Viz is triage; Canvas Dx is behavioural assessment.
-3. **Numbers and study design:** retained the Canvas Dx no-result group and conditional denominators; distinguished RNS’s blinded study from open-label follow-up; avoided treating small pilots or unrelated-study comparisons as definitive efficacy evidence.
-4. **Dates and jurisdictions:** checked the completed TRIDENT registry, separated US authorization from UK access, and distinguished old NICE focused-ultrasound wording from later NHS England commissioning.
+2. **Scope and mechanism:** checked exact product names and indications. Temporary Layer 7-T clearance is separated from the future chronic BCI; Exablate is ablation; Ceribell hardware and software versions have different evidence histories.
+3. **Numbers and study design:** distinguished RNS’s blinded study from open-label follow-up; avoided treating small pilots or unrelated-study comparisons as definitive efficacy evidence.
+4. **Dates and jurisdictions:** separated US authorization from UK access, and distinguished old NICE focused-ultrasound wording from later NHS England commissioning.
 5. **First-hand evidence:** retained only contacts with a documented device, equipment or development connection, and explained their specific value. Public contact details do not establish willingness, product use or permission to observe patients. No outreach was sent.
 6. **Knowledge boundaries:** missing independent patent-claim maps, earliest device budgets and some payer policies remain visible. No fictitious amount fills a gap. Source extraction and a coherent layout are not proof of complete research.
 
 ## Errors corrected versus risks caught
 
-The proposed full-report direction was corrected to nine selection briefs after the user clarified the scope. The assumption that the criticism was uniformly old was corrected using the 2026 NYT dates. During source checks, several common erroneous interpretations were prevented: presenting Canvas performance without its no-result denominator, describing a completed trial as recruiting, equating a London founder with an LVO clinical user, and equating US clearance with NHS funding. These are recorded as checks, not fabricated claims that the user or an earlier draft necessarily made them.
+The user requested concise selection briefs and has narrowed the shortlist to five devices. The assumption that the criticism was uniformly old was corrected using the 2026 NYT dates. Relevant checks distinguish temporary electrode clearance from a complete BCI, RNS’s blinded trial from open-label follow-up, observational workflow evidence from a mortality trial, and US clearance from NHS funding. These are recorded as checks, not claims of an independent human audit.
 
 The machine-readable record is [data/checks-and-corrections.json](../data/checks-and-corrections.json). It records both completed checks and unfinished work. This is a self-audit, not an independent human audit. A team member should verify the final shortlist’s key FDA indication, patent claims, early financing trail and UK access before the team relies on them.
 

@@ -25,6 +25,6 @@ Dates: prioritized three-device list by noon 23 October 2026; report by noon Lon
 
 ## What these selection briefs can and cannot claim
 
-The briefs use the five topics as a research-feasibility framework. They are intentionally shorter than complete case studies. They do not claim completed patent-claim analysis for all nine, a fully reconstructed early financing history, exact current UK eligibility, or compliance with an unseen stakeholder-map template. A list of missing evidence is part of the decision, not a fabricated answer to a requirement.
+The briefs use the five topics as a research-feasibility framework. They are intentionally shorter than complete case studies. They do not claim completed patent-claim analysis for all five, a fully reconstructed early financing history, exact current UK eligibility, or compliance with an unseen stakeholder-map template. A list of missing evidence is part of the decision, not a fabricated answer to a requirement.
 
 The topic list has some product-family descriptions broader than individual indications. Preserve the fact that a topic is listed while independently checking exact regulatory scope. The supplied examples and lecture materials must be added when the user provides them.
