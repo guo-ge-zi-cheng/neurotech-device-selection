@@ -1,115 +1,117 @@
 # Viz LVO
 
-**Viz.ai · Detailed selection report**  
-Evidence snapshot: 19 October 2026 · Repository edition: 20 October 2026
+**Viz.ai** · [Back to the comparison](../README.md)
 
-[Back to the nine-device comparison](../README.md)
+## What does it do?
 
-## Selection takeaway
+Viz LVO is software used in a stroke-care workflow. It analyses CT angiography images for findings suspicious for a large-vessel occlusion: a blockage in a major artery supplying the brain. It then helps notify the relevant team so that a potentially urgent scan can be reviewed and care coordinated more quickly.
 
-An attractive entrepreneurship choice if the team prefers medical AI and a potential founder conversation. It has less direct neural-interface content than RNS or cortical electrodes.
+The product is therefore doing a triage and communication task. It is not collecting a neural signal, replacing the CT scanner or independently making the final treatment decision. A clinician still needs to assess the images and the patient. The useful comparison is with the same hospital pathway before the automated alert: which hand-off or review delay could it remove?
 
-| Decision dimension | Result |
-|---|---|
-| Technical fit | CTA-based stroke triage and care coordination |
-| Public information | Strong regulatory; mixed early IP |
-| First-hand access | London co-founder verified; exact local clinical deployment unverified |
-| Relative workload | Moderate |
+The mechanism explains what the evidence must show. Image-detection accuracy is one question; whether the alert changes response time is another; whether that improves patient outcome or reduces costs is another. Hospital IT integration, the users receiving alerts and the institution paying for the software all belong in the commercialization story. The first FDA record used the name ContaCT, so product names need to be followed through the early history.
 
-Choose Viz for entrepreneurship and a local founder-origin lead. Ceribell has a closer neural-recording connection; Optune and Exablate have stronger verified London product-user evidence.
+## How far has it developed?
 
-## Product scope and mechanism
+The original 2018 De Novo authorization established a computer-aided triage/notification use. This is a marketed software lineage, but a report should follow the chosen Viz LVO version and avoid treating the whole present Viz platform as the original product.
 
-The software analyses CT angiography for patterns suspicious for large-vessel occlusion and sends notifications to help stroke teams prioritize review and coordinate care. Its purpose concerns time-critical workflow. It does not directly measure neural activity, replace the diagnostic scan, or independently authorize thrombectomy.
+Sources for this description and stage: [FDA • VIZ DEN170073](https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN170073.pdf); [Manoj Ramachandran: founder profile and contact form](https://manojramachandran.com/).
 
-## Clinical evidence and its limits
+### What does the clinical evidence actually show?
 
 The original 2018 FDA De Novo record, DEN170073, uses the name ContaCT and establishes the triage/notification category. The first authorization is a strong primary source for what the algorithm was allowed to do and how performance was evaluated. A complete case must connect diagnostic performance to time-to-treatment and patient outcomes without assuming that one proves the other.
 
-[FDA-VIZ-DEN170073][FDA-VIZ-DEN170073]
+**Practical takeaway:** A clear software-regulation source and a relevant London co-founder. Original IP, early financing and a verified payer source need more work.
 
-## Detailed assessment of the five coursework topics
+## Finding information for the five report sections
 
-The labels below describe source readiness, not whether this topic has been fully researched. “Strong” can coexist with a small study or a narrow indication: the evidence is available to analyse, but its quality and applicability still need to be judged.
+### 1. Unmet medical need
 
-### 1. Clinical need and evidence — Partial / follow-up needed
+**Access to useful information: Some gaps.**
 
-LVO stroke creates a time-dependent care problem. Explain which patients are scanned, who receives an alert and where the avoidable delay occurs rather than treating all stroke as the market.
+**What we found:** The De Novo review defines the clinical task and evaluates the triage software.
 
-**Why this grade:** The original FDA performance review is accessible; downstream outcome and cost evidence needs separate verification.
+**How close is it to this device?** Direct evidence about this device.
 
-[FDA-VIZ-DEN170073][FDA-VIZ-DEN170073]
+**How it helps write this section:** Explain the delay the product targets and its role within a stroke pathway.
 
-### 2. IP and invention origin — Material gap
+**Still needed:** Population, care costs and independent evidence linking the alert to downstream treatment/outcomes.
 
-Software patents, datasets, trade secrets and workflow integration may all matter. Exact independent claims and first inventors/employers remain unresolved; proprietary weights are unlikely to be fully public.
+Useful sources: [FDA • VIZ DEN170073](https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN170073.pdf).
 
-**Why this grade:** Original claims, data rights and trade-secret boundaries are unresolved despite a plausible software-IP story.
+### 2. Intellectual property
 
-### 3. Early funding — Material gap
+**Access to useful information: Hard to find.**
 
-The company’s April 2022 release reports a $100m Series D at a $1.2bn valuation. This is company-wide later-stage finance; obtain seed/early development history separately.
+**What we found:** No specific first-product independent-claim map was established.
 
-**Why this grade:** A later Series D is documented, but first-product/seed finance has not been reconstructed.
+**How close is it to this device?** No product-specific patent record established in this search.
 
-[VIZ-FIN][VIZ-FIN]
+**How it helps write this section:** A founder enquiry could identify the first patent families, licences, data rights and protected know-how.
 
-### 4. Regulatory path and manufacturing — Partial / follow-up needed
+**Still needed:** Named inventors/employers, actual independent claims and separation of patents from trade secrets.
 
-A software-specific De Novo pathway is well documented. Follow version changes, deployment and quality management rather than inventing a conventional factory story.
+### 3. Fundraising
 
-**Why this grade:** A De Novo record is a strong start; subsequent versions, deployment and UK status need follow-up.
+**Access to useful information: Hard to find.**
 
-[FDA-VIZ-DEN170073][FDA-VIZ-DEN170073]
+**What we found:** A 2022 $100m Series D and $1.2bn company valuation are public.
 
-### 5. Reimbursement and health economics — Partial / follow-up needed
+**How close is it to this device?** Later company financing; weak evidence for original development.
 
-Distinguish a hospital/network software contract, US payment incentives, and any claimed downstream savings. No current UK product-specific NHS reimbursement was verified here.
+**How it helps write this section:** Use them as later financing context, with their date clearly stated.
 
-**Why this grade:** Hospital purchasing and US payment leads are available, but current UK product-specific payment is unverified.
+**Still needed:** Seed/early funding, first-device spending and earlier valuations. The Series D does not answer how the first product was built.
 
-[VIZ-FIN][VIZ-FIN]
+Useful sources: [Viz.ai announces $100m Series D](https://www.viz.ai/news/viz-ai-raises-100-million-in-series-d-funding).
 
-## London/UK first-hand access
+### 4. Regulatory
 
-Manoj Ramachandran identifies himself as Viz.ai co-founder and a Royal London Hospital surgeon; Barts independently lists his consultant role. His professional website has a research/teaching enquiry form. This is a concrete London-origin/business lead, not proof that Royal London uses Viz LVO for stroke: his clinical specialty is orthopaedics. A local stroke implementation interview would require a separate verified user.
+**Access to useful information: Clear sources.**
 
-- **Professor Manoj Ramachandran** — London co-founder / commercial-origin lead; not a verified stroke-product user. Public route: Research/teaching enquiry form on his professional website. [VIZ-FOUNDER][VIZ-FOUNDER]
+**What we found:** DEN170073 directly documents the original ContaCT triage/notification authorization.
 
-These are public enquiry leads, not introductions or confirmations of availability. No contact has been made. An educational staff discussion may be more realistic than clinical observation; a local domain specialist is not automatically an exact-device user.
+**How close is it to this device?** Direct evidence about this device.
 
-### Questions for a useful interview
+**How it helps write this section:** Explain the De Novo route, intended role, evidence and safeguards.
 
-1. Which initial workflow problem convinced the first hospital buyer?
-2. How were first clinical data access, IP and seed finance arranged?
-3. What evidence links an alert to faster treatment, and who receives the financial value?
+**Still needed:** Version changes, relevant other markets, standards and software production/quality arrangements.
 
-## What would make this topic easier to complete?
+Useful sources: [FDA • VIZ DEN170073](https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN170073.pdf).
 
-1. Trace the first ContaCT authorization to the chosen Viz LVO version and define the notification task.
-2. Use a founder-origin enquiry to seek early patent, data-access, hospital-customer and seed-financing records.
-3. Find a confirmed stroke-product deployment separately from the founder’s orthopaedic clinical role.
+### 5. Reimbursement
 
-## Stakeholders to map
+**Access to useful information: Hard to find.**
 
-Person with suspected LVO stroke; radiology, stroke and thrombectomy teams; hospital/network IT and procurement; Viz; payer and data-governance stakeholders.
+**What we found:** A complete product-specific payer decision or hospital contract was not verified.
 
-This is a provisional list to guide the eventual map. It does not claim to follow the lecture-specific map format, which has not yet been supplied. Trace who uses, pays, approves, purchases and benefits; these may be different people or institutions.
+**How close is it to this device?** No direct payer/contract source established.
 
-## Selection gate and unresolved evidence
+**How it helps write this section:** Identify the hospital/network buyer before assessing who receives the benefit from faster care.
 
-Before selecting: confirm founder interview availability and obtain a first-product patent/early-financing trail. Do not make an interview response a prerequisite for finishing.
+**Still needed:** Actual payment arrangements, applicable historical/current codes and an economic case for the selected version.
 
-The judgement is based on the sources located, rather than an exhaustive publication count. Missing IP, early budgets or local use should stay visible until verified. This report does not complete a global current-label audit, freedom-to-operate analysis or independent human review.
+## Useful first-hand enquiries
 
-## Sources and review coverage
+**London position:** A London Viz.ai co-founder is verified. A London stroke service using Viz LVO was not verified.
 
-- **FDA-VIZ-DEN170073** — [FDA • VIZ DEN170073](https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN170073.pdf). Regulator decision / evidence review; undated/current page. Checked 2026-10-19. Coverage: Downloaded, text extracted, indication and relevant evidence sections reviewed.
-- **VIZ-FIN** — [Viz.ai announces $100m Series D](https://www.viz.ai/news/viz-ai-raises-100-million-in-series-d-funding). Company-issued release; 2022-04-07. Checked 2026-10-19. Coverage: Relevant sections reviewed; not a full independent audit.
-- **VIZ-FOUNDER** — [Manoj Ramachandran: founder profile and contact form](https://manojramachandran.com/). First-person professional website; undated/current page. Checked 2026-10-19. Coverage: Viz co-founder role, London base and non-clinical enquiry form checked.
-- **BARTS-TEAM** — [Barts Bone & Joint Health team](https://bonejointhealth.ac.uk/team/). Institutional team page; undated/current page. Checked 2026-10-19. Coverage: Manoj Ramachandran listed as consultant orthopaedic surgeon.
+### Professor Manoj Ramachandran — Royal London / London-based founder connection
 
-[FDA-VIZ-DEN170073]: https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN170073.pdf
-[VIZ-FIN]: https://www.viz.ai/news/viz-ai-raises-100-million-in-series-d-funding
-[VIZ-FOUNDER]: https://manojramachandran.com/
-[BARTS-TEAM]: https://bonejointhealth.ac.uk/team/
+**Why this person/team is included:** His professional site identifies him as a Viz.ai co-founder; Barts confirms his local consultant role.
+
+**What they could help us investigate:** Useful for why the company was formed, initial hospital/data relationships, early finance and commercialization decisions.
+
+**What their connection does not establish:** His clinical specialty is orthopaedics. The founder connection is relevant to the business history; it does not make him a stroke-product clinician or prove Royal London deployment.
+
+**Public enquiry route:** Use the research/teaching enquiry form on his professional website.
+
+Evidence for the connection and route: [Manoj Ramachandran: founder profile and contact form](https://manojramachandran.com/); [Barts Bone & Joint Health team](https://bonejointhealth.ac.uk/team/).
+
+No contact has been made and no visit has been agreed. Start with a short staff discussion about the specific questions above; do not assume access to patients or treatment sessions.
+
+## Before choosing this device
+
+- **Intellectual property:** Named inventors/employers, actual independent claims and separation of patents from trade secrets.
+- **Fundraising:** Seed/early funding, first-device spending and earlier valuations. The Series D does not answer how the first product was built.
+- **Reimbursement:** Actual payment arrangements, applicable historical/current codes and an economic case for the selected version.
+
+Check the [source notes](../docs/sources.md) for what was reviewed and when. Existing evidence dates to 19 October 2026, with targeted checks/additions on 20 October. The lecture stakeholder-map format is still needed for the final report.

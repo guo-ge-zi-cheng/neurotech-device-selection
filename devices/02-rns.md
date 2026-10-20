@@ -1,125 +1,119 @@
 # RNS System
 
-**NeuroPace · Detailed selection report**  
-Evidence snapshot: 19 October 2026 · Repository edition: 20 October 2026
+**NeuroPace** · [Back to the comparison](../README.md)
 
-[Back to the nine-device comparison](../README.md)
+## What does it do?
 
-## Selection takeaway
+The RNS System is an implanted treatment for selected people with drug-resistant focal epilepsy. Electrodes are placed at or near one or two identified seizure sources. They connect to a neurostimulator implanted in the skull. The system records local brain electrical activity and looks for patterns that the treating team has programmed it to detect.
 
-A leading choice if neural signal interfaces matter most. The mature US evidence and filings support a complete case even if a London product-user interview cannot be arranged.
+When a programmed pattern is detected, the device delivers a short electrical stimulation. This is the meaning of responsive or closed-loop treatment: the recorded signal affects when stimulation is delivered. It does not need to wait for a person to press a button. The clinician still sets and adjusts the detection and stimulation parameters; the device does not independently decide every aspect of epilepsy care.
 
-| Decision dimension | Result |
-|---|---|
-| Technical fit | Intracranial recording and responsive electrical stimulation |
-| Public information | Strong |
-| First-hand access | London epilepsy specialist verified; exact RNS use unverified |
-| Relative workload | More manageable from public sources |
+Recorded data also give the clinical team a view of activity between appointments. This makes the product both a treatment and a source of long-term intracranial recordings. The case can therefore explain why sensing, stimulation, follow-up and data review have to work together. It should also explain the surgical and monitoring burden and the alternatives available to the same patients.
 
-Choose RNS over Precision for a mature closed-loop case with a stronger public clinical history. Choose Exablate or Optune when verified local product experience is more important than neural-signal recording.
+## How far has it developed?
 
-## Product scope and mechanism
+This is a marketed US implant, with original PMA approval in 2013 and a substantial clinical history. The selected case should remain focal epilepsy. Investigational generalized-epilepsy work is a separate indication, not evidence that the original label covers every epilepsy type.
 
-An implanted neurostimulator records intracranial electrical activity through leads near identified seizure foci. A clinician configures detection and stimulation, and the device responds to detected patterns. This is closed-loop therapy: sensing influences stimulation. It is not a system that reads arbitrary thoughts or guarantees seizure freedom.
+Sources for this description and stage: [FDA • RNS P100026](https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100026B.pdf); [Morrell et al.: responsive cortical stimulation trial](https://pubmed.ncbi.nlm.nih.gov/21917777/); [Nair et al.: nine-year prospective RNS follow-up](https://pubmed.ncbi.nlm.nih.gov/32690786/); [NeuroPace July 2026 FDA update on generalized epilepsy supplement](https://www.sec.gov/Archives/edgar/data/1528287/000119312526321083/d138221dex991.htm).
 
-## Clinical evidence and its limits
+### What does the clinical evidence actually show?
 
 The original 2013 PMA concerns adults with drug-resistant focal/partial-onset seizures, with no more than two localized foci and other label criteria. In the 191-person randomized study, seizure frequency fell 37.9% with active stimulation versus 17.3% with sham during the blinded evaluation. The nine-year study reports a 75% median reduction, but that later figure comes from open-label follow-up, not another nine-year randomized comparison. A July 2026 company FDA update did not establish approval for generalized epilepsy.
 
-[FDA-RNS-P100026][FDA-RNS-P100026] [RNS-TRIAL][RNS-TRIAL] [RNS-LONG][RNS-LONG]
+**Practical takeaway:** One of the clearer choices for public research: trials, an early patent, a detailed prospectus and an economic model are already identified. Early financing still needs careful extraction.
 
-## Detailed assessment of the five coursework topics
+## Finding information for the five report sections
 
-The labels below describe source readiness, not whether this topic has been fully researched. “Strong” can coexist with a small study or a narrow indication: the evidence is available to analyse, but its quality and applicability still need to be judged.
+### 1. Unmet medical need
 
-### 1. Clinical need and evidence — Strong starting evidence
+**Access to useful information: Clear sources.**
 
-A bounded focal-epilepsy population, continued medication, surgical alternatives and seizure-related costs give a clear problem. Quantify UK and US populations separately in the eventual report.
+**What we found:** The original randomized trial and nine-year follow-up are public; the FDA review defines eligible patients.
 
-**Why this grade:** A randomized trial and long-term follow-up provide a substantial, interpretable evidence base.
+**How close is it to this device?** Direct evidence about this device.
 
-[RNS-TRIAL][RNS-TRIAL] [RNS-LONG][RNS-LONG]
+**How it helps write this section:** Explain who remained poorly served by prior treatment and what outcomes the device was designed to improve.
 
-### 2. IP and invention origin — Partial / follow-up needed
+**Still needed:** Population and spending estimates for a defined geography; keep randomized and later open-label results separate.
 
-US6016449A gives an early 1997-priority trail naming Robert Fischell, David Fischell and Adrian Upton. It is a starting point: map independent claims, assignments and original employers before claiming origin is reconstructed.
+Useful sources: [Morrell et al.: responsive cortical stimulation trial](https://pubmed.ncbi.nlm.nih.gov/21917777/); [Nair et al.: nine-year prospective RNS follow-up](https://pubmed.ncbi.nlm.nih.gov/32690786/); [FDA • RNS P100026](https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100026B.pdf).
 
-**Why this grade:** An early patent record and prospectus give a concrete origin trail, but independent claims and assignments remain to be mapped.
+### 2. Intellectual property
 
-[RNS-PATENT][RNS-PATENT] [RNS-S1][RNS-S1]
+**Access to useful information: Clear sources.**
 
-### 3. Early funding — Partial / follow-up needed
+**What we found:** US6016449A supplies an early patent trail; the prospectus adds company IP context.
 
-SEC prospectuses expose business and financing history. Distinguish pre-approval development capital from later commercial growth and IPO proceeds; earliest device-specific costs are still unresolved.
+**How close is it to this device?** Direct evidence about this device.
 
-**Why this grade:** Public filings are available; the earliest device-specific financing and expenditure have not been reconstructed.
+**How it helps write this section:** Read independent claims and trace inventors, assignments and the company’s development history.
 
-[RNS-S1][RNS-S1]
+**Still needed:** A complete first-version claim map and verification of original inventor employers.
 
-### 4. Regulatory path and manufacturing — Partial / follow-up needed
+Useful sources: [US6016449A: implantable seizure warning/treatment system](https://patents.google.com/patent/US6016449A/en); [NeuroPace: 2021 IPO prospectus amendment](https://www.sec.gov/Archives/edgar/data/1528287/000162828021006852/neuropaces-1a1.htm).
 
-Detailed PMA evidence and SEC manufacturing disclosures are unusually accessible. The original label is not a complete audit of later supplements.
+### 3. Fundraising
 
-**Why this grade:** The original PMA and manufacturing disclosures are accessible; later supplements and UK availability need separate checks.
+**Access to useful information: Some gaps.**
 
-[FDA-RNS-P100026][FDA-RNS-P100026] [RNS-S1][RNS-S1] [RNS-2026][RNS-2026]
+**What we found:** The 2021 IPO prospectus contains financing and financial history.
 
-### 5. Reimbursement and health economics — Partial / follow-up needed
+**How close is it to this device?** Direct company filing; early-device amounts require extraction.
 
-Published US health-economic models and payer pathways exist. Modelled cost-effectiveness is not an observed saving, and US reimbursement does not prove NHS access.
+**How it helps write this section:** Search the financing notes and business history to separate development capital from later launch and IPO funding.
 
-**Why this grade:** US economic models provide a starting point, but model assumptions and UK access remain open.
+**Still needed:** The earliest grants/rounds, valuations and device-specific spending are not yet fully reconstructed.
 
-[RNS-ECON][RNS-ECON]
+Useful sources: [NeuroPace: 2021 IPO prospectus amendment](https://www.sec.gov/Archives/edgar/data/1528287/000162828021006852/neuropaces-1a1.htm).
 
-## London/UK first-hand access
+### 4. Regulatory
 
-Professor Matthew Walker at UCLH is a verified London epilepsy specialist, useful for understanding patient selection and UK alternatives. His public profile does not prove that he implants or uses RNS. Treat a local interview as clinical-context evidence unless direct RNS experience is confirmed. Product-specific first-hand evidence may require a remote NeuroPace or US implant-centre interview.
+**Access to useful information: Clear sources.**
 
-- **Professor Matthew Walker, UCLH** — London epilepsy domain expert; RNS use unverified. Public route: Public UCLH consultant profile / departmental academic enquiry. [WALKER][WALKER]
+**What we found:** The original PMA includes clinical evidence; the prospectus gives manufacturing information.
 
-These are public enquiry leads, not introductions or confirmations of availability. No contact has been made. An educational staff discussion may be more realistic than clinical observation; a local domain specialist is not automatically an exact-device user.
+**How close is it to this device?** Direct evidence about this device.
 
-### Questions for a useful interview
+**How it helps write this section:** Explain the original approval route, supporting trial and production arrangements.
 
-1. Which UK patients would be candidates, and what do they receive instead?
-2. What clinical and payment barriers separate a US device from UK adoption?
-3. Which original detection/stimulation claims were essential to the first marketed system?
+**Still needed:** Relevant later supplements, standards and non-US market status.
 
-## What would make this topic easier to complete?
+Useful sources: [FDA • RNS P100026](https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100026B.pdf); [NeuroPace: 2021 IPO prospectus amendment](https://www.sec.gov/Archives/edgar/data/1528287/000162828021006852/neuropaces-1a1.htm); [NeuroPace July 2026 FDA update on generalized epilepsy supplement](https://www.sec.gov/Archives/edgar/data/1528287/000119312526321083/d138221dex991.htm).
 
-1. Create a timeline from early patent priority through first PMA and market entry; verify inventor employers and assignments.
-2. Extract pre-approval financing from filings separately from post-launch capital and IPO proceeds.
-3. Use the London epilepsy route to investigate UK alternatives, and a US product user for RNS-specific implementation if available.
+### 5. Reimbursement
 
-## Stakeholders to map
+**Access to useful information: Some gaps.**
 
-Person with drug-resistant focal epilepsy; epilepsy multidisciplinary team and implanting surgeon; manufacturer and follow-up staff; hospital; insurer or public payer.
+**What we found:** A published RNS cost-effectiveness model is available.
 
-This is a provisional list to guide the eventual map. It does not claim to follow the lecture-specific map format, which has not yet been supplied. Trace who uses, pays, approves, purchases and benefits; these may be different people or institutions.
+**How close is it to this device?** Direct device model; not a payer policy.
 
-## Selection gate and unresolved evidence
+**How it helps write this section:** Use its comparator, costs and assumptions to explain the proposed economic value.
 
-Before selecting: read the early patent claims and prospectus financing sections in depth. Do not make a London visit the critical dependency.
+**Still needed:** Current coverage/codes and who pays in the chosen market. A model is not a coverage decision or an observed saving.
 
-The judgement is based on the sources located, rather than an exhaustive publication count. Missing IP, early budgets or local use should stay visible until verified. This report does not complete a global current-label audit, freedom-to-operate analysis or independent human review.
+Useful sources: [Youngerman et al.: cost-effectiveness model for RNS](https://pubmed.ncbi.nlm.nih.gov/34458986/).
 
-## Sources and review coverage
+## Useful first-hand enquiries
 
-- **FDA-RNS-P100026** — [FDA • RNS P100026](https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100026B.pdf). Regulator decision / evidence review; undated/current page. Checked 2026-10-19. Coverage: Downloaded, text extracted, indication and relevant evidence sections reviewed.
-- **RNS-TRIAL** — [Morrell et al.: responsive cortical stimulation trial](https://pubmed.ncbi.nlm.nih.gov/21917777/). Original clinical trial: indexed abstract; 2011. Checked 2026-10-19. Coverage: Trial abstract reviewed.
-- **RNS-LONG** — [Nair et al.: nine-year prospective RNS follow-up](https://pubmed.ncbi.nlm.nih.gov/32690786/). Original clinical study: indexed abstract; 2020. Checked 2026-10-19. Coverage: Abstract and study design reviewed.
-- **RNS-S1** — [NeuroPace: 2021 IPO prospectus amendment](https://www.sec.gov/Archives/edgar/data/1528287/000162828021006852/neuropaces-1a1.htm). Company SEC filing; 2021. Checked 2026-10-19. Coverage: Selected business, manufacturing, finance and IP sections reviewed.
-- **RNS-PATENT** — [US6016449A: implantable seizure warning/treatment system](https://patents.google.com/patent/US6016449A/en). Published patent record; Priority 1997-10-27. Checked 2026-10-19. Coverage: Inventors, priority and opening claim text reviewed; complete claim mapping and official legal status not audited.
-- **RNS-ECON** — [Youngerman et al.: cost-effectiveness model for RNS](https://pubmed.ncbi.nlm.nih.gov/34458986/). Original health-economic model: indexed abstract; 2021. Checked 2026-10-19. Coverage: Abstract reviewed; model assumptions not independently reproduced.
-- **RNS-2026** — [NeuroPace July 2026 FDA update on generalized epilepsy supplement](https://www.sec.gov/Archives/edgar/data/1528287/000119312526321083/d138221dex991.htm). Company announcement filed with SEC; 2026-07-28. Checked 2026-10-19. Coverage: Relevant sections reviewed; not a full independent audit.
-- **WALKER** — [UCLH: Professor Matthew Walker](https://www.uclh.nhs.uk/our-services/find-consultant/professor-matthew-walker). Institutional clinical profile; undated/current page. Checked 2026-10-19. Coverage: Public search-index profile checked; direct fetch restricted.
+**London position:** No exact RNS user in London was verified. Use product-specific US evidence rather than presenting a general London epilepsy specialist as an RNS contact.
 
-[FDA-RNS-P100026]: https://www.accessdata.fda.gov/cdrh_docs/pdf10/P100026B.pdf
-[RNS-TRIAL]: https://pubmed.ncbi.nlm.nih.gov/21917777/
-[RNS-LONG]: https://pubmed.ncbi.nlm.nih.gov/32690786/
-[RNS-S1]: https://www.sec.gov/Archives/edgar/data/1528287/000162828021006852/neuropaces-1a1.htm
-[RNS-PATENT]: https://patents.google.com/patent/US6016449A/en
-[RNS-ECON]: https://pubmed.ncbi.nlm.nih.gov/34458986/
-[RNS-2026]: https://www.sec.gov/Archives/edgar/data/1528287/000119312526321083/d138221dex991.htm
-[WALKER]: https://www.uclh.nhs.uk/our-services/find-consultant/professor-matthew-walker
+### Martha Morrell / NeuroPace clinical team — US; remote enquiry
+
+**Why this person/team is included:** Morrell is associated with the original RNS trial and is named in the company’s RNS-specific clinical presentations.
+
+**What they could help us investigate:** Useful for the early clinical need, trial design, regulatory development and how chronic recordings changed follow-up.
+
+**What their connection does not establish:** A company clinical perspective does not independently establish payer coverage or disclose the first investors. This is not a London visit lead.
+
+**Public enquiry route:** NeuroPace’s Investor Day page publishes investors@neuropace.com; request routing to the appropriate clinical/development contact.
+
+Evidence for the connection and route: [Morrell et al.: responsive cortical stimulation trial](https://pubmed.ncbi.nlm.nih.gov/21917777/); [NeuroPace: 2021 IPO prospectus amendment](https://www.sec.gov/Archives/edgar/data/1528287/000162828021006852/neuropaces-1a1.htm); [NeuroPace Investor Day: named clinical and development presenters](https://investors.neuropace.com/investor-day/).
+
+No contact has been made and no visit has been agreed. Start with a short staff discussion about the specific questions above; do not assume access to patients or treatment sessions.
+
+## Before choosing this device
+
+- Read the linked records for the missing first-version, funding and payment details before committing.
+
+Check the [source notes](../docs/sources.md) for what was reviewed and when. Existing evidence dates to 19 October 2026, with targeted checks/additions on 20 October. The lecture stakeholder-map format is still needed for the final report.

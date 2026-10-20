@@ -1,111 +1,117 @@
 # MAGNETOM Terra 7T MRI
 
-**Siemens Healthineers · Detailed selection report**  
-Evidence snapshot: 19 October 2026 · Repository edition: 20 October 2026
+**Siemens Healthineers** · [Back to the comparison](../README.md)
 
-[Back to the nine-device comparison](../README.md)
+## What does it do?
 
-## Selection takeaway
+MAGNETOM Terra is a 7-tesla MRI scanner. It uses a strong magnetic field, radiofrequency excitation and receiver coils to produce MR images. It is an imaging platform rather than a neural electrode interface. Structural images can show anatomy in detail; functional MRI measures an indirect blood-oxygenation-related response rather than neuronal voltage.
 
-Choose if seeing and understanding advanced imaging equipment is a priority. It is less straightforward as an early venture-financing case than a single-product start-up.
+A higher field can provide useful signal and spatial detail, but it does not automatically produce a better clinical decision for every patient. Field uniformity, RF exposure, coils, implants, movement and patient tolerability all affect usable scans. A good report needs one concrete use: what information does this scanner provide that the relevant alternative cannot provide as well, and does that information change care?
 
-| Decision dimension | Result |
-|---|---|
-| Technical fit | Ultra-high-field imaging; functional signals are indirect |
-| Public information | Strong technical; mixed business |
-| First-hand access | Exact Terra scanner and King’s facility enquiry verified |
-| Relative workload | Moderate; funding harder |
+The commercial unit also depends on a building installation, trained physicists and radiographers, maintenance, scheduling and safety procedures. This makes the local facility team particularly valuable for understanding use and running costs. The difficulty is that the scanner emerged from a large company and a research ecosystem, so a simple start-up funding story may not exist in public form.
 
-Choose Terra when seeing and discussing exact local equipment is central. Exablate gives a more bounded treatment and commissioning story; RNS offers a cleaner single-device commercialization history.
+## How far has it developed?
 
-## Product scope and mechanism
+The original 2017 FDA record concerns the 7T Terra system and specified head/extremity use, not every possible body region or later Terra.X feature. King’s lists an exact Terra at St Thomas’, giving a concrete installed-equipment lead.
 
-A 7-tesla magnetic field enables MR signals from nuclear spins to be measured with high signal-to-noise potential and fine spatial detail. Brain functional MRI typically measures a blood-oxygenation-related response indirectly, rather than neuronal voltage. Field inhomogeneity, RF exposure, coil design, implants and patient tolerability complicate translation beyond a stronger magnet.
+Sources for this description and stage: [FDA • TERRA K170840](https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170840.pdf); [King’s: 7T MAGNETOM Terra scanner and enquiries](https://www.kcl.ac.uk/research/facilities/equipment/7t-magnetom-terra-mri-scanner); [King’s: first 7T MRI scan under general anaesthesia](https://www.kcl.ac.uk/news/world-first-7t-mri-scan-under-general-anaesthesia).
 
-## Clinical evidence and its limits
+### What does the clinical evidence actually show?
 
 K170840 records the original 2017 Class II clearance for the 7T system, including head and extremity imaging within its stated patient constraints. Do not extend that original label to every body region, all patients or newer Terra.X capabilities. King’s lists an exact MAGNETOM Terra at its LoCUS advanced MRI facility at St Thomas’, and a 2023 institutional report documents clinical/research use.
 
-[FDA-TERRA-K170840][FDA-TERRA-K170840] [TERRA-CLINICAL][TERRA-CLINICAL]
+**Practical takeaway:** A good local equipment discussion is plausible. Early IP and device-specific development finance are harder to reconstruct than the technical story.
 
-## Detailed assessment of the five coursework topics
+## Finding information for the five report sections
 
-The labels below describe source readiness, not whether this topic has been fully researched. “Strong” can coexist with a small study or a narrow indication: the evidence is available to analyse, but its quality and applicability still need to be judged.
+### 1. Unmet medical need
 
-### 1. Clinical need and evidence — Partial / follow-up needed
+**Access to useful information: Some gaps.**
 
-Choose a diagnostic or research use case, such as selected epilepsy imaging, rather than claim that all brain imaging needs 7T. Show whether additional detail changes an actual clinical decision.
+**What we found:** The FDA record describes permitted imaging use; King’s reports exact-system use.
 
-**Why this grade:** Public technical and clinical-use evidence exists, but a specific decision-changing use case still needs to be selected.
+**How close is it to this device?** Direct evidence about this device.
 
-[FDA-TERRA-K170840][FDA-TERRA-K170840] [TERRA-CLINICAL][TERRA-CLINICAL]
+**How it helps write this section:** Choose one diagnostic/research task and describe why the extra image information matters.
 
-### 2. IP and invention origin — Material gap
+**Still needed:** A task-specific patient group, measurable care benefit and cost comparison with the relevant lower-field service.
 
-The product combines magnet, gradient, RF, reconstruction and safety inventions. Narrow to the first Terra’s enabling advances and trace selected independent claims; a generic Siemens patent count is unhelpful.
+Useful sources: [FDA • TERRA K170840](https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170840.pdf); [King’s: first 7T MRI scan under general anaesthesia](https://www.kcl.ac.uk/news/world-first-7t-mri-scan-under-general-anaesthesia).
 
-**Why this grade:** A multi-component corporate patent landscape makes the first-device origin difficult to bound.
+### 2. Intellectual property
 
-### 3. Early funding — Material gap
+**Access to useful information: Hard to find.**
 
-Corporate R&D and academic/hospital partnerships differ from angel/VC finance. A hospital installation grant or Siemens total R&D spend is not the device’s development budget. This is the largest assignment risk.
+**What we found:** The product includes several interacting technologies, but no bounded first-Terra patent set was verified.
 
-**Why this grade:** Corporate R&D, public installation funding and device development costs are distinct; attribution is unresolved.
+**How close is it to this device?** No product-specific patent set established.
 
-### 4. Regulatory path and manufacturing — Partial / follow-up needed
+**How it helps write this section:** Start from the chosen enabling feature rather than all Siemens MRI patents.
 
-A public clearance and technical literature give a strong starting point. Safety, eligible implants, manufacturing and service requirements should be version-specific.
+**Still needed:** First-version inventors, employers, patent families and independent claims.
 
-**Why this grade:** The original clearance is available; version-specific safety, production and present indications need further work.
+### 3. Fundraising
 
-[FDA-TERRA-K170840][FDA-TERRA-K170840]
+**Access to useful information: Hard to find.**
 
-### 5. Reimbursement and health economics — Partial / follow-up needed
+**What we found:** A local installation is documented, not the original development budget.
 
-Separate capital procurement, facility upgrades, service contracts, staffing and payment for scans. Clinical benefit must justify incremental cost over 3T; research grant access does not equal NHS reimbursement.
+**How close is it to this device?** Installation evidence; not product-development finance.
 
-**Why this grade:** Capital and service-cost questions are tractable with a facility interview, but a complete economic comparison is missing.
+**How it helps write this section:** Separate purchase/installation funds from the cost of creating the product.
 
-[TERRA-KCL][TERRA-KCL]
+**Still needed:** Early corporate R&D allocation, academic partners and attributable grants/costs. Total Siemens R&D is not an acceptable substitute.
 
-## London/UK first-hand access
+Useful sources: [King’s: 7T MAGNETOM Terra scanner and enquiries](https://www.kcl.ac.uk/research/facilities/equipment/7t-magnetom-terra-mri-scanner).
 
-King’s publishes LOCUS-7T-enquiries@kcl.ac.uk for the Terra facility, located in the lower ground floor, North Wing, St Thomas’ Hospital, London SE1 7EH. This is the strongest exact-equipment educational enquiry route in the list. Ask for an MRI physicist or facility manager; no named individual was confirmed as the appropriate student contact. Access still depends on scheduling, the team’s permission and MR safety procedures.
+### 4. Regulatory
 
-- **LoCUS 7T facility physicist or manager, King’s/St Thomas’** — Exact local equipment; suitable person to be assigned. Public route: LOCUS-7T-enquiries@kcl.ac.uk. [TERRA-KCL][TERRA-KCL]
+**Access to useful information: Clear sources.**
 
-These are public enquiry leads, not introductions or confirmations of availability. No contact has been made. An educational staff discussion may be more realistic than clinical observation; a local domain specialist is not automatically an exact-device user.
+**What we found:** K170840 gives a defined 7T product, indication and clearance record.
 
-### Questions for a useful interview
+**How close is it to this device?** Direct evidence about this device.
 
-1. Which patient or research decisions actually benefit over 3T?
-2. What were the installation and ongoing costs, and which were research-funded?
-3. Can early development partners or the relevant Siemens product team explain financing and IP origin?
+**How it helps write this section:** Describe the original classification, safety/testing requirements and eligible use.
 
-## What would make this topic easier to complete?
+**Still needed:** Later models, relevant markets, standards and manufacturing/service arrangements.
 
-1. Choose one clinical task and specify what extra information 7T supplies relative to the relevant comparator.
-2. Ask the facility to distinguish acquisition/installation, ongoing operation and research-funded access.
-3. Locate early Terra development partnerships and a bounded patent subset before committing to the topic.
+Useful sources: [FDA • TERRA K170840](https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170840.pdf).
 
-## Stakeholders to map
+### 5. Reimbursement
 
-Patient or research participant; radiologist and referring clinical team; MR physicist and facility manager; Siemens and service suppliers; hospital capital committee and research funder/payer.
+**Access to useful information: Hard to find.**
 
-This is a provisional list to guide the eventual map. It does not claim to follow the lecture-specific map format, which has not yet been supplied. Trace who uses, pays, approves, purchases and benefits; these may be different people or institutions.
+**What we found:** The local equipment page identifies an operator but does not establish the payment or economic case.
 
-## Selection gate and unresolved evidence
+**How close is it to this device?** No direct product-specific payer/economic source established.
 
-Before selecting: find a credible way to reconstruct early product development finance. Easy physical proximity does not make every assessed topic easy.
+**How it helps write this section:** Use a facility discussion to identify who buys the system and who funds scans.
 
-The judgement is based on the sources located, rather than an exhaustive publication count. Missing IP, early budgets or local use should stay visible until verified. This report does not complete a global current-label audit, freedom-to-operate analysis or independent human review.
+**Still needed:** Capital and service costs, clinical/research funding, scan payments and evidence that incremental benefit justifies cost.
 
-## Sources and review coverage
+## Useful first-hand enquiries
 
-- **FDA-TERRA-K170840** — [FDA • TERRA K170840](https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170840.pdf). Regulator decision / evidence review; undated/current page. Checked 2026-10-19. Coverage: Downloaded, text extracted, indication and relevant evidence sections reviewed.
-- **TERRA-KCL** — [King’s: 7T MAGNETOM Terra scanner and enquiries](https://www.kcl.ac.uk/research/facilities/equipment/7t-magnetom-terra-mri-scanner). Institutional equipment listing; undated/current page. Checked 2026-10-19. Coverage: Exact model, location and enquiry email checked.
-- **TERRA-CLINICAL** — [King’s: first 7T MRI scan under general anaesthesia](https://www.kcl.ac.uk/news/world-first-7t-mri-scan-under-general-anaesthesia). Institutional clinical/research news; 2023-03-22. Checked 2026-10-19. Coverage: Exact Terra installation and use context checked.
+**London position:** King’s lists the exact Terra scanner at the LoCUS facility in St Thomas’ Hospital and publishes a facility enquiry email.
 
-[FDA-TERRA-K170840]: https://www.accessdata.fda.gov/cdrh_docs/pdf17/K170840.pdf
-[TERRA-KCL]: https://www.kcl.ac.uk/research/facilities/equipment/7t-magnetom-terra-mri-scanner
-[TERRA-CLINICAL]: https://www.kcl.ac.uk/news/world-first-7t-mri-scan-under-general-anaesthesia
+### LoCUS 7T facility team, King’s College London / St Thomas’ — London
+
+**Why this person/team is included:** The institutional equipment listing names the exact scanner and the local facility.
+
+**What they could help us investigate:** Useful for which scans benefit from 7T, practical safety constraints, capacity, operating costs and how research versus clinical access is organized.
+
+**What their connection does not establish:** A facility operator may not know Siemens’ original R&D budget or patent history. Equipment proximity does not solve those sections.
+
+**Public enquiry route:** LOCUS-7T-enquiries@kcl.ac.uk; ask which physicist or facility manager could discuss the scanner.
+
+Evidence for the connection and route: [King’s: 7T MAGNETOM Terra scanner and enquiries](https://www.kcl.ac.uk/research/facilities/equipment/7t-magnetom-terra-mri-scanner); [King’s: first 7T MRI scan under general anaesthesia](https://www.kcl.ac.uk/news/world-first-7t-mri-scan-under-general-anaesthesia).
+
+No contact has been made and no visit has been agreed. Start with a short staff discussion about the specific questions above; do not assume access to patients or treatment sessions.
+
+## Before choosing this device
+
+- **Intellectual property:** First-version inventors, employers, patent families and independent claims.
+- **Fundraising:** Early corporate R&D allocation, academic partners and attributable grants/costs. Total Siemens R&D is not an acceptable substitute.
+- **Reimbursement:** Capital and service costs, clinical/research funding, scan payments and evidence that incremental benefit justifies cost.
+
+Check the [source notes](../docs/sources.md) for what was reviewed and when. Existing evidence dates to 19 October 2026, with targeted checks/additions on 20 October. The lecture stakeholder-map format is still needed for the final report.

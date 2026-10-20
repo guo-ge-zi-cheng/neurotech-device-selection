@@ -1,120 +1,119 @@
 # Canvas Dx
 
-**Cognoa · Detailed selection report**  
-Evidence snapshot: 19 October 2026 · Repository edition: 20 October 2026
+**Cognoa** · [Back to the comparison](../README.md)
 
-[Back to the nine-device comparison](../README.md)
+## What does it do?
 
-## Selection takeaway
+Canvas Dx is a software-based aid for assessing autism in young children with developmental concerns. It combines information from a caregiver questionnaire, a healthcare professional questionnaire and short videos of the child’s behaviour. In the original FDA-described workflow, trained video analysts supplied observations used by the system; it should not be described simply as an autonomous AI that watches a video and gives a final diagnosis.
 
-Choose for an AI diagnostic-service case, especially uncertainty, access and payer incentives. It is the least aligned with direct brain recording or stimulation.
+The system supports a clinician’s assessment and can return an indeterminate result. That possibility is part of the product’s design and clinical pathway: the report needs to explain what happens to children whom the tool cannot classify, not only quote accuracy for children who receive a definite answer. It measures behaviour rather than EEG, brain imaging or implanted neural signals.
 
-| Decision dimension | Result |
-|---|---|
-| Technical fit | Behavioural/video/questionnaire diagnostic aid; no brain-signal measurement |
-| Public information | Mixed |
-| First-hand access | London autism expert verified; exact Canvas Dx use unverified |
-| Relative workload | Moderate to higher |
+The commercial problem is access to timely assessment and appropriate next steps. Useful investigation would ask whether it changes the time to a clinically useful decision, how clinicians and caregivers provide the required inputs, and who pays for the tool and professional work. Changes to software thresholds can alter how often a result is produced, so the original study and later versions must be kept separate.
 
-Choose Canvas Dx for diagnostic uncertainty, service access and medical-AI regulation. Choose a different topic if direct neural interfaces or a verified London product visit are essential.
+## How far has it developed?
 
-## Product scope and mechanism
+The original FDA De Novo authorization dates to 2021, and a later 510(k) software record is available. A Wyoming Medicaid provider bulletin documents a payment pathway effective in 2024. No London product user was verified.
 
-The diagnostic aid combines caregiver and clinician questionnaires with information derived from caregiver videos of a child’s behaviour. It provides a result to support a qualified clinician’s assessment. There is no implanted sensor or EEG measurement; the important interface is between behavioural data, an algorithm and a clinical decision pathway.
+Sources for this description and stage: [FDA • CANVAS DEN200069](https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN200069.pdf); [FDA K243558: later Canvas Dx software record](https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243558.pdf).
 
-## Clinical evidence and its limits
+### What does the clinical evidence actually show?
 
 The original 2021 De Novo record, DEN200069, covers children aged 18–72 months with potential developmental delay and use alongside professional assessment. Its original study included 425 children: 290 (68.24%) received no result. Sensitivity of 63/64 (98.44%) and specificity of 56/71 (78.87%) apply to the 135 determinate cases, not all 425. Those are historical-version results, not a benchmark for every later software threshold or population.
 
-[FDA-CANVAS-DEN200069][FDA-CANVAS-DEN200069]
+**Practical takeaway:** There is more concrete payer information than the earlier comparison showed: an actual state Medicaid bulletin is available. Product-specific IP and London access remain harder.
 
-## Detailed assessment of the five coursework topics
+## Finding information for the five report sections
 
-The labels below describe source readiness, not whether this topic has been fully researched. “Strong” can coexist with a small study or a narrow indication: the evidence is available to analyse, but its quality and applicability still need to be judged.
+### 1. Unmet medical need
 
-### 1. Clinical need and evidence — Partial / follow-up needed
+**Access to useful information: Some gaps.**
 
-Delayed assessment is a service-access problem, but earlier algorithmic classification is useful only if it changes appropriate care. Evaluate the pathway for children receiving no result as well as those classified.
+**What we found:** The original FDA study and company development history describe the target children and assessment process.
 
-**Why this grade:** The original FDA study is informative, but high indeterminate output and later-version changes limit simple performance claims.
+**How close is it to this device?** Direct evidence about this device.
 
-[FDA-CANVAS-DEN200069][FDA-CANVAS-DEN200069]
+**How it helps write this section:** Explain the diagnostic-access problem and include the pathway for indeterminate results.
 
-### 2. IP and invention origin — Material gap
+**Still needed:** Independent population/wait-time/cost evidence and current-version clinical utility. Original determinate-case accuracy is not accuracy for every enrolled child.
 
-Trace the academic behavioural-ML origin, assignments, training-data rights and exact patent claims. A separate Cognoa digital therapeutic or Google Glass licence should not be attributed automatically to Canvas Dx.
+Useful sources: [FDA • CANVAS DEN200069](https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN200069.pdf); [Cognoa clinical research: origin and product development](https://cognoa.com/clinical-research/).
 
-**Why this grade:** Academic origin is described, but product-specific assignments, data rights and independent claims remain unresolved.
+### 2. Intellectual property
 
-[CANVAS-FIN][CANVAS-FIN]
+**Access to useful information: Hard to find.**
 
-### 3. Early funding — Partial / follow-up needed
+**What we found:** The academic starting point is described, but a Canvas-specific patent/licence map was not verified.
 
-A primary 2017 announcement reports $11.6m from Morningside and more than $20m raised since founding. It predates authorization and concerns the broader company, not a disclosed Canvas-only development budget.
+**How close is it to this device?** Origin account, not verified product-specific patent rights.
 
-**Why this grade:** An early company round is available; it is not an audited Canvas-only development budget.
+**How it helps write this section:** Use the Harvard/company history to ask for the exact inventions, assignments and data rights.
 
-[CANVAS-FIN][CANVAS-FIN]
+**Still needed:** Original inventor employment, independent claims and licence terms; do not import unrelated Cognoa therapeutic inventions.
 
-### 4. Regulatory path and manufacturing — Partial / follow-up needed
+Useful sources: [Cognoa clinical research: origin and product development](https://cognoa.com/clinical-research/).
 
-The De Novo review is informative about uncertainty and clinical safeguards. Later changes need their own review; SaaS validation, video processing and data governance replace a simplistic hardware-factory account.
+### 3. Fundraising
 
-**Why this grade:** The original De Novo record is accessible; software revisions and UK status require distinct review.
+**Access to useful information: Some gaps.**
 
-[FDA-CANVAS-DEN200069][FDA-CANVAS-DEN200069]
+**What we found:** A 2017 release reports $11.6m from Morningside and more than $20m raised since founding.
 
-### 5. Reimbursement and health economics — Material gap
+**How close is it to this device?** Early company round; not a product-only budget.
 
-Coverage varies by payer and setting. Cognoa’s 2026 Medicaid material advocates a policy: its requested coverage or assessment payment is not evidence that it has been adopted.
+**How it helps write this section:** Put the early company financing next to clinical and regulatory development milestones.
 
-**Why this grade:** Manufacturer advocacy is available, but a proposed payment or coverage policy is not evidence of adopted coverage.
+**Still needed:** Valuations, earliest funds and the amount attributable to Canvas rather than other company work.
 
-[CANVAS-POLICY][CANVAS-POLICY]
+Useful sources: [Cognoa: $11.6m financing announcement](https://www.globenewswire.com/news-release/2017/03/28/1228424/0/en/Cognoa-Raises-11-6-Million-Reaching-More-Than-20-Million-Invested-to-Advance-Earlier-Diagnosis-of-Developmental-Delays-in-Children.html).
 
-## London/UK first-hand access
+### 4. Regulatory
 
-Professor Will Mandy at UCL is a documented neurodevelopmental/autism expert with public academic email w.mandy@ucl.ac.uk, but exact Canvas Dx experience was not verified. Cognoa lists support@cognoa.com and a provider-demo request, which could route a remote educational enquiry. No London deployment was confirmed. An NHS autism team could explain pathway needs, not validate US product use or UK authorization.
+**Access to useful information: Clear sources.**
 
-- **Professor Will Mandy, UCL** — Local autism domain expert; Canvas Dx use unverified. Public route: w.mandy@ucl.ac.uk. [MANDY][MANDY]
-- **Cognoa care / product team** — Remote exact-product enquiry route. Public route: support@cognoa.com; clearly identify a student research enquiry. [CANVAS-CONTACT][CANVAS-CONTACT]
+**What we found:** The original De Novo and later software 510(k) records are public.
 
-These are public enquiry leads, not introductions or confirmations of availability. No contact has been made. An educational staff discussion may be more realistic than clinical observation; a local domain specialist is not automatically an exact-device user.
+**How close is it to this device?** Direct evidence about this device.
 
-### Questions for a useful interview
+**How it helps write this section:** Explain intended use, safeguards and how the software lineage changed after the original study.
 
-1. What happens to children with an indeterminate result?
-2. Does the tool reduce time to appropriate care in the intended pathway?
-3. Which payer policy actually covers this version, and can the licence/patent origin be documented?
+**Still needed:** Other markets, specific standards/quality processes and the effect of each version change.
 
-## What would make this topic easier to complete?
+Useful sources: [FDA • CANVAS DEN200069](https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN200069.pdf); [FDA K243558: later Canvas Dx software record](https://www.accessdata.fda.gov/cdrh_docs/pdf24/K243558.pdf).
 
-1. Record the original study’s full denominator, determinate subgroup and no-result pathway.
-2. Trace product-specific academic IP and later software modifications without importing unrelated therapeutic licences.
-3. Verify an actual payer policy and seek a product-user introduction; use local autism expertise for pathway context only.
+### 5. Reimbursement
 
-## Stakeholders to map
+**Access to useful information: Some gaps.**
 
-Child and caregiver; assessing clinician and referral team; video-analysis/product staff; Cognoa and data-rights holders; payer and specialist assessment service.
+**What we found:** Wyoming Medicaid’s 2024 bulletin assigns HCPCS A9291 to Autism Path 2 Care and identifies CPT 96112/96113 for professional assessment, with required documentation.
 
-This is a provisional list to guide the eventual map. It does not claim to follow the lecture-specific map format, which has not yet been supplied. Trace who uses, pays, approves, purchases and benefits; these may be different people or institutions.
+**How close is it to this device?** Direct historical payer bulletin; not merely manufacturer advocacy.
 
-## Selection gate and unresolved evidence
+**How it helps write this section:** Identify a real payer and who bills for the tool versus professional assessment.
 
-Before selecting: verify a product-specific clinical interview and an early IP trail. Preserve the determinate-result denominator throughout the report.
+**Still needed:** Check current applicability, fees, other payers and health-economic evidence. This historical US state policy says nothing by itself about NHS access.
 
-The judgement is based on the sources located, rather than an exhaustive publication count. Missing IP, early budgets or local use should stay visible until verified. This report does not complete a global current-label audit, freedom-to-operate analysis or independent human review.
+Useful sources: [Wyoming Medicaid: Canvas Dx provider bulletin](https://www.wyomingmedicaid.com/portal/sites/default/files/inline-files/Manuals_and_Bulletins/Canvas_DX_Provider_Bulletin.pdf).
 
-## Sources and review coverage
+## Useful first-hand enquiries
 
-- **FDA-CANVAS-DEN200069** — [FDA • CANVAS DEN200069](https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN200069.pdf). Regulator decision / evidence review; undated/current page. Checked 2026-10-19. Coverage: Downloaded, text extracted, indication and relevant evidence sections reviewed.
-- **CANVAS-FIN** — [Cognoa: $11.6m financing announcement](https://www.globenewswire.com/news-release/2017/03/28/1228424/0/en/Cognoa-Raises-11-6-Million-Reaching-More-Than-20-Million-Invested-to-Advance-Earlier-Diagnosis-of-Developmental-Delays-in-Children.html). Company-issued release; 2017-03-28. Checked 2026-10-19. Coverage: Historical amount, investor and proposed use of funds reviewed.
-- **CANVAS-POLICY** — [Cognoa Medicaid policy brief](https://cognoa.com/medicaid/). Manufacturer policy advocacy; 2026. Checked 2026-10-19. Coverage: Proposed coverage distinguished from confirmed payer policy.
-- **CANVAS-CONTACT** — [Cognoa contact routes](https://cognoa.com/contact/). Manufacturer contact page; undated/current page. Checked 2026-10-19. Coverage: General support, investor relations and demo request routes checked.
-- **MANDY** — [UCL clinical psychology academic staff: Professor Will Mandy](https://www.ucl.ac.uk/brain-sciences/pals/research/clinical-educational-and-health-psychology/academic-staff). Institutional academic directory; undated/current page. Checked 2026-10-19. Coverage: Neurodevelopmental expertise and academic email checked.
+**London position:** No Canvas Dx user in London was verified. A general autism researcher is not a substitute for a product developer or clinical user.
 
-[FDA-CANVAS-DEN200069]: https://www.accessdata.fda.gov/cdrh_docs/reviews/DEN200069.pdf
-[CANVAS-FIN]: https://www.globenewswire.com/news-release/2017/03/28/1228424/0/en/Cognoa-Raises-11-6-Million-Reaching-More-Than-20-Million-Invested-to-Advance-Earlier-Diagnosis-of-Developmental-Delays-in-Children.html
-[CANVAS-POLICY]: https://cognoa.com/medicaid/
-[CANVAS-CONTACT]: https://cognoa.com/contact/
-[MANDY]: https://www.ucl.ac.uk/brain-sciences/pals/research/clinical-educational-and-health-psychology/academic-staff
+### Dennis Wall / Cognoa product-development team — US; remote enquiry
+
+**Why this person/team is included:** Cognoa’s Canvas Dx research history identifies Wall as its founder and places the foundational research at Harvard.
+
+**What they could help us investigate:** Useful for the original clinical problem, development of the assessment inputs and the academic-to-company history.
+
+**What their connection does not establish:** This does not establish an exact licence or independent patent claims, nor does it make him a London product user. Obtain documents to verify any origin account.
+
+**Public enquiry route:** Use support@cognoa.com, the published general enquiry route, to request a product-development introduction; no direct introduction is held.
+
+Evidence for the connection and route: [Cognoa clinical research: origin and product development](https://cognoa.com/clinical-research/); [Cognoa contact routes](https://cognoa.com/contact/).
+
+No contact has been made and no visit has been agreed. Start with a short staff discussion about the specific questions above; do not assume access to patients or treatment sessions.
+
+## Before choosing this device
+
+- **Intellectual property:** Original inventor employment, independent claims and licence terms; do not import unrelated Cognoa therapeutic inventions.
+
+Check the [source notes](../docs/sources.md) for what was reviewed and when. Existing evidence dates to 19 October 2026, with targeted checks/additions on 20 October. The lecture stakeholder-map format is still needed for the final report.

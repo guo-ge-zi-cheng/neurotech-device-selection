@@ -1,117 +1,119 @@
 # SAINT
 
-**Magnus Medical · Detailed selection report**  
-Evidence snapshot: 19 October 2026 · Repository edition: 20 October 2026
+**Magnus Medical** · [Back to the comparison](../README.md)
 
-[Back to the nine-device comparison](../README.md)
+## What does it do?
 
-## Selection takeaway
+SAINT combines individualized brain targeting with an intensive course of transcranial magnetic stimulation for depression. A functional MRI scan is used to help choose a cortical target for the individual patient. A stimulation coil is then positioned using the treatment system’s targeting/navigation process.
 
-Choose for personalized stimulation and technology licensing. It is less convenient if the team’s project depends on visiting the exact device locally.
+The coil produces changing magnetic fields that induce electrical activity in the brain. SAINT uses an accelerated intermittent theta-burst schedule: multiple sessions are delivered each day over five days, rather than spreading the whole course over many weeks. The commercial product therefore includes software, a targeting workflow and compatible stimulation/navigation hardware.
 
-| Decision dimension | Result |
-|---|---|
-| Technical fit | fMRI-informed targeting and accelerated magnetic stimulation |
-| Public information | Mixed to strong |
-| First-hand access | Exact London SAINT provider unverified; remote developer lead |
-| Relative workload | Moderate to higher |
+Personalized targeting and accelerated delivery are the main features to investigate. The scan informs where treatment is given; it is not a live EEG feedback loop that decides each pulse. The business case also depends on practical delivery: access to MRI, staff time across an intensive day, repeat or continuation treatment, and whether a payer covers the full pathway. A clinic offering generic accelerated TMS is not automatically using the licensed Magnus SAINT system.
 
-Choose SAINT for personalized stimulation and university technology transfer. Exablate has stronger verified London product access; RNS has a longer public clinical history.
+## How far has it developed?
 
-## Product scope and mechanism
+The Magnus system received FDA clearance in 2022, and manufacturer material records commercialization in 2024. It is beyond an academic prototype, but the early small trial and later clinical delivery should be distinguished. No exact licensed London delivery site was verified here.
 
-Functional MRI informs selection of a patient-specific cortical target, and an accelerated intermittent theta-burst TMS schedule delivers repeated magnetic stimulation over five days. The intended target is a network relevant to depression. The MRI is used for targeting; this is not continuous neural recording driving a real-time closed loop.
+Sources for this description and stage: [FDA • SAINT K220177](https://www.accessdata.fda.gov/cdrh_docs/pdf22/K220177.pdf); [Magnus Medical company fact sheet](https://statics.magnusmed.com/docs/MagnusMedical_Fact_Sheet-2024-04.pdf); [Magnus: company origin and team](https://www.magnusmedical.com/about/).
 
-## Clinical evidence and its limits
+### What does the clinical evidence actually show?
 
 K220177 cleared the Magnus Neuromodulation System with SAINT technology in 2022 for adults with major depressive disorder who had not improved satisfactorily with prior antidepressant medication in the current episode. The early double-blind trial randomized 29 participants (14 active, 15 sham). Its size and follow-up constrain generalization. Manufacturer comparisons with remission percentages from unrelated treatments do not substitute for a head-to-head randomized study.
 
-[FDA-SAINT-K220177][FDA-SAINT-K220177]
+**Practical takeaway:** A relatively clear university-to-company IP story, strengthened by named patents. Local product access and a fully verified payment pathway are less straightforward.
 
-## Detailed assessment of the five coursework topics
+## Finding information for the five report sections
 
-The labels below describe source readiness, not whether this topic has been fully researched. “Strong” can coexist with a small study or a narrow indication: the evidence is available to analyse, but its quality and applicability still need to be judged.
+### 1. Unmet medical need
 
-### 1. Clinical need and evidence — Strong starting evidence
+**Access to useful information: Some gaps.**
 
-Treatment-resistant depression provides a substantial clinical problem, but define the population and comparator: standard TMS, ECT, medication and ketamine pathways have different eligibility and costs.
+**What we found:** The FDA review describes the intended depression population and the early randomized study.
 
-**Why this grade:** The FDA review describes a small randomized study: useful evidence to critique, not definitive evidence for every setting.
+**How close is it to this device?** Direct evidence about this device.
 
-[FDA-SAINT-K220177][FDA-SAINT-K220177]
+**How it helps write this section:** Explain the unmet need after inadequate medication response and the rationale for a shorter treatment course.
 
-### 2. IP and invention origin — Partial / follow-up needed
+**Still needed:** A bounded population, care costs and comparisons appropriate to the same patients; the small trial does not settle long-term benefit.
 
-The documented Stanford-to-Magnus exclusive licence offers a tractable commercialization narrative. Retrieve the exact patent families and independent claims; a licence announcement alone does not show what is protected.
+Useful sources: [FDA • SAINT K220177](https://www.accessdata.fda.gov/cdrh_docs/pdf22/K220177.pdf).
 
-**Why this grade:** Stanford licensing is documented, but licensed patent families and independent claims still need identification.
+### 2. Intellectual property
 
-[SAINT-ABOUT][SAINT-ABOUT] [SAINT-FACT][SAINT-FACT]
+**Access to useful information: Clear sources.**
 
-### 3. Early funding — Partial / follow-up needed
+**What we found:** US10595735B2 names inventors and Stanford; Magnus identifies it among licensed patents.
 
-The April 2024 manufacturer fact sheet reports a $25m Series A led by Jazz Venture Partners and Red Tree. Reconstruct academic grants and translation costs separately from company financing.
+**How close is it to this device?** Direct evidence about this device.
 
-**Why this grade:** An early company round is reported; academic funding and device-specific translation costs remain separate gaps.
+**How it helps write this section:** Read independent claims, identify the academic origin and explain how licensing supported commercialization.
 
-[SAINT-FACT][SAINT-FACT]
+**Still needed:** Check related families, exact claim-to-product coverage and licence terms. A manufacturer’s infringement allegation is not a court decision.
 
-### 4. Regulatory path and manufacturing — Partial / follow-up needed
+Useful sources: [US10595735B2: personalized accelerated theta-burst stimulation](https://patents.google.com/patent/US10595735B2/en); [Magnus identifies licensed Stanford patents and describes IP enforcement](https://www.magnusmedical.com/press-release/magnus-medical-saint-ip-protection/).
 
-FDA clearance is accessible. Separate academic SAINT/SNT protocols from the marketed Magnus system, and check the actual component suppliers and selected-market label.
+### 3. Fundraising
 
-**Why this grade:** A 510(k) is accessible, but academic protocols, commercial components and UK status must not be merged.
+**Access to useful information: Some gaps.**
 
-[FDA-SAINT-K220177][FDA-SAINT-K220177]
+**What we found:** The 2024 fact sheet reports a $25m Series A led by Jazz Venture Partners and Red Tree.
 
-### 5. Reimbursement and health economics — Partial / follow-up needed
+**How close is it to this device?** Company financing; not an audited academic-to-market budget.
 
-MRI targeting, intensive staff time, a stimulation course and possible continuation care make payment interesting. US payment announcements require current code/setting checks; UK SAINT coverage was not verified.
+**How it helps write this section:** Identify company investors and the point at which corporate funding entered the development timeline.
 
-**Why this grade:** Public US payment-pathway leads exist; current codes, care settings and UK coverage are not established here.
+**Still needed:** Academic grants, first development spending, valuations and how much funding supported the selected product.
 
-[SAINT-ABOUT][SAINT-ABOUT]
+Useful sources: [Magnus Medical company fact sheet](https://statics.magnusmed.com/docs/MagnusMedical_Fact_Sheet-2024-04.pdf).
 
-## London/UK first-hand access
+### 4. Regulatory
 
-No exact licensed London SAINT delivery site was verified in this search. A London clinic advertising accelerated TMS is not sufficient evidence that it uses the Magnus product and protocol. Co-founder Brandon Bentzley is a documented developer; the manufacturer’s provider/contact route is a realistic remote enquiry target. The current company page uses inconsistent CMO/CSO titles, so the stable co-founder description is used here.
+**Access to useful information: Clear sources.**
 
-- **Brandon Bentzley / Magnus clinical team** — Exact-product developer; remote lead. Public route: Magnus provider enquiry route; request a student research introduction. [SAINT-ABOUT][SAINT-ABOUT] [SAINT-PROVIDERS][SAINT-PROVIDERS]
+**What we found:** K220177 is an accessible record for the commercial Magnus system.
 
-These are public enquiry leads, not introductions or confirmations of availability. No contact has been made. An educational staff discussion may be more realistic than clinical observation; a local domain specialist is not automatically an exact-device user.
+**How close is it to this device?** Direct evidence about this device.
 
-### Questions for a useful interview
+**How it helps write this section:** Explain the cleared indication, device components and clinical/test evidence.
 
-1. What is licensed separately: targeting software, stimulation schedule, hardware or know-how?
-2. What operational bottleneck appears when delivering many sessions each day?
-3. Who pays for MRI targeting and continuation treatment, and in which setting?
+**Still needed:** Relevant standards, component production, other markets and later changes.
 
-## What would make this topic easier to complete?
+Useful sources: [FDA • SAINT K220177](https://www.accessdata.fda.gov/cdrh_docs/pdf22/K220177.pdf).
 
-1. Map the Stanford academic work to the first commercial Magnus system and its exact licence scope.
-2. Identify the relevant patent claims and academic grants before using the company funding announcement as a development narrative.
-3. Verify whether a proposed UK clinic uses the licensed Magnus system; otherwise plan for remote product-specific evidence.
+### 5. Reimbursement
 
-## Stakeholders to map
+**Access to useful information: Some gaps.**
 
-Person receiving treatment for depression; psychiatrist and TMS staff; MRI/targeting provider; Stanford licensing stakeholders and Magnus; hospital or outpatient payer.
+**What we found:** Manufacturer history identifies US inpatient and outpatient payment-pathway leads.
 
-This is a provisional list to guide the eventual map. It does not claim to follow the lecture-specific map format, which has not yet been supplied. Trace who uses, pays, approves, purchases and benefits; these may be different people or institutions.
+**How close is it to this device?** Manufacturer account of payment history; primary payer decision still needed.
 
-## Selection gate and unresolved evidence
+**How it helps write this section:** Use those leads to locate the corresponding payer decisions for the chosen year and care setting.
 
-Before selecting: verify a current product-specific UK provider, or accept remote first-hand evidence and unresolved local reimbursement.
+**Still needed:** The original payer rule, current conditions/codes, UK coverage and the full MRI-plus-treatment economic case.
 
-The judgement is based on the sources located, rather than an exhaustive publication count. Missing IP, early budgets or local use should stay visible until verified. This report does not complete a global current-label audit, freedom-to-operate analysis or independent human review.
+Useful sources: [Magnus: company origin and team](https://www.magnusmedical.com/about/).
 
-## Sources and review coverage
+## Useful first-hand enquiries
 
-- **FDA-SAINT-K220177** — [FDA • SAINT K220177](https://www.accessdata.fda.gov/cdrh_docs/pdf22/K220177.pdf). Regulator decision / evidence review; undated/current page. Checked 2026-10-19. Coverage: Downloaded, text extracted, indication and relevant evidence sections reviewed.
-- **SAINT-FACT** — [Magnus Medical company fact sheet](https://statics.magnusmed.com/docs/MagnusMedical_Fact_Sheet-2024-04.pdf). Manufacturer fact sheet; 2024-04. Checked 2026-10-19. Coverage: Funding, licensing, launch and trial description reviewed.
-- **SAINT-ABOUT** — [Magnus: company origin and team](https://www.magnusmedical.com/about/). Manufacturer website; undated/current page. Checked 2026-10-19. Coverage: Stanford origin, licensing and founder profile reviewed; page has inconsistent CMO/CSO titles.
-- **SAINT-PROVIDERS** — [Magnus: provider information and contact route](https://www.magnusmedical.com/providers/). Manufacturer website; undated/current page. Checked 2026-10-19. Coverage: Contact route reviewed; cross-study marketing comparisons not treated as head-to-head evidence.
+**London position:** No licensed Magnus SAINT site in London was verified. A clinic’s use of accelerated TMS alone does not establish SAINT use.
 
-[FDA-SAINT-K220177]: https://www.accessdata.fda.gov/cdrh_docs/pdf22/K220177.pdf
-[SAINT-FACT]: https://statics.magnusmed.com/docs/MagnusMedical_Fact_Sheet-2024-04.pdf
-[SAINT-ABOUT]: https://www.magnusmedical.com/about/
-[SAINT-PROVIDERS]: https://www.magnusmedical.com/providers/
+### Brandon Bentzley / Magnus development team — US; remote enquiry
+
+**Why this person/team is included:** Magnus identifies Bentzley as a co-founder who co-developed SAINT at Stanford; its IP statement identifies licensed Stanford patents.
+
+**What they could help us investigate:** Useful for how the academic protocol became a product, what was licensed and the practical requirements of commercialization.
+
+**What their connection does not establish:** He is a developer/company source, not an independent efficacy reviewer or evidence of a London clinic. Patent inventorship must come from the patent, not the founder title.
+
+**Public enquiry route:** Use the Magnus provider/company enquiry route and ask for a development-history contact.
+
+Evidence for the connection and route: [Magnus: company origin and team](https://www.magnusmedical.com/about/); [Magnus identifies licensed Stanford patents and describes IP enforcement](https://www.magnusmedical.com/press-release/magnus-medical-saint-ip-protection/); [Magnus: provider information and contact route](https://www.magnusmedical.com/providers/).
+
+No contact has been made and no visit has been agreed. Start with a short staff discussion about the specific questions above; do not assume access to patients or treatment sessions.
+
+## Before choosing this device
+
+- Read the linked records for the missing first-version, funding and payment details before committing.
+
+Check the [source notes](../docs/sources.md) for what was reviewed and when. Existing evidence dates to 19 October 2026, with targeted checks/additions on 20 October. The lecture stakeholder-map format is still needed for the final report.
