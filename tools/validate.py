@@ -7,11 +7,11 @@ def load(p):return json.loads((ROOT/p).read_text(encoding='utf-8'))
 D=load('data/device-records.json');S=load('data/source-catalog.json');M=load('data/screening-matrix.json')
 errors=[];ids={s['id'] for s in S};links_checked=0
 topics=['Unmet medical need','Intellectual property','Fundraising','Regulatory','Reimbursement']
-expected_ids=['precision','rns','ceribell','saint','exablate','arcex']
-if [d['id'] for d in D]!=expected_ids or [m['device_id'] for m in M]!=expected_ids:errors.append('Expected exactly the six selected devices')
+expected_ids=['precision','rns','ceribell','saint','exablate','arcex','terra']
+if [d['id'] for d in D]!=expected_ids or [m['device_id'] for m in M]!=expected_ids:errors.append('Expected exactly the seven selected devices')
 expected_reports={Path(m['report']).name for m in M}
 actual_reports={p.name for p in (ROOT/'devices').glob('*.md') if p.name!='README.md'}
-if actual_reports!=expected_reports:errors.append('Device report files do not match the six-device scope')
+if actual_reports!=expected_reports:errors.append('Device report files do not match the seven-device scope')
 if {c['device_id'] for c in load('data/contacts.json')} != set(expected_ids):errors.append('Contact scope mismatch')
 if len(ids)!=len(S):errors.append('Duplicate source IDs')
 A=load('data/additional-research.json')

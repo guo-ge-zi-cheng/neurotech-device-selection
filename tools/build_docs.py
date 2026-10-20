@@ -7,17 +7,17 @@ S=json.loads((ROOT/'data/source-catalog.json').read_text(encoding='utf-8'))
 SOURCES={s['id']:s for s in S}
 A=json.loads((ROOT/'data/additional-research.json').read_text(encoding='utf-8'))
 ADDITIONS={d['device_id']:d for d in A['devices']}
-FDA={'precision':'FDA-PRECISION-K242618','rns':'FDA-RNS-P100026','ceribell':'FDA-CERIBELL-K223504','saint':'FDA-SAINT-K220177','exablate':'FDA-EXABLATE-P150038','arcex':'FDA-ARCEX-DEN240014'}
-EXTRA={'precision':['PRECISION-HOME'],'rns':['RNS-TRIAL','RNS-LONG','RNS-2026'],'ceribell':['CERIBELL-DECIDE','CERIBELL-ED','CERIBELL-ORIGIN'],'saint':['SAINT-FACT','SAINT-ABOUT'],'exablate':['EXABLATE-UCLH','EXABLATE-LONDON'],'arcex':['FDA-ARCEX-K251821','ARCEX-IFU','ARCEX-UPLIFT','ARCEX-PATHFINDER','ARCEX-CE','ARCEX-ANNUAL2025']}
+FDA={'precision':'FDA-PRECISION-K242618','rns':'FDA-RNS-P100026','ceribell':'FDA-CERIBELL-K223504','saint':'FDA-SAINT-K220177','exablate':'FDA-EXABLATE-P150038','arcex':'FDA-ARCEX-DEN240014','terra':'FDA-TERRA-K170840'}
+EXTRA={'precision':['PRECISION-HOME'],'rns':['RNS-TRIAL','RNS-LONG','RNS-2026'],'ceribell':['CERIBELL-DECIDE','CERIBELL-ED','CERIBELL-ORIGIN'],'saint':['SAINT-FACT','SAINT-ABOUT'],'exablate':['EXABLATE-UCLH','EXABLATE-LONDON'],'arcex':['FDA-ARCEX-K251821','ARCEX-IFU','ARCEX-UPLIFT','ARCEX-PATHFINDER','ARCEX-CE','ARCEX-ANNUAL2025'],'terra':['TERRA-BROCHURE','TERRA-KCL-FACILITY','TERRA-X-2024','TERRA-ANEURYSM']}
 def write(path,text): (ROOT/path).write_text(text.strip()+'\n',encoding='utf-8')
 def links(keys):return '; '.join(f'[{SOURCES[k]["title"]}]({SOURCES[k]["url"]})' for k in dict.fromkeys(keys))
 def path(d):return f'devices/{d["number"]:02d}-{d["id"]}.md'
 
 readme='''# Choosing a device for our report
 
-This repository compares six devices by **how easy it is to find useful information for the five sections in Project spec**. Open a device report to understand what it does, how far it has developed, which sources help each section, and which first-hand contacts have a specific connection to it.
+This repository compares seven devices by **how easy it is to find useful information for the five sections in Project spec**. Open a device report to understand what it does, how far it has developed, which sources help each section, and which first-hand contacts have a specific connection to it.
 
-**New:** [Six full case-study drafts](reports/README.md) turn that research into narratives. The [comparative review](reports/comparative-review.md) assesses their strengths, missing evidence and actual writing difficulties. Existing research layers are retained.
+**New:** [Seven full case-study drafts](reports/README.md) turn that research into narratives. The [comparative review](reports/comparative-review.md) assesses their strengths, missing evidence and actual writing difficulties. Existing research layers are retained.
 
 ## TL;DR
 
@@ -25,6 +25,7 @@ This repository compares six devices by **how easy it is to find useful informat
 - **ARC-EX combines good public records with nearby exact-device contacts.** Neurokinex lists Hemel Hempstead and Gatwick centres outside London; London-based Spinal Research can help with funding and UK access. Early product-specific finance and payment remain gaps.
 - **Exablate has a documented London clinical team and UK commissioning evidence.** New financing records and an England economic model add useful detail; a brain-specific early budget remains missing.
 - **Ceribell and SAINT have useful clinical and IP sources.** Their reports explain the product/version limits; no London product user was verified for either.
+- **Terra has a named scanner and enquiry team at St Thomas’ Hospital.** Regulatory/manufacturing records are strong; original IP, development spending and clinical payment need work.
 - **Precision requires a clear choice of scope:** the temporary cortical electrode or the wider BCI programme. Payment and exact-product IP need more investigation.
 
 ## What information do we need?
@@ -43,7 +44,7 @@ These five questions follow the [project specification summary](docs/course-requ
 
 **Clear sources:** useful records provide a supported starting point. **Some gaps:** the sources answer only part of the question. **Hard to find:** important information remains unverified in this search. These describe access to information, not a completed report. Each device file explains the reason and how to use the sources.
 
-The [source guide](docs/research-source-guide.md) draws on the [two course examples](docs/example-source-audit.md). We have now investigated its extra routes for all six devices using a [reliability protocol](docs/reliability-protocol.md): read the actual evidence, match the product/market, examine the method and check important ambiguities.
+The [source guide](docs/research-source-guide.md) draws on the [two course examples](docs/example-source-audit.md). We have now investigated its extra routes for all seven devices using a [reliability protocol](docs/reliability-protocol.md): read the actual evidence, match the product/market, examine the method and check important ambiguities.
 
 **The table retains the original access labels.** Each device file has **Layer 1: original research** and **Layer 2: new findings**, covering all five topics. The [new-research overview](docs/additional-research-summary.md) explains what improved and what remains missing. Important update: SAINT and Ceribell's seizure-monitor US inpatient NTAP add-ons have ended for FY2027; this does not mean all hospital payment ends.
 
@@ -52,7 +53,7 @@ The [source guide](docs/research-source-guide.md) draws on the [two course examp
 '''
 for d in D:readme+=f'| [{d["name"]}]({path(d)}) | '+' | '.join(s['access'] for s in d['sections'])+' |\n'
 readme+='''
-All six have a public FDA record, making that a useful regulatory starting point. Other markets, standards and manufacturing still need to be completed. Disease-population figures alone will not answer unmet need, and a large company funding round will not answer early development finance.
+All seven have a public FDA record, making that a useful regulatory starting point. Other markets, standards and manufacturing still need to be completed. Disease-population figures alone will not answer unmet need, and a large company funding round will not answer early development finance.
 
 ## Who could provide useful first-hand information in or near London?
 
@@ -65,9 +66,10 @@ local={
 'ceribell':('No London Ceribell user verified. Co-founder Josef Parvizi is a US lead.','Actual invention, clinical studies and economic-model assumptions; remote enquiry.'),
 'saint':('No licensed London SAINT site verified. Co-developer Brandon Bentzley is a US lead.','Academic development, licensing and commercialization; remote enquiry.'),
 'exablate':('UCLH/NHNN paper names exact ExAblate equipment and a London clinical team.','Patient selection, treatment workflow, costs and UK adoption.'),
-'arcex':('Neurokinex lists exact-device centres in Hemel Hempstead and Gatwick, outside London. Spinal Research has a London office and an ARC-EX programme.','Device-study and rehabilitation workflow; programme funding and UK access. A charity office is not a clinic.')}
+'arcex':('Neurokinex lists exact-device centres in Hemel Hempstead and Gatwick, outside London. Spinal Research has a London office and an ARC-EX programme.','Device-study and rehabilitation workflow; programme funding and UK access. A charity office is not a clinic.'),
+ 'terra':('King’s lists an exact MAGNETOM Terra at LoCUS, St Thomas’ Hospital, with dedicated enquiries.','Imaging workflow, configuration, scan resources and access funding; routine NHS use is unverified.')}
 
-for d in [next(x for x in D if x['id']==k) for k in ['exablate','arcex']]:
+for d in [next(x for x in D if x['id']==k) for k in ['exablate','arcex','terra']]:
     a,b=local[d['id']];readme+=f'| [{d["name"]}]({path(d)}) | {a} | {b} |\n'
 readme+='''
 For **Precision, RNS, Ceribell and SAINT**, no London product user was verified. Their reports identify relevant US development or clinical leads for a possible remote discussion.
@@ -151,6 +153,7 @@ Evidence for the connection and route: {links(c['sources'])}.
     import re
     original=re.sub(r'^(#{2,}) ',r'#\1 ',body,flags=re.M)
     addition=ADDITIONS[d['id']]
+    original_note = ('Original snapshot: 20 October 2026. Terra was added after the six-device investigation; its initial access labels are retained below.' if d['id']=='terra' else 'Original snapshot: 19 October 2026, with earlier targeted additions on 20 October (ARC-EX was added on 20 October). The text and access labels below are preserved. Read Layer 2 for new evidence and dated updates.')
     layered=f'''{header}
 
 {company}
@@ -159,7 +162,7 @@ Evidence for the connection and route: {links(c['sources'])}.
 
 ## Layer 1: Original research
 
-Original snapshot: 19 October 2026, with earlier targeted additions on 20 October (ARC-EX was added on 20 October). The text and access labels below are preserved. Read Layer 2 for new evidence and dated updates.
+{original_note}
 
 '''+original.strip()+f'''
 
@@ -226,7 +229,7 @@ write('docs/sources.md',source_text)
 
 overview='''# Additional research: what the extra sources actually add
 
-Checked 20 October 2026. We investigated all six devices across the same five topics, using the [reliability protocol](reliability-protocol.md) before accepting claims. The extra routes came from the [course-example source audit](example-source-audit.md); using a route does not make its claims automatically correct.
+Checked 20 October 2026. We investigated all seven devices across the same five topics, using the [reliability protocol](reliability-protocol.md) before accepting claims. The extra routes came from the [course-example source audit](example-source-audit.md); using a route does not make its claims automatically correct.
 
 Each device report preserves its original research as Layer 1 and adds the findings as Layer 2. The original device data, contacts and access labels have not been replaced. A deeper read of an already-used patent or prospectus is labelled as such; it is not a new independent confirmation. Dates and actual review limits appear in the [source index](sources.md).
 
@@ -262,7 +265,7 @@ overview+='''## How to continue
 
 Choose the precise device/version and geography before narrowing population, claims or payment. Use each topic's remaining gap as the next research question. An unpublished price or earliest round can remain unknown; an explicit estimate is a different kind of answer. No new outreach, interview, site visit or access permission is implied by these records.
 
-The 34 added catalog entries and 35 findings are an audit trail, not a quality score. Reliability is assessed claim by claim; this targeted review is not a full legal, clinical, global regulatory or payer audit.
+The original six-device extension added 34 catalog entries and 35 findings; Terra adds its separately dated evidence above. These are an audit trail, not a quality score. Reliability is assessed claim by claim; this targeted review is not a full legal, clinical, global regulatory or payer audit.
 '''
 write('docs/additional-research-summary.md',overview)
 

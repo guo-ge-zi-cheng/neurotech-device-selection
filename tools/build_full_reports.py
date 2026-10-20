@@ -1,4 +1,4 @@
-"""Render the six authored case studies, visible reference lists and comparison."""
+"""Render the authored case studies, visible reference lists and comparison."""
 from pathlib import Path
 import json,re,hashlib
 ROOT=Path(__file__).resolve().parents[1]
@@ -21,7 +21,7 @@ for n,r in enumerate(DATA['reports'],1):
 
 **AI-generated reference draft for selection and discussion. Not an assessed submission.** No interviews or original clinical data are claimed. Evidence cutoff: {DATA['updated']}.
 
-[Research notes and preserved layers](../{n:02d}-{r['device_id']}.md) · [All six drafts](../../reports/README.md) · [Comparative review](../../reports/comparative-review.md)
+[Research notes and preserved layers](../{n:02d}-{r['device_id']}.md) · [All drafts](../../reports/README.md) · [Comparative review](../../reports/comparative-review.md)
 
 **Scope:** {r['scope']}.
 
@@ -43,10 +43,10 @@ for n,r in enumerate(DATA['reports'],1):
     write(dest,text)
     final=(ROOT/dest).read_text(encoding='utf-8')
     manifest.append(dict(device_id=r['device_id'],path=dest,total_words=word_count(final),narrative_words=word_count(body),
-                         references=len(used),source_ids=used,selected_patent=r['patent_source'],independent_claims=r['independent_claims'],sha256=hashlib.sha256(final.encode()).hexdigest()))
+                         references=len(used),source_ids=used,selected_patent=r['patent_source'],independent_claims=r['independent_claims'],sha256=hashlib.sha256(final.encode()).hexdigest(),patent_scope=r.get('patent_scope','Selected original research publication; exact product mapping may remain incomplete')))
 write('reports/comparative-review.md',DATA['comparative_review_markdown'])
 write('docs/full-report-writing-method.md',DATA['writing_method_markdown'])
-index='''# Six full case-study reference drafts
+index='''# Seven full case-study reference drafts
 
 These drafts turn the preserved research into complete narratives across the five course topics. They are AI-generated reference documents for selection/discussion, not assessed submissions. Each includes an executive summary, product scope, five sections, independent-claim explanations, an analytical stakeholder map, conclusion and numbered retrievable references. Evidence gaps remain visible.
 
