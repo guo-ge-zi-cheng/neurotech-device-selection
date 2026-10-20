@@ -5,19 +5,20 @@ ROOT=Path(__file__).resolve().parents[1]
 D=json.loads((ROOT/'data/device-records.json').read_text(encoding='utf-8'))
 S=json.loads((ROOT/'data/source-catalog.json').read_text(encoding='utf-8'))
 SOURCES={s['id']:s for s in S}
-FDA={'precision':'FDA-PRECISION-K242618','rns':'FDA-RNS-P100026','ceribell':'FDA-CERIBELL-K223504','saint':'FDA-SAINT-K220177','exablate':'FDA-EXABLATE-P150038'}
-EXTRA={'precision':['PRECISION-HOME'],'rns':['RNS-TRIAL','RNS-LONG','RNS-2026'],'ceribell':['CERIBELL-DECIDE','CERIBELL-ED','CERIBELL-ORIGIN'],'saint':['SAINT-FACT','SAINT-ABOUT'],'exablate':['EXABLATE-UCLH','EXABLATE-LONDON']}
+FDA={'precision':'FDA-PRECISION-K242618','rns':'FDA-RNS-P100026','ceribell':'FDA-CERIBELL-K223504','saint':'FDA-SAINT-K220177','exablate':'FDA-EXABLATE-P150038','arcex':'FDA-ARCEX-DEN240014'}
+EXTRA={'precision':['PRECISION-HOME'],'rns':['RNS-TRIAL','RNS-LONG','RNS-2026'],'ceribell':['CERIBELL-DECIDE','CERIBELL-ED','CERIBELL-ORIGIN'],'saint':['SAINT-FACT','SAINT-ABOUT'],'exablate':['EXABLATE-UCLH','EXABLATE-LONDON'],'arcex':['FDA-ARCEX-K251821','ARCEX-IFU','ARCEX-UPLIFT','ARCEX-PATHFINDER','ARCEX-CE','ARCEX-ANNUAL2025']}
 def write(path,text): (ROOT/path).write_text(text.strip()+'\n',encoding='utf-8')
 def links(keys):return '; '.join(f'[{SOURCES[k]["title"]}]({SOURCES[k]["url"]})' for k in dict.fromkeys(keys))
 def path(d):return f'devices/{d["number"]:02d}-{d["id"]}.md'
 
 readme='''# Choosing a device for our report
 
-This repository compares five devices by **how easy it is to find useful information for the five sections in Project spec**. Open a device report to understand what it does, how far it has developed, which sources help each section, and which first-hand contacts have a specific connection to it.
+This repository compares six devices by **how easy it is to find useful information for the five sections in Project spec**. Open a device report to understand what it does, how far it has developed, which sources help each section, and which first-hand contacts have a specific connection to it.
 
 ## TL;DR
 
 - **RNS is a clear starting point for public research.** Clinical trials, a patent, a prospectus and an economic model are identified; early funding still needs work.
+- **ARC-EX combines good public records with nearby exact-device contacts.** Neurokinex lists Hemel Hempstead and Gatwick centres outside London; London-based Spinal Research can help with funding and UK access. Early product-specific finance and payment remain gaps.
 - **Exablate has a documented London clinical team and a UK commissioning source.** It offers a direct local enquiry route, while early development funding is harder to find.
 - **Ceribell and SAINT have useful clinical and IP sources.** Their reports explain the product/version limits; no London product user was verified for either.
 - **Precision requires a clear choice of scope:** the temporary cortical electrode or the wider BCI programme. Payment and exact-product IP need more investigation.
@@ -43,9 +44,9 @@ These five questions follow the [project specification summary](docs/course-requ
 '''
 for d in D:readme+=f'| [{d["name"]}]({path(d)}) | '+' | '.join(s['access'] for s in d['sections'])+' |\n'
 readme+='''
-All five have a public FDA record, making that a useful regulatory starting point. Other markets, standards and manufacturing still need to be completed. Disease-population figures alone will not answer unmet need, and a large company funding round will not answer early development finance.
+All six have a public FDA record, making that a useful regulatory starting point. Other markets, standards and manufacturing still need to be completed. Disease-population figures alone will not answer unmet need, and a large company funding round will not answer early development finance.
 
-## Who could provide useful first-hand information in London?
+## Who could provide useful first-hand information in or near London?
 
 | Device | What is actually connected to the device? | What could it help us investigate? |
 |---|---|---|
@@ -55,9 +56,10 @@ local={
 'rns':('No London RNS user verified. Product-specific US clinical leads are identified.','Original trials, development and follow-up; remote enquiry.'),
 'ceribell':('No London Ceribell user verified. Co-founder Josef Parvizi is a US lead.','Actual invention, clinical studies and economic-model assumptions; remote enquiry.'),
 'saint':('No licensed London SAINT site verified. Co-developer Brandon Bentzley is a US lead.','Academic development, licensing and commercialization; remote enquiry.'),
-'exablate':('UCLH/NHNN paper names exact ExAblate equipment and a London clinical team.','Patient selection, treatment workflow, costs and UK adoption.')}
+'exablate':('UCLH/NHNN paper names exact ExAblate equipment and a London clinical team.','Patient selection, treatment workflow, costs and UK adoption.'),
+'arcex':('Neurokinex lists exact-device centres in Hemel Hempstead and Gatwick, outside London. Spinal Research has a London office and an ARC-EX programme.','Device-study and rehabilitation workflow; programme funding and UK access. A charity office is not a clinic.')}
 
-for d in [next(x for x in D if x['id']==k) for k in ['exablate']]:
+for d in [next(x for x in D if x['id']==k) for k in ['exablate','arcex']]:
     a,b=local[d['id']];readme+=f'| [{d["name"]}]({path(d)}) | {a} | {b} |\n'
 readme+='''
 For **Precision, RNS, Ceribell and SAINT**, no London product user was verified. Their reports identify relevant US development or clinical leads for a possible remote discussion.
