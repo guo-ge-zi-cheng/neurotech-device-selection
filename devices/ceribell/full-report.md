@@ -2,11 +2,11 @@
 
 **AI-generated reference draft for selection and discussion. Not an assessed submission.** No interviews or original clinical data are claimed. Evidence cutoff: 2026-10-20.
 
-[Research notes and preserved layers](../03-ceribell.md) · [All six drafts](../../reports/README.md) · [Comparative review](../../reports/comparative-review.md)
+[Research notes and preserved layers](../03-ceribell.md) · [All drafts](../../reports/README.md) · [Comparative review](../../reports/comparative-review.md)
 
 **Scope:** Original rapid-EEG hardware/sonification and its evolution; later software and payment distinguished.
 
-**Word count:** 2,558, including references, tables, diagram and notices (whitespace count; verify in submission software).
+**Word count:** 2,557, including references, tables, diagram and notices (whitespace count; verify in submission software).
 
 ## Executive summary
 
