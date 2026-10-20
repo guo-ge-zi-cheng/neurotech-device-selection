@@ -2,6 +2,8 @@
 
 This repository compares six devices by **how easy it is to find useful information for the five sections in Project spec**. Open a device report to understand what it does, how far it has developed, which sources help each section, and which first-hand contacts have a specific connection to it.
 
+**New:** [Six full case-study drafts](reports/README.md) turn that research into narratives. The [comparative review](reports/comparative-review.md) assesses their strengths, missing evidence and actual writing difficulties. Existing research layers are retained.
+
 ## TL;DR
 
 - **RNS is a clear starting point for public research.** Trials, IP and economics now have a pre-approval financing filing and a payer policy alongside them; the earliest funding still needs work.

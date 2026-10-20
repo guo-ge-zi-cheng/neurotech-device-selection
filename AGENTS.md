@@ -17,3 +17,9 @@ Keep three levels of authority separate: explicit course requirements, sources/f
 Preserve source dates, actual review coverage, product versions, jurisdiction, study design and denominators. Historical FDA authorization is not a complete current-label audit; company fundraising is not device R&D cost; an economic model is not a payer decision. Keep missing evidence visible in simple language.
 
 Update the structured JSON, regenerate with tools/build_docs.py and validate with tools/validate.py. Course originals remain outside this repository. These are AI-generated preparation notes, not an assessed submission or a false compliance declaration.
+
+## Full reference drafts
+
+Six full narrative drafts now live at devices/<device-id>/full-report.md. Their authored text and comparison/method notes are in data/full-reports.json; tools/build_full_reports.py renders them and is called by build_docs.py. Read docs/full-report-writing-method.md, reports/comparative-review.md and data/full-report-evidence.json before extending them. Keep all five narrative topics, visible numbered references and claim-specific evidence limits. Each complete Markdown report must remain below 4,000 words including references; record the counting method. Do not inflate length to the limit or predict lecturer marks.
+
+Use tools/validate_full_reports.py as well as tools/validate.py. data/research-preservation.json protects the existing research data, 85 earlier source entries and guide prefixes. New full drafts and navigation must supplement those layers. The selected publications' 19 independent claims have been read, but exact product mapping, employment/assignment histories and current enforceability remain incomplete. All stakeholder diagrams are provisional analytical maps because the lecture-specific format is missing. No full numerical early-capital estimate, actual interviews, original data, group contribution declaration or assessed-policy compliance is claimed.
