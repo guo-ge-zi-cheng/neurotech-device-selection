@@ -1,0 +1,73 @@
+{
+  "baseline": "Before full-reference drafts, 20 October 2026",
+  "files": [
+    {
+      "path": "data/device-records.json",
+      "mode": "exact",
+      "bytes": 44780,
+      "sha256": "50c08d2da51bd04c7690cba482a183df7a0366af0d9e0f396ee8fcbd328bbbc0"
+    },
+    {
+      "path": "data/additional-research.json",
+      "mode": "exact",
+      "bytes": 58746,
+      "sha256": "f995830e469f23de81f5502d3b870300fc90c7f504ff3635e21bb3e0ba4ce6f9"
+    },
+    {
+      "path": "data/screening-matrix.json",
+      "mode": "exact",
+      "bytes": 3591,
+      "sha256": "ced3566d2efc8b2b324294226fd64ec3bbd6d9c52113a1ab95c117746c656e4e"
+    },
+    {
+      "path": "data/contacts.json",
+      "mode": "exact",
+      "bytes": 7563,
+      "sha256": "0a591c07b9d3713a481a8024b0fd03c1553207f117e0b4de909c73efc9933403"
+    },
+    {
+      "path": "data/example-source-audit.json",
+      "mode": "exact",
+      "bytes": 18057,
+      "sha256": "7783b72cbbd0245efc1def888abf6b0de8759a0b917b286f36702eade3a14ce9"
+    },
+    {
+      "path": "devices/01-precision.md",
+      "mode": "prefix",
+      "bytes": 17893,
+      "sha256": "13225ea86a03401590d7a38af9e3c8c1857f79076965eb4cdd626f0d28d4bd23"
+    },
+    {
+      "path": "devices/02-rns.md",
+      "mode": "prefix",
+      "bytes": 18555,
+      "sha256": "45b84646a9da2d650d462df98993219145f1786c70ccc00569e65b7febf36a42"
+    },
+    {
+      "path": "devices/03-ceribell.md",
+      "mode": "prefix",
+      "bytes": 21204,
+      "sha256": "f912599a353ffd5e0e9d283f3473460f1b43f069cf89faa2ed7b8a3c660b77d8"
+    },
+    {
+      "path": "devices/04-saint.md",
+      "mode": "prefix",
+      "bytes": 17984,
+      "sha256": "2551d993a05293a62112a6ed88a6b946e9af8d02ec50473517b04de011d89227"
+    },
+    {
+      "path": "devices/05-exablate.md",
+      "mode": "prefix",
+      "bytes": 19843,
+      "sha256": "f16cbd7d891616256a1ed2fc611ad181b96d2bf8f427c561333163f59d7e2a10"
+    },
+    {
+      "path": "devices/06-arcex.md",
+      "mode": "prefix",
+      "bytes": 24860,
+      "sha256": "5ae78a367756a786cb53a0eace054137d049fa54e6029adea687469f76e028b8"
+    }
+  ],
+  "source_entries": 85,
+  "source_catalog_prefix_sha256": "c8ee7b01bc1e01b95576237685b7ce4c38ec4d1eabfec8dddf35154bbfb3ea5c"
+}

@@ -1,0 +1,184 @@
+{
+  "updated": "2026-10-20",
+  "count_method": "Whitespace-separated tokens in the complete generated Markdown, including references and notices",
+  "reports": [
+    {
+      "device_id": "precision",
+      "path": "devices/precision/full-report.md",
+      "total_words": 2340,
+      "narrative_words": 2066,
+      "references": 10,
+      "source_ids": [
+        "FDA-PRECISION-K242618",
+        "PRECISION-HOME",
+        "PRECISION-HETTICK-2025",
+        "PRECISION-ARRAY-IP",
+        "PRECISION-SERIESA-2021",
+        "PRECISION-BCAPITAL-2021",
+        "PRECISION-FIN",
+        "PRECISION-FACTORY-2023",
+        "FDA-QMSR-2026",
+        "CMS-PAYMENT-SYSTEMS"
+      ],
+      "selected_patent": "PRECISION-ARRAY-IP",
+      "independent_claims": [
+        1,
+        5,
+        13,
+        17
+      ],
+      "sha256": "1b7e0b8d968411ffe07f5f62c3dd0d40a9e6a5143555d308601594c54f0e6ffd"
+    },
+    {
+      "device_id": "rns",
+      "path": "devices/rns/full-report.md",
+      "total_words": 2414,
+      "narrative_words": 2104,
+      "references": 12,
+      "source_ids": [
+        "FDA-RNS-P100026",
+        "CDC-EPILEPSY-NHIS2021",
+        "RNS-TRIAL",
+        "RNS-LONG",
+        "RNS-PATENT",
+        "RNS-JHU-FOUNDER",
+        "RNS-S1",
+        "RNS-FORMD-2011",
+        "RNS-MRI-2020",
+        "FDA-QMSR-2026",
+        "RNS-ECON-PUBLISHER",
+        "AETNA-RNS-0394"
+      ],
+      "selected_patent": "RNS-PATENT",
+      "independent_claims": [
+        1,
+        46
+      ],
+      "sha256": "373e5753dbff3b5fddd097b8d4bd53e7fa610faa2303c709927e4c58e26db503"
+    },
+    {
+      "device_id": "ceribell",
+      "path": "devices/ceribell/full-report.md",
+      "total_words": 2558,
+      "narrative_words": 2183,
+      "references": 16,
+      "source_ids": [
+        "CERIBELL-RECORDER-K170363",
+        "CERIBELL-HEADBAND-K171459",
+        "FDA-CERIBELL-K223504",
+        "CMS-IPPS-FY2027",
+        "ACNS-CCEEG-2015",
+        "CERIBELL-DECIDE",
+        "CERIBELL-ED",
+        "CERIBELL-PATENT",
+        "CERIBELL-ORIGIN",
+        "CERIBELL-STANFORD-LICENCE-2017",
+        "CERIBELL-STANFORD-LICENCE-2025",
+        "CERIBELL-BIOX-SEED",
+        "CERIBELL-S1-AUG2024",
+        "CERIBELL-FIN",
+        "FDA-QMSR-2026",
+        "CERIBELL-ECON"
+      ],
+      "selected_patent": "CERIBELL-PATENT",
+      "independent_claims": [
+        1,
+        18,
+        20,
+        26
+      ],
+      "sha256": "f0eb600c94ad4d9ee0e7a0f129d9c73d1b1a6ab0116dd4c13876055129520cb1"
+    },
+    {
+      "device_id": "saint",
+      "path": "devices/saint/full-report.md",
+      "total_words": 2426,
+      "narrative_words": 2128,
+      "references": 11,
+      "source_ids": [
+        "FDA-SAINT-K220177",
+        "CMS-IPPS-FY2027",
+        "WHO-DEPRESSION-2026",
+        "SAINT-NIHR-COMPARATOR",
+        "SAINT-STANFORD-OTL2022",
+        "SAINT-PATENT",
+        "SAINT-IP",
+        "SAINT-ACADEMIC-FUNDERS",
+        "SAINT-SERIESA-2021",
+        "SAINT-MAGVENTURE",
+        "FDA-QMSR-2026"
+      ],
+      "selected_patent": "SAINT-PATENT",
+      "independent_claims": [
+        1,
+        10,
+        19,
+        24
+      ],
+      "sha256": "03732efe1b925e7e6ccdad7e38561c1b44e5920fab53dc383ad3034109745a1c"
+    },
+    {
+      "device_id": "exablate",
+      "path": "devices/exablate/full-report.md",
+      "total_words": 2474,
+      "narrative_words": 2153,
+      "references": 13,
+      "source_ids": [
+        "FDA-EXABLATE-P150038",
+        "NHSE-FOCUSED-ULTRASOUND-2020",
+        "EXABLATE-LONDON",
+        "EXABLATE-ENGLAND-MODEL",
+        "EXABLATE-UCLH",
+        "EXABLATE-ABERRATION-PATENT",
+        "EXABLATE-FINANCE-AGREEMENT-2012",
+        "EXABLATE-FINANCE-CLOSE-2012",
+        "EXABLATE-FIN",
+        "FDA-QMSR-2026",
+        "NICE-PD-HTG733",
+        "EXABLATE-MODEL-EXCHANGE",
+        "EXABLATE-SURGEON"
+      ],
+      "selected_patent": "EXABLATE-ABERRATION-PATENT",
+      "independent_claims": [
+        1,
+        11,
+        21,
+        26
+      ],
+      "sha256": "930716b3698fbf65b7052ae0e2640627a5114919371d984438c5da8c69a856e1"
+    },
+    {
+      "device_id": "arcex",
+      "path": "devices/arcex/full-report.md",
+      "total_words": 2516,
+      "narrative_words": 2118,
+      "references": 19,
+      "source_ids": [
+        "FDA-ARCEX-DEN240014",
+        "ARCEX-UPLIFT",
+        "ARCEX-EU-IFU-REV5",
+        "ARCEX-UK-SCI-DATA",
+        "ARCEX-PATHFINDER",
+        "ARCEX-NEUROKINEX",
+        "ARCEX-EARLY-RESEARCH-LINEAGE",
+        "ARCEX-MERGER",
+        "ARCEX-PROSPECTUS",
+        "ARCEX-PATENT",
+        "ARCEX-EARLYFIN",
+        "ARCEX-SPINALPROGRAM",
+        "FDA-ARCEX-K251821",
+        "ARCEX-CE",
+        "ARCEX-ANNUAL2025",
+        "FDA-QMSR-2026",
+        "ARCEX-NEUROKINEX-SERVICE",
+        "ARCEX-LOCATOR",
+        "ARCEX-SPINALCONTACT"
+      ],
+      "selected_patent": "ARCEX-PATENT",
+      "independent_claims": [
+        1
+      ],
+      "sha256": "71e048fb1ed204c62815b9011485141e683721bcfd4224b9411192f0caad33bd"
+    }
+  ]
+}

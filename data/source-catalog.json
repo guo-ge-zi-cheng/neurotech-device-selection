@@ -854,5 +854,38 @@
     "review_coverage": "ARC-EX with intensive activity-based rehabilitation and service relationship read. No ARC-EX-specific fee or payer contract verified. Provider marketing wording does not replace regulator terminology.",
     "access_route": "Open public record; relevant text read in the browser research tool",
     "archive_status": "Link and selective review notes retained; original not redistributed in this repository"
+  },
+  {
+    "id": "WHO-DEPRESSION-2026",
+    "title": "WHO: Depressive disorder (depression)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/depression",
+    "type": "Intergovernmental disease-burden summary",
+    "source_date": "2026-09-11; reports 2023 burden",
+    "checked": "2026-10-20",
+    "review_coverage": "Overview, dated burden estimates and cited GBD source read: 322 million and 5.2% adults. Context, not SAINT eligibility or a fresh UK survey.",
+    "access_route": "Open WHO fact sheet read in browser research tool",
+    "archive_status": "Link and selective review notes retained; source not redistributed"
+  },
+  {
+    "id": "RNS-ECON-PUBLISHER",
+    "title": "Youngerman et al. Cost-effectiveness analysis of responsive neurostimulation for drug-resistant focal onset epilepsy. Epilepsia 62:2804-2813. DOI 10.1111/epi.17049",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/epi.17049",
+    "type": "Original economic-model paper; publisher abstract",
+    "source_date": "2021-08-29 online",
+    "checked": "2026-10-20",
+    "review_coverage": "Publisher abstract methods/results and conflict statement read: nine-year public-payer model, ICER range $28,825-$46,596/QALY. Full model inputs and supplement not audited. Same study as the existing RNS-ECON PubMed record, not independent corroboration.",
+    "access_route": "Open publisher abstract after PubMed page failed to expose content",
+    "archive_status": "Link and selective review notes retained; source not redistributed"
+  },
+  {
+    "id": "FDA-QMSR-2026",
+    "title": "FDA. Medical Devices; Quality System Regulation Amendments. 89 FR 7496-7525, document 2024-01709",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2024-02-02/html/2024-01709.htm",
+    "type": "Official final quality-system rule",
+    "source_date": "2024-02-02; effective 2026-02-02",
+    "checked": "2026-10-20",
+    "review_coverage": "Dates, executive summary and incorporation-of-ISO-13485:2016 passages read. Regulatory context, not a company compliance audit. Entire rule not audited.",
+    "access_route": "Official GovInfo HTML read in browser research tool",
+    "archive_status": "Link and selective review notes retained; source not redistributed"
   }
 ]

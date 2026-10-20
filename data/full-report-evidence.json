@@ -1,0 +1,134 @@
+{
+  "checked": "2026-10-20",
+  "scope": "Selective drafting checks supplement existing catalog coverage; no old evidence overwritten",
+  "reviews": [
+    {
+      "source_id": "PRECISION-ARRAY-IP",
+      "checked": "2026-10-20",
+      "locator": "Claims section; independent claims 1, 5, 13, 17",
+      "coverage": "All 19 claim entries inspected for dependency; all 4 independent claims read. Bibliographic metadata checked. Not a full prosecution, legal-status, employment or exact product-to-claim audit.",
+      "access": "Public patent HTML retrieved and parsed with Python; original claims read locally",
+      "change": "Deeper reading of an existing catalog source; original source entry and research layers preserved"
+    },
+    {
+      "source_id": "RNS-PATENT",
+      "checked": "2026-10-20",
+      "locator": "Claims section; independent claims 1, 46",
+      "coverage": "All 53 claim entries inspected for dependency; all 2 independent claims read. Bibliographic metadata checked. Not a full prosecution, legal-status, employment or exact product-to-claim audit.",
+      "access": "Public patent HTML retrieved and parsed with Python; original claims read locally",
+      "change": "Deeper reading of an existing catalog source; original source entry and research layers preserved"
+    },
+    {
+      "source_id": "CERIBELL-PATENT",
+      "checked": "2026-10-20",
+      "locator": "Claims section; independent claims 1, 18, 20, 26",
+      "coverage": "All 27 claim entries inspected for dependency; all 4 independent claims read. Bibliographic metadata checked. Not a full prosecution, legal-status, employment or exact product-to-claim audit.",
+      "access": "Public patent HTML retrieved and parsed with Python; original claims read locally",
+      "change": "Deeper reading of an existing catalog source; original source entry and research layers preserved"
+    },
+    {
+      "source_id": "SAINT-PATENT",
+      "checked": "2026-10-20",
+      "locator": "Claims section; independent claims 1, 10, 19, 24",
+      "coverage": "All 28 claim entries inspected for dependency; all 4 independent claims read. Bibliographic metadata checked. Not a full prosecution, legal-status, employment or exact product-to-claim audit.",
+      "access": "Public patent HTML retrieved and parsed with Python; original claims read locally",
+      "change": "Deeper reading of an existing catalog source; original source entry and research layers preserved"
+    },
+    {
+      "source_id": "EXABLATE-ABERRATION-PATENT",
+      "checked": "2026-10-20",
+      "locator": "Claims section; independent claims 1, 11, 21, 26",
+      "coverage": "All 26 claim entries inspected for dependency; all 4 independent claims read. Bibliographic metadata checked. Not a full prosecution, legal-status, employment or exact product-to-claim audit.",
+      "access": "Public patent HTML retrieved and parsed with Python; original claims read locally",
+      "change": "Deeper reading of an existing catalog source; original source entry and research layers preserved"
+    },
+    {
+      "source_id": "ARCEX-PATENT",
+      "checked": "2026-10-20",
+      "locator": "Claims section; independent claims 1",
+      "coverage": "All 15 claim entries inspected for dependency; all 1 independent claims read. Bibliographic metadata checked. Not a full prosecution, legal-status, employment or exact product-to-claim audit.",
+      "access": "Public patent HTML retrieved and parsed with Python; original claims read locally",
+      "change": "Deeper reading of an existing catalog source; original source entry and research layers preserved"
+    },
+    {
+      "source_id": "CERIBELL-RECORDER-K170363",
+      "checked": "2026-10-20",
+      "locator": "Performance Data section",
+      "coverage": "Original five-page record downloaded and selected passages reread: IEC 60601-2-26, 60601-1, 60601-1-2 and IEC 62133. Historical recorder tests, not all later software conformity.",
+      "access": "Public FDA PDF retrieved and text-extracted with Python",
+      "change": "Deeper use of existing source"
+    },
+    {
+      "source_id": "CERIBELL-HEADBAND-K171459",
+      "checked": "2026-10-20",
+      "locator": "Biocompatibility comparison and Performance Data",
+      "coverage": "Original eight-page record downloaded and selected test passages read: ISO 10993-5/10993-10 historical evaluation. Not a current all-product label audit.",
+      "access": "Public FDA PDF retrieved and text-extracted with Python",
+      "change": "Deeper use of existing source"
+    },
+    {
+      "source_id": "RNS-S1",
+      "checked": "2026-10-20",
+      "locator": "Manufacturing and Supply, printed pp130-131; incorporation and trade-secret passages",
+      "coverage": "Dated Mountain View assembly/testing/release and supplier model, incorporation and confidentiality strategy read. No current factory/compliance audit. Public urllib fetch failed; research browser tool exposed the relevant SEC text.",
+      "access": "Public SEC text in browser research tool",
+      "change": "Deeper use of existing source"
+    },
+    {
+      "source_id": "CERIBELL-DECIDE",
+      "checked": "2026-10-20",
+      "locator": "Abstract, methods, Tables 1-2 and sponsor/conflict statements",
+      "coverage": "181 encounters/164 complete records, five/239-minute medians, physician-decision scope and Ceribell funding checked. Numbers available vary by outcome; no outcome/cost causal effect inferred.",
+      "access": "Open original PDF in browser research tool",
+      "change": "Deeper use of existing source"
+    },
+    {
+      "source_id": "CERIBELL-ECON",
+      "checked": "2026-10-20",
+      "locator": "Abstract, selected model discussion and funding/conflict declarations",
+      "coverage": "Ten-page PDF downloaded/text-extracted; selected sections read, not every model parameter. 2019-dollar model, probabilistic $5,633 result/75% replications, funding and advisory interests checked.",
+      "access": "Public PDF retrieved with Python",
+      "change": "Deeper use of existing source"
+    },
+    {
+      "source_id": "FDA-SAINT-K220177",
+      "checked": "2026-10-20",
+      "locator": "Classification, device/configuration, standards and clinical Tables 3-5, physical PDF pp1,4-13",
+      "coverage": "Original local FDA text reread. 14-active/15-sham narrative and rows used; one table header reverses the group counts. Remission timing described as during the month after treatment. No current full label audit.",
+      "access": "Previously downloaded original FDA PDF/text",
+      "change": "Deeper use of existing source; internal table inconsistency disclosed"
+    },
+    {
+      "source_id": "FDA-PRECISION-K242618",
+      "checked": "2026-10-20",
+      "locator": "Decision/indications and nonclinical test/standards tables",
+      "coverage": "Original local text reread for March 2025 date, temporary scope, classification and specific biological/sterilisation testing. No permanent-BCI clearance inferred.",
+      "access": "Previously downloaded original FDA PDF/text",
+      "change": "Deeper use of existing source"
+    },
+    {
+      "source_id": "FDA-RNS-P100026",
+      "checked": "2026-10-20",
+      "locator": "Original indications, clinical/biological/sterilisation testing passages",
+      "coverage": "Selected local text reread; historical PMA/standards separated from current quality-system framework. Not every later supplement reviewed.",
+      "access": "Previously downloaded original FDA PDF/text",
+      "change": "Deeper use of existing source"
+    },
+    {
+      "source_id": "FDA-EXABLATE-P150038",
+      "checked": "2026-10-20",
+      "locator": "Original indication, clinical Tables 12/16, manufacturing conclusion and test sections",
+      "coverage": "Selected local text reread for 56/20 analysis, three-month 46.9%/-0.1% endpoint, testing/manufacturing-review scope. No current supplier-site list inferred.",
+      "access": "Previously downloaded original FDA PDF/text",
+      "change": "Deeper use of existing source"
+    },
+    {
+      "source_id": "FDA-ARCEX-DEN240014",
+      "checked": "2026-10-20",
+      "locator": "Classification, biocompatibility and electrical/EMC testing sections",
+      "coverage": "Selected original PDF text reread, including reliance on existing electrodes/materials. Not every later label or market reviewed.",
+      "access": "Previously downloaded original FDA PDF/text",
+      "change": "Deeper use of existing source"
+    }
+  ]
+}
