@@ -5,6 +5,8 @@ ROOT=Path(__file__).resolve().parents[1]
 D=json.loads((ROOT/'data/device-records.json').read_text(encoding='utf-8'))
 S=json.loads((ROOT/'data/source-catalog.json').read_text(encoding='utf-8'))
 SOURCES={s['id']:s for s in S}
+A=json.loads((ROOT/'data/additional-research.json').read_text(encoding='utf-8'))
+ADDITIONS={d['device_id']:d for d in A['devices']}
 FDA={'precision':'FDA-PRECISION-K242618','rns':'FDA-RNS-P100026','ceribell':'FDA-CERIBELL-K223504','saint':'FDA-SAINT-K220177','exablate':'FDA-EXABLATE-P150038','arcex':'FDA-ARCEX-DEN240014'}
 EXTRA={'precision':['PRECISION-HOME'],'rns':['RNS-TRIAL','RNS-LONG','RNS-2026'],'ceribell':['CERIBELL-DECIDE','CERIBELL-ED','CERIBELL-ORIGIN'],'saint':['SAINT-FACT','SAINT-ABOUT'],'exablate':['EXABLATE-UCLH','EXABLATE-LONDON'],'arcex':['FDA-ARCEX-K251821','ARCEX-IFU','ARCEX-UPLIFT','ARCEX-PATHFINDER','ARCEX-CE','ARCEX-ANNUAL2025']}
 def write(path,text): (ROOT/path).write_text(text.strip()+'\n',encoding='utf-8')
@@ -17,9 +19,9 @@ This repository compares six devices by **how easy it is to find useful informat
 
 ## TL;DR
 
-- **RNS is a clear starting point for public research.** Clinical trials, a patent, a prospectus and an economic model are identified; early funding still needs work.
+- **RNS is a clear starting point for public research.** Trials, IP and economics now have a pre-approval financing filing and a payer policy alongside them; the earliest funding still needs work.
 - **ARC-EX combines good public records with nearby exact-device contacts.** Neurokinex lists Hemel Hempstead and Gatwick centres outside London; London-based Spinal Research can help with funding and UK access. Early product-specific finance and payment remain gaps.
-- **Exablate has a documented London clinical team and a UK commissioning source.** It offers a direct local enquiry route, while early development funding is harder to find.
+- **Exablate has a documented London clinical team and UK commissioning evidence.** New financing records and an England economic model add useful detail; a brain-specific early budget remains missing.
 - **Ceribell and SAINT have useful clinical and IP sources.** Their reports explain the product/version limits; no London product user was verified for either.
 - **Precision requires a clear choice of scope:** the temporary cortical electrode or the wider BCI programme. Payment and exact-product IP need more investigation.
 
@@ -39,7 +41,9 @@ These five questions follow the [project specification summary](docs/course-requ
 
 **Clear sources:** useful records provide a supported starting point. **Some gaps:** the sources answer only part of the question. **Hard to find:** important information remains unverified in this search. These describe access to information, not a completed report. Each device file explains the reason and how to use the sources.
 
-The [five-topic research source guide](docs/research-source-guide.md) explains how investor/funder records, care-pathway studies, patent searches, procedure payment, comparators and real interviews can fill gaps. It draws on an [audit of the Optomed and Quadsense examples](docs/example-source-audit.md). The table below retains the device evidence already checked; these extra routes need investigation before any label changes.
+The [source guide](docs/research-source-guide.md) draws on the [two course examples](docs/example-source-audit.md). We have now investigated its extra routes for all six devices using a [reliability protocol](docs/reliability-protocol.md): read the actual evidence, match the product/market, examine the method and check important ambiguities.
+
+**The table retains the original access labels.** Each device file has **Layer 1: original research** and **Layer 2: new findings**, covering all five topics. The [new-research overview](docs/additional-research-summary.md) explains what improved and what remains missing. Important update: SAINT and Ceribell's seizure-monitor US inpatient NTAP add-ons have ended for FY2027; this does not mean all hospital payment ends.
 
 | Device | Unmet need | IP | Fundraising | Regulatory | Reimbursement |
 |---|---|---|---|---|---|
@@ -139,7 +143,61 @@ Evidence for the connection and route: {links(c['sources'])}.
 '''
     text+='\n'.join(f'- **{s["topic"]}:** {s["missing"]}' for s in d['sections'] if s['access']=='Hard to find') or '- Read the linked records for the missing first-version, funding and payment details before committing.'
     text+='\n\nCheck the [source notes](../docs/sources.md) for what was reviewed and when. Existing evidence dates to 19 October 2026, with targeted checks/additions on 20 October. The lecture stakeholder-map format is still needed for the final report.\n'
-    write(path(d),text)
+    # Preserve every original paragraph/link; only move its headings down one level.
+    header,body=text.split('\n\n',1)
+    company,body=body.split('\n\n',1)
+    import re
+    original=re.sub(r'^(#{2,}) ',r'#\1 ',body,flags=re.M)
+    addition=ADDITIONS[d['id']]
+    layered=f'''{header}
+
+{company}
+
+[Original research](#layer-1-original-research) · [New findings](#layer-2-additional-research-20-october-2026) · [Reliability checks](../docs/reliability-protocol.md)
+
+## Layer 1: Original research
+
+Original snapshot: 19 October 2026, with earlier targeted additions on 20 October (ARC-EX was added on 20 October). The text and access labels below are preserved. Read Layer 2 for new evidence and dated updates.
+
+'''+original.strip()+f'''
+
+## Layer 2: Additional research (20 October 2026)
+
+{addition['summary']}
+
+**How to read this layer:** each finding states what the evidence supports, why it is usable, how it helps the report and where it stops. [Reliability protocol](../docs/reliability-protocol.md). “Context” is useful background, not a result for this product. No new interview has taken place.
+
+'''
+    for i,t in enumerate(addition['topics'],1):
+        layered+=f'''### {i}. {t['topic']}
+
+**Search route:** {t['search_route']}
+
+'''
+        for f in t['findings']:
+            layered+=f'''#### {f['title']}
+
+**{f['label']}.** {f['evidence']}
+
+**Why this evidence is usable:** {f['reliability']}
+
+**Use in the report:** {f['use_in_report']}
+
+**Limit:** {f['limit']}
+
+Sources: {links(f['sources'])}.
+
+**Where checked:** {f['locator']}. **Evidence route:** {f['origin']}. Checked {A['checked']}; source dates and review coverage are in the [source index](../docs/sources.md).
+
+'''
+        layered+=f'**Remaining gap:** {t["remaining_gap"]}\n\n'
+    layered+=f'''### What this changes for our choice
+
+{addition['what_changes']}
+
+These additions answer specific questions rather than re-grade the original table. See the [cross-device overview and unsuccessful searches](../docs/additional-research-summary.md). The required lecture stakeholder-map format still needs to be supplied.
+'''
+    write(path(d),layered)
 
 source_text='''# Sources and what was checked
 
@@ -157,7 +215,50 @@ for s in S:
 - What was reviewed: {s['review_coverage']}
 
 '''
+    if s.get('access_route'):source_text+=f'- Access route: {s["access_route"]}\n\n'
 write('docs/sources.md',source_text)
+
+overview='''# Additional research: what the extra sources actually add
+
+Checked 20 October 2026. We investigated all six devices across the same five topics, using the [reliability protocol](reliability-protocol.md) before accepting claims. The extra routes came from the [course-example source audit](example-source-audit.md); using a route does not make its claims automatically correct.
+
+Each device report preserves its original research as Layer 1 and adds the findings as Layer 2. The original device data, contacts and access labels have not been replaced. A deeper read of an already-used patent or prospectus is labelled as such; it is not a new independent confirmation. Dates and actual review limits appear in the [source index](sources.md).
+
+## What improved, and what did not
+
+| Device | Result of the additional search |
+|---|---|
+'''
+for d in D:
+    overview+=f'| [{d["name"]}](../{path(d)}#layer-2-additional-research-20-october-2026) | {ADDITIONS[d["id"]]["what_changes"]} |\n'
+overview+='''
+## Important dated updates
+
+- The FY2027 US inpatient final rule ends the NTAP add-ons for SAINT and the Ceribell Status Epilepticus Monitor. This is not a finding that all underlying payment ends. A new Ceribell delirium award is a separate product/indication decision.
+- RNS MRI labeling differs between models: a historical RNS-300M restriction must not be applied to RNS-320 without its model-specific conditions.
+- UK essential-tremor commissioning does not establish the same route for Parkinsonian tremor. NICE's Parkinsonian-tremor procedure guidance restricts use to formal approved research.
+- Insightec's 2012 agreement record contains conflicting valuation figures. Neither is presented as settled. The economic model also has an abstract/body comparator-cost discrepancy; the body tables were checked.
+
+The linked Layer 2 findings supply the relevant primary sources and scope for these statements. Original authorisation, current indication, coding, coverage and payment amount remain distinct questions.
+
+## Searches that did not yield an accepted answer
+
+'''
+for lead in A['leads_not_accepted']:
+    overview+=f'''### {lead['question']}
+
+**Route tried:** {lead['route']}.
+
+{lead['reason']}
+
+'''
+overview+='''## How to continue
+
+Choose the precise device/version and geography before narrowing population, claims or payment. Use each topic's remaining gap as the next research question. An unpublished price or earliest round can remain unknown; an explicit estimate is a different kind of answer. No new outreach, interview, site visit or access permission is implied by these records.
+
+The 34 added catalog entries and 35 findings are an audit trail, not a quality score. Reliability is assessed claim by claim; this targeted review is not a full legal, clinical, global regulatory or payer audit.
+'''
+write('docs/additional-research-summary.md',overview)
 
 audit=json.loads((ROOT/'data/example-source-audit.json').read_text(encoding='utf-8'))
 audit_text='''# Sources used in the two course examples
