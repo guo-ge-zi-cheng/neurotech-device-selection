@@ -63,57 +63,5 @@
     ],
     "summary": "A clear clinical and UK-payment starting point with a direct London team. Early development funding remains a harder section.",
     "london": "A London methods paper names ExAblate equipment and the UCL/NHNN team. UCLH provides a service contact."
-  },
-  {
-    "device_id": "terra",
-    "report": "devices/06-terra.md",
-    "information_access": [
-      "Some gaps",
-      "Hard to find",
-      "Hard to find",
-      "Clear sources",
-      "Hard to find"
-    ],
-    "summary": "A good local equipment discussion is plausible. Early IP and device-specific development finance are harder to reconstruct than the technical story.",
-    "london": "King’s lists the exact Terra scanner at the LoCUS facility in St Thomas’ Hospital and publishes a facility enquiry email."
-  },
-  {
-    "device_id": "viz",
-    "report": "devices/07-viz.md",
-    "information_access": [
-      "Some gaps",
-      "Hard to find",
-      "Hard to find",
-      "Clear sources",
-      "Hard to find"
-    ],
-    "summary": "A clear software-regulation source and a relevant London co-founder. Original IP, early financing and a verified payer source need more work.",
-    "london": "A London Viz.ai co-founder is verified. A London stroke service using Viz LVO was not verified."
-  },
-  {
-    "device_id": "optune",
-    "report": "devices/08-optune.md",
-    "information_access": [
-      "Clear sources",
-      "Some gaps",
-      "Some gaps",
-      "Clear sources",
-      "Clear sources"
-    ],
-    "summary": "A strong starting point for the overall project: substantial public business/regulatory records and a London clinician with documented experience of the exact product.",
-    "london": "Imperial identifies Dr Matthew Williams as having helped introduce Optune for brain tumours in the UK."
-  },
-  {
-    "device_id": "canvas",
-    "report": "devices/09-canvas.md",
-    "information_access": [
-      "Some gaps",
-      "Hard to find",
-      "Some gaps",
-      "Clear sources",
-      "Some gaps"
-    ],
-    "summary": "There is more concrete payer information than the earlier comparison showed: an actual state Medicaid bulletin is available. Product-specific IP and London access remain harder.",
-    "london": "No Canvas Dx user in London was verified. A general autism researcher is not a substitute for a product developer or clinical user."
   }
 ]

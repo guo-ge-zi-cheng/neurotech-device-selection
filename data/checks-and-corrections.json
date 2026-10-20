@@ -12,21 +12,26 @@
   {
     "date": "2026-10-20",
     "issue": "The old analysis did not identify useful sources already available for some sections.",
-    "change": "Added named SAINT/Ceribell patent leads, a Ceribell economic model and a direct historical Canvas Dx payer bulletin. The new documents have their own review dates and limits."
+    "change": "Added named SAINT/Ceribell patent leads and a Ceribell economic model. The new documents have their own review dates and limits."
   },
   {
     "date": "2026-10-20",
     "issue": "Important product/version and denominator differences could mislead the team.",
-    "change": "Retained the temporary-component distinction for Layer 7-T, original versus later indications/software, and Canvas Dx no-result denominator. No complete current-label audit is claimed."
+    "change": "Retained the temporary-component distinction for Layer 7-T, original versus later indications/software, and study-design differences. No complete current-label audit is claimed."
   },
   {
     "date": "2026-10-20",
-    "issue": "No data support a ranking of how many London clinicians know or use all nine devices.",
+    "issue": "No data support a ranking of how many London clinicians know or use all five devices.",
     "change": "Compare documented exact-product/site or founder connections; do not infer popularity or user counts."
   },
   {
     "date": "2026-10-20",
     "issue": "Primary funding, complete patent claims and some payer facts remain unresolved.",
     "change": "Keep these as explicit research tasks. No interview, visit, independent human review or original funding reconstruction has been completed."
+  },
+  {
+    "date": "2026-10-20",
+    "issue": "The user narrowed the shortlist to five companies/devices.",
+    "change": "Retained exactly the five selected device reports and their relevant sources/contacts; updated the comparison, supporting context and maintenance scripts."
   }
 ]
