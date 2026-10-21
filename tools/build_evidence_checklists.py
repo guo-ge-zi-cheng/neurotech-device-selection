@@ -3,6 +3,9 @@ from pathlib import Path
 import json,re
 ROOT=Path(__file__).resolve().parents[1]
 DATA=json.loads((ROOT/'data/evidence-checklists.json').read_text(encoding='utf-8'))
+READING=json.loads((ROOT/'data/research-explanations.json').read_text(encoding='utf-8'))
+QUESTIONS={q['id']:q for q in READING['requirements']}
+EXPLANATIONS={d['device_id']:d for d in READING['devices']}
 SOURCES={x['id']:x for x in json.loads((ROOT/'data/source-catalog.json').read_text(encoding='utf-8'))}
 REQS={r['id']:r for s in DATA['sections'] for r in s['requirements']}
 ROUTES={r['id']:r for r in DATA['routes']}
@@ -12,41 +15,44 @@ def write(p,t):
 def cell(t):return str(t).replace('|',' / ').replace('\n',' ')
 def route_link(key,base='../docs/'):
     return f'[{key}]({base}imperial-gap-searches.md#{key.lower()})'
-def evidence_text(row,used):
+def evidence_sources(row,used):
     refs=[]
     for sid in row['source_ids']:
         if sid not in used:used.append(sid)
-        refs.append(f'[{used.index(sid)+1}]({SOURCES[sid]["url"]})')
-    passage=f'<br>Passage: {row["locator"]}.' if row['locator'] else ''
-    return row['evidence']+(' '+', '.join(refs) if refs else '')+passage
-legend='**Strength is claim-specific:** Direct = an appropriate original record/study for the stated fact; Limited = important design/scope limits; Partial = only part answered; Model = conditional analysis; Indirect/Context = background; Mismatch = evidence concerns the wrong product/period; Missing = no accepted answer; Inference/Provisional = our analysis. A direct source can still leave fields missing.'
+        refs.append(f'[{SOURCES[sid]["title"]}]({SOURCES[sid]["url"]})')
+    if not refs:return ''
+    return ' Source: '+'; '.join(refs)+'. Relevant passage: '+row['locator'].rstrip('.')+'.'
 paths={d['device_id']:f'research/{d["device_id"]}.md' for d in DATA['devices']}
 for d in DATA['devices']:
     used=[];rows={r['requirement_id']:r for r in d['rows']}
-    text=f'''# {d['name']}: evidence checklist
+    readable=EXPLANATIONS[d['device_id']]
+    points={p['requirement_id']:p for p in readable['points']}
+    text=f'''# {d['name']}: what we can write, and what is missing
 
-**Scope:** {d['scope']}
+{readable['summary']}
 
-Matched to the supplied guide on {DATA['updated']}. [Overall comparison](README.md) · [All required elements](../docs/report-evidence-requirements.md) · [Imperial search outcomes](../docs/imperial-gap-searches.md).
+This guide works through the five report sections for a teammate deciding what investigation is still needed. Each question explains the requirement, the actual evidence, the conclusion it supports, the unanswered part and a way to investigate it. Evidence limitations are explained in sentences rather than assigned a grade.
 
-{legend}
+[Device-by-device overview](README.md) · [The shared requirements](../docs/report-evidence-requirements.md) · [What Imperial access actually recovered](../docs/imperial-gap-searches.md).
+
+The evidence comes from the existing 19–21 October research. This revision clarifies that evidence; it adds no new retrievals. The next investigations below are proposals unless the access log explicitly records otherwise.
 
 '''
     for s in DATA['sections']:
-        text+=f'''## {s['name']}
-
-Guide physical PDF pp{s['guide_pages']}. Each required element is one row. “Next step” is a proposal, not evidence already retrieved; route codes link to actual access outcomes.
-
-| What this section must include | Exact evidence → contribution | How solid? | Exactly missing | Imperial / next step |
-|---|---|---|---|---|
-'''
+        text+=f'## {s["name"]}\n\n'
         for q in s['requirements']:
-            r=rows[q['id']]
-            # Spaces around slash-separated alternatives allow GitHub tables to wrap.
-            need=f'**{q["id"]}: {q["label"]}.**<br>'+q['fields'].replace('/',' / ')
-            next_step=f'{route_link(r["next_route"])}<br>Search: {r["query"]}'
-            text+='| '+' | '.join(map(cell,[need,evidence_text(r,used),r['solidity'],r['gap'],next_step]))+' |\n'
-        text+='\n'
+            r=rows[q['id']];question=QUESTIONS[q['id']];p=points[q['id']]
+            route=ROUTES[r['next_route']]
+            route_text=f'[{route["name"]}](../docs/imperial-gap-searches.md#{r["next_route"].lower()})'
+            text+=f'''### {question['question']} ({q['id']})
+
+- **What the report needs to explain:** {question['need']}
+- **What the sources actually tell us:** {p['found']}{evidence_sources(r,used)}
+- **What this lets us write:** {p['use']}
+- **What we cannot yet answer:** {p['missing']}
+- **Next investigation:** {question['next_step']} Start with {route_text}; the linked access log states what was actually tried and any access limits.
+
+'''
     text+='''<details>
 <summary>Source identities and actual review scope</summary>
 
@@ -66,16 +72,18 @@ t='''# Required evidence: the common checklist
 
 Derived from the team's supplied Medical_Device_Report_Guide.pdf, sections 3–7, on 21 October 2026. This is the team's working decomposition; it does not replace Project spec or create a new grading rubric. The PDF remains outside the public repo. Its identity and review scope are recorded in [structured data](../data/evidence-checklists.json).
 
-There are **31 elements per device**: six in each topic, plus the stakeholder map. Every [device checklist](../research/README.md) has the same elements and five fields: requirement, exact source content/contribution, strength, exact gap, and next source/access action. The overall comparison highlights selected evidence; it is not a substitute for these 31 rows.
+There are **31 questions per device**: six in each topic, plus the stakeholder map. Every [device research guide](../research/README.md) explains each requirement in full sentences, then distinguishes evidence, what it supports, what remains unanswered and the next investigation. No scale or grade replaces that explanation.
 
 '''
 for s in DATA['sections']:
-    t+=f'## {s["name"]}\n\nGuide physical PDF pp{s["guide_pages"]}.\n\n| ID | Element | Evidence needed |\n|---|---|---|\n'
-    for r in s['requirements']:t+=f'| {r["id"]} | {r["label"]} | {r["fields"]} |\n'
+    t+=f'## {s["name"]}\n\nGuide physical PDF pp{s["guide_pages"]}.\n\n'
+    for r in s['requirements']:
+        q=QUESTIONS[r['id']]
+        t+=f'- **{q["question"]} ({r["id"]})** {q["need"]}\n\n'
     t+='\n'
 t+='''## Interpret the result
 
-Read the exact evidence and its scope before the strength label. A source can directly establish a regulatory decision while leaving current labels unresolved. An economic model can answer an analytical question while leaving actual prices unknown. A wrong-period patent or implant-programme funding record is marked as a mismatch rather than counted as support.
+Read what a source establishes and then the specific question it leaves unanswered. A regulatory decision can establish original market entry while leaving later labels unresolved. An economic model can show the authors' assumptions while leaving actual prices unknown. A later patent or another product's funding cannot fill an original-device gap.
 
 Unknown is not the same as false or undisclosed. A proposed query is not a completed search. Database access does not create missing private facts, and an additional source does not automatically close a gap. [Reliability protocol](reliability-protocol.md).
 '''
@@ -83,14 +91,16 @@ write('docs/report-evidence-requirements.md',t)
 
 t='''# Imperial resources matched to the gaps
 
-Checked 21 October 2026. These routes explain the final column in every [checklist](../research/README.md). Each query there is proposed unless the outcomes below explicitly record it as completed. Institutional listings are not proof that a particular device fact is available.
+Checked 21 October 2026. These routes support the next-investigation bullets in every [device guide](../research/README.md). Proposed search strings are retained in the structured evidence record; only the outcomes below count as completed access attempts. Institutional listings are not proof that a particular device fact is available.
 
 ## What actually happened
 
 | Route tried | Query/action | Actual outcome | What changes in the evidence? |
 |---|---|---|---|
 '''
-for a in DATA['access_attempts']:t+='| '+' | '.join(map(cell,[a['route'],a['query'],a['outcome'],a['meaning']]))+' |\n'
+for a in DATA['access_attempts']:
+    query='Search strings retained in data/evidence-checklists.json' if a['id']=='IC-OTHER' else a['query']
+    t+='| '+' | '.join(map(cell,[a['route'],query,a['outcome'],a['meaning']]))+' |\n'
 t+='''
 The RNS paper's public identity is [Youngerman et al., DOI 10.1111/epi.17049](https://doi.org/10.1111/epi.17049). Its library record offered an institutional Wiley service and the article displayed full access. The new review supplies historical model inputs/limitations; it does not establish a present hospital purchase or NHS price. No personal account details, authentication/session URLs, raw licensed exports or article copies are published.
 
@@ -113,56 +123,43 @@ for r in DATA['routes']:
 '''
 t+='''## Best use of a student's next hour
 
-- For a weak finance row, first recover an attributable old transaction or award. A recent-only deal collection or a whole-company R&D total will not answer original development finance.
-- For a model/effect row, retrieve the original full paper and its methods. The RNS access test demonstrates that Imperial can add detail beyond an abstract.
-- For an unknown price or capacity row, look for a contract or actual service record. A library subscription cannot substitute for a quotation or a conversation that has not happened.
-- For an IP row, use the correct original family and official status/assignment records. A licence to a database does not complete legal/product mapping.
-- For the stakeholder-format row, retrieve the actual lecture instruction. Existing diagrams remain provisional.
+- For a missing finance answer, first recover an attributable old transaction or award. A recent-only deal collection or a whole-company R&D total will not answer original development finance.
+- For an economic model or clinical-effect question, retrieve the original full paper and its methods. The RNS access test demonstrates that Imperial can add detail beyond an abstract.
+- For an unknown price or capacity, look for a contract or actual service record. A library subscription cannot substitute for a quotation or a conversation that has not happened.
+- For an IP question, use the correct original family and official status/assignment records. A licence to a database does not complete legal/product mapping.
+- For the stakeholder format, retrieve the actual lecture instruction. Existing diagrams remain provisional.
 
 The broader [Imperial directory](imperial-resources.md) and [general source collection](information-resources.md) remain useful discovery tools. The narrower actions above exist to close a named requirement, rather than increase the source count.
 '''
 write('docs/imperial-gap-searches.md',t)
 
-t=f'''# Evidence available for the seven device reports
+t=f'''# Seven devices: what the evidence lets us write
 
-This is the current information-research comparison, matched to the supplied guide on {DATA['updated']}. Start with the [31 common required elements](../docs/report-evidence-requirements.md). Open a device for every element's source content, direct contribution, strength, exact gap and next action.
+This page is for teammates choosing a report case. Each device starts with a paragraph explaining what it does and where its investigation stands. The five bullets then explain what the available material contributes to each report section and what we still need to find. Open the detailed guide for the requirement-by-requirement reasoning.
 
-{legend}
-
-The tables below highlight one informative evidence match per device/topic; **the linked device files contain all 31 rows**. Source checks originally date to 19–20 October unless the [new access/review log](../docs/imperial-gap-searches.md) states otherwise. No total richness/readiness score is calculated.
+All seven use the same [31 questions from the supplied guide](../docs/report-evidence-requirements.md). This is a rewrite of evidence reviewed on 19–21 October, not a new source audit. [The Imperial access log](../docs/imperial-gap-searches.md) separates completed retrievals from proposed searches.
 
 '''
-for s in DATA['sections']:
-    sid=s['id']
-    t+=f'## {s["name"]}\n\n**Included:** '+'; '.join(f'{r["id"]} {r["label"].lower()}' for r in s['requirements'])+'.\n\n'
-    t+='| Device | Exact evidence → matched need | How solid? | Exactly missing | Imperial / next action |\n|---|---|---|---|---|\n'
-    for d in DATA['devices']:
-        v=d['overview'][sid];r=next(x for x in d['rows'] if x['requirement_id']==v['focus'])
-        refs=' '.join(f'[source {n}]({SOURCES[x]["url"]})' for n,x in enumerate(r['source_ids'],1))
-        evidence=f'**{r["requirement_id"]}:** {r["evidence"]} '+refs
-        t+='| '+' | '.join(map(cell,[f'[{d["name"]}]({d["device_id"]}.md#{s["name"].lower().replace(" ","-")})',evidence,r['solidity'],v['gap'],v['next']]))+' |\n'
-    t+='\n'
-t+='''The precise source locators, remaining subquestions and proposed search strings are in each device checklist. [Imperial route codes and actual outcomes](../docs/imperial-gap-searches.md) distinguish a successful full-text retrieval from a resource that is only listed or inaccessible for this use. The earlier [narrative-draft review](../reports/comparative-review.md) assesses dated drafts; it is not the current source-to-need comparison.
+for d in DATA['devices']:
+    readable=EXPLANATIONS[d['device_id']]
+    t+=f'## {d["name"]}\n\n{readable["summary"]}\n\n'
+    for s in DATA['sections']:
+        anchor=s['name'].lower().replace(' ','-')
+        t+=f'- **{s["name"]}:** {readable["overview"][s["id"]]} [Sources and unanswered questions]({d["device_id"]}.md#{anchor}).\n\n'
+    t+=f'[Read the complete evidence guide]({d["device_id"]}.md).\n\n'
+t+='''The detailed guides retain source links and passages and explain why a missing answer matters. Original search strings remain in the [structured evidence record](../data/evidence-checklists.json). The earlier [narrative-draft review](../reports/comparative-review.md) assesses dated drafts; use the guides above for the current explanation of evidence gaps.
 '''
 write('research/README.md',t)
 
-desc={'precision':'Temporary cortical electrode for recording/monitoring/stimulation.','rns':'Implanted closed-loop recording and seizure stimulation.','ceribell':'Rapid scalp EEG in acute care, with version-specific software.','saint':'MRI-informed accelerated TMS treatment pathway.','exablate':'MR-guided focused-ultrasound thermal lesion treatment.','arcex':'External spinal stimulation with functional rehabilitation.','terra':'7T MRI for defined head/extremity imaging uses.'}
 t='''# Choosing a device through evidence
 
-**Start with the [requirement-to-source comparison](research/README.md).** It replaces broad comments about “information richness” with explicit matches to the supplied report guide.
+**Start with the [device-by-device research overview](research/README.md).** Each device below has a plain-language guide explaining what its sources let us write and exactly what is still missing.
 
-Each device checklist has the same **31 required elements** across unmet medical need, IP, fundraising, regulation and reimbursement. Every row shows five things:
+The guides address unmet medical need, intellectual property, fundraising, regulation and reimbursement. Each uses the same 31 questions from the supplied report guide. Answers are written as bullet lists: the requirement, the source content, its contribution and limits, the unanswered question and the next investigation. There are no evidence grades or comparison tables in this reading path.
 
-1. What the section needs.
-2. Exact source content and how it answers that need.
-3. How solid that particular support is.
-4. Exactly what is still missing.
-5. The next Imperial or official source/action to try.
-
-| Device | What it does | Current evidence checklist |
-|---|---|---|
 '''
-for d in DATA['devices']:t+=f'| {d["name"]} | {desc[d["device_id"]]} | [Open]({paths[d["device_id"]]}) |\n'
+for d in DATA['devices']:
+    t+=f'## {d["name"]}\n\n{EXPLANATIONS[d["device_id"]]["summary"]} [Read the evidence guide]({paths[d["device_id"]]}).\n\n'
 t+='''
 The [common requirements](docs/report-evidence-requirements.md) come from the supplied guide's evidence tables, with page provenance. The [Imperial access/search log](docs/imperial-gap-searches.md) records what was actually tried. One concrete improvement is full access to the RNS economic paper; its cost inputs remain a historical model, rather than a current device quote. Proposed searches are labelled and do not count as evidence found.
 

@@ -37,7 +37,7 @@ for d,m in zip(D,M):
     if len(' '.join(d['description']).split())<150:errors.append(f'Device explanation too short: {d["id"]}')
     # Historical access labels remain in the archived matrix; the current README
     # links to explicit requirement matches instead of repeating broad grades.
-    if f'[Open](research/{d["id"]}.md)' not in readme:errors.append(f'Current checklist missing from README: {d["id"]}')
+    if f'(research/{d["id"]}.md)' not in readme:errors.append(f'Current checklist missing from README: {d["id"]}')
     text=(ROOT/m['report']).read_text(encoding='utf-8')
     if text.count('## Layer 1: Original research')!=1 or text.count('## Layer 2: Additional research (20 October 2026)')!=1:errors.append(f'Missing research layers: {d["id"]}')
     layer2=text.split('## Layer 2: Additional research (20 October 2026)',1)[-1]
