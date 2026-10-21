@@ -1,6 +1,6 @@
-# Device reports
+# Preserved device research and full drafts
 
-Start with the [comparison](../README.md). Each report explains the device, its stage of development, sources for all five required sections and justified first-hand enquiry routes.
+Start with the [current evidence checklists](../research/README.md): they match each required element to source content, strength, exact gaps and an Imperial/official next step. The earlier guides below retain their dated descriptions, research layers and first-hand enquiry routes. Their broad access labels are historical, rather than the current comparison.
 
 1. [Layer 7 Cortical Interface](01-precision.md)
 2. [RNS System](02-rns.md)
