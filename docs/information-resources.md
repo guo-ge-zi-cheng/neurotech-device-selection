@@ -6,6 +6,8 @@ Use this file to find **where to search**. The [research source guide](research-
 
 ## Start with the question
 
+For institutional subscriptions and support, use the [Imperial resource guide](imperial-resources.md): company and market databases, technical literature, standards, research computing, Careers and Enterprise Lab. It records public access routes and eligibility conditions without publishing personal account information. These routes supplement the public records below; they are not new device findings.
+
 | Report section | Start here | What to extract |
 |---|---|---|
 | Unmet medical need | [Clinical and population sources](#clinical-and-population-sources) | Eligible patients, existing care, its limitations/costs, and demonstrated incremental benefit. |
