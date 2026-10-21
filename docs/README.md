@@ -3,6 +3,7 @@
 - [Screening methodology](methodology.md)
 - [How to find and judge reliable information](reliability-protocol.md)
 - [Additional seven-device research: findings, updates and gaps](additional-research-summary.md)
+- [Information resource directory: databases and worked examples](information-resources.md)
 - [Research source guide for the five sections](research-source-guide.md)
 - [What the Optomed and Quadsense examples actually used](example-source-audit.md)
 - [Course requirements](course-requirements.md)

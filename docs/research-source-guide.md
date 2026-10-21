@@ -1,5 +1,7 @@
 # Research sources for the five report sections
 
+For searchable databases and concrete records already used in this repo, open the [information resource directory](information-resources.md), compiled 21 October 2026. This guide explains how to use them.
+
 Use this guide when an important question remains unanswered by the device company's own documents. The aim is to explain the device's route to market with evidence whose role and limits are clear. Start with the exact original product, period and market.
 
 This guide draws on Project spec 2026 and a source audit of the Optomed Aurora and Quadsense examples. [The audit](example-source-audit.md) records their PDF pages, references, feedback and selected external checks. The specification is the authority for requirements. Sources used in an example demonstrate search routes; they do not establish blanket lecturer approval.
