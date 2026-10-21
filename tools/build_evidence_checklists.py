@@ -42,8 +42,9 @@ Guide physical PDF pp{s['guide_pages']}. Each required element is one row. “Ne
 '''
         for q in s['requirements']:
             r=rows[q['id']]
-            need=f'**{q["id"]}: {q["label"]}.** {q["fields"]}'
-            next_step=f'{route_link(r["next_route"])}: `{r["query"]}`'
+            # Spaces around slash-separated alternatives allow GitHub tables to wrap.
+            need=f'**{q["id"]}: {q["label"]}.**<br>'+q['fields'].replace('/',' / ')
+            next_step=f'{route_link(r["next_route"])}<br>Search: {r["query"]}'
             text+='| '+' | '.join(map(cell,[need,evidence_text(r,used),r['solidity'],r['gap'],next_step]))+' |\n'
         text+='\n'
     text+='''<details>
