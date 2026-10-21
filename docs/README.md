@@ -1,5 +1,9 @@
 # Methodology and supporting context
 
+- [Current requirement-to-source comparison](../research/README.md)
+- [The common 31 required elements](report-evidence-requirements.md)
+- [Imperial gap searches: actual outcomes and next actions](imperial-gap-searches.md)
+- [Imperial resource directory](imperial-resources.md)
 - [Screening methodology](methodology.md)
 - [How to find and judge reliable information](reliability-protocol.md)
 - [Additional seven-device research: findings, updates and gaps](additional-research-summary.md)
