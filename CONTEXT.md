@@ -1,6 +1,6 @@
 # Current project context
 
-Updated 20 October 2026.
+Updated 21 October 2026.
 
 The team is choosing one of seven devices for the Medical Device Entrepreneurship report: Precision Neuroscience Layer 7 Cortical Interface, NeuroPace RNS, Ceribell Rapid Response EEG, Magnus Medical SAINT, Insightec Exablate Neuro ONWARD Medical ARC-EX and Siemens Healthineers MAGNETOM Terra 7T MRI. Keep these seven companies/devices in the repository.
 
@@ -46,3 +46,8 @@ Run tools/validate.py and tools/validate_full_reports.py after regeneration. The
 The user added MAGNETOM Terra 7T MRI as the seventh case, including a layered research guide and full narrative. README, comparison, indexes, structured data and validators cover all seven. The six-device descriptions above record the preceding stages; they are historical counts. Terra adds nine source records and seven findings. King’s exact-equipment page names LoCUS at St Thomas’ and a dedicated enquiry address; no contact or clinical-access promise is implied. Original US K170840, component manufacturers and Oxford magnet-development attribution support engineering/regulatory investigation. A real comparative diagnostic study and a separate prospective epilepsy protocol have different evidential roles.
 
 The 2021-priority optimisation application’s two independent claims are a later illustration, not original 2017 scanner IP. Original subsystem families, attributable early R&D capital, eligible local volume, present configuration/UK documentation, clinical payment and incremental economics remain incomplete. King’s/Wellcome project funding and parent Siemens’ IPO proceeds must not be reassigned to original Terra R&D. Current NHS payment/procurement retrieval failures remain leads. Existing six research records, contacts, 88 sources and narrative bodies are protected by append-compatible preservation checks.
+
+
+## Information resource directory, 21 October 2026
+
+The user supplied more company-register, securities, patent, regulator and payment routes and requested a separate structured collection combining them with resources already used in the repo. docs/information-resources.md is the maintained directory: five-topic quick start, company/jurisdiction map, financing/licensing examples, clinical/regulatory/payment resources, specific London routes, access/review boundaries and an evidence-log template. It links actual existing documents to their catalog review notes across all seven cases. General search portals are not new accepted device findings; the 97-entry device catalog, evidence layers and full report bodies were left unchanged. Selected portal pages were checked on 21 October; blocked or JavaScript-only routes are labelled, and historical reviews retain their original dates. Detailed filing deadlines and a new global legal-disclosure audit were not attempted.

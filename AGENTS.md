@@ -26,3 +26,5 @@ Use tools/validate_full_reports.py as well as tools/validate.py. data/research-p
 
 
 Terra is the seventh case. Keep the original 2017 system separate from Terra.X, upgrades and research options. Its later optimisation application is explicitly not original scanner IP. Distinguish corporate R&D, customer infrastructure funding, parent-company IPO proceeds and clinical service payment. Preserve the six earlier JSON record prefixes and full narrative bodies; canonical prefix checks permit append-only scope growth.
+
+For resource discovery, also consult docs/information-resources.md. Maintain its distinction between general search portals, previously reviewed device records and unverified access leads. It is static supporting documentation, not a regenerated source index or a new device audit.
