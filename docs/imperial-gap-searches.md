@@ -1,6 +1,6 @@
 # Imperial resources matched to the gaps
 
-Checked 21 October 2026. These routes explain the final column in every [checklist](../research/README.md). Each query there is proposed unless the outcomes below explicitly record it as completed. Institutional listings are not proof that a particular device fact is available.
+Checked 21 October 2026. These routes support the next-investigation bullets in every [device guide](../research/README.md). Proposed search strings are retained in the structured evidence record; only the outcomes below count as completed access attempts. Institutional listings are not proof that a particular device fact is available.
 
 ## What actually happened
 
@@ -10,7 +10,7 @@ Checked 21 October 2026. These routes explain the final column in every [checkli
 | Imperial PitchBook catalog and View full text | Access route only; no company query submitted | Terms-of-use acceptance page reached. It states a restriction on use with AI. Terms not accepted; no subscriber deal record read, downloaded or used. | Manual student/librarian investigation only within the applicable licence; not a gap closed. |
 | Imperial Factiva catalog | Access/licence check only | Catalog read; academic reader access only, with no text mining or analytics. No subscriber content search/export performed. | A possible student reading route under its licence; not new financing evidence. |
 | Imperial Library Search and Wiley | 10.1111/epi.17049 | Exact article located and institutional Wiley full text opened; relevant methods, costs, Table 1 and limitations read. | Real improvement for RNS N4/P1/P4/P5; does not verify present prices or UK payment. |
-| Other per-row Imperial/official queries | Queries listed in the device checklists | Not executed as subscriber searches. Resource availability and proposed query are kept separate from retrieved evidence. | Prioritised next actions; no claim that every potential subscription has been searched. |
+| Other per-row Imperial/official queries | Search strings retained in data/evidence-checklists.json | Not executed as subscriber searches. Resource availability and proposed query are kept separate from retrieved evidence. | Prioritised next actions; no claim that every potential subscription has been searched. |
 
 The RNS paper's public identity is [Youngerman et al., DOI 10.1111/epi.17049](https://doi.org/10.1111/epi.17049). Its library record offered an institutional Wiley service and the article displayed full access. The new review supplies historical model inputs/limitations; it does not establish a present hospital purchase or NHS price. No personal account details, authentication/session URLs, raw licensed exports or article copies are published.
 
@@ -120,10 +120,10 @@ The PitchBook route was left at its terms page without accepting the agreement o
 
 ## Best use of a student's next hour
 
-- For a weak finance row, first recover an attributable old transaction or award. A recent-only deal collection or a whole-company R&D total will not answer original development finance.
-- For a model/effect row, retrieve the original full paper and its methods. The RNS access test demonstrates that Imperial can add detail beyond an abstract.
-- For an unknown price or capacity row, look for a contract or actual service record. A library subscription cannot substitute for a quotation or a conversation that has not happened.
-- For an IP row, use the correct original family and official status/assignment records. A licence to a database does not complete legal/product mapping.
-- For the stakeholder-format row, retrieve the actual lecture instruction. Existing diagrams remain provisional.
+- For a missing finance answer, first recover an attributable old transaction or award. A recent-only deal collection or a whole-company R&D total will not answer original development finance.
+- For an economic model or clinical-effect question, retrieve the original full paper and its methods. The RNS access test demonstrates that Imperial can add detail beyond an abstract.
+- For an unknown price or capacity, look for a contract or actual service record. A library subscription cannot substitute for a quotation or a conversation that has not happened.
+- For an IP question, use the correct original family and official status/assignment records. A licence to a database does not complete legal/product mapping.
+- For the stakeholder format, retrieve the actual lecture instruction. Existing diagrams remain provisional.
 
 The broader [Imperial directory](imperial-resources.md) and [general source collection](information-resources.md) remain useful discovery tools. The narrower actions above exist to close a named requirement, rather than increase the source count.
