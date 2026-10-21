@@ -1,0 +1,57 @@
+{
+  "baseline": "Latest remote repository before checklist addition, 21 October 2026",
+  "files": [
+    {
+      "path": "data/device-records.json",
+      "sha256": "25cc15d067a45d7534989e9f694cfdf49b4fa14ee10bdd6c65068423c9a8b2dc"
+    },
+    {
+      "path": "data/additional-research.json",
+      "sha256": "e1c2c1a6ff9df83ebfa636d04afb603f9ae0a486583d9476ed46974d6664f83c"
+    },
+    {
+      "path": "data/screening-matrix.json",
+      "sha256": "455d0883da10eb9d44940ca1d2b8ac069a184bc2417ce59b6eabf9be320210b1"
+    },
+    {
+      "path": "data/contacts.json",
+      "sha256": "03e0c3031d6fcb2d299bd174dafcf55467a9593c7baf02fd1a50a47756900577"
+    },
+    {
+      "path": "data/source-catalog.json",
+      "sha256": "fe6a00bd434b97282a4c1877aae265f79f746139af5ed67ca4f90f5460958b11"
+    },
+    {
+      "path": "data/example-source-audit.json",
+      "sha256": "7783b72cbbd0245efc1def888abf6b0de8759a0b917b286f36702eade3a14ce9"
+    },
+    {
+      "path": "devices/precision/full-report.md",
+      "sha256": "58abb6d90186b2e624a48fc0c7c6dd3092c095bad4298d0717f2fbdfef513e3c"
+    },
+    {
+      "path": "devices/rns/full-report.md",
+      "sha256": "630bc9d264ba31172ad1dec86c0cda5501da4f3084d25bda1d0aef5e73736cc8"
+    },
+    {
+      "path": "devices/ceribell/full-report.md",
+      "sha256": "69fde269295a6eab43de4a9d024ef32bdeada46d476787b487b7eb1614358aaa"
+    },
+    {
+      "path": "devices/saint/full-report.md",
+      "sha256": "736d335a0bcb89e6647d6624e70e9a4d3f1f74fbcc7501c733b6ab5ccf2a35ba"
+    },
+    {
+      "path": "devices/exablate/full-report.md",
+      "sha256": "d3c9aacfa9e42439b4ec7d555b8e3380e4aa3ef934d0c50ecea0aabdef595d76"
+    },
+    {
+      "path": "devices/arcex/full-report.md",
+      "sha256": "22e0b1322c4cf142f5b27b650513bfbeb370eacf31a2801b428b3268f3a62e4b"
+    },
+    {
+      "path": "devices/terra/full-report.md",
+      "sha256": "fcfc3c804a4310cb27880fde9adfc7fc1edf765f6e19a126e0f7eb4f7271c69e"
+    }
+  ]
+}

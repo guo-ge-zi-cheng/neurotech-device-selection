@@ -1,6 +1,10 @@
 # Evidence records
 
-device-records.json contains the expanded descriptions, five-section source guide and justified contacts. screening-matrix.json contains the short comparison shown in the README. source-catalog.json records URLs and what was actually reviewed. contacts.json and checks-and-corrections.json make the contact reasons and corrections inspectable.
+The current source-to-need assessment is **evidence-checklists.json**, rendered by tools/build_evidence_checklists.py at the end of tools/build_docs.py. It holds the supplied guide's 31 required elements, 217 explicit evidence matches/gaps across seven devices, exact source locators, claim-specific support, proposed queries and actual Imperial access outcomes. The sole new full-text review deepens the existing RNS economic paper; it is not independent corroboration. Run tools/validate_checklists.py as well as the two earlier validators. checklist-preservation.json protects six prior evidence files and all seven full Markdown drafts by exact hash.
+
+The older screening-matrix.json access labels remain as a historical record. README now points to research/ rather than repeating those broad labels. Original device/source data are not silently regraded.
+
+device-records.json contains the expanded descriptions, five-section source guide and justified contacts. screening-matrix.json contains the earlier broad access comparison, previously shown in README. source-catalog.json records URLs and what was actually reviewed. contacts.json and checks-and-corrections.json make the contact reasons and corrections inspectable.
 
 Information access is described as Clear sources, Some gaps or Hard to find. It is not a clinical ranking. Regenerate documents after changing the records.
 

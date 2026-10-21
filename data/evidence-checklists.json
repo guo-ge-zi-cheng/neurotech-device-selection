@@ -1,0 +1,3491 @@
+{
+  "updated": "2026-10-21",
+  "purpose": "Requirement-to-source matching for research selection; no aggregate richness score or claim of completed assessed coursework.",
+  "guide": {
+    "filename": "Medical_Device_Report_Guide.pdf",
+    "sha256": "c76eecbcc5158ec9a537eafb729bc7e994bd28c886164e23c4cd3c795ef26243",
+    "pages": 22,
+    "review": "Relevant sections 3–7 and map guidance extracted/read; evidence tables visually inspected on physical pages 5, 7, 9, 11 and 13.",
+    "authority": "User-supplied working framework; separate from Project spec as the authority for assessment requirements. Original PDF retained outside public repository."
+  },
+  "sections": [
+    {
+      "id": "N",
+      "name": "Unmet medical need",
+      "guide_pages": "5–6",
+      "requirements": [
+        {
+          "id": "N1",
+          "label": "Target population",
+          "fields": "Indication, geography, period and eligible patient/procedure denominator.",
+          "guide_pdf_page": 5
+        },
+        {
+          "id": "N2",
+          "label": "Current care",
+          "fields": "Actual pathway, comparator and decision point where the device enters.",
+          "guide_pdf_page": 5
+        },
+        {
+          "id": "N3",
+          "label": "Care shortfall",
+          "fields": "Measured failure, poor outcome, delay or access gap despite existing care.",
+          "guide_pdf_page": 5
+        },
+        {
+          "id": "N4",
+          "label": "Consequences",
+          "fields": "Patient outcomes, resource use, costs and distribution of the burden.",
+          "guide_pdf_page": 5
+        },
+        {
+          "id": "N5",
+          "label": "Addressable benefit",
+          "fields": "Mechanism plus technical/intermediate and patient-outcome evidence.",
+          "guide_pdf_page": 5
+        },
+        {
+          "id": "N6",
+          "label": "Alternatives",
+          "fields": "Relevant current options, limitations and trade-offs in this setting.",
+          "guide_pdf_page": 5
+        }
+      ]
+    },
+    {
+      "id": "I",
+      "name": "Intellectual property",
+      "guide_pages": "6–8",
+      "requirements": [
+        {
+          "id": "I1",
+          "label": "Invention origin",
+          "fields": "Original inventors, employers at the time, earliest publication and priority.",
+          "guide_pdf_page": 7
+        },
+        {
+          "id": "I2",
+          "label": "Control of rights",
+          "fields": "Applicants, assignees, transfers and actual licences.",
+          "guide_pdf_page": 7
+        },
+        {
+          "id": "I3",
+          "label": "Independent claims",
+          "fields": "Identified claim versions; required features matched to documented product features.",
+          "guide_pdf_page": 7
+        },
+        {
+          "id": "I4",
+          "label": "Place and time",
+          "fields": "Families, priority, jurisdictions and dated application/grant/legal status.",
+          "guide_pdf_page": 7
+        },
+        {
+          "id": "I5",
+          "label": "Other protection",
+          "fields": "Documented designs, trademarks, software, know-how or data rights and control.",
+          "guide_pdf_page": 7
+        },
+        {
+          "id": "I6",
+          "label": "Exposure",
+          "fields": "Third-party rights, alternative designs and missing licence terms; no assumed legal clearance.",
+          "guide_pdf_page": 7
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "name": "Fundraising",
+      "guide_pages": "8–10",
+      "requirements": [
+        {
+          "id": "F1",
+          "label": "Grants",
+          "fields": "Recipient, award ID, dates/period, amount and project purpose; precursor versus company.",
+          "guide_pdf_page": 9
+        },
+        {
+          "id": "F2",
+          "label": "Equity",
+          "fields": "Closing, investors, currency, amount, instrument and disclosed valuation.",
+          "guide_pdf_page": 9
+        },
+        {
+          "id": "F3",
+          "label": "Other resources",
+          "fields": "Founder inputs, debt, incubator/partner support and in-kind contributions.",
+          "guide_pdf_page": 9
+        },
+        {
+          "id": "F4",
+          "label": "Use of funds",
+          "fields": "Stated allocation and next development milestone/risk.",
+          "guide_pdf_page": 9
+        },
+        {
+          "id": "F5",
+          "label": "Funded outcomes",
+          "fields": "Dated prototype, study, market-entry or first-sale result; chronology versus causality.",
+          "guide_pdf_page": 9
+        },
+        {
+          "id": "F6",
+          "label": "Missing early costs",
+          "fields": "Sourced bottom-up categories/duration/rates plus matched top-down comparables and assumptions.",
+          "guide_pdf_page": 9
+        }
+      ]
+    },
+    {
+      "id": "R",
+      "name": "Regulatory",
+      "guide_pages": "10–12",
+      "requirements": [
+        {
+          "id": "R1",
+          "label": "Product boundary",
+          "fields": "Configuration, accessories/software, indication, user and setting.",
+          "guide_pdf_page": 11
+        },
+        {
+          "id": "R2",
+          "label": "Market route",
+          "fields": "Country, classification, rule/code, pathway and why it fits.",
+          "guide_pdf_page": 11
+        },
+        {
+          "id": "R3",
+          "label": "Actual decision",
+          "fields": "Primary identifier, decision date/type and precise scope.",
+          "guide_pdf_page": 11
+        },
+        {
+          "id": "R4",
+          "label": "Supporting evidence",
+          "fields": "Device risk/function matched to reported test/standard, edition, result and limit.",
+          "guide_pdf_page": 11
+        },
+        {
+          "id": "R5",
+          "label": "Manufacture",
+          "fields": "Legal/contract manufacturers, critical suppliers, sites and quality/release responsibilities.",
+          "guide_pdf_page": 11
+        },
+        {
+          "id": "R6",
+          "label": "Continuing duties",
+          "fields": "Quality/surveillance obligations and dated recall/incident searches where relevant.",
+          "guide_pdf_page": 11
+        }
+      ]
+    },
+    {
+      "id": "P",
+      "name": "Reimbursement",
+      "guide_pages": "13–15",
+      "requirements": [
+        {
+          "id": "P1",
+          "label": "Buyer and product",
+          "fields": "Actual purchase/lease/consumable/subscription model, configuration, dated price.",
+          "guide_pdf_page": 13
+        },
+        {
+          "id": "P2",
+          "label": "Care funding",
+          "fields": "Commissioner, insurer, provider, patient or other actual funding source.",
+          "guide_pdf_page": 13
+        },
+        {
+          "id": "P3",
+          "label": "Payment rules",
+          "fields": "Payer, setting, date, conditions, codes, coverage and payment amounts.",
+          "guide_pdf_page": 13
+        },
+        {
+          "id": "P4",
+          "label": "Incremental economics",
+          "fields": "Device/implementation/staff/maintenance/downstream costs, perspective and horizon.",
+          "guide_pdf_page": 13
+        },
+        {
+          "id": "P5",
+          "label": "Clinical inputs",
+          "fields": "Comparative outcomes supporting the proposed avoided events and savings.",
+          "guide_pdf_page": 13
+        },
+        {
+          "id": "P6",
+          "label": "Adoption incentives",
+          "fields": "Budget holder, who gains/bears cost, time horizon, throughput and capacity.",
+          "guide_pdf_page": 13
+        },
+        {
+          "id": "P7",
+          "label": "Stakeholder map",
+          "fields": "Actual/proposed flows, participant goals and tensions, plus lecture-required format.",
+          "guide_pdf_page": 15
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "LIT",
+      "name": "Clinical literature",
+      "url": "https://library-guides.imperial.ac.uk/medicine-bioscience-resources/databases",
+      "offers": "Imperial lists MEDLINE/Embase; use Library Search and publisher links for original studies, methods, outcomes and relevant local populations.",
+      "status": "Database routes confirmed. Exact RNS article retrieved; other proposed queries below have not been executed in subscriber databases.",
+      "limit": "An index is not full text; broader literature does not establish the selected product’s effect.",
+      "output": "Original paper/table with eligible group, comparator, endpoint, denominator, follow-up, conflicts and locator."
+    },
+    {
+      "id": "COST",
+      "name": "Costs and health-service evidence",
+      "url": "https://www.imperial.ac.uk/admin-services/library/subject-support/business/health-management/",
+      "offers": "HMIC, MEDLINE/Embase and Library Search can locate pathway costing, resource-use and economic papers; public NHS cost/commissioning records remain necessary.",
+      "status": "Routes listed; RNS full text successfully reviewed. Other cost queries are proposed, not completed.",
+      "limit": "A model input, charge, purchase price and reimbursement are different quantities. No database can validate a saving without its underlying effect.",
+      "output": "Cost components, price year/currency, perspective/horizon and event-frequency assumptions; a separate actual contract if available."
+    },
+    {
+      "id": "FIN",
+      "name": "Company and financing history",
+      "url": "https://www.imperial.ac.uk/admin-services/library/subject-support/business/databases-a-z/",
+      "offers": "PitchBook/Capital IQ for transactions; Factiva for dated announcements; Orbis Europe/FAME for covered entities. Follow the issuer, predecessor and original source.",
+      "status": "PitchBook reached unaccepted terms restricting AI use; no subscriber record used. Factiva catalog says reader access only, no text mining/analytics; no subscriber search performed. Capital IQ not tested. Orbis M&A listing has five years of global coverage, unsuitable by itself for old rounds.",
+      "limit": "Student-led use must follow the licence. Coverage does not guarantee hidden valuations, product budgets or old transactions. No raw licensed export is published.",
+      "output": "Permitted transaction/source citation with recipient, closing, instrument, amount, investors, valuation basis and stated use; keep unknown fields unknown."
+    },
+    {
+      "id": "PAT",
+      "name": "Patent and rights investigation",
+      "url": "https://www.imperial.ac.uk/admin-services/library/find-books-articles-and-more/patents/",
+      "offers": "Imperial’s patent guidance/librarian support can improve inventor, predecessor and technical searches. Use public official registers for decisive status/assignment checks.",
+      "status": "Route recorded in existing Imperial guide; no new specialist subscriber search or legal opinion completed.",
+      "limit": "Subscriptions cannot infer private licences, inventor employment, exact coverage or freedom to operate from titles/counts.",
+      "output": "Correct original family, dated official status/assignment and independent-claim-to-feature table with unresolved elements."
+    },
+    {
+      "id": "STD",
+      "name": "Standards",
+      "url": "https://www.imperial.ac.uk/admin-services/library/find-books-articles-and-more/standards/",
+      "offers": "Use Imperial’s standards guide to locate the exact ISO/IEC/BS document and historical edition named in the device record.",
+      "status": "Access route recorded in existing Imperial guide; no complete licensed standard retrieved for these checklists.",
+      "limit": "Reading a standard explains a requirement; it does not prove that a manufacturer complied or reveal its test report.",
+      "output": "Risk → historical requirement/edition → actual device test evidence → limit. Retain source access and redistribution rules."
+    },
+    {
+      "id": "GRANT",
+      "name": "Awards and original research support",
+      "url": "https://reporter.nih.gov/",
+      "offers": "NIH RePORTER, NIHR Funding and Awards and UKRI Gateway to Research are public. Imperial full-text access can recover original acknowledgement/award identifiers; ask library staff to help trace them.",
+      "status": "Existing award acknowledgements reused; no new award amount accepted in this pass.",
+      "limit": "An award to a precursor laboratory is not automatically company cash or an ARC-EX/SAINT budget.",
+      "output": "Authoritative ID, recipient, period, amount, purpose, relevant output and explicit product-allocation limit."
+    },
+    {
+      "id": "EST",
+      "name": "Capital estimate inputs",
+      "url": "https://www.imperial.ac.uk/admin-services/library/subject-support/business/company-and-financial-information/",
+      "offers": "Company filings and permitted comparator research can help source staff, prototypes, verification, trials and tooling costs; literature gives trial/design demands.",
+      "status": "No justified numerical early-capital estimate completed; per-device categories are identified.",
+      "limit": "Private company totals cannot be assigned to a device without an allocation rule. Advice or a generic market report cannot replace sourced inputs.",
+      "output": "Bottom-up range and a matched top-down cross-check with stage, geography/year, duration and assumptions; separate from historical fundraising."
+    },
+    {
+      "id": "SERVICE",
+      "name": "Actual service and purchasing evidence",
+      "url": "https://www.imperial.ac.uk/admin-services/library/subject-support/business/",
+      "offers": "Imperial librarians can help locate procurement/service records. The existing exact-product clinical/facility contacts can answer scoped operational questions if the group later obtains a conversation.",
+      "status": "No new contact, quotation, interview or visit arranged. Actual London/nearby connections remain in the preserved studies.",
+      "limit": "A subscription rarely supplies confidential local prices, capacity or contracts. General expertise is not exact-device experience.",
+      "output": "Dated configuration/price, budget holder, patient flow, staff time, capacity and attribution; state when unavailable."
+    },
+    {
+      "id": "OPEN",
+      "name": "Official records first",
+      "url": "https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-assistance/medical-device-databases",
+      "offers": "Exact regulator, recall/incident, payer and commissioning records are mostly official/public routes. Search model and indication, not only brand.",
+      "status": "Historical device/policy records reused; no complete new current-label, recall/MAUDE, global authorisation or payer audit performed.",
+      "limit": "Imperial subscriptions do not replace official decisions. A search returning nothing does not prove no incident, trial, approval or payment exists.",
+      "output": "Exact identifier, date, market/version, conditions, searched database/terms and retrieval outcome."
+    },
+    {
+      "id": "COURSE",
+      "name": "Course map format",
+      "url": "https://canvas.imperial.ac.uk/courses/10384/modules",
+      "offers": "Check the actual reimbursement/stakeholder-map lecture materials in Canvas. The supplied guide explicitly says its map discussion does not supply the lecture format.",
+      "status": "Lecture-specific format not retrieved in this pass; existing diagrams remain provisional.",
+      "limit": "An example diagram or our role analysis cannot certify compliance with an unseen lecture instruction.",
+      "output": "Actual format plus case-specific verified money/product/care/authority flows, goals, tension and explicit hypothetical arrows."
+    }
+  ],
+  "devices": [
+    {
+      "device_id": "precision",
+      "name": "Precision Neuroscience — Layer 7-T",
+      "scope": "Temporary cortical electrode; US 2025 component boundary, not a permanent assistive BCI.",
+      "rows": [
+        {
+          "requirement_id": "N1",
+          "evidence": "FDA limits Layer 7-T to temporary cortical use under 30 days. → Defines the relevant procedure population, rather than all people with paralysis.",
+          "source_ids": [
+            "FDA-PRECISION-K242618"
+          ],
+          "locator": "Indications for use",
+          "solidity": "Direct record; no eligible-population count",
+          "gap": "Eligible procedure numbers by country/year and subgroup.",
+          "next_route": "LIT",
+          "query": "cortical electrocorticography surgical mapping annual procedures eligibility",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N2",
+          "evidence": "The array works with recording/monitoring/stimulation equipment during neurosurgery. → Locates its entry at cortical recording, not permanent home BCI control.",
+          "source_ids": [
+            "FDA-PRECISION-K242618"
+          ],
+          "locator": "Device description and predicate",
+          "solidity": "Partial; product role, incomplete care pathway",
+          "gap": "Baseline mapping workflow, decision point and staff requirements.",
+          "next_route": "LIT",
+          "query": "intraoperative electrocorticography language mapping standard workflow",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N3",
+          "evidence": "The five-patient pilot demonstrates acute recording. → It does not measure the frequency or clinical consequences of existing mapping failures.",
+          "source_ids": [
+            "PRECISION-HETTICK-2025"
+          ],
+          "locator": "Human clinical pilot",
+          "solidity": "Missing baseline shortfall measure; small pilot is context",
+          "gap": "Baseline missed/localisation errors, delays or inadequate mapping rates.",
+          "next_route": "LIT",
+          "query": "cortical surface mapping limitations spatial resolution clinical errors",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N4",
+          "evidence": "No before/after care-cost or patient-impact estimate for the temporary component was verified. → Its economic need remains unquantified.",
+          "source_ids": [],
+          "locator": null,
+          "solidity": "Missing",
+          "gap": "Baseline harm, theatre resources and attributable costs.",
+          "next_route": "COST",
+          "query": "electrocorticography surgical mapping operating room time cost",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N5",
+          "evidence": "Five acute patients included two under anaesthesia and three awake-mapping cases. → Supports placement/recording feasibility, not improved patient outcomes.",
+          "source_ids": [
+            "PRECISION-HETTICK-2025"
+          ],
+          "locator": "Human pilot; funding/conflicts",
+          "solidity": "Limited; small acute study with company interests",
+          "gap": "Comparative decision changes, patient outcomes and adverse-event rates.",
+          "next_route": "LIT",
+          "query": "Precision Layer 7 temporary cortical array comparative outcomes",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N6",
+          "evidence": "FDA identifies a cortical-electrode predicate. → Supplies a real product comparator, without showing clinical superiority over it.",
+          "source_ids": [
+            "FDA-PRECISION-K242618"
+          ],
+          "locator": "Predicate and performance comparison",
+          "solidity": "Partial; regulatory comparator",
+          "gap": "Matched clinical/workflow comparison with conventional grids/strips.",
+          "next_route": "LIT",
+          "query": "cortical grids strips high density electrode comparative mapping",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I1",
+          "evidence": "US20230210427A1 names Rapoport, Papageorgiou, Hettick, Poole and Ho; priority 31 December 2021. → Identifies candidate inventors and timing.",
+          "source_ids": [
+            "PRECISION-ARRAY-IP"
+          ],
+          "locator": "Bibliographic metadata",
+          "solidity": "Partial; candidate first-product relationship",
+          "gap": "Each inventor's employer at invention and definitive original-device family.",
+          "next_route": "PAT",
+          "query": "US20230210427 original assignee inventors 2021 affiliation",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I2",
+          "evidence": "The application metadata records assignment to Precision. → Supports an ownership lead, rather than a university-licence assumption.",
+          "source_ids": [
+            "PRECISION-ARRAY-IP"
+          ],
+          "locator": "Assignment metadata",
+          "solidity": "Partial; not a complete chain-of-title audit",
+          "gap": "Official transfers, original employment/assignment agreements and licences.",
+          "next_route": "PAT",
+          "query": "Precision Neuroscience assignment US20230210427",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I3",
+          "evidence": "Claims 1/5 concern array/insertion; 13 fabrication; 17 decoding/secondary-device control. → Separates component protection from the wider BCI use.",
+          "source_ids": [
+            "PRECISION-ARRAY-IP"
+          ],
+          "locator": "Independent claims 1, 5, 13, 17",
+          "solidity": "Partial; all selected independent claims read",
+          "gap": "Element-by-element match to marketed Layer 7-T; claim 17's wider use.",
+          "next_route": "PAT",
+          "query": "US20230210427 claim elements Layer 7-T technical drawings",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I4",
+          "evidence": "The reviewed document is a published US application with 2021 priority. → Establishes that publication's timing/type, not current international protection.",
+          "source_ids": [
+            "PRECISION-ARRAY-IP"
+          ],
+          "locator": "Priority/publication metadata",
+          "solidity": "Partial; historical metadata",
+          "gap": "Official dated status, granted amendments and relevant national family members.",
+          "next_route": "PAT",
+          "query": "US20230210427 patent family prosecution current status",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I5",
+          "evidence": "The manufacturing acquisition documents fabrication capability. → Suggests a possible process advantage, not a verified trade-secret inventory.",
+          "source_ids": [
+            "PRECISION-FACTORY-2023"
+          ],
+          "locator": "Acquisition announcement",
+          "solidity": "Inference; capability is not an IP right",
+          "gap": "Documented software/design/know-how rights and their control.",
+          "next_route": "FIN",
+          "query": "Precision BioMEMS manufacturing intellectual property know-how disclosure",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I6",
+          "evidence": "A technically close application does not establish freedom to operate. → Third-party exposure remains an investigation question.",
+          "source_ids": [
+            "PRECISION-ARRAY-IP"
+          ],
+          "locator": "Claims and product-mapping boundary",
+          "solidity": "Missing; no third-party-rights assessment",
+          "gap": "Relevant competitor rights, alternative designs and licence dependencies.",
+          "next_route": "PAT",
+          "query": "cortical flexible microelectrode insertion pocket competing patent families",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F1",
+          "evidence": "No attributable precompany grant award was verified. → Academic support cannot be inserted into the financing total.",
+          "source_ids": [],
+          "locator": null,
+          "solidity": "Missing",
+          "gap": "Recipient, award identifier, dates, amount and product purpose.",
+          "next_route": "GRANT",
+          "query": "Rapoport Hettick Precision Neuroscience cortical electrode grant",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F2",
+          "evidence": "Company releases report $12m Series A in May 2021 and $41m Series B in January 2023. → Establishes disclosed company rounds, not a device budget.",
+          "source_ids": [
+            "PRECISION-SERIESA-2021",
+            "PRECISION-FIN"
+          ],
+          "locator": "Financing paragraphs",
+          "solidity": "Direct announcements; incomplete deal fields",
+          "gap": "Closing terms, valuations and allocation to Layer 7-T.",
+          "next_route": "FIN",
+          "query": "Precision Neuroscience 2021 2023 round closing valuation",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F3",
+          "evidence": "Precision acquired a MEMS foundry in October 2023. → Documents an acquired resource, without valuing it as investment received.",
+          "source_ids": [
+            "PRECISION-FACTORY-2023"
+          ],
+          "locator": "Acquisition announcement",
+          "solidity": "Partial; purchase price unavailable",
+          "gap": "Founder inputs, debt/in-kind support and acquisition consideration.",
+          "next_route": "FIN",
+          "query": "Precision BioMEMS 2023 acquisition consideration founders financing",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F4",
+          "evidence": "The Series B announcement describes development/scale-up aims. → Supports intended use, without assigning spending to the temporary array.",
+          "source_ids": [
+            "PRECISION-FIN"
+          ],
+          "locator": "Use-of-funding paragraphs",
+          "solidity": "Partial; issuer intention",
+          "gap": "Device-specific budget and milestone allocation.",
+          "next_route": "FIN",
+          "query": "Precision Neuroscience Series B use of proceeds Layer 7-T",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F5",
+          "evidence": "Rounds precede the 2023 foundry acquisition and 30 March 2025 clearance. → Establishes a sequence, not that one round caused those outcomes.",
+          "source_ids": [
+            "PRECISION-FIN",
+            "PRECISION-FACTORY-2023",
+            "FDA-PRECISION-K242618"
+          ],
+          "locator": "Event dates; decision letter",
+          "solidity": "Direct chronology; causal link unverified",
+          "gap": "Evidence connecting particular proceeds to completed development work.",
+          "next_route": "FIN",
+          "query": "Precision 2021 2023 investment manufacturing clearance milestones",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F6",
+          "evidence": "No sourced numerical early-capital estimate exists. → The funding requirement is still unanswered despite the known rounds.",
+          "source_ids": [],
+          "locator": null,
+          "solidity": "Missing",
+          "gap": "Staff-years, prototype/testing/trial costs and matched programme comparables.",
+          "next_route": "EST",
+          "query": "temporary cortical electrode development prototype verification staff years costs",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R1",
+          "evidence": "Layer 7-T is a temporary cortical electrode used with suitable external equipment. → Fixes the regulated component and use setting.",
+          "source_ids": [
+            "FDA-PRECISION-K242618"
+          ],
+          "locator": "Intended use and system description",
+          "solidity": "Direct record; original version",
+          "gap": "Complete current accessories/users and later configuration changes.",
+          "next_route": "OPEN",
+          "query": "K242618 latest labeling accessories users",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R2",
+          "evidence": "Class II, 21 CFR 882.1310, GYC; 510(k) substantial equivalence. → Connects the cortical-electrode function to the original US route.",
+          "source_ids": [
+            "FDA-PRECISION-K242618"
+          ],
+          "locator": "Classification and predicate",
+          "solidity": "Direct record; US scope",
+          "gap": "Equivalent primary evidence for any UK/EU market claimed.",
+          "next_route": "OPEN",
+          "query": "Layer 7-T EU certificate MHRA registration",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R3",
+          "evidence": "K242618 records clearance on 30 March 2025. → Gives the actual US decision endpoint.",
+          "source_ids": [
+            "FDA-PRECISION-K242618"
+          ],
+          "locator": "Decision letter",
+          "solidity": "Direct record",
+          "gap": "Later decisions/current label not fully audited.",
+          "next_route": "OPEN",
+          "query": "Precision K242618 subsequent modifications",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R4",
+          "evidence": "Summary reports biocompatibility, electrical/mechanical, packaging and sterilisation tests; ISO 10993 and ISO 11135 address contact/sterility risks. → Links tests to component risks.",
+          "source_ids": [
+            "FDA-PRECISION-K242618"
+          ],
+          "locator": "Nonclinical testing",
+          "solidity": "Direct summary; full submission unavailable",
+          "gap": "Exact edition/results detail and complete current conformity evidence.",
+          "next_route": "STD",
+          "query": "K242618 ISO 10993 ISO 11135 historical editions",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R5",
+          "evidence": "Acquired Dallas-area MEMS foundry through Precision BioMEMS. → Establishes dated fabrication capability under company control.",
+          "source_ids": [
+            "PRECISION-FACTORY-2023"
+          ],
+          "locator": "Manufacturing-acquisition paragraphs",
+          "solidity": "Direct announcement; not a factory audit",
+          "gap": "Final assembly/release responsibilities, outsourcing and present supplier chain.",
+          "next_route": "FIN",
+          "query": "Precision BioMEMS Layer 7-T final assembly release suppliers",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R6",
+          "evidence": "The 2026 QMSR provides general US quality-system context. → It does not establish Precision's compliance or device-specific surveillance findings.",
+          "source_ids": [
+            "FDA-QMSR-2026"
+          ],
+          "locator": "Effective date and scope",
+          "solidity": "Context only",
+          "gap": "Dated recall/incident search and actual postmarket/quality responsibilities.",
+          "next_route": "OPEN",
+          "query": "FDA recalls MAUDE Precision Neuroscience Layer 7-T",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P1",
+          "evidence": "No verified electrode price or purchasing contract. → Hospital purchase remains a proposed model, not an observed transaction.",
+          "source_ids": [],
+          "locator": null,
+          "solidity": "Missing",
+          "gap": "Price/configuration/date, consumables and contract terms.",
+          "next_route": "SERVICE",
+          "query": "Precision hospital procurement Layer 7-T quotation",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P2",
+          "evidence": "CMS describes service-payment systems, not this electrode's purchaser or budget. → Supplies a system framework only.",
+          "source_ids": [
+            "CMS-PAYMENT-SYSTEMS"
+          ],
+          "locator": "Hospital outpatient packaged costs",
+          "solidity": "Indirect; not product-specific",
+          "gap": "Who funds a real Layer 7-T clinical episode in a defined setting.",
+          "next_route": "COST",
+          "query": "Layer 7-T hospital budget inpatient outpatient purchasing",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P3",
+          "evidence": "Some integral outpatient items can be packaged with a service. → This does not verify Layer 7-T coding, coverage or payment.",
+          "source_ids": [
+            "CMS-PAYMENT-SYSTEMS"
+          ],
+          "locator": "Packaged-cost explanation",
+          "solidity": "Indirect; applicability unverified",
+          "gap": "Applicable procedure, payer policy, code and payment amount.",
+          "next_route": "OPEN",
+          "query": "cortical electrode recording procedure coverage payment Layer 7-T",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P4",
+          "evidence": "No exact-component economic evaluation was verified. → Neither improved resolution nor a possible time saving is measured financial value.",
+          "source_ids": [],
+          "locator": null,
+          "solidity": "Missing",
+          "gap": "Incremental equipment, theatre/staff, training and downstream costs.",
+          "next_route": "COST",
+          "query": "high density cortical electrode incremental cost effectiveness theatre workflow",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P5",
+          "evidence": "The acute pilot establishes feasibility only. → Savings requiring improved outcomes cannot yet be populated from that pilot.",
+          "source_ids": [
+            "PRECISION-HETTICK-2025"
+          ],
+          "locator": "Human pilot",
+          "solidity": "Limited; no patient-benefit comparison",
+          "gap": "Effect on decisions, complications, outcomes and resource-event frequencies.",
+          "next_route": "LIT",
+          "query": "Layer 7-T comparative patient outcomes resource utilization",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P6",
+          "evidence": "The hospital bears acquisition/integration costs; better information is a proposed benefit. → An incentive mismatch is an analytical question.",
+          "source_ids": [
+            "FDA-PRECISION-K242618"
+          ],
+          "locator": "Component workflow; analytical interpretation",
+          "solidity": "Inference; not an observed budget study",
+          "gap": "Actual budget owner, capacity effects and who captures benefits.",
+          "next_route": "SERVICE",
+          "query": "hospital cortical mapping procurement budget holder capacity",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P7",
+          "evidence": "The reference draft maps Precision, hospital, clinicians, patient, regulator and a conditional payer. → Organises roles, without documenting a contract.",
+          "source_ids": [
+            "FDA-PRECISION-K242618",
+            "CMS-PAYMENT-SYSTEMS"
+          ],
+          "locator": "Role premises; draft stakeholder map",
+          "solidity": "Provisional analysis",
+          "gap": "Actual money/authority flows and lecture-prescribed map format.",
+          "next_route": "COURSE",
+          "query": "reimbursement stakeholder-map lecture plus hospital purchasing roles",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        }
+      ],
+      "overview": {
+        "N": {
+          "focus": "N5",
+          "gap": "N1/N3/N4/N5: eligible procedures, mapping-failure rate, baseline cost and patient benefit.",
+          "next": "LIT/COST: mapping failures and procedure costs."
+        },
+        "I": {
+          "focus": "I3",
+          "gap": "I1–I4: original employers/rights and exact current product mapping.",
+          "next": "PAT: original assignments and claims; no subscription proves coverage."
+        },
+        "F": {
+          "focus": "F2",
+          "gap": "F1/F2/F6: grants, valuations and numerical required capital.",
+          "next": "FIN/GRANT: 2021 terms and precursor awards; licence limits apply."
+        },
+        "R": {
+          "focus": "R3",
+          "gap": "R4–R6: full/current tests, production responsibilities and postmarket review.",
+          "next": "STD/OPEN: historical editions; actual production needs company evidence."
+        },
+        "P": {
+          "focus": "P3",
+          "gap": "P1–P6: actual price, payer/fees, local costs and demonstrated benefit.",
+          "next": "COST/SERVICE: hospital procurement and outcome-linked resource data."
+        }
+      }
+    },
+    {
+      "device_id": "rns",
+      "name": "NeuroPace — RNS System",
+      "scope": "Original US focal-epilepsy pathway; model-specific changes separate; UK access not assumed.",
+      "rows": [
+        {
+          "requirement_id": "N1",
+          "evidence": "Original FDA group: adults with drug-resistant focal seizures, no more than two foci. US active-epilepsy estimate: 2.865m adults in 2021. → Separates eligibility from broad burden.",
+          "source_ids": [
+            "FDA-RNS-P100026",
+            "CDC-EPILEPSY-NHIS2021"
+          ],
+          "locator": "Indications; CDC repository abstract",
+          "solidity": "Partial; eligible subgroup not counted",
+          "gap": "Country/year-specific number satisfying every RNS criterion.",
+          "next_route": "LIT",
+          "query": "drug resistant focal epilepsy one two foci RNS eligible prevalence",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N2",
+          "evidence": "Implantation follows localisation and is followed by programming/monitoring. → Places RNS within continuing epilepsy care, not a one-off implant.",
+          "source_ids": [
+            "FDA-RNS-P100026"
+          ],
+          "locator": "Device/clinical programme",
+          "solidity": "Direct record; selected US pathway",
+          "gap": "Local referral and follow-up resource requirements.",
+          "next_route": "LIT",
+          "query": "RNS implantation programming follow up clinical pathway",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N3",
+          "evidence": "191-person pivotal trial reports 37.9% versus 17.3% seizure reduction during blinded evaluation. → Provides later treatment-effect evidence (N5); it does not measure the population rate of failed care before development.",
+          "source_ids": [
+            "RNS-TRIAL"
+          ],
+          "locator": "Abstract; blinded evaluation",
+          "solidity": "Indirect for N3; direct trial effect for N5",
+          "gap": "Predevelopment failure/access rates and local surgical exclusions.",
+          "next_route": "LIT",
+          "query": "refractory focal epilepsy unsuitable resective surgery unmet need baseline",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N4",
+          "evidence": "Full economic paper uses $41,173 estimated initial implantation and includes continuing care. → Supplies modelled resource categories, not observed costs before/after treatment.",
+          "source_ids": [
+            "RNS-ECON-PUBLISHER"
+          ],
+          "locator": "Section 2.6.1; new Imperial full-text review",
+          "solidity": "Model; historical US fee inputs",
+          "gap": "Observed UK care burden and costs by eligible subgroup.",
+          "next_route": "COST",
+          "query": "RNS refractory epilepsy NHS care costs resource use",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N5",
+          "evidence": "Nine-year follow-up reports 75% median seizure reduction; earlier controlled trial supplies a comparator. → Supports benefit while distinguishing open-label durability evidence.",
+          "source_ids": [
+            "RNS-LONG",
+            "RNS-TRIAL"
+          ],
+          "locator": "Abstracts and design",
+          "solidity": "Direct studies; different designs",
+          "gap": "Current comparative QoL, harms and relevant local outcomes.",
+          "next_route": "LIT",
+          "query": "RNS quality of life complications comparative long term",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N6",
+          "evidence": "Economic model compares RNS plus medicines with medicines alone. → Provides one explicit alternative, not a head-to-head DBS/VNS/resection comparison.",
+          "source_ids": [
+            "RNS-ECON-PUBLISHER"
+          ],
+          "locator": "Section 2.1",
+          "solidity": "Partial; comparator bounded",
+          "gap": "Matched alternatives, eligibility and trade-offs for the chosen patient group.",
+          "next_route": "LIT",
+          "query": "RNS DBS VNS resection drug resistant focal epilepsy comparative",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I1",
+          "evidence": "US6016449A names Robert/David Fischell and Adrian Upton; 1997 filing. → Identifies the foundational inventors and period.",
+          "source_ids": [
+            "RNS-PATENT",
+            "RNS-JHU-FOUNDER"
+          ],
+          "locator": "Bibliographic metadata; founder history",
+          "solidity": "Partial; biography is not employment evidence",
+          "gap": "Contemporaneous employers and original assignment history.",
+          "next_route": "PAT",
+          "query": "Fischell Upton 1997 US6016449 original employment assignment",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I2",
+          "evidence": "Patent and prospectus supply ownership/protection leads. → Founder affiliation alone cannot establish a university licence.",
+          "source_ids": [
+            "RNS-PATENT",
+            "RNS-S1"
+          ],
+          "locator": "Assignment metadata; IP discussion",
+          "solidity": "Partial",
+          "gap": "Official original transfers, licences and current rights chain.",
+          "next_route": "PAT",
+          "query": "NeuroPace Fischell patent assignments licence original",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I3",
+          "evidence": "Independent claim 1 covers responsive intracranial stimulation/programming; 46 adds a remote sensor/actuator. → Makes the commercial-feature mismatch explicit.",
+          "source_ids": [
+            "RNS-PATENT"
+          ],
+          "locator": "Claims 1 and 46",
+          "solidity": "Partial; both claims read",
+          "gap": "Exact current model-to-element mapping, especially claim 46.",
+          "next_route": "PAT",
+          "query": "US6016449 claim 46 remote sensor RNS product mapping",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I4",
+          "evidence": "Foundational patent metadata indicates lifetime expiry. → It is historical origin evidence, not a current exclusivity barrier.",
+          "source_ids": [
+            "RNS-PATENT"
+          ],
+          "locator": "Legal-status metadata",
+          "solidity": "Partial; secondary status summary",
+          "gap": "Official dated status and later relevant US/other-market families.",
+          "next_route": "PAT",
+          "query": "NeuroPace RNS patent family legal status current portfolio",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I5",
+          "evidence": "2021 prospectus describes trade secrets, confidentiality and invention-assignment agreements. → Documents other protection mechanisms.",
+          "source_ids": [
+            "RNS-S1"
+          ],
+          "locator": "Intellectual Property",
+          "solidity": "Direct disclosure; technical contents private",
+          "gap": "Which specific software/data/know-how assets underpin the selected version.",
+          "next_route": "FIN",
+          "query": "NeuroPace RNS intellectual property trade secrets software data",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I6",
+          "evidence": "Expiry and an incomplete current claim map leave competitive control unresolved. → Portfolio size cannot establish freedom to operate.",
+          "source_ids": [
+            "RNS-PATENT",
+            "RNS-S1"
+          ],
+          "locator": "Historical patent; IP risks",
+          "solidity": "Partial; no legal clearance",
+          "gap": "Third-party rights, alternatives and relevant licence dependencies.",
+          "next_route": "PAT",
+          "query": "responsive neurostimulation competitors patent rights licences",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F1",
+          "evidence": "No earliest attributable award record was accepted. → Precompany grant support is not reconstructed.",
+          "source_ids": [],
+          "locator": null,
+          "solidity": "Missing",
+          "gap": "Award recipient/ID, dates, amount and purpose.",
+          "next_route": "GRANT",
+          "query": "NeuroPace Fischell Upton responsive neurostimulation grants 1997 2011",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F2",
+          "evidence": "2011 Form D: first sale 16 August; $49,126,004 sold of $61,914,481 offered. → Supplies a preapproval offering, not a confirmed all-cash round.",
+          "source_ids": [
+            "RNS-FORMD-2011"
+          ],
+          "locator": "Sections 7/9/13; signature",
+          "solidity": "Direct filing; transaction scope limited",
+          "gap": "Earliest rounds, investor-level terms and valuation.",
+          "next_route": "FIN",
+          "query": "NeuroPace 1997 2011 early financing valuation investors",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F3",
+          "evidence": "The offering lists equity/options-related securities. → It does not establish all founder, debt or in-kind support.",
+          "source_ids": [
+            "RNS-FORMD-2011"
+          ],
+          "locator": "Security types",
+          "solidity": "Partial",
+          "gap": "Founders' inputs, debt/convertibles and non-cash contributions.",
+          "next_route": "FIN",
+          "query": "NeuroPace founders debt convertible financing before 2013",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F4",
+          "evidence": "Offering notice reports a sale, without a device-project spending allocation. → Funding amount cannot be assigned to a trial invoice.",
+          "source_ids": [
+            "RNS-FORMD-2011"
+          ],
+          "locator": "Offering amount fields",
+          "solidity": "Missing; use not established",
+          "gap": "Stated use and allocation of preapproval capital.",
+          "next_route": "FIN",
+          "query": "NeuroPace 2011 financing use of proceeds pivotal trial",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F5",
+          "evidence": "1997 incorporation, 2011 sale and 14 November 2013 PMA establish the sequence. → Chronology alone does not identify which capital enabled approval.",
+          "source_ids": [
+            "RNS-S1",
+            "RNS-FORMD-2011",
+            "FDA-RNS-P100026"
+          ],
+          "locator": "Company history; sale; decision",
+          "solidity": "Direct chronology",
+          "gap": "Spending-to-prototype/trial/approval linkage.",
+          "next_route": "FIN",
+          "query": "NeuroPace development funding clinical trial approval milestones 1997 2013",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F6",
+          "evidence": "No justified numerical early-capital range was completed. → Known proceeds do not replace an estimate of required development resources.",
+          "source_ids": [],
+          "locator": null,
+          "solidity": "Missing",
+          "gap": "Implant engineering staff, verification, trial/follow-up costs and comparable budgets.",
+          "next_route": "EST",
+          "query": "implantable responsive neurostimulator development trial manufacturing costs",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R1",
+          "evidence": "Original system includes intracranial leads, cranial stimulator and external programming/data equipment for selected adults. → Fixes the regulated configuration.",
+          "source_ids": [
+            "FDA-RNS-P100026"
+          ],
+          "locator": "Device description and indication",
+          "solidity": "Direct original record",
+          "gap": "Current complete model/accessory/indication changes.",
+          "next_route": "OPEN",
+          "query": "RNS P100026 current labeling models supplements",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R2",
+          "evidence": "RNS followed Class III/PMA for an implanted responsive stimulation system. → Connects risk/function to the original US route.",
+          "source_ids": [
+            "FDA-RNS-P100026"
+          ],
+          "locator": "Classification and regulatory background",
+          "solidity": "Direct original record",
+          "gap": "Primary UK/EU market evidence if those markets are discussed.",
+          "next_route": "OPEN",
+          "query": "NeuroPace RNS EU UK device authorization",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R3",
+          "evidence": "P100026 approval dated 14 November 2013. → Establishes original US market entry, separate from later model changes.",
+          "source_ids": [
+            "FDA-RNS-P100026"
+          ],
+          "locator": "Approval/SSED dates",
+          "solidity": "Direct record",
+          "gap": "Full later-supplement and current-label audit.",
+          "next_route": "OPEN",
+          "query": "P100026 supplements RNS model indication",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R4",
+          "evidence": "Original review covers implanted-system, biological and sterilisation testing. MRI manual distinguishes RNS-320 conditional from RNS-300M unsafe. → Links safety evidence to versions.",
+          "source_ids": [
+            "FDA-RNS-P100026",
+            "RNS-MRI-2020"
+          ],
+          "locator": "Testing; MRI model-identification sections",
+          "solidity": "Direct records; historical versions",
+          "gap": "Complete exact editions, conditions and latest configuration evidence.",
+          "next_route": "STD",
+          "query": "RNS implanted stimulator ISO 10993 ISO 11135 historical requirements",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R5",
+          "evidence": "2021 filing locates assembly/test/release in Mountain View with externally sourced inputs. → Documents a mixed production model.",
+          "source_ids": [
+            "RNS-S1"
+          ],
+          "locator": "Manufacturing",
+          "solidity": "Direct dated disclosure",
+          "gap": "Present critical suppliers, quality allocation and changed locations.",
+          "next_route": "FIN",
+          "query": "NeuroPace Mountain View manufacturing suppliers current annual report",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R6",
+          "evidence": "QMSR describes general current US quality requirements. → It is not an RNS compliance or incident audit.",
+          "source_ids": [
+            "FDA-QMSR-2026"
+          ],
+          "locator": "Scope/effective date",
+          "solidity": "Context only",
+          "gap": "Dated model-specific recall/incident search and actual surveillance duties.",
+          "next_route": "OPEN",
+          "query": "FDA recalls MAUDE NeuroPace RNS-300M RNS-320",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P1",
+          "evidence": "No current implant purchase quote was verified. The model's $41,173 is an implantation fee estimate. → It must not be called the stimulator's selling price.",
+          "source_ids": [
+            "RNS-ECON-PUBLISHER"
+          ],
+          "locator": "Section 2.6.1; new Imperial review",
+          "solidity": "Model; not a transaction",
+          "gap": "Current device/configuration price and supplier contract.",
+          "next_route": "SERVICE",
+          "query": "RNS system hospital acquisition price service contract",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P2",
+          "evidence": "Aetna has selected coverage criteria; the economic study takes a public-payer perspective. → Separates a real payer policy from model perspective.",
+          "source_ids": [
+            "AETNA-RNS-0394",
+            "RNS-ECON-PUBLISHER"
+          ],
+          "locator": "Responsive Cortical Stimulation; section 2.2",
+          "solidity": "Direct policy plus model",
+          "gap": "Actual plan/episode funding and any NHS commissioner.",
+          "next_route": "OPEN",
+          "query": "RNS coverage individual plan NHS commissioning",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P3",
+          "evidence": "CPB 0394 sets clinical eligibility conditions. → Supports one insurer's coverage question, without establishing fees or all payers.",
+          "source_ids": [
+            "AETNA-RNS-0394"
+          ],
+          "locator": "Responsive Cortical Stimulation",
+          "solidity": "Partial; coverage only",
+          "gap": "Applicable codes, current fee schedule and contract amounts.",
+          "next_route": "OPEN",
+          "query": "responsive cortical neurostimulation billing coding payment implant programming",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P4",
+          "evidence": "Full paper estimates nine-year costs $246,284 RNS versus $212,279 medicines; reported increment $34,006. → Supplies a modelled pathway comparison.",
+          "source_ids": [
+            "RNS-ECON-PUBLISHER"
+          ],
+          "locator": "Section 2.6; Table 1; new Imperial review",
+          "solidity": "Model; 2019 professional/2017 facility inputs",
+          "gap": "Current/local costs; rounded totals differ by $1 from reported increment.",
+          "next_route": "COST",
+          "query": "RNS economic model current UK inputs care utilization",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P5",
+          "evidence": "Utilities are mapped indirectly from seizure frequency; event costs derive from medicine-treated cohorts. → Identifies the assumptions needed for the economic result.",
+          "source_ids": [
+            "RNS-ECON-PUBLISHER"
+          ],
+          "locator": "Section 4.1; new Imperial review",
+          "solidity": "Model; explicit indirect inputs",
+          "gap": "Direct RNS utilities and longitudinal resource-event measurements.",
+          "next_route": "LIT",
+          "query": "RNS measured utility health service utilization longitudinal",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P6",
+          "evidence": "Model values benefits over nine years; provider spends on implantation and follow-up. → Reveals an upfront-cost/long-horizon-benefit question.",
+          "source_ids": [
+            "RNS-ECON-PUBLISHER"
+          ],
+          "locator": "Methods/discussion",
+          "solidity": "Inference from a payer model",
+          "gap": "Hospital margin, capacity, budget holder and actual incentive alignment.",
+          "next_route": "SERVICE",
+          "query": "RNS epilepsy centre implantation programming capacity budget costs",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P7",
+          "evidence": "Draft map connects NeuroPace, epilepsy centre, patient, FDA and conditional insurer. → Separates roles from fees not yet evidenced.",
+          "source_ids": [
+            "FDA-RNS-P100026",
+            "AETNA-RNS-0394"
+          ],
+          "locator": "Role premises; draft stakeholder map",
+          "solidity": "Provisional analysis",
+          "gap": "Actual purchasing flows, authority and lecture-map format.",
+          "next_route": "COURSE",
+          "query": "reimbursement lecture map plus RNS centre purchasing process",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        }
+      ],
+      "overview": {
+        "N": {
+          "focus": "N5",
+          "gap": "N1/N3/N4/N6: eligible denominator, baseline failure rate, UK burden/cost and matched alternatives.",
+          "next": "LIT/COST: eligible subgroup and UK pathway."
+        },
+        "I": {
+          "focus": "I3",
+          "gap": "I1/I2/I4: original employment/transfers and current portfolio/status.",
+          "next": "PAT: original assignments, then current families."
+        },
+        "F": {
+          "focus": "F2",
+          "gap": "F1/F2/F4/F6: earliest support, valuation, use and required-capital estimate.",
+          "next": "FIN/GRANT: 1997–2011 history; avoid recent-only M&A coverage."
+        },
+        "R": {
+          "focus": "R3",
+          "gap": "R1/R5/R6: complete current models, suppliers and postmarket review.",
+          "next": "STD/OPEN: exact versions/editions and dated recall searches."
+        },
+        "P": {
+          "focus": "P4",
+          "gap": "P1/P3/P4/P6: actual price/fees and current/local budget-capacity evidence.",
+          "next": "COST: full model retrieved; current UK/contract evidence still needed."
+        }
+      }
+    },
+    {
+      "device_id": "ceribell",
+      "name": "Ceribell — Rapid Response EEG",
+      "scope": "Original rapid-EEG hardware/sonification with later seizure-monitor software and payment tracked separately.",
+      "rows": [
+        {
+          "requirement_id": "N1",
+          "evidence": "DECIDE concerns urgent EEG in critically ill patients; 181 encounters, 164 with complete clinical/EEG information. → Defines a suspected-seizure pathway, not all epilepsy.",
+          "source_ids": [
+            "CERIBELL-DECIDE",
+            "ACNS-CCEEG-2015"
+          ],
+          "locator": "Study population; critical-care indications",
+          "solidity": "Partial; study denominator, not population count",
+          "gap": "Eligible episodes by geography/year, including patients without seizures.",
+          "next_route": "LIT",
+          "query": "ICU emergency suspected nonconvulsive seizure EEG eligible episodes UK",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N2",
+          "evidence": "ACNS describes indications/resource constraints for continuous EEG; Ceribell supplies an early rapid recording. → Identifies the care decision before conventional EEG arrives.",
+          "source_ids": [
+            "ACNS-CCEEG-2015",
+            "CERIBELL-DECIDE"
+          ],
+          "locator": "Indications; workflow methods",
+          "solidity": "Direct pathway context; not every hospital",
+          "gap": "Local escalation, staffing and conventional-monitoring workflow.",
+          "next_route": "LIT",
+          "query": "critical care EEG access escalation conventional monitoring pathway",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N3",
+          "evidence": "DECIDE reports median rapid acquisition 5 minutes versus conventional EEG delay 239 minutes. → Quantifies an access delay within that study.",
+          "source_ids": [
+            "CERIBELL-DECIDE"
+          ],
+          "locator": "Acquisition/delay results; denominators vary",
+          "solidity": "Limited; observational and company funded",
+          "gap": "Comparable local delay distribution and causal effect on treatment.",
+          "next_route": "LIT",
+          "query": "rapid EEG conventional EEG delay UK ICU comparative",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N4",
+          "evidence": "Economic model predicts about $5,633 savings/use in 2019 US dollars. → Supplies a conditional consequence, not observed hospital savings.",
+          "source_ids": [
+            "CERIBELL-ECON"
+          ],
+          "locator": "Model results and perspective",
+          "solidity": "Model; manufacturer funded",
+          "gap": "Measured patient harm, local resource use and realised savings.",
+          "next_route": "COST",
+          "query": "rapid response EEG nonconvulsive seizures length stay resource costs UK",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N5",
+          "evidence": "DECIDE measures physician interpretation/decisions; the 38-patient ED pilot had one positive case. → Supports workflow evidence, not universal perfect detection or mortality benefit.",
+          "source_ids": [
+            "CERIBELL-DECIDE",
+            "CERIBELL-ED"
+          ],
+          "locator": "Endpoints; pilot abstract",
+          "solidity": "Limited; no randomised outcome comparison",
+          "gap": "Patient outcomes, treatment correctness and broad diagnostic validation.",
+          "next_route": "LIT",
+          "query": "Ceribell rapid EEG patient outcomes comparative study",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N6",
+          "evidence": "Conventional continuous EEG remains the relevant monitoring comparator. → Rapid reduced-montage assessment is not automatically a complete replacement.",
+          "source_ids": [
+            "ACNS-CCEEG-2015",
+            "CERIBELL-DECIDE"
+          ],
+          "locator": "Monitoring recommendations; study workflow",
+          "solidity": "Partial; different monitoring roles",
+          "gap": "Matched alternative strategies, missed signals and escalation trade-offs.",
+          "next_route": "LIT",
+          "query": "rapid reduced montage EEG conventional continuous EEG limitations",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I1",
+          "evidence": "US10136862B2 names Chafe and Parvizi, priority May 2012; Stanford links their sonification work to Ceribell. → Establishes a specific academic-origin trail.",
+          "source_ids": [
+            "CERIBELL-PATENT",
+            "CERIBELL-ORIGIN"
+          ],
+          "locator": "Patent metadata; development account",
+          "solidity": "Direct institutional account; employment incomplete",
+          "gap": "Contemporaneous employment and exact first-product invention set.",
+          "next_route": "PAT",
+          "query": "Chafe Parvizi 2012 employment sonification patent origin",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I2",
+          "evidence": "2017 amendment identifies the 2015 Stanford licence and technology dockets; 2025 filing reports $250,000 exclusivity extension. → Documents commercial access to licensed rights.",
+          "source_ids": [
+            "CERIBELL-STANFORD-LICENCE-2017",
+            "CERIBELL-STANFORD-LICENCE-2025"
+          ],
+          "locator": "Technology schedule; exclusivity disclosure",
+          "solidity": "Direct contract/filing; some terms redacted",
+          "gap": "Complete licensed-family schedule and unredacted economics.",
+          "next_route": "PAT",
+          "query": "Ceribell Stanford S11-220 S13-470 14-459 patent schedule",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I3",
+          "evidence": "Independent claims 1/18/20/26 cover sonification method/system/software forms. → Matches signal-to-sound technology, not every later Clarity algorithm.",
+          "source_ids": [
+            "CERIBELL-PATENT"
+          ],
+          "locator": "Independent claims 1, 18, 20, 26",
+          "solidity": "Partial; selected claims read",
+          "gap": "Docket/family mapping and element-level match for each product generation.",
+          "next_route": "PAT",
+          "query": "US10136862 Ceribell Clarity headband recorder claim mapping",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I4",
+          "evidence": "Selected grant published November 2018 with 2012 priority. → Provides one publication's chronology, not the whole present portfolio.",
+          "source_ids": [
+            "CERIBELL-PATENT"
+          ],
+          "locator": "Bibliographic metadata",
+          "solidity": "Partial",
+          "gap": "Official current status, family/jurisdictions and later software families.",
+          "next_route": "PAT",
+          "query": "Ceribell Stanford sonification patent family legal status",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I5",
+          "evidence": "The prospectus describes the business's broader IP position. → Does not disclose the contents of proprietary algorithms/data.",
+          "source_ids": [
+            "CERIBELL-S1-AUG2024"
+          ],
+          "locator": "Intellectual Property",
+          "solidity": "Partial; company disclosure",
+          "gap": "Specific non-patent assets, data rights and documented control.",
+          "next_route": "FIN",
+          "query": "Ceribell intellectual property algorithms data copyright trademarks",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I6",
+          "evidence": "Royalties are partly redacted and original sonification rights differ from later AI rights. → Exposes licence and version dependencies.",
+          "source_ids": [
+            "CERIBELL-STANFORD-LICENCE-2017",
+            "CERIBELL-S1-AUG2024"
+          ],
+          "locator": "Licence economics; IP risks",
+          "solidity": "Direct evidence of limited disclosure",
+          "gap": "Third-party rights, alternatives and complete licence obligations.",
+          "next_route": "PAT",
+          "query": "Ceribell licence dependencies competing seizure detection patent claims",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F1",
+          "evidence": "Stanford identifies a 2012 Bio-X Round 6 seed project linked to Ceribell. → Supports precursor academic funding, not company equity.",
+          "source_ids": [
+            "CERIBELL-BIOX-SEED"
+          ],
+          "locator": "Ceribell project paragraph",
+          "solidity": "Direct university account; no amount",
+          "gap": "Award amount, recipient record and product-attributable period.",
+          "next_route": "GRANT",
+          "query": "Stanford Bio-X Round 6 2012 Parvizi Chafe award amount",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F2",
+          "evidence": "S-1 Note 10: $1m net seed in 2015–16; $7m net Series A in Q2 2017. → Reconstructs early company proceeds.",
+          "source_ids": [
+            "CERIBELL-S1-AUG2024"
+          ],
+          "locator": "Note 10, F-24 / physical p207",
+          "solidity": "Direct filing; net proceeds",
+          "gap": "Investor-level terms, exact closings and early valuations.",
+          "next_route": "FIN",
+          "query": "Ceribell 2015 2016 seed 2017 Series A valuation",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F3",
+          "evidence": "2016 convertible notes raised $2m cash, converting in May 2017. → Adds debt-like support without counting conversion as new cash again.",
+          "source_ids": [
+            "CERIBELL-S1-AUG2024"
+          ],
+          "locator": "Note 10",
+          "solidity": "Direct filing",
+          "gap": "Founder/in-kind inputs and complete note terms.",
+          "next_route": "FIN",
+          "query": "Ceribell 2016 convertible notes founders contributions",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F4",
+          "evidence": "Financing and business disclosures describe development/commercialisation aims. → Establishes company intentions rather than exact headband/software spending.",
+          "source_ids": [
+            "CERIBELL-S1-AUG2024",
+            "CERIBELL-FIN"
+          ],
+          "locator": "Business/financing; Series B announcement",
+          "solidity": "Partial",
+          "gap": "First-product milestone budget and actual use of early proceeds.",
+          "next_route": "FIN",
+          "query": "Ceribell early financing recorder headband development use proceeds",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F5",
+          "evidence": "2015 licence, early proceeds and 2017 hardware records establish a sequence. → Links stages chronologically without proving causal allocation.",
+          "source_ids": [
+            "CERIBELL-STANFORD-LICENCE-2017",
+            "CERIBELL-S1-AUG2024",
+            "CERIBELL-HEADBAND-K171459"
+          ],
+          "locator": "Licence date; Note 10; device record",
+          "solidity": "Direct chronology",
+          "gap": "Which funded activity produced each prototype/clearance/commercial milestone.",
+          "next_route": "FIN",
+          "query": "Ceribell 2015 2017 licence prototype clearance financing milestones",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F6",
+          "evidence": "No sourced numeric first-device cost estimate was completed. → The detailed financing history still does not answer required development capital.",
+          "source_ids": [],
+          "locator": null,
+          "solidity": "Missing",
+          "gap": "Staff/prototype/validation costs and a matched rapid-EEG comparator budget.",
+          "next_route": "EST",
+          "query": "portable EEG recorder headband development validation manufacturing costs",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R1",
+          "evidence": "2017 recorder/headband differ from later automated seizure-monitor software. → Prevents later AI claims being assigned to the original hardware.",
+          "source_ids": [
+            "CERIBELL-RECORDER-K170363",
+            "CERIBELL-HEADBAND-K171459",
+            "FDA-CERIBELL-K223504"
+          ],
+          "locator": "Descriptions and indications",
+          "solidity": "Direct component records",
+          "gap": "Complete latest configuration and applicable label boundaries.",
+          "next_route": "OPEN",
+          "query": "Ceribell recorder headband Clarity current intended use",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R2",
+          "evidence": "2017 headband and later EEG software have Class II pathways. → The route must follow the component/function, not a brand-wide approval label.",
+          "source_ids": [
+            "CERIBELL-HEADBAND-K171459",
+            "FDA-CERIBELL-K223504"
+          ],
+          "locator": "Classification and predicate sections",
+          "solidity": "Direct US records",
+          "gap": "Relevant non-US classification/authorisation records.",
+          "next_route": "OPEN",
+          "query": "Ceribell UK MHRA EU certificate software headband",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R3",
+          "evidence": "K170363/K171459 document original hardware; K223504 a later software decision. → Gives identifiable records for the sequence.",
+          "source_ids": [
+            "CERIBELL-RECORDER-K170363",
+            "CERIBELL-HEADBAND-K171459",
+            "FDA-CERIBELL-K223504"
+          ],
+          "locator": "Decision/summary records",
+          "solidity": "Direct; dates belong to each file",
+          "gap": "Consolidated exact decision dates and current modifications for every marketed part.",
+          "next_route": "OPEN",
+          "query": "K170363 K171459 K223504 decision dates supplements",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R4",
+          "evidence": "Recorder tests cite EEG electrical/EMC/battery standards; headband cites skin-contact biocompatibility. → Links distinct tests to component risks.",
+          "source_ids": [
+            "CERIBELL-RECORDER-K170363",
+            "CERIBELL-HEADBAND-K171459"
+          ],
+          "locator": "Testing; IEC 60601-2-26/62133; ISO 10993",
+          "solidity": "Direct historical summaries",
+          "gap": "Current software validation and complete editions/results by version.",
+          "next_route": "STD",
+          "query": "Ceribell IEC 60601-2-26 IEC 62133 ISO 10993 editions",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R5",
+          "evidence": "2024 filing describes third-party headband manufacture in China and recorder final assembly in Sunnyvale. → Documents a dated production split.",
+          "source_ids": [
+            "CERIBELL-S1-AUG2024"
+          ],
+          "locator": "Manufacturing and Supply, pp119–120",
+          "solidity": "Direct company disclosure",
+          "gap": "Current legal/contract manufacturer responsibilities and supplier changes.",
+          "next_route": "FIN",
+          "query": "Ceribell headband China recorder Sunnyvale contract manufacturing",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R6",
+          "evidence": "QMSR is general current US quality context. → Neither the filing nor this rule is a device incident audit.",
+          "source_ids": [
+            "FDA-QMSR-2026"
+          ],
+          "locator": "Scope/effective date",
+          "solidity": "Context only",
+          "gap": "Version-specific surveillance and dated recall/incident search.",
+          "next_route": "OPEN",
+          "query": "FDA recalls MAUDE Ceribell recorder headband seizure monitor",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P1",
+          "evidence": "System includes recorder, headbands and software. → Identifies commercial components, but no verified current configuration price/contract.",
+          "source_ids": [
+            "CERIBELL-S1-AUG2024"
+          ],
+          "locator": "Business model",
+          "solidity": "Partial; no verified price",
+          "gap": "Recorder, consumable/software terms, date and actual buyer.",
+          "next_route": "SERVICE",
+          "query": "Ceribell hospital recorder headband software contract quotation",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P2",
+          "evidence": "US inpatient service payment is the relevant policy context; no actual hospital contract was recovered. → Keeps care funding separate from supplier sales.",
+          "source_ids": [
+            "CMS-IPPS-FY2027",
+            "CERIBELL-S1-AUG2024"
+          ],
+          "locator": "Seizure-monitor NTAP; business model",
+          "solidity": "Partial; mechanism, not every transaction",
+          "gap": "Who bears ongoing system costs in a chosen hospital/plan.",
+          "next_route": "COST",
+          "query": "Ceribell hospital budget inpatient payment procurement",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P3",
+          "evidence": "FY2027 ends the seizure-monitor NTAP; delirium receives a separate decision. → Corrects a temporary add-on claim without saying all base payment ends.",
+          "source_ids": [
+            "CMS-IPPS-FY2027"
+          ],
+          "locator": "II.E.4; II.E.6",
+          "solidity": "Direct dated rule; indication-specific",
+          "gap": "Current base fees, codes, outpatient/private policies and local applicability.",
+          "next_route": "OPEN",
+          "query": "Ceribell Status Epilepticus Monitor FY2027 base payment billing",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P4",
+          "evidence": "Model predicts $5,633/use savings and savings in 75% of simulations. → Supplies conditional incremental economics, not observed cash release.",
+          "source_ids": [
+            "CERIBELL-ECON"
+          ],
+          "locator": "Methods/results; 2019 USD",
+          "solidity": "Model; funded and assumption-sensitive",
+          "gap": "Local input costs, commercial terms and realised resource effects.",
+          "next_route": "COST",
+          "query": "Ceribell economic model local costs patient resource use",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P5",
+          "evidence": "DECIDE supplies acquisition/decision evidence, not causal mortality/length-of-stay effects. → Identifies an unproven link underlying some savings claims.",
+          "source_ids": [
+            "CERIBELL-DECIDE",
+            "CERIBELL-ECON"
+          ],
+          "locator": "Clinical endpoints; model assumptions",
+          "solidity": "Limited; workflow versus patient outcomes",
+          "gap": "Causal treatment/resource effects suitable for the economic model.",
+          "next_route": "LIT",
+          "query": "rapid EEG randomized patient outcomes length stay treatment",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P6",
+          "evidence": "Faster information might release bed capacity without reducing fixed expenditure. → This is an adoption question, not a verified local margin.",
+          "source_ids": [
+            "CERIBELL-ECON"
+          ],
+          "locator": "Model plus analytical interpretation",
+          "solidity": "Inference; no local budget study",
+          "gap": "Budget holder, variable costs, throughput and benefit allocation.",
+          "next_route": "SERVICE",
+          "query": "critical care EEG budget capacity cash releasing savings",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P7",
+          "evidence": "Draft roles include Stanford/licence, Ceribell, acute hospital, clinicians, patient and conditional payer. → Makes contractual versus assumed roles visible.",
+          "source_ids": [
+            "CERIBELL-STANFORD-LICENCE-2017",
+            "CERIBELL-S1-AUG2024"
+          ],
+          "locator": "Role premises; draft map",
+          "solidity": "Provisional analysis",
+          "gap": "Current money/authority flows and lecture map format.",
+          "next_route": "COURSE",
+          "query": "reimbursement lecture stakeholder map rapid EEG hospital",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        }
+      ],
+      "overview": {
+        "N": {
+          "focus": "N3",
+          "gap": "N1/N4/N5: eligible episodes, realised costs and causal patient outcomes.",
+          "next": "LIT/COST: outcomes beyond access time and local episodes."
+        },
+        "I": {
+          "focus": "I3",
+          "gap": "I1/I3/I4: original employment, later AI mapping and dated full-family status.",
+          "next": "PAT: link Stanford dockets to hardware versus later AI."
+        },
+        "F": {
+          "focus": "F2",
+          "gap": "F1/F2/F4/F6: grant amount, valuations, allocated spending and capital estimate.",
+          "next": "GRANT/FIN: Bio-X award and early deal terms."
+        },
+        "R": {
+          "focus": "R3",
+          "gap": "R3–R6: full current configuration/testing, suppliers and postmarket review.",
+          "next": "STD/OPEN: component-specific records; current production needs disclosure."
+        },
+        "P": {
+          "focus": "P4",
+          "gap": "P1/P3–P6: current contract/base fees, local inputs and realised benefits.",
+          "next": "COST/SERVICE: actual commercial terms and post-add-on economics."
+        }
+      }
+    },
+    {
+      "device_id": "saint",
+      "name": "Magnus Medical — SAINT",
+      "scope": "Original integrated MRI-informed system through US 2022 clearance; other accelerated TMS is a comparator.",
+      "rows": [
+        {
+          "requirement_id": "N1",
+          "evidence": "Original clearance concerns adult MDD inadequately improved by medication; trial had 29 participants. → Defines the relevant group, not all global depression.",
+          "source_ids": [
+            "FDA-SAINT-K220177",
+            "WHO-DEPRESSION-2026"
+          ],
+          "locator": "Indications; study population; WHO context",
+          "solidity": "Partial; no eligible-population denominator",
+          "gap": "Geographic/year-specific eligible numbers and service exclusions.",
+          "next_route": "LIT",
+          "query": "treatment resistant depression SAINT eligibility prevalence London",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N2",
+          "evidence": "SAINT integrates MRI targeting/navigation with five-day stimulation. UK comparator study used 20 sessions over 4–6 weeks. → Makes the pathway difference concrete.",
+          "source_ids": [
+            "FDA-SAINT-K220177",
+            "SAINT-NIHR-COMPARATOR"
+          ],
+          "locator": "Protocol; BRIGhTMIND abstract",
+          "solidity": "Partial; comparator is not SAINT",
+          "gap": "Actual prior-care pathway, access and retreatment for selected patients.",
+          "next_route": "LIT",
+          "query": "treatment resistant depression UK TMS care pathway waiting access",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N3",
+          "evidence": "Early trial reports remission 11/14 active versus 2/15 sham within a month. → Measures a short-term treatment effect, not the local care-gap prevalence.",
+          "source_ids": [
+            "FDA-SAINT-K220177"
+          ],
+          "locator": "Clinical study narrative/rows",
+          "solidity": "Indirect for baseline shortfall; small treatment-effect trial",
+          "gap": "Baseline failure/delay rates and durable unmet need in target service.",
+          "next_route": "LIT",
+          "query": "treatment resistant depression failed antidepressants TMS relapse access",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N4",
+          "evidence": "Fifty ten-minute sessions give 500 active-stimulation minutes. → Quantifies only one resource component, not total attendance or cost.",
+          "source_ids": [
+            "FDA-SAINT-K220177"
+          ],
+          "locator": "Treatment schedule",
+          "solidity": "Partial; documented protocol",
+          "gap": "Patient burden, MRI/staff/gap time and actual before/after costs.",
+          "next_route": "COST",
+          "query": "SAINT MRI targeting accelerated TMS staff time costs",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N5",
+          "evidence": "Personalised targeting plus accelerated iTBS produced remission in 11/14 active versus 2/15 sham within a month. → Supports that protocol’s short-term proposition, not durable benefit or the population burden.",
+          "source_ids": [
+            "FDA-SAINT-K220177"
+          ],
+          "locator": "System description and clinical evidence",
+          "solidity": "Limited; 29 participants and short follow-up",
+          "gap": "Durability, retreatment, broader implementation outcomes and harms.",
+          "next_route": "LIT",
+          "query": "Stanford accelerated intelligent neuromodulation therapy durability retreatment",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N6",
+          "evidence": "BRIGhTMIND randomised 255 patients between different guided-iTBS/rTMS regimens. → Supplies UK comparator context, not head-to-head SAINT evidence.",
+          "source_ids": [
+            "SAINT-NIHR-COMPARATOR"
+          ],
+          "locator": "Abstract, PDF pp5–6",
+          "solidity": "Indirect; different protocol, no sham",
+          "gap": "Matched SAINT comparison with relevant local alternatives.",
+          "next_route": "LIT",
+          "query": "SAINT conventional TMS ECT comparative outcomes",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I1",
+          "evidence": "Stanford's OTL report identifies Williams-lab invention; patent names Williams/Sudheimer, priority January 2018. → Supports academic origin.",
+          "source_ids": [
+            "SAINT-STANFORD-OTL2022",
+            "SAINT-PATENT"
+          ],
+          "locator": "OTL PDF p11; metadata",
+          "solidity": "Direct institutional account; employment incomplete",
+          "gap": "Each inventor's contemporaneous employment and first-version scope.",
+          "next_route": "PAT",
+          "query": "Williams Sudheimer 2018 employment Stanford SAINT invention",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I2",
+          "evidence": "Stanford is patent assignee; Magnus identifies licensed patents. → Establishes a specific licence relationship, not its full financial terms.",
+          "source_ids": [
+            "SAINT-PATENT",
+            "SAINT-IP"
+          ],
+          "locator": "Assignee; licensed-patent statement",
+          "solidity": "Partial; licensor/company accounts",
+          "gap": "Contract, field/exclusivity, royalty and complete assignment chain.",
+          "next_route": "PAT",
+          "query": "Magnus Stanford SAINT licence US10595735 terms",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I3",
+          "evidence": "Claims 1/19 cover intermittent variants; 10/24 continuous variants with specified schedules/intervals. → Separates claimed variants from cleared iTBS use.",
+          "source_ids": [
+            "SAINT-PATENT"
+          ],
+          "locator": "Independent claims 1, 10, 19, 24",
+          "solidity": "Partial; selected claims read",
+          "gap": "Complete element-to-commercial-feature and later-improvement map.",
+          "next_route": "PAT",
+          "query": "US10595735 SAINT intermittent continuous claim mapping",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I4",
+          "evidence": "Selected US grant has 2018 priority. → Provides one jurisdiction/version, not a dated global protection map.",
+          "source_ids": [
+            "SAINT-PATENT"
+          ],
+          "locator": "Bibliographic metadata",
+          "solidity": "Partial",
+          "gap": "Official current status and relevant national family/continuation records.",
+          "next_route": "PAT",
+          "query": "US10595735 Stanford accelerated theta burst patent family status",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I5",
+          "evidence": "Commercial pathway integrates targeting software, navigation and hardware. → Does not itself establish copyright, data or know-how ownership.",
+          "source_ids": [
+            "FDA-SAINT-K220177"
+          ],
+          "locator": "System description",
+          "solidity": "Inference; no non-patent rights inventory",
+          "gap": "Specific software/data/trademark/know-how rights and dependencies.",
+          "next_route": "FIN",
+          "query": "Magnus SAINT software targeting data intellectual property rights",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I6",
+          "evidence": "Magnus reports IP enforcement. → This is a company account, not a verified judgment or freedom-to-operate result.",
+          "source_ids": [
+            "SAINT-IP"
+          ],
+          "locator": "IP enforcement statement",
+          "solidity": "Partial; interested-party source",
+          "gap": "Actual proceedings, competitor rights and supplier/licence dependencies.",
+          "next_route": "PAT",
+          "query": "Magnus SAINT patent dispute docket supplier rights",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F1",
+          "evidence": "Stanford names a BBRF Young Investigator Award and philanthropic Schwab/Chao support. → Identifies precursor research funders.",
+          "source_ids": [
+            "SAINT-ACADEMIC-FUNDERS"
+          ],
+          "locator": "Funding acknowledgements",
+          "solidity": "Direct university account; amounts absent",
+          "gap": "Award IDs, recipients, dates, amounts and attributable project share.",
+          "next_route": "GRANT",
+          "query": "Nolan Williams BBRF Young Investigator SAINT Schwab Chao funding",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F2",
+          "evidence": "October 2021 launch announced $25m Series A co-led by JAZZ and Red Tree. → Establishes a company round, not device cost.",
+          "source_ids": [
+            "SAINT-SERIESA-2021"
+          ],
+          "locator": "Financing paragraph",
+          "solidity": "Direct announcement; header/body date differs",
+          "gap": "Exact closing, valuation, instruments and earlier rounds.",
+          "next_route": "FIN",
+          "query": "Magnus Medical 2021 Series A JAZZ Red Tree valuation closing",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F3",
+          "evidence": "Academic philanthropy is identified separately from company equity. → It cannot be counted as Magnus cash without an attributable record.",
+          "source_ids": [
+            "SAINT-ACADEMIC-FUNDERS"
+          ],
+          "locator": "Support acknowledgements",
+          "solidity": "Partial",
+          "gap": "Founder, debt, in-kind and supplier-support terms.",
+          "next_route": "FIN",
+          "query": "Magnus Medical founders debt in kind support Stanford launch",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F4",
+          "evidence": "Launch release links capital with commercial development and Stanford licensing. → Gives intended development use.",
+          "source_ids": [
+            "SAINT-SERIESA-2021"
+          ],
+          "locator": "Development/licence paragraphs",
+          "solidity": "Partial; plans, not spending",
+          "gap": "Allocated integration, validation, trial and launch budgets.",
+          "next_route": "FIN",
+          "query": "Magnus Medical 2021 proceeds system development licence milestones",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F5",
+          "evidence": "Company launch in 2021 precedes September 2022 clearance. → Establishes chronology, without proving actual allocation or causal effect.",
+          "source_ids": [
+            "SAINT-SERIESA-2021",
+            "FDA-SAINT-K220177"
+          ],
+          "locator": "Launch month; decision date",
+          "solidity": "Direct chronology",
+          "gap": "Evidence that funded work delivered specified milestones.",
+          "next_route": "FIN",
+          "query": "Magnus Medical SAINT 2021 2022 development validation funding",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F6",
+          "evidence": "No defensible numeric early-capital estimate was produced. → Academic and corporate costs remain separate unknowns.",
+          "source_ids": [],
+          "locator": null,
+          "solidity": "Missing",
+          "gap": "MRI/software/integration staff, trials, supplier costs and matched comparables.",
+          "next_route": "EST",
+          "query": "MRI guided accelerated TMS commercial development validation cost",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R1",
+          "evidence": "Defined system includes MRI-informed targeting, navigation, stimulation and software. → A generic TMS clinic is not necessarily this product.",
+          "source_ids": [
+            "FDA-SAINT-K220177"
+          ],
+          "locator": "System/intended use",
+          "solidity": "Direct original record",
+          "gap": "Complete current configuration and later change controls.",
+          "next_route": "OPEN",
+          "query": "Magnus Neuromodulation System SAINT current labeling configuration",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R2",
+          "evidence": "Class II repetitive TMS, 21 CFR 882.5805; 510(k) predicate route. → Connects the original system to its US regulatory pathway.",
+          "source_ids": [
+            "FDA-SAINT-K220177"
+          ],
+          "locator": "Classification/predicate",
+          "solidity": "Direct US record",
+          "gap": "Primary UK/EU records for any claimed local market access.",
+          "next_route": "OPEN",
+          "query": "Magnus SAINT MHRA EU certificate authorization",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R3",
+          "evidence": "K220177 clearance on 1 September 2022. → Supplies the original US market-access decision.",
+          "source_ids": [
+            "FDA-SAINT-K220177"
+          ],
+          "locator": "Decision letter",
+          "solidity": "Direct record",
+          "gap": "Later decisions and complete current label.",
+          "next_route": "OPEN",
+          "query": "K220177 Magnus SAINT subsequent clearances",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R4",
+          "evidence": "Summary includes software/risk, electrical/EMC, usability and biological evaluation. → Addresses integrated targeting/delivery risks.",
+          "source_ids": [
+            "FDA-SAINT-K220177"
+          ],
+          "locator": "Testing; IEC 62304, ISO 14971/10993",
+          "solidity": "Direct summary; historical standards",
+          "gap": "Exact editions/results and full current conformity evidence.",
+          "next_route": "STD",
+          "query": "K220177 IEC 62304 ISO 14971 electrical usability standards",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R5",
+          "evidence": "MagVenture confirms MagPro supply and installation/service support. → Establishes a specific supplier role.",
+          "source_ids": [
+            "SAINT-MAGVENTURE"
+          ],
+          "locator": "Collaboration statement",
+          "solidity": "Direct counterparty account",
+          "gap": "Complete legal/contract manufacture, release and quality responsibilities.",
+          "next_route": "FIN",
+          "query": "Magnus MagVenture MagPro manufacturing quality responsibilities",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R6",
+          "evidence": "QMSR supplies general US quality context. → It does not verify SAINT's compliance or incident history.",
+          "source_ids": [
+            "FDA-QMSR-2026"
+          ],
+          "locator": "Scope/effective date",
+          "solidity": "Context only",
+          "gap": "Dated recall/incident search and product-specific continuing duties.",
+          "next_route": "OPEN",
+          "query": "FDA recalls MAUDE Magnus SAINT MagPro system",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P1",
+          "evidence": "MRI, targeting, navigation, stimulation and follow-up form the package. → No verified current whole-package or system price was recovered.",
+          "source_ids": [
+            "FDA-SAINT-K220177"
+          ],
+          "locator": "Delivery protocol",
+          "solidity": "Partial; resources, not commercial terms",
+          "gap": "Buyer, equipment/software terms and dated complete package price.",
+          "next_route": "SERVICE",
+          "query": "SAINT Magnus complete treatment package price system contract",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P2",
+          "evidence": "US inpatient add-on policy identifies one payment setting. → It does not settle outpatient, private or NHS funding.",
+          "source_ids": [
+            "CMS-IPPS-FY2027"
+          ],
+          "locator": "SAINT final-policy paragraph",
+          "solidity": "Partial; setting-specific",
+          "gap": "Who funds an actual full treatment episode now.",
+          "next_route": "OPEN",
+          "query": "SAINT inpatient outpatient payer full package coverage",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P3",
+          "evidence": "FY2027 discontinues temporary inpatient NTAP. → Prevents the expired supplement being presented as permanent coverage.",
+          "source_ids": [
+            "CMS-IPPS-FY2027"
+          ],
+          "locator": "II.E.4, pp49694–49695",
+          "solidity": "Direct dated rule",
+          "gap": "Base payment, current codes/fees and separate outpatient/private policies.",
+          "next_route": "OPEN",
+          "query": "SAINT FY2027 base inpatient payment outpatient coding coverage",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P4",
+          "evidence": "Protocol gives 500 active minutes, excluding MRI, waiting intervals and other care. → Defines costing inputs, not an incremental economic result.",
+          "source_ids": [
+            "FDA-SAINT-K220177"
+          ],
+          "locator": "Schedule; analytical resource accounting",
+          "solidity": "Partial; no complete SAINT economic model",
+          "gap": "Staff/MRI/software/follow-up costs, perspective, horizon and offsets.",
+          "next_route": "COST",
+          "query": "SAINT cost effectiveness resource use MRI navigation retreatment",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P5",
+          "evidence": "Small short-term trial cannot establish the durability/retreatment parameters needed for long-horizon savings. → Exposes the decisive economic uncertainty.",
+          "source_ids": [
+            "FDA-SAINT-K220177"
+          ],
+          "locator": "Clinical study/follow-up",
+          "solidity": "Limited; no durable economic benefit measured",
+          "gap": "Long-term response, relapse, retreatment and resource events.",
+          "next_route": "LIT",
+          "query": "SAINT long term relapse retreatment health resource utilization",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P6",
+          "evidence": "A shorter calendar concentrates imaging and daily staff demands. → Potential convenience and provider capacity effects must be assessed separately.",
+          "source_ids": [
+            "FDA-SAINT-K220177"
+          ],
+          "locator": "Protocol plus analytical interpretation",
+          "solidity": "Inference",
+          "gap": "Actual budget holder, slot use, throughput and distribution of benefits.",
+          "next_route": "SERVICE",
+          "query": "accelerated TMS service capacity staffing MRI budget SAINT",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P7",
+          "evidence": "Draft connects Stanford, Magnus, MagVenture, MRI/service, patient and conditional payer. → Documents some roles, leaving payment arrows conditional.",
+          "source_ids": [
+            "SAINT-IP",
+            "SAINT-MAGVENTURE"
+          ],
+          "locator": "Role premises; draft map",
+          "solidity": "Provisional analysis",
+          "gap": "Actual contracts/authority/incentives and lecture-map format.",
+          "next_route": "COURSE",
+          "query": "reimbursement lecture stakeholder map SAINT service",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        }
+      ],
+      "overview": {
+        "N": {
+          "focus": "N5",
+          "gap": "N1/N3/N4/N5: eligible numbers, failed-care/access rate, total burden and durability.",
+          "next": "LIT/COST: durability and full delivery resources."
+        },
+        "I": {
+          "focus": "I3",
+          "gap": "I1–I4: employment, actual licence terms, feature map and current family status.",
+          "next": "PAT: actual Stanford licence and product/family scope."
+        },
+        "F": {
+          "focus": "F2",
+          "gap": "F1/F2/F4/F6: awards, valuations, allocated spending and capital estimate.",
+          "next": "GRANT/FIN: award records and 2021 terms."
+        },
+        "R": {
+          "focus": "R3",
+          "gap": "R1/R2/R5/R6: current/non-US scope, full manufacture and postmarket review.",
+          "next": "STD/OPEN: system integration tests and market documents."
+        },
+        "P": {
+          "focus": "P3",
+          "gap": "P1–P6: current package price/payment, resource costs and long-term effects.",
+          "next": "COST/SERVICE: package costing and current payer route."
+        }
+      }
+    },
+    {
+      "device_id": "exablate",
+      "name": "Insightec — Exablate Neuro",
+      "scope": "Original unilateral medication-refractory essential tremor; UK ET service evidence separate from Parkinsonian tremor.",
+      "rows": [
+        {
+          "requirement_id": "N1",
+          "evidence": "Original trial: adults 22+ with medication-refractory essential tremor. England model cites about 1m UK cases overall. → Separates the indicated subgroup from broad burden.",
+          "source_ids": [
+            "FDA-EXABLATE-P150038",
+            "EXABLATE-ENGLAND-MODEL"
+          ],
+          "locator": "Trial inclusion; model population",
+          "solidity": "Partial; broad estimate not device eligibility",
+          "gap": "Current eligible referrals by geography/year and exclusions.",
+          "next_route": "LIT",
+          "query": "essential tremor medication refractory DBS unsuitable UK eligible patients",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N2",
+          "evidence": "MRI-guided thalamotomy is a specialist procedure with selection and follow-up; UCLH describes the service. → Places the product in actual care.",
+          "source_ids": [
+            "FDA-EXABLATE-P150038",
+            "EXABLATE-UCLH"
+          ],
+          "locator": "Treatment pathway; service page",
+          "solidity": "Direct pathway evidence",
+          "gap": "Current referral, screening, waiting and follow-up resources.",
+          "next_route": "SERVICE",
+          "query": "UCLH MR guided focused ultrasound thalamotomy referral capacity",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N3",
+          "evidence": "76-person analysis: 56 treatment/20 sham; three-month tremor endpoint improved 46.9% versus -0.1%. → Provides later treatment-effect evidence (N5), not the population rate or consequences of failed existing care.",
+          "source_ids": [
+            "FDA-EXABLATE-P150038"
+          ],
+          "locator": "Pivotal study primary endpoint",
+          "solidity": "Indirect for N3; controlled effect for N5",
+          "gap": "Local pre-treatment failure/access rates and remaining unmet need.",
+          "next_route": "LIT",
+          "query": "essential tremor refractory medication access waiting surgical eligibility",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N4",
+          "evidence": "Five-year England model estimates pathway costs and QoL. → Quantifies conditional burden/value, not observed expenditure savings.",
+          "source_ids": [
+            "EXABLATE-ENGLAND-MODEL"
+          ],
+          "locator": "Methods; Tables 3/5",
+          "solidity": "Model; historical NHS perspective",
+          "gap": "Measured patient/resource burden and current local cost distribution.",
+          "next_route": "COST",
+          "query": "essential tremor NHS care burden focused ultrasound resource costs",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N5",
+          "evidence": "Transcranial heating creates a thalamic lesion; three-month tremor improvement was 46.9% versus -0.1% in 56 treated/20 sham patients. → Connects the mechanism to a measured benefit; lesion safety and durability remain separate questions.",
+          "source_ids": [
+            "FDA-EXABLATE-P150038"
+          ],
+          "locator": "Mechanism; clinical safety/effectiveness",
+          "solidity": "Direct study; selected unilateral indication",
+          "gap": "Durability/harms and current outcomes in the chosen service.",
+          "next_route": "LIT",
+          "query": "Exablate essential tremor long term adverse events outcomes",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N6",
+          "evidence": "England model compares MRgFUS with DBS and no procedure. → Makes alternatives explicit; NHS policy targets patients unsuitable for DBS.",
+          "source_ids": [
+            "EXABLATE-ENGLAND-MODEL",
+            "NHSE-FOCUSED-ULTRASOUND-2020"
+          ],
+          "locator": "Comparators; policy eligibility",
+          "solidity": "Direct policy plus model",
+          "gap": "Matched clinical trade-offs and local alternative availability.",
+          "next_route": "LIT",
+          "query": "focused ultrasound DBS essential tremor comparative adjustability eligibility",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I1",
+          "evidence": "US8088067B2 names Vortman/Vitek with December 2002 priority. → Identifies a relevant correction invention, not the definitive first brain-device family.",
+          "source_ids": [
+            "EXABLATE-ABERRATION-PATENT"
+          ],
+          "locator": "Inventors/priority metadata",
+          "solidity": "Partial; candidate technology",
+          "gap": "Contemporaneous employers and original Exablate Neuro subsystem families.",
+          "next_route": "PAT",
+          "query": "Vortman Vitek Exablate Neuro original patent employment 2002",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I2",
+          "evidence": "Assignment/name metadata links the selected family with the Insightec lineage. → Provides a control lead.",
+          "source_ids": [
+            "EXABLATE-ABERRATION-PATENT"
+          ],
+          "locator": "Assignment metadata",
+          "solidity": "Partial; not full chain-of-title",
+          "gap": "Official transfers, licences and relevant product rights.",
+          "next_route": "PAT",
+          "query": "US8088067 Insightec assignment licence chain",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I3",
+          "evidence": "Independent claims 1/11/21/26 cover correction system, focusing, ablation and software. → Explains the enabling combination rather than patent counts.",
+          "source_ids": [
+            "EXABLATE-ABERRATION-PATENT"
+          ],
+          "locator": "Independent claims 1, 11, 21, 26",
+          "solidity": "Partial; selected text read",
+          "gap": "Element-to-product match and complete first-device protection.",
+          "next_route": "PAT",
+          "query": "US8088067 Exablate Neuro aberration correction commercial features",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I4",
+          "evidence": "Selected US grant published January 2012 from 2002 priority. → Establishes that publication's history only.",
+          "source_ids": [
+            "EXABLATE-ABERRATION-PATENT"
+          ],
+          "locator": "Bibliographic metadata",
+          "solidity": "Partial",
+          "gap": "Official dated status, relevant jurisdictions and other families.",
+          "next_route": "PAT",
+          "query": "Insightec Exablate Neuro patent family current status",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I5",
+          "evidence": "Calibration/production/planning know-how may matter, but its contents/control were not documented. → This remains a hypothesis.",
+          "source_ids": [],
+          "locator": null,
+          "solidity": "Missing",
+          "gap": "Specific non-patent assets, copyright/data/design rights and control.",
+          "next_route": "FIN",
+          "query": "Insightec Exablate intellectual property know-how software rights disclosure",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I6",
+          "evidence": "One correction patent does not establish all system rights or freedom to operate. → Competitive/legal exposure remains unresolved.",
+          "source_ids": [
+            "EXABLATE-ABERRATION-PATENT"
+          ],
+          "locator": "Claim/product boundary",
+          "solidity": "Missing; no third-party-rights review",
+          "gap": "Competitor families, alternative approaches and licence dependencies.",
+          "next_route": "PAT",
+          "query": "transcranial MR focused ultrasound competitors patent rights",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F1",
+          "evidence": "No attributable original brain-programme grant was verified. → A later company round cannot substitute for academic/early support.",
+          "source_ids": [],
+          "locator": null,
+          "solidity": "Missing",
+          "gap": "Grant recipient/ID, purpose, dates, amount and brain-programme share.",
+          "next_route": "GRANT",
+          "query": "Insightec Exablate brain focused ultrasound early research grants",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F2",
+          "evidence": "December 2012 release reports $30.9m Series C: $27.6m GE and $3.3m others. October agreement has conflicting $106.4m/$104.6m post-money figures. → Round and valuation certainty differ.",
+          "source_ids": [
+            "EXABLATE-FINANCE-CLOSE-2012",
+            "EXABLATE-FINANCE-AGREEMENT-2012"
+          ],
+          "locator": "Closing release; agreement header/body",
+          "solidity": "Direct transaction accounts; valuation conflict",
+          "gap": "Reconciled valuation/terms and brain-specific allocation.",
+          "next_route": "FIN",
+          "query": "Insightec 2012 Series C GE 30.9 valuation closing terms",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F3",
+          "evidence": "October terms include cash and conversion of a GE loan. → Conversion and new cash must be separated.",
+          "source_ids": [
+            "EXABLATE-FINANCE-AGREEMENT-2012"
+          ],
+          "locator": "Financing terms",
+          "solidity": "Direct filing; final reconciliation incomplete",
+          "gap": "Loan terms, actual cash received and founder/in-kind inputs.",
+          "next_route": "FIN",
+          "query": "Insightec GE loan conversion 2012 cash equity terms",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F4",
+          "evidence": "Records finance the company/platform, not a disclosed brain-only budget. → Establishes the limit on attributing proceeds.",
+          "source_ids": [
+            "EXABLATE-FINANCE-AGREEMENT-2012",
+            "EXABLATE-FINANCE-CLOSE-2012"
+          ],
+          "locator": "Transaction purpose/terms",
+          "solidity": "Partial",
+          "gap": "Original brain-development use and milestone allocations.",
+          "next_route": "FIN",
+          "query": "Insightec Exablate Neuro research development financing use proceeds",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F5",
+          "evidence": "2012 financing precedes the July 2016 US brain approval. → Establishes sequence, not which activities each investment funded.",
+          "source_ids": [
+            "EXABLATE-FINANCE-CLOSE-2012",
+            "FDA-EXABLATE-P150038"
+          ],
+          "locator": "Closing and approval dates",
+          "solidity": "Direct chronology",
+          "gap": "Dated funded work, study/manufacturing outputs and spending links.",
+          "next_route": "FIN",
+          "query": "Insightec 2012 2016 brain trial manufacturing development milestones",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F6",
+          "evidence": "No justified numeric original brain-device capital estimate exists. → Shared platform capital cannot be assigned without an allocation rule.",
+          "source_ids": [],
+          "locator": null,
+          "solidity": "Missing",
+          "gap": "Acoustic/MR engineering, verification/trial costs and comparable programme budgets.",
+          "next_route": "EST",
+          "query": "MR guided transcranial focused ultrasound development clinical trial costs",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R1",
+          "evidence": "Original US brain case is unilateral medication-refractory essential tremor. → Later Parkinsonian/bilateral uses are separate versions/indications.",
+          "source_ids": [
+            "FDA-EXABLATE-P150038"
+          ],
+          "locator": "Intended use; system description",
+          "solidity": "Direct original record",
+          "gap": "Current full model/accessory/indication inventory.",
+          "next_route": "OPEN",
+          "query": "Exablate Neuro P150038 current labeling supplements",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R2",
+          "evidence": "Original brain indication followed Class III/PMA for lesion-producing therapy. → Connects function/risk with the US pathway.",
+          "source_ids": [
+            "FDA-EXABLATE-P150038"
+          ],
+          "locator": "Regulatory background",
+          "solidity": "Direct US record",
+          "gap": "Primary applicable UK/EU conformity/registration evidence.",
+          "next_route": "OPEN",
+          "query": "Exablate Neuro EU certificate UK MHRA device record",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R3",
+          "evidence": "P150038 approval dated 11 July 2016. → Establishes original US market entry, not a UK procedure-guidance decision.",
+          "source_ids": [
+            "FDA-EXABLATE-P150038"
+          ],
+          "locator": "Approval/SSED",
+          "solidity": "Direct record",
+          "gap": "Current later approvals and relevant market documentation.",
+          "next_route": "OPEN",
+          "query": "P150038 Exablate later indications supplements decision",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R4",
+          "evidence": "Review addresses acoustic/heating control, guidance, electrical/EMC and contact risks, with clinical evidence. → Links evidence categories to device hazards.",
+          "source_ids": [
+            "FDA-EXABLATE-P150038"
+          ],
+          "locator": "Preclinical/clinical sections",
+          "solidity": "Direct summary; incomplete standards detail",
+          "gap": "Exact test standards/editions/results and latest conformity file.",
+          "next_route": "STD",
+          "query": "Exablate P150038 focused ultrasound MR safety standards editions",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R5",
+          "evidence": "FDA describes preapproval manufacturing inspection. → It does not identify every current site, supplier or outsourced responsibility.",
+          "source_ids": [
+            "FDA-EXABLATE-P150038"
+          ],
+          "locator": "Manufacturing review",
+          "solidity": "Partial",
+          "gap": "Actual site locations, critical suppliers, process transfer and release ownership.",
+          "next_route": "FIN",
+          "query": "Insightec Exablate Neuro manufacturing site outsourcing supplier responsibilities",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R6",
+          "evidence": "QMSR provides general US quality context. → Inspection at launch does not establish present postmarket compliance.",
+          "source_ids": [
+            "FDA-QMSR-2026",
+            "FDA-EXABLATE-P150038"
+          ],
+          "locator": "Rule scope; historical inspection",
+          "solidity": "Context and historical record",
+          "gap": "Dated recall/incident search and current product-specific surveillance.",
+          "next_route": "OPEN",
+          "query": "FDA recalls MAUDE Insightec Exablate Neuro 4000",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P1",
+          "evidence": "A modelled £19,779 MRgFUS pathway cost is not a scanner purchase price. → Buyer/product and service economics remain separate.",
+          "source_ids": [
+            "EXABLATE-ENGLAND-MODEL"
+          ],
+          "locator": "Body Table 3",
+          "solidity": "Model; no actual supplier quote",
+          "gap": "Equipment/configuration price, maintenance, consumables and dated contract.",
+          "next_route": "SERVICE",
+          "query": "Exablate Neuro hospital procurement capital maintenance consumables quotation",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P2",
+          "evidence": "2020 NHS England policy funds a defined refractory-essential-tremor pathway for selected adults unsuitable for DBS. → Identifies a public commissioning route.",
+          "source_ids": [
+            "NHSE-FOCUSED-ULTRASOUND-2020"
+          ],
+          "locator": "Policy/eligibility",
+          "solidity": "Direct policy; dated and conditional",
+          "gap": "Current local commissioner, contract and capacity.",
+          "next_route": "SERVICE",
+          "query": "NHS England essential tremor MRgFUS local commissioning contract",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P3",
+          "evidence": "Essential-tremor policy differs from Parkinsonian-tremor research-only NICE guidance. → Coverage/procedure rules cannot be merged across indications.",
+          "source_ids": [
+            "NHSE-FOCUSED-ULTRASOUND-2020",
+            "NICE-PD-HTG733"
+          ],
+          "locator": "ET policy; NICE recommendations 1.1–1.4",
+          "solidity": "Direct scoped policy/guidance",
+          "gap": "Actual local codes, tariff/payment amount and present contract.",
+          "next_route": "OPEN",
+          "query": "NHS focused ultrasound thalamotomy payment tariff essential tremor",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P4",
+          "evidence": "Five-year model: £19,779 MRgFUS, £62,348 DBS, £3,735 no procedure; ICER £20,851/QALY versus no procedure. → Supplies conditional NHS-perspective economics.",
+          "source_ids": [
+            "EXABLATE-ENGLAND-MODEL"
+          ],
+          "locator": "Body Tables 3 and 5",
+          "solidity": "Model; historical assumptions",
+          "gap": "Current local staff/MRI/capital/throughput inputs; abstract/body discrepancy retained.",
+          "next_route": "COST",
+          "query": "MRgFUS England model update throughput capital cost sensitivity",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P5",
+          "evidence": "Controlled trial supports a tremor effect; model projects longer costs/QoL. → Patient evidence and extrapolated economic parameters have different certainty.",
+          "source_ids": [
+            "FDA-EXABLATE-P150038",
+            "EXABLATE-ENGLAND-MODEL"
+          ],
+          "locator": "Trial endpoint; model methods",
+          "solidity": "Direct trial plus model",
+          "gap": "Current durability, adverse events and resource-event assumptions.",
+          "next_route": "LIT",
+          "query": "MRgFUS essential tremor durable outcomes quality life resource use",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P6",
+          "evidence": "Published critique/reply examines throughput/capital/comparators. → Identifies how capacity changes cost per case, without settling local affordability.",
+          "source_ids": [
+            "EXABLATE-MODEL-EXCHANGE"
+          ],
+          "locator": "Letter and authors' reply",
+          "solidity": "Direct debate; local inputs unmeasured",
+          "gap": "Actual MRI opportunity cost, budget owner and capacity.",
+          "next_route": "SERVICE",
+          "query": "UCLH focused ultrasound MRI treatment throughput budget cost",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P7",
+          "evidence": "Draft map links Insightec, specialist/MRI service, patient and policy-eligible commissioner. → Separates documented roles from unverified contract amounts.",
+          "source_ids": [
+            "NHSE-FOCUSED-ULTRASOUND-2020",
+            "EXABLATE-UCLH"
+          ],
+          "locator": "Role premises; draft map",
+          "solidity": "Provisional analysis",
+          "gap": "Actual purchasing/authority flows and lecture map format.",
+          "next_route": "COURSE",
+          "query": "reimbursement lecture stakeholder map NHS focused ultrasound",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        }
+      ],
+      "overview": {
+        "N": {
+          "focus": "N5",
+          "gap": "N1/N3/N4/N5: eligible local volume, baseline failed-care rate, burden and durable outcomes.",
+          "next": "LIT/SERVICE: local referrals and durable outcome data."
+        },
+        "I": {
+          "focus": "I3",
+          "gap": "I1–I4: first brain-device origin/rights, exact mapping and dated status.",
+          "next": "PAT: original brain-system/subsystem families."
+        },
+        "F": {
+          "focus": "F2",
+          "gap": "F1/F2/F4/F6: earliest support, valuation conflict, brain allocation and estimate.",
+          "next": "FIN/GRANT: original platform/brain allocation and 2012 reconciliation."
+        },
+        "R": {
+          "focus": "R3",
+          "gap": "R2/R4–R6: UK/EU device records, exact standards, current sites/surveillance.",
+          "next": "STD/OPEN: exact tests and actual site responsibility evidence."
+        },
+        "P": {
+          "focus": "P4",
+          "gap": "P1/P3/P4/P6: actual equipment/contract fees and current throughput inputs.",
+          "next": "COST/SERVICE: model critique and local equipment/throughput data."
+        }
+      }
+    },
+    {
+      "device_id": "arcex",
+      "name": "ONWARD Medical — ARC-EX",
+      "scope": "External stimulation plus rehabilitation; clinic/home and implanted/BCI programmes kept separate.",
+      "rows": [
+        {
+          "requirement_id": "N1",
+          "evidence": "Original label: ages 18–75, chronic incomplete C2–C8 SCI. UK account estimates 105,000 living with SCI and 4,400 new cases/year. → Broad burden is not eligibility.",
+          "source_ids": [
+            "FDA-ARCEX-DEN240014",
+            "ARCEX-UK-SCI-DATA"
+          ],
+          "locator": "Indication; SIA scope/data explanation",
+          "solidity": "Partial; broad traumatic/nontraumatic denominator",
+          "gap": "UK number meeting level/completeness/chronicity and training criteria.",
+          "next_route": "LIT",
+          "query": "UK chronic incomplete cervical C2 C8 spinal cord injury prevalence eligibility",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N2",
+          "evidence": "Up-LIFT used rehabilitation alone then rehabilitation plus stimulation; provider describes intensive practice. → Identifies the actual comparator and delivery setting.",
+          "source_ids": [
+            "ARCEX-UPLIFT",
+            "ARCEX-NEUROKINEX-SERVICE"
+          ],
+          "locator": "Study design; service description",
+          "solidity": "Direct workflow evidence",
+          "gap": "Local referral, session intensity, exclusions and long-term care pathway.",
+          "next_route": "SERVICE",
+          "query": "ARC-EX Neurokinex patient selection rehabilitation session pathway",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N3",
+          "evidence": "Up-LIFT had 65 enrolled, 60 completers; 43/60 met combined strength/function endpoint. → Measures change after added stimulation, not the prevalence of failed rehabilitation.",
+          "source_ids": [
+            "ARCEX-UPLIFT"
+          ],
+          "locator": "Primary endpoint; design",
+          "solidity": "Indirect for failed-care prevalence; uncontrolled later effect",
+          "gap": "Baseline unmet functional goals and a controlled incremental comparison.",
+          "next_route": "LIT",
+          "query": "chronic cervical spinal injury rehabilitation hand function plateau comparator",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N4",
+          "evidence": "No ARC-EX-caused reduction in care hours/cost was verified. → Large SCI burden cannot be treated as recoverable savings.",
+          "source_ids": [
+            "ARCEX-UK-SCI-DATA"
+          ],
+          "locator": "Burden context; no device cost-effect",
+          "solidity": "Indirect; population context only",
+          "gap": "Patient independence, assistance/resource changes and UK costs.",
+          "next_route": "COST",
+          "query": "ARC-EX hand function caregiver hours health resource costs UK",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N5",
+          "evidence": "External stimulation accompanies task practice; 43/60 responded in Up-LIFT. Pathfinder2 abstract reports no significant group ISNCSCI score change. → Functional gains differ from universal neurological recovery.",
+          "source_ids": [
+            "ARCEX-UPLIFT",
+            "ARCEX-PATHFINDER"
+          ],
+          "locator": "Endpoints; Pathfinder2 abstract",
+          "solidity": "Limited; design and outcome-specific",
+          "gap": "Causal effect, durability and broader patient benefit.",
+          "next_route": "LIT",
+          "query": "ARC-EX stimulation rehabilitation controlled durability hand function",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N6",
+          "evidence": "Rehabilitation-alone phase supplies a comparator; implant/BCI programmes are different technologies. → Comparisons must preserve the external-device scope.",
+          "source_ids": [
+            "ARCEX-UPLIFT",
+            "ARCEX-PROSPECTUS"
+          ],
+          "locator": "Study phases; programmes",
+          "solidity": "Partial; no randomised strategy comparison",
+          "gap": "Matched alternative rehabilitation/stimulation options and trade-offs.",
+          "next_route": "LIT",
+          "query": "transcutaneous spinal stimulation cervical injury rehabilitation alternatives comparison",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I1",
+          "evidence": "2015 paper links Edgerton/Gerasimenko, NRT-supplied stimulator and licensed UC IP. → Documents precursor lineage, not every inventor's employer.",
+          "source_ids": [
+            "ARCEX-EARLY-RESEARCH-LINEAGE"
+          ],
+          "locator": "Financial/IP disclosures",
+          "solidity": "Direct disclosure; lineage scope",
+          "gap": "Contemporaneous employers and exact marketed ARC-EX invention families.",
+          "next_route": "PAT",
+          "query": "Edgerton Gerasimenko NRT ARC-EX original patent employment",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I2",
+          "evidence": "Merger release/prospectus connect NRT and university licences to ONWARD. → Establishes a transfer/licensing route.",
+          "source_ids": [
+            "ARCEX-MERGER",
+            "ARCEX-PROSPECTUS"
+          ],
+          "locator": "Licensing/merger disclosures",
+          "solidity": "Partial; schedule incomplete",
+          "gap": "Original assignments and actual ARC-EX licensed-family schedule/terms.",
+          "next_route": "PAT",
+          "query": "NeuroRecovery Technologies UCLA Caltech ONWARD ARC-EX licence schedule",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I3",
+          "evidence": "US10806927B2 claim 1 has locomotor/postural/bladder function wording despite later grasp/reach language. → A related mechanism does not prove hand-product coverage.",
+          "source_ids": [
+            "ARCEX-PATENT"
+          ],
+          "locator": "Independent claim 1",
+          "solidity": "Mismatch; definitive product attribution unverified",
+          "gap": "Correct first-product family and full independent-claim-to-feature map.",
+          "next_route": "PAT",
+          "query": "ARC-EX hand function transcutaneous spinal stimulation patent claims",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I4",
+          "evidence": "Candidate grant has November 2011 priority and October 2020 publication. → Gives that family's history, not verified ARC-EX protection globally.",
+          "source_ids": [
+            "ARCEX-PATENT"
+          ],
+          "locator": "Bibliographic metadata",
+          "solidity": "Partial; candidate family",
+          "gap": "Official dated status and applicable licensed jurisdictions/families.",
+          "next_route": "PAT",
+          "query": "US10806927 family legal status ONWARD external stimulation",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I5",
+          "evidence": "The product includes software, programming and electrodes; no specific non-patent rights inventory was verified. → Components do not establish ownership of know-how/data.",
+          "source_ids": [
+            "ARCEX-EU-IFU-REV5"
+          ],
+          "locator": "System/components",
+          "solidity": "Missing; no rights inventory",
+          "gap": "Software, designs, trademarks/data/know-how rights and control.",
+          "next_route": "FIN",
+          "query": "ONWARD ARC-EX software intellectual property know how rights",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I6",
+          "evidence": "Licensing spans an academic lineage and a merged company. → Unknown schedules/third-party rights remain material dependencies.",
+          "source_ids": [
+            "ARCEX-PROSPECTUS",
+            "ARCEX-MERGER"
+          ],
+          "locator": "Licence and company history",
+          "solidity": "Partial",
+          "gap": "Competing rights, alternatives, sublicence and field restrictions.",
+          "next_route": "PAT",
+          "query": "ARC-EX NRT university licence field restrictions competing patents",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F1",
+          "evidence": "2015 precursor paper acknowledges NIH U01EB15521/R01EB007615, Reeve and other support. → Identifies award leads, not an ARC-EX budget.",
+          "source_ids": [
+            "ARCEX-EARLY-RESEARCH-LINEAGE"
+          ],
+          "locator": "Acknowledgements; spelling as printed",
+          "solidity": "Partial; predecessor and amounts unverified",
+          "gap": "Authoritative award IDs, recipient, periods, amounts and product allocation.",
+          "next_route": "GRANT",
+          "query": "Gerasimenko Edgerton U01EB015521 R01EB007615 grant project years",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F2",
+          "evidence": "Prospectus records €5m from former NRT investors in merger context. → More relevant than the excluded €36m implanted-programme package, but not earliest external finance.",
+          "source_ids": [
+            "ARCEX-PROSPECTUS",
+            "ARCEX-EARLYFIN"
+          ],
+          "locator": "Merger funding; EPFL programme description",
+          "solidity": "Partial; device allocation limited",
+          "gap": "Earliest NRT rounds, investors, valuation and closing terms.",
+          "next_route": "FIN",
+          "query": "NeuroRecovery Technologies NRT early funding valuation before GTX merger",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F3",
+          "evidence": "€10m innovation loan in 2016 belongs to the implant programme; later charity device loans aid UK access. → Neither is original ARC-EX cash.",
+          "source_ids": [
+            "ARCEX-EARLYFIN",
+            "ARCEX-SPINALPROGRAM"
+          ],
+          "locator": "Programme funding descriptions",
+          "solidity": "Mismatch for original external-device funding",
+          "gap": "Founder, debt, in-kind and partnership support for external development.",
+          "next_route": "FIN",
+          "query": "NeuroRecovery Technologies external spinal stimulation founder debt support",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F4",
+          "evidence": "Academic funding and merger/access records identify purposes at different stages. → No attributable commercial ARC-EX development budget is disclosed in these records.",
+          "source_ids": [
+            "ARCEX-EARLY-RESEARCH-LINEAGE",
+            "ARCEX-PROSPECTUS"
+          ],
+          "locator": "Acknowledgements; merger context",
+          "solidity": "Partial",
+          "gap": "Specific commercial proceeds-to-milestone allocation.",
+          "next_route": "FIN",
+          "query": "NRT ARC-EX external stimulator use proceeds clinical development",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F5",
+          "evidence": "Precursor 2015 work, 2019 merger, 2024 authorisation and 2025 home extension form a sequence. → Corporate continuity does not prove funding causality.",
+          "source_ids": [
+            "ARCEX-MERGER",
+            "FDA-ARCEX-DEN240014",
+            "FDA-ARCEX-K251821"
+          ],
+          "locator": "Event/decision dates",
+          "solidity": "Direct chronology",
+          "gap": "Which funds paid for prototype, trial, supplier setup and each authorisation.",
+          "next_route": "FIN",
+          "query": "NRT ONWARD ARC-EX financing Up-LIFT development milestones",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F6",
+          "evidence": "No sourced numerical external-device capital estimate exists. → Implant financing cannot serve as its top-down comparator without adjustment.",
+          "source_ids": [],
+          "locator": null,
+          "solidity": "Missing",
+          "gap": "External stimulator/software/rehabilitation-trial costs and matched comparables.",
+          "next_route": "EST",
+          "query": "transcutaneous spinal stimulator rehabilitation development trial manufacturing costs",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R1",
+          "evidence": "External stimulator/electrodes plus functional practice; professional original use, later home extension. → Separates clinic/home and implanted products.",
+          "source_ids": [
+            "FDA-ARCEX-DEN240014",
+            "FDA-ARCEX-K251821"
+          ],
+          "locator": "Indications/configuration",
+          "solidity": "Direct records; conditions apply",
+          "gap": "Complete latest market-specific components/users/labels.",
+          "next_route": "OPEN",
+          "query": "ARC-EX current clinic home intended use labeling",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R2",
+          "evidence": "Class II, 21 CFR 890.5851, SDO; original De Novo then 510(k) home extension. → Explains the route sequence.",
+          "source_ids": [
+            "FDA-ARCEX-DEN240014",
+            "FDA-ARCEX-K251821"
+          ],
+          "locator": "Classification and pathway",
+          "solidity": "Direct US decisions",
+          "gap": "Original EU certificate and verified UK registration record.",
+          "next_route": "OPEN",
+          "query": "ARC-EX CE certificate MHRA registration legal manufacturer",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R3",
+          "evidence": "DEN240014 dated 19 December 2024; K251821 dated 14 November 2025. → Documents two distinct US endpoints.",
+          "source_ids": [
+            "FDA-ARCEX-DEN240014",
+            "FDA-ARCEX-K251821"
+          ],
+          "locator": "Decision records",
+          "solidity": "Direct records",
+          "gap": "Independent EU/UK documents rather than manufacturer announcements alone.",
+          "next_route": "OPEN",
+          "query": "ARC-EX original CE certificate MHRA PARD",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R4",
+          "evidence": "Review covers electrical/EMC/software and skin contact; some biological support reuses electrode/material history. → Explains the actual testing strategy.",
+          "source_ids": [
+            "FDA-ARCEX-DEN240014"
+          ],
+          "locator": "Testing; IEC 60601-1-2/-2-10",
+          "solidity": "Direct summary; not all-new tests",
+          "gap": "Full editions/results and current whole-system conformity evidence.",
+          "next_route": "STD",
+          "query": "ARC-EX IEC 60601-2-10 skin electrodes biocompatibility editions",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R5",
+          "evidence": "Rev 5 EU manual names Samsung tablet and Axelgaard PALS electrodes. → Documents actual component roles, not complete final manufacture.",
+          "source_ids": [
+            "ARCEX-EU-IFU-REV5",
+            "ARCEX-PROSPECTUS"
+          ],
+          "locator": "Sections 5.5–5.6; supplier development",
+          "solidity": "Direct component record; incomplete chain",
+          "gap": "Stimulator contract manufacturer, release, site and quality allocation.",
+          "next_route": "FIN",
+          "query": "ARC-EX stimulator manufacturing supplier Demcon quality final release",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R6",
+          "evidence": "Manufacturer annual report addresses status; QMSR gives general US quality context. → Neither provides an independent surveillance audit.",
+          "source_ids": [
+            "ARCEX-ANNUAL2025",
+            "FDA-QMSR-2026"
+          ],
+          "locator": "Status disclosure; rule scope",
+          "solidity": "Partial/context",
+          "gap": "Dated recall/incident searches and clinic/home postmarket responsibilities.",
+          "next_route": "OPEN",
+          "query": "FDA recalls MAUDE ONWARD ARC-EX external home",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P1",
+          "evidence": "Clinic, home device and rehabilitation sessions are distinct commercial units; no verified exact price. → Generic rehab fees cannot substitute for device terms.",
+          "source_ids": [
+            "ARCEX-ANNUAL2025"
+          ],
+          "locator": "Commercial/payment strategy",
+          "solidity": "Partial; manufacturer strategy",
+          "gap": "Dated equipment/home prices, consumables, support and contract.",
+          "next_route": "SERVICE",
+          "query": "Neurokinex ARC-EX session equipment home price contract",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P2",
+          "evidence": "Spinal Research supports UK device loans; Neurokinex provides sessions. → Documents an access mechanism, not who sustainably funds all care.",
+          "source_ids": [
+            "ARCEX-SPINALPROGRAM",
+            "ARCEX-NEUROKINEX-SERVICE"
+          ],
+          "locator": "Programme and service descriptions",
+          "solidity": "Direct access evidence",
+          "gap": "Recurring payer/patient/commissioner terms for sessions and replacement.",
+          "next_route": "SERVICE",
+          "query": "ARC-EX UK device loan session payment charity NHS",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P3",
+          "evidence": "Annual report describes existing rehab billing and unfinished home-category/coding work. → Company strategy is not a payer coverage decision.",
+          "source_ids": [
+            "ARCEX-ANNUAL2025"
+          ],
+          "locator": "Reimbursement strategy",
+          "solidity": "Partial; no independently verified policy",
+          "gap": "Exact payer, codes, eligibility and payment amounts by setting.",
+          "next_route": "OPEN",
+          "query": "ARC-EX clinic home coverage payer coding reimbursement policy",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P4",
+          "evidence": "No full device-specific economic model or measured care saving was verified. → Additional training/equipment costs and possible offsets remain unquantified.",
+          "source_ids": [],
+          "locator": null,
+          "solidity": "Missing",
+          "gap": "Incremental staff/sessions, maintenance, care hours, perspective and horizon.",
+          "next_route": "COST",
+          "query": "ARC-EX economic evaluation rehabilitation staff care hours cost effectiveness",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P5",
+          "evidence": "Sequential functional improvement cannot itself quantify reduced care events or costs. → The economic benefit requires additional outcome-to-resource evidence.",
+          "source_ids": [
+            "ARCEX-UPLIFT",
+            "ARCEX-PATHFINDER"
+          ],
+          "locator": "Design and functional endpoints",
+          "solidity": "Limited; uncontrolled and endpoint-specific",
+          "gap": "Durability, assistance/care-hour change and controlled clinical increment.",
+          "next_route": "LIT",
+          "query": "ARC-EX caregiver assistance independence long term resource use",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P6",
+          "evidence": "A charity loan may reduce capital barriers but leaves session/staff and replacement funding. → Identifies an adoption tension without measuring margins.",
+          "source_ids": [
+            "ARCEX-SPINALPROGRAM"
+          ],
+          "locator": "Loan programme; analytical interpretation",
+          "solidity": "Inference from documented access",
+          "gap": "Budget holder, capacity, patient charges and long-term affordability.",
+          "next_route": "SERVICE",
+          "query": "Neurokinex Spinal Research ARC-EX capacity recurring costs funding",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P7",
+          "evidence": "Draft links ONWARD, therapists/centre, charity, patient/helper and conditional home/payer routes. → Shows documented versus unresolved flows.",
+          "source_ids": [
+            "ARCEX-SPINALPROGRAM",
+            "ARCEX-NEUROKINEX-SERVICE"
+          ],
+          "locator": "Role premises; draft map",
+          "solidity": "Provisional analysis",
+          "gap": "Actual contracts, authority, incentives and lecture map format.",
+          "next_route": "COURSE",
+          "query": "reimbursement lecture stakeholder map ARC-EX rehabilitation",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        }
+      ],
+      "overview": {
+        "N": {
+          "focus": "N5",
+          "gap": "N1/N3/N4/N5: eligible UK count, baseline unmet rehabilitation, care-hour effects and controlled durability.",
+          "next": "LIT/COST: controlled effects and care-hour consequences."
+        },
+        "I": {
+          "focus": "I3",
+          "gap": "I1–I4: exact original family/licence schedule, employment and product mapping.",
+          "next": "PAT: correct hand-function family and licensed schedule."
+        },
+        "F": {
+          "focus": "F2",
+          "gap": "F1–F4/F6: attributable grants/earliest NRT terms, use and capital estimate.",
+          "next": "GRANT/FIN: printed NIH IDs and earliest NRT terms."
+        },
+        "R": {
+          "focus": "R3",
+          "gap": "R2/R3/R5/R6: EU/UK primary records, whole production chain and surveillance.",
+          "next": "STD/OPEN: complete chain and original market documents."
+        },
+        "P": {
+          "focus": "P2",
+          "gap": "P1/P3–P6: prices, independent payer rules and incremental economics.",
+          "next": "COST/SERVICE: Neurokinex/funder questions; no interview obtained."
+        }
+      }
+    },
+    {
+      "device_id": "terra",
+      "name": "Siemens Healthineers — MAGNETOM Terra",
+      "scope": "Original 2017 head/extremity platform; selected neurovascular value question; Terra.X and later IP separate.",
+      "rows": [
+        {
+          "requirement_id": "N1",
+          "evidence": "Original US scope is head/extremity imaging above 30 kg; neurovascular study selected 53 equivocal cases. → Defines an investigation group, not the whole MRI market.",
+          "source_ids": [
+            "FDA-TERRA-K170840",
+            "TERRA-ANEURYSM"
+          ],
+          "locator": "Indication; Methods",
+          "solidity": "Partial; selected cohort, no target denominator",
+          "gap": "Annual eligible local referrals, exclusions and separate MSK subgroup.",
+          "next_route": "LIT",
+          "query": "7T Terra equivocal aneurysm referral eligible population knee imaging",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N2",
+          "evidence": "Clinical study compares Terra with 3T Prisma after unclear vascular findings. → Locates the added scan after standard imaging uncertainty.",
+          "source_ids": [
+            "TERRA-ANEURYSM"
+          ],
+          "locator": "Data Collection/Image Analysis",
+          "solidity": "Direct study pathway; single centre",
+          "gap": "London referral/reading/escalation pathway and patient selection.",
+          "next_route": "SERVICE",
+          "query": "LoCUS Terra clinical research referral imaging workflow",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N3",
+          "evidence": "In 53 selected patients, aneurysm was suspected in 42 at 3T versus 23 at 7T. → Quantifies diagnostic reclassification, not sensitivity or proven false positives.",
+          "source_ids": [
+            "TERRA-ANEURYSM"
+          ],
+          "locator": "Results; reference-standard limitations",
+          "solidity": "Limited; no DSA standard, no field blinding",
+          "gap": "Independent accuracy/management outcomes and local uncertainty rate.",
+          "next_route": "LIT",
+          "query": "Terra 7T 3T aneurysm diagnostic accuracy reference standard management",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N4",
+          "evidence": "The study proposes fewer unnecessary investigations but reports no cost-effectiveness result. → An avoided-cost story remains conditional.",
+          "source_ids": [
+            "TERRA-ANEURYSM"
+          ],
+          "locator": "Discussion",
+          "solidity": "Missing for measured costs",
+          "gap": "Patient consequences, additional/avoided investigations and local resource costs.",
+          "next_route": "COST",
+          "query": "7T Terra aneurysm follow up angiography pathway cost effectiveness",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N5",
+          "evidence": "Neurovascular study provides exact-device findings; epilepsy source is only a protocol. → Completed neurovascular evidence cannot establish epilepsy or MSK benefit.",
+          "source_ids": [
+            "TERRA-ANEURYSM",
+            "TERRA-EPILEPSY-PROTOCOL"
+          ],
+          "locator": "Study results; protocol design",
+          "solidity": "Limited; indication/design boundaries",
+          "gap": "Patient outcomes, finished epilepsy results and knee/MSK incremental evidence.",
+          "next_route": "LIT",
+          "query": "MAGNETOM Terra 7T knee musculoskeletal clinical outcomes 3T comparator",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "N6",
+          "evidence": "3T is the direct study comparator; additional specialist imaging is a pathway option. → Higher field is not automatically preferable for every examination.",
+          "source_ids": [
+            "TERRA-ANEURYSM",
+            "FDA-TERRA-K170840"
+          ],
+          "locator": "Comparative methods; coil/scope",
+          "solidity": "Partial; one selected neurovascular pathway",
+          "gap": "Matched MRI/other-imaging trade-offs including exclusions and scan resources.",
+          "next_route": "LIT",
+          "query": "7T versus 3T MRI clinical utility contraindications resource use",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I1",
+          "evidence": "Brochure attributes magnet development/manufacture to Oxford; FDA names system/coil manufacturers. → Identifies organisations, not the original inventors.",
+          "source_ids": [
+            "TERRA-BROCHURE",
+            "FDA-TERRA-K170840"
+          ],
+          "locator": "Brochure PDF pp34–35; manufacturing table",
+          "solidity": "Partial; development location is not inventor identity",
+          "gap": "Original magnet/system/coil inventors, employers and priority families.",
+          "next_route": "PAT",
+          "query": "Siemens Magnet Technology Oxford Terra OR107 7T original inventors patent",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I2",
+          "evidence": "Later optimisation application lists Siemens as original assignee. → This does not establish the original scanner's complete rights.",
+          "source_ids": [
+            "TERRA-PATENT-LATER"
+          ],
+          "locator": "Assignee metadata",
+          "solidity": "Mismatch for original 2017 system rights",
+          "gap": "Original subsystem assignments/licences and control chain.",
+          "next_route": "PAT",
+          "query": "Siemens Terra original magnet RF coil patent assignments licences",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I3",
+          "evidence": "GB2606208A claims 1/12 cover voxel-clustering optimisation and a processing system; priority 2021. → A later method using Terra is not its 2017 core IP.",
+          "source_ids": [
+            "TERRA-PATENT-LATER"
+          ],
+          "locator": "Claims 1/12; Terra example",
+          "solidity": "Mismatch; later application only",
+          "gap": "Correct original families and independent-claim-to-product mapping.",
+          "next_route": "PAT",
+          "query": "MAGNETOM Terra 2017 magnet coil imaging system independent patent claims",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I4",
+          "evidence": "Later application has April 2021 priority and November 2022 publication. → Its history cannot supply original Terra's jurisdiction/status map.",
+          "source_ids": [
+            "TERRA-PATENT-LATER"
+          ],
+          "locator": "Bibliographic metadata",
+          "solidity": "Mismatch for first-scanner scope",
+          "gap": "Original relevant families, priority/jurisdictions and dated official status.",
+          "next_route": "PAT",
+          "query": "Siemens MAGNETOM Terra OR107 patent family original priority status",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I5",
+          "evidence": "Magnet fabrication, calibration and software could support non-patent advantage. → No verified inventory identifies which rights/know-how are controlled.",
+          "source_ids": [
+            "TERRA-BROCHURE"
+          ],
+          "locator": "Development/manufacture; analytical interpretation",
+          "solidity": "Inference",
+          "gap": "Specific documented copyright, know-how, data/design rights.",
+          "next_route": "FIN",
+          "query": "Siemens Terra magnet software know how intellectual property disclosure",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "I6",
+          "evidence": "A distributed system uses separate magnet, coil and software components. → One later patent cannot resolve licences or third-party exposure.",
+          "source_ids": [
+            "FDA-TERRA-K170840",
+            "TERRA-PATENT-LATER"
+          ],
+          "locator": "Component identities; claim boundary",
+          "solidity": "Missing; no rights assessment",
+          "gap": "Supplier rights, competitors, alternative designs and original licence dependencies.",
+          "next_route": "PAT",
+          "query": "7T MRI RF coil superconducting magnet Siemens Nova QED competing rights",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F1",
+          "evidence": "King's/Wellcome funded the 2018 London project, with no amount given. → This is customer infrastructure funding after original clearance.",
+          "source_ids": [
+            "TERRA-KCL-2018"
+          ],
+          "locator": "Funding paragraph",
+          "solidity": "Mismatch for original R&D grant",
+          "gap": "Any original development award: recipient/ID, period, amount and purpose.",
+          "next_route": "GRANT",
+          "query": "Siemens Magnet Technology Terra 7T original development grant Oxford",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F2",
+          "evidence": "2018 IPO gross proceeds of about EUR4.2bn went to parent Siemens. → This is not Terra capital paid into the operating company.",
+          "source_ids": [
+            "TERRA-IPO-2018"
+          ],
+          "locator": "Placement/proceeds paragraph",
+          "solidity": "Mismatch for device financing",
+          "gap": "Attributable original corporate investment; any relevant financing terms.",
+          "next_route": "FIN",
+          "query": "Siemens Terra development internal investment before 2017",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F3",
+          "evidence": "Manufacturer account supports in-house engineering; it does not value staff/facilities or exclude outside support. → Corporate resources remain unquantified.",
+          "source_ids": [
+            "TERRA-BROCHURE"
+          ],
+          "locator": "Magnet-development account",
+          "solidity": "Partial; not a budget",
+          "gap": "Internal staff, facilities, partner/in-kind and debt contributions.",
+          "next_route": "FIN",
+          "query": "Siemens Magnet Technology Oxford Terra development partners investment",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F4",
+          "evidence": "No device-specific original spending allocation was verified. → Group R&D is context rather than Terra's use-of-funds account.",
+          "source_ids": [
+            "TERRA-BROCHURE"
+          ],
+          "locator": "Development history",
+          "solidity": "Missing for allocation",
+          "gap": "Programme budget and planned magnet/coil/software/validation milestones.",
+          "next_route": "FIN",
+          "query": "Siemens Terra programme development budget milestones 2015 2017",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F5",
+          "evidence": "Brochure places first new-magnet installation in April 2015; FDA cleared Terra in October 2017. → Gives outputs, without their funding linkage.",
+          "source_ids": [
+            "TERRA-BROCHURE",
+            "FDA-TERRA-K170840"
+          ],
+          "locator": "Timeline; decision date",
+          "solidity": "Direct manufacturer chronology plus decision",
+          "gap": "Which investments financed which engineering/validation outputs.",
+          "next_route": "FIN",
+          "query": "Terra Erlangen 2015 installation Oxford development 2017 funding",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "F6",
+          "evidence": "No justified numerical original-system capital estimate was completed. → Shared platform work needs an explicit allocation rule.",
+          "source_ids": [],
+          "locator": null,
+          "solidity": "Missing",
+          "gap": "Magnet/coils/software staff, prototypes/testing/tooling and comparable budgets.",
+          "next_route": "EST",
+          "query": "7T MRI magnet development prototype coil verification manufacturing programme cost",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R1",
+          "evidence": "Original head/extremity scope above 30 kg, with head/knee coils; clinical/research modes differ. → Later Terra.X features do not belong automatically to 2017 Terra.",
+          "source_ids": [
+            "FDA-TERRA-K170840",
+            "TERRA-BROCHURE",
+            "TERRA-X-2024"
+          ],
+          "locator": "Indication; dual-mode; successor scope",
+          "solidity": "Direct original scope; local upgrade unknown",
+          "gap": "Actual London model/software/coils and current clinical options.",
+          "next_route": "SERVICE",
+          "query": "LoCUS MAGNETOM Terra installed upgrade software coil clinical mode",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R2",
+          "evidence": "Class II, 21 CFR 892.1000; LNH/LNI/MOS; 510(k). → Establishes original US MR-system route.",
+          "source_ids": [
+            "FDA-TERRA-K170840"
+          ],
+          "locator": "Classification/predicate",
+          "solidity": "Direct US record",
+          "gap": "Original EU/UK documents for the relevant installed configuration.",
+          "next_route": "OPEN",
+          "query": "MAGNETOM Terra UK EU certificate conformity registration",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R3",
+          "evidence": "K170840 clearance dated 12 October 2017. → Provides the original decision, separate from 2024 Terra.X.",
+          "source_ids": [
+            "FDA-TERRA-K170840",
+            "TERRA-X-2024"
+          ],
+          "locator": "Decision; successor announcement",
+          "solidity": "Direct original record",
+          "gap": "Actual later upgrade authorisation and local installed documentation.",
+          "next_route": "OPEN",
+          "query": "K170840 Terra XA60A upgrade Terra.X device decision",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R4",
+          "evidence": "MR safety/image quality/software/risk standards appear in the summary; 35-person PNS work set safety limits. → That study is not a diagnostic-benefit trial.",
+          "source_ids": [
+            "FDA-TERRA-K170840"
+          ],
+          "locator": "Testing; IEC 60601-2-33/62464-1/62304",
+          "solidity": "Direct summary; historical editions",
+          "gap": "Full results/editions and current configuration's conformity evidence.",
+          "next_route": "STD",
+          "query": "K170840 IEC 60601-2-33 IEC 62464-1 historical MR standards",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R5",
+          "evidence": "FDA names Erlangen system site, Nova head coil and QED knee coil; brochure attributes magnet manufacture to Oxford. → Documents a component supply chain.",
+          "source_ids": [
+            "FDA-TERRA-K170840",
+            "TERRA-BROCHURE"
+          ],
+          "locator": "Manufacturing table; brochure pp34–35",
+          "solidity": "Direct dated records",
+          "gap": "Current suppliers, quality/release allocation and configuration changes.",
+          "next_route": "FIN",
+          "query": "Siemens Terra Oxford Erlangen Nova QED manufacturing responsibilities",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "R6",
+          "evidence": "QMSR supplies general US quality context; original safety testing is historical. → Neither is a Terra postmarket record.",
+          "source_ids": [
+            "FDA-QMSR-2026",
+            "FDA-TERRA-K170840"
+          ],
+          "locator": "Rule scope; historical testing",
+          "solidity": "Context only",
+          "gap": "Dated model/software-specific recall/incident search and continuing duties.",
+          "next_route": "OPEN",
+          "query": "FDA recalls MAUDE Siemens MAGNETOM Terra software",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P1",
+          "evidence": "King's names an actual Terra installation; no verified scanner/configuration price or recurring terms. → Existence is not procurement economics.",
+          "source_ids": [
+            "TERRA-KCL-FACILITY",
+            "TERRA-KCL-2018"
+          ],
+          "locator": "Equipment listing; installation",
+          "solidity": "Partial; no price",
+          "gap": "Capital/lease, coil, maintenance and access-charge terms.",
+          "next_route": "SERVICE",
+          "query": "LoCUS Terra acquisition maintenance research access scan price",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P2",
+          "evidence": "King's/Wellcome project funding is documented. → It funds infrastructure, not necessarily routine NHS scans or every research session.",
+          "source_ids": [
+            "TERRA-KCL-2018"
+          ],
+          "locator": "Funding paragraph",
+          "solidity": "Direct project attribution; payment scope limited",
+          "gap": "Current research sponsor, patient/service payer and operating subsidy.",
+          "next_route": "SERVICE",
+          "query": "LoCUS Terra research clinical funding commissioner operating budget",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P3",
+          "evidence": "No Terra-specific coverage/tariff/premium was verified; NHS scheme retrieval previously failed. → No special 7T payment can be asserted.",
+          "source_ids": [],
+          "locator": null,
+          "solidity": "Missing",
+          "gap": "Actual country/setting-specific coverage, coding and service contract.",
+          "next_route": "OPEN",
+          "query": "NHS 7T MRI payment commissioning Terra clinical scan",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P4",
+          "evidence": "No exact-pathway incremental economic model was accepted. → Additional imaging detail is not an economic result.",
+          "source_ids": [
+            "TERRA-ANEURYSM"
+          ],
+          "locator": "Discussion; no dedicated economic analysis",
+          "solidity": "Missing for cost-effectiveness",
+          "gap": "Annualised capital/site/staff/maintenance, utilisation, horizon and offsets.",
+          "next_route": "COST",
+          "query": "7T Terra MRI incremental cost effectiveness throughput capacity",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P5",
+          "evidence": "53-patient study measures diagnostic assessments, not prevented morbidity or realised resource savings. → Downstream economic effects remain hypotheses.",
+          "source_ids": [
+            "TERRA-ANEURYSM"
+          ],
+          "locator": "Methods/results/limitations",
+          "solidity": "Limited; no independent DSA reference",
+          "gap": "Management changes, follow-up/angiography avoided and patient outcomes.",
+          "next_route": "LIT",
+          "query": "7T aneurysm MRI management impact follow up avoided patient outcomes",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P6",
+          "evidence": "Dedicated high-field time competes for staff and scanner resources. → The actor paying extra may differ from the one avoiding later investigations.",
+          "source_ids": [
+            "TERRA-KCL-FACILITY",
+            "TERRA-ANEURYSM"
+          ],
+          "locator": "Service/study premises; analytical interpretation",
+          "solidity": "Inference",
+          "gap": "Actual budget owner, utilisation, opportunity costs and benefit distribution.",
+          "next_route": "SERVICE",
+          "query": "LoCUS Terra scan utilisation MRI staffing budget clinical research capacity",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        },
+        {
+          "requirement_id": "P7",
+          "evidence": "Draft connects Siemens/suppliers, facility, project funders, investigators, referrers/patient and conditional clinical payer. → Marks verified roles and unresolved flows.",
+          "source_ids": [
+            "TERRA-KCL-FACILITY",
+            "TERRA-KCL-2018",
+            "FDA-TERRA-K170840"
+          ],
+          "locator": "Role premises; draft map",
+          "solidity": "Provisional analysis",
+          "gap": "Current funding/authority contracts and lecture map format.",
+          "next_route": "COURSE",
+          "query": "reimbursement lecture stakeholder map specialist MRI facility",
+          "query_status": "Proposed, not run as a subscriber search; see dated access log."
+        }
+      ],
+      "overview": {
+        "N": {
+          "focus": "N3",
+          "gap": "N1/N4/N5: eligible referrals, downstream cost/outcome and MSK evidence.",
+          "next": "LIT/COST: chosen neurovascular pathway; separate MSK evidence."
+        },
+        "I": {
+          "focus": "I3",
+          "gap": "I1–I4: original scanner families, inventors/employers, rights and status.",
+          "next": "PAT: original scanner families; later optimisation is excluded."
+        },
+        "F": {
+          "focus": "F2",
+          "gap": "F1–F4/F6: original corporate R&D resources and justified cost estimate.",
+          "next": "FIN/EST: corporate project inputs, not a startup VC proxy."
+        },
+        "R": {
+          "focus": "R3",
+          "gap": "R1/R2/R5/R6: installed/UK scope, current supplier-quality roles and surveillance.",
+          "next": "STD/SERVICE: installed coils/software and current responsibilities."
+        },
+        "P": {
+          "focus": "P2",
+          "gap": "P1/P3–P6: price/clinical funding, incremental model and capacity incentives.",
+          "next": "COST/SERVICE: LoCUS utilisation and actual clinical/research funding."
+        }
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "id": "RNS-MODEL-FULLTEXT-20261021",
+      "source_id": "RNS-ECON-PUBLISHER",
+      "checked": "2026-10-21",
+      "access": "Imperial Library Search DOI match → institutional Wiley full-text service; Full Access page displayed. No raw article or account/session material redistributed.",
+      "locator": "Methods 2.1, 2.2, 2.6/2.6.1; Table 1; Discussion 4.1",
+      "finding": "Implantation is modelled at $41,173 using professional/facility fees; costs use 2019 Medicare professional and FY2017 facility inputs. Table 1 reports nine-year costs $246,284 versus $212,279, with reported incremental cost $34,006. Utilities and epilepsy-event costs are indirect; presurgical localisation excluded and medicine costs assumed equal/excluded.",
+      "limit": "Historical US payer model, not current device price, observed savings or NHS costs. Rounded displayed totals subtract to $34,005, $1 below reported increment; retain authors’ reported values and rounding boundary. This deepens the existing source review rather than adds an independent study."
+    }
+  ],
+  "access_attempts": [
+    {
+      "id": "IC-AZ",
+      "date": "2026-10-21",
+      "route": "Imperial business databases A–Z",
+      "query": "PitchBook, Orbis Europe/M&A, Factiva, MEDLINE, Embase and financial tools",
+      "outcome": "Official page read in browser; services listed. Orbis M&A description specifies five years of global deal coverage.",
+      "meaning": "Entitlement/discovery route, not device-specific evidence or guarantee of historical coverage."
+    },
+    {
+      "id": "IC-PB",
+      "date": "2026-10-21",
+      "route": "Imperial PitchBook catalog and View full text",
+      "query": "Access route only; no company query submitted",
+      "outcome": "Terms-of-use acceptance page reached. It states a restriction on use with AI. Terms not accepted; no subscriber deal record read, downloaded or used.",
+      "meaning": "Manual student/librarian investigation only within the applicable licence; not a gap closed."
+    },
+    {
+      "id": "IC-FACTIVA",
+      "date": "2026-10-21",
+      "route": "Imperial Factiva catalog",
+      "query": "Access/licence check only",
+      "outcome": "Catalog read; academic reader access only, with no text mining or analytics. No subscriber content search/export performed.",
+      "meaning": "A possible student reading route under its licence; not new financing evidence."
+    },
+    {
+      "id": "IC-RNS",
+      "date": "2026-10-21",
+      "route": "Imperial Library Search and Wiley",
+      "query": "10.1111/epi.17049",
+      "outcome": "Exact article located and institutional Wiley full text opened; relevant methods, costs, Table 1 and limitations read.",
+      "meaning": "Real improvement for RNS N4/P1/P4/P5; does not verify present prices or UK payment."
+    },
+    {
+      "id": "IC-OTHER",
+      "date": "2026-10-21",
+      "route": "Other per-row Imperial/official queries",
+      "query": "Queries listed in the device checklists",
+      "outcome": "Not executed as subscriber searches. Resource availability and proposed query are kept separate from retrieved evidence.",
+      "meaning": "Prioritised next actions; no claim that every potential subscription has been searched."
+    }
+  ]
+}
