@@ -1,64 +1,27 @@
-# Choosing a device for our report
+# Choosing a device through evidence
 
-This repository compares seven devices by **how easy it is to find useful information for the five sections in Project spec**. Open a device report to understand what it does, how far it has developed, which sources help each section, and which first-hand contacts have a specific connection to it.
+**Start with the [requirement-to-source comparison](research/README.md).** It replaces broad comments about “information richness” with explicit matches to the supplied report guide.
 
-**Source collection:** [Information resource directory](docs/information-resources.md), including databases and worked examples from our studies.
+Each device checklist has the same **31 required elements** across unmet medical need, IP, fundraising, regulation and reimbursement. Every row shows five things:
 
-For university subscriptions and support, see the [Imperial resource guide](docs/imperial-resources.md).
+1. What the section needs.
+2. Exact source content and how it answers that need.
+3. How solid that particular support is.
+4. Exactly what is still missing.
+5. The next Imperial or official source/action to try.
 
-**New:** [Seven full case-study drafts](reports/README.md) turn that research into narratives. The [comparative review](reports/comparative-review.md) assesses their strengths, missing evidence and actual writing difficulties. Existing research layers are retained.
-
-## TL;DR
-
-- **RNS is a clear starting point for public research.** Trials, IP and economics now have a pre-approval financing filing and a payer policy alongside them; the earliest funding still needs work.
-- **ARC-EX combines good public records with nearby exact-device contacts.** Neurokinex lists Hemel Hempstead and Gatwick centres outside London; London-based Spinal Research can help with funding and UK access. Early product-specific finance and payment remain gaps.
-- **Exablate has a documented London clinical team and UK commissioning evidence.** New financing records and an England economic model add useful detail; a brain-specific early budget remains missing.
-- **Ceribell and SAINT have useful clinical and IP sources.** Their reports explain the product/version limits; no London product user was verified for either.
-- **Terra has a named scanner and enquiry team at St Thomas’ Hospital.** Regulatory/manufacturing records are strong; original IP, development spending and clinical payment need work.
-- **Precision requires a clear choice of scope:** the temporary cortical electrode or the wider BCI programme. Payment and exact-product IP need more investigation.
-
-## What information do we need?
-
-These five questions follow the [project specification summary](docs/course-requirements.md):
-
-| Report section | Information needed |
-|---|---|
-| Unmet medical need | The original problem, patient numbers and geography, alternatives, and costs before/after the device. |
-| Intellectual property | Where the first version was invented, inventors and employers, patents/other IP, and at least the independent patent claims. |
-| Fundraising | How early development was funded: grants, angels, VC, amounts, sources and valuations where available. Later growth funding is a different question. |
-| Regulatory | Classification in the relevant markets, approval/clearance evidence, standards, and manufacturing/outsourcing. |
-| Reimbursement | Who pays, relevant codes, the economic case and the required stakeholder map. |
-
-## How easy is it to find useful information?
-
-**Clear sources:** useful records provide a supported starting point. **Some gaps:** the sources answer only part of the question. **Hard to find:** important information remains unverified in this search. These describe access to information, not a completed report. Each device file explains the reason and how to use the sources.
-
-The [source guide](docs/research-source-guide.md) draws on the [two course examples](docs/example-source-audit.md). We have now investigated its extra routes for all seven devices using a [reliability protocol](docs/reliability-protocol.md): read the actual evidence, match the product/market, examine the method and check important ambiguities.
-
-**The table retains the original access labels.** Each device file has **Layer 1: original research** and **Layer 2: new findings**, covering all five topics. The [new-research overview](docs/additional-research-summary.md) explains what improved and what remains missing. Important update: SAINT and Ceribell's seizure-monitor US inpatient NTAP add-ons have ended for FY2027; this does not mean all hospital payment ends.
-
-| Device | Unmet need | IP | Fundraising | Regulatory | Reimbursement |
-|---|---|---|---|---|---|
-| [Layer 7 Cortical Interface](devices/01-precision.md) | Some gaps | Some gaps | Some gaps | Clear sources | Hard to find |
-| [RNS System](devices/02-rns.md) | Clear sources | Clear sources | Some gaps | Clear sources | Some gaps |
-| [Rapid Response EEG / Clarity](devices/03-ceribell.md) | Clear sources | Clear sources | Some gaps | Clear sources | Some gaps |
-| [SAINT](devices/04-saint.md) | Some gaps | Clear sources | Some gaps | Clear sources | Some gaps |
-| [Exablate Neuro](devices/05-exablate.md) | Clear sources | Some gaps | Hard to find | Clear sources | Clear sources |
-| [ARC-EX System](devices/06-arcex.md) | Clear sources | Some gaps | Some gaps | Clear sources | Some gaps |
-| [MAGNETOM Terra 7T MRI](devices/07-terra.md) | Some gaps | Some gaps | Hard to find | Clear sources | Some gaps |
-
-All seven have a public FDA record, making that a useful regulatory starting point. Other markets, standards and manufacturing still need to be completed. Disease-population figures alone will not answer unmet need, and a large company funding round will not answer early development finance.
-
-## Who could provide useful first-hand information in or near London?
-
-| Device | What is actually connected to the device? | What could it help us investigate? |
+| Device | What it does | Current evidence checklist |
 |---|---|---|
-| [Exablate Neuro](devices/05-exablate.md) | UCLH/NHNN paper names exact ExAblate equipment and a London clinical team. | Patient selection, treatment workflow, costs and UK adoption. |
-| [ARC-EX System](devices/06-arcex.md) | Neurokinex lists exact-device centres in Hemel Hempstead and Gatwick, outside London. Spinal Research has a London office and an ARC-EX programme. | Device-study and rehabilitation workflow; programme funding and UK access. A charity office is not a clinic. |
-| [MAGNETOM Terra 7T MRI](devices/07-terra.md) | King’s lists an exact MAGNETOM Terra at LoCUS, St Thomas’ Hospital, with dedicated enquiries. | Imaging workflow, configuration, scan resources and access funding; routine NHS use is unverified. |
+| Precision Neuroscience — Layer 7-T | Temporary cortical electrode for recording/monitoring/stimulation. | [Open](research/precision.md) |
+| NeuroPace — RNS System | Implanted closed-loop recording and seizure stimulation. | [Open](research/rns.md) |
+| Ceribell — Rapid Response EEG | Rapid scalp EEG in acute care, with version-specific software. | [Open](research/ceribell.md) |
+| Magnus Medical — SAINT | MRI-informed accelerated TMS treatment pathway. | [Open](research/saint.md) |
+| Insightec — Exablate Neuro | MR-guided focused-ultrasound thermal lesion treatment. | [Open](research/exablate.md) |
+| ONWARD Medical — ARC-EX | External spinal stimulation with functional rehabilitation. | [Open](research/arcex.md) |
+| Siemens Healthineers — MAGNETOM Terra | 7T MRI for defined head/extremity imaging uses. | [Open](research/terra.md) |
 
-For **Precision, RNS, Ceribell and SAINT**, no London product user was verified. Their reports identify relevant US development or clinical leads for a possible remote discussion.
+The [common requirements](docs/report-evidence-requirements.md) come from the supplied guide's evidence tables, with page provenance. The [Imperial access/search log](docs/imperial-gap-searches.md) records what was actually tried. One concrete improvement is full access to the RNS economic paper; its cost inputs remain a historical model, rather than a current device quote. Proposed searches are labelled and do not count as evidence found.
 
-We do **not** have London user counts. This table uses documented connections, not general subject expertise or assumed popularity. No interview or visit is arranged.
+Use the [general information resources](docs/information-resources.md) and [Imperial resource directory](docs/imperial-resources.md) to locate databases. Use the checklist's exact missing field and query to decide what to retrieve. A subscription does not guarantee a private valuation, original budget or hospital contract.
 
-The detailed reports show **source → connection to this device → use in a report section → missing information**. [Source notes](docs/sources.md) record dates and review limits. Existing research dates to 19 October 2026, with targeted additions/checks on 20 October. These are AI-generated preparation notes; the supplied course rules remain in the specification summary.
+Earlier material is retained: [original research layers](devices/README.md), [full narrative reference drafts](reports/README.md), [dated narrative-draft comparison](reports/comparative-review.md), [source dates/coverage](docs/sources.md), and [course requirements](docs/course-requirements.md). The new checklists are the main path for judging available information. They do not rank clinical superiority, claim interviews, or certify assessed-work compliance.
