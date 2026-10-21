@@ -48,6 +48,8 @@ write('reports/comparative-review.md',DATA['comparative_review_markdown'])
 write('docs/full-report-writing-method.md',DATA['writing_method_markdown'])
 index='''# Seven full case-study reference drafts
 
+For the current requirement-by-requirement source assessment, use the [evidence checklists](../research/README.md). The narratives below retain their original evidence cutoff.
+
 These drafts turn the preserved research into complete narratives across the five course topics. They are AI-generated reference documents for selection/discussion, not assessed submissions. Each includes an executive summary, product scope, five sections, independent-claim explanations, an analytical stakeholder map, conclusion and numbered retrievable references. Evidence gaps remain visible.
 
 Start with the [comparative review](comparative-review.md) for strengths, weaknesses, the actual writing difficulties and the most useful next investigations. See [how the module materials and examples guided writing](../docs/full-report-writing-method.md).

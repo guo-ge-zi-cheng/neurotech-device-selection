@@ -35,8 +35,9 @@ for d,m in zip(D,M):
     if d['id']!=m['device_id']:errors.append('Matrix/device mismatch')
     if [s['topic'] for s in d['sections']]!=topics:errors.append(f'Five required topics missing: {d["id"]}')
     if len(' '.join(d['description']).split())<150:errors.append(f'Device explanation too short: {d["id"]}')
-    expected=f'| [{d["name"]}]({m["report"]}) | '+' | '.join(s['access'] for s in d['sections'])+' |'
-    if expected not in readme:errors.append(f'Comparison out of sync: {d["id"]}')
+    # Historical access labels remain in the archived matrix; the current README
+    # links to explicit requirement matches instead of repeating broad grades.
+    if f'[Open](research/{d["id"]}.md)' not in readme:errors.append(f'Current checklist missing from README: {d["id"]}')
     text=(ROOT/m['report']).read_text(encoding='utf-8')
     if text.count('## Layer 1: Original research')!=1 or text.count('## Layer 2: Additional research (20 October 2026)')!=1:errors.append(f'Missing research layers: {d["id"]}')
     layer2=text.split('## Layer 2: Additional research (20 October 2026)',1)[-1]

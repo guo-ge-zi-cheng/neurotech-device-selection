@@ -326,3 +326,6 @@ write('docs/example-source-audit.md',audit_text)
 # The full drafts are authored separately from the preserved research layers.
 import runpy
 runpy.run_path(str(ROOT/'tools/build_full_reports.py'))
+
+# The current entry point is the requirement-to-source checklist. Older layers stay intact.
+runpy.run_path(str(ROOT/'tools/build_evidence_checklists.py'))
