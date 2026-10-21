@@ -19,6 +19,8 @@ This repository compares seven devices by **how easy it is to find useful inform
 
 **Source collection:** [Information resource directory](docs/information-resources.md), including databases and worked examples from our studies.
 
+For university subscriptions and support, see the [Imperial resource guide](docs/imperial-resources.md).
+
 **New:** [Seven full case-study drafts](reports/README.md) turn that research into narratives. The [comparative review](reports/comparative-review.md) assesses their strengths, missing evidence and actual writing difficulties. Existing research layers are retained.
 
 ## TL;DR
