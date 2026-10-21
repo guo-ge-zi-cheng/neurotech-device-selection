@@ -1,0 +1,1589 @@
+{
+  "updated": "2026-10-21",
+  "purpose": "Plain-language explanations of existing requirement-to-source evidence; no new source retrieval or evidence grade.",
+  "basis_sha256": "78c63956f4e67b64f927b65021e680b0fb20e0c6d0dc79fe1830f1c675b76a6d",
+  "source_catalog_sha256": "fe6a00bd434b97282a4c1877aae265f79f746139af5ed67ca4f90f5460958b11",
+  "requirements": [
+    {
+      "id": "N1",
+      "question": "Who could actually receive this device?",
+      "need": "Explain the condition and the specific patients or procedures the device is intended for. Then give the number who meet those criteria in a named country and year. Explain why a count of everyone with the disease would include people who cannot receive this device.",
+      "next_step": "Find a population study or service record that applies the device's actual eligibility criteria, and record the country, year and exclusions."
+    },
+    {
+      "id": "N2",
+      "question": "Where would the device enter existing care?",
+      "need": "Describe what happens to a patient before, during and after the relevant treatment or investigation. Identify the decision the device changes, the usual alternative and the staff or equipment needed at that point.",
+      "next_step": "Find a guideline or actual service description that traces the relevant patient pathway and the decision where this device would enter."
+    },
+    {
+      "id": "N3",
+      "question": "What specifically goes wrong with existing care?",
+      "need": "Show a measured problem with the care available before the device: for example, continuing symptoms, missed diagnoses, waiting time or patients unable to access treatment. Explain how often it happens. A later trial of the new device does not by itself measure the original care shortfall.",
+      "next_step": "Find a study of the existing pathway that measures the failure or access problem, preferably from the period when development began."
+    },
+    {
+      "id": "N4",
+      "question": "What are the consequences of that problem?",
+      "need": "Explain how the care shortfall affects patients and services. Connect it to outcomes, staff time, hospital use or costs, and identify which groups carry that burden. A large disease-cost figure needs a reasoned connection to the patients and problem this device addresses.",
+      "next_step": "Find measured patient consequences and resource use for the relevant subgroup, then identify the price year and setting of any cost estimate."
+    },
+    {
+      "id": "N5",
+      "question": "What benefit has this particular device demonstrated?",
+      "need": "Explain how the device could change the identified problem and what has actually been measured. Distinguish a technical result, a change in a clinical decision and an improvement patients experience. State the study population, comparison and follow-up so the reader can see how far the finding reaches.",
+      "next_step": "Read the original device study for its comparator, measured endpoints, follow-up, adverse events and limitations; look for the missing patient outcome rather than another mechanism description."
+    },
+    {
+      "id": "N6",
+      "question": "What other options could meet the same need?",
+      "need": "Compare options available to the same patients at the same point in care. Explain their different benefits, risks and practical demands. A product used as a regulatory comparison is not automatically the most appropriate clinical alternative.",
+      "next_step": "Find alternatives for the same patient group and compare their eligibility, outcomes, risks and service requirements."
+    },
+    {
+      "id": "I1",
+      "question": "Who made the original invention, and where?",
+      "need": "Identify the inventors of the technology that became the selected device, their employers when the invention arose and the earliest relevant publication or patent priority. A current university biography is not evidence of where an inventor worked at that earlier date.",
+      "next_step": "Trace the original inventors and predecessor organisations using patent priority records and contemporaneous employment or university records."
+    },
+    {
+      "id": "I2",
+      "question": "How did the company obtain the right to use it?",
+      "need": "Explain who originally owned the invention and how rights reached the developer through assignment, acquisition or licence. Identify the records supporting each step. A shared founder, research collaboration or patent applicant does not establish every transfer or licence term.",
+      "next_step": "Retrieve the actual assignment or licence record and follow the original owner's rights into the developer, leaving unavailable contractual terms explicit."
+    },
+    {
+      "id": "I3",
+      "question": "Which patent claims correspond to the device's features?",
+      "need": "Explain each relevant independent claim in ordinary language, then compare its required features with documented features of the selected product. An independent claim sets out a combination of features without relying on another claim. Identify any feature that cannot yet be matched.",
+      "next_step": "Compare the exact publication's independent claims with technical drawings or instructions for the selected product version, one required feature at a time."
+    },
+    {
+      "id": "I4",
+      "question": "Where and when does that protection apply?",
+      "need": "Identify the relevant patent family, priority date and countries, and check the dated status of the particular application or granted patent. An application, an expired patent and a live grant answer different questions. Later amendments may change the claims.",
+      "next_step": "Check the correct family and national patent registers for dated status, granted text and amendments rather than relying only on an aggregator's summary."
+    },
+    {
+      "id": "I5",
+      "question": "What else can the company protect or control?",
+      "need": "Look for documented software rights, designs, trademarks, confidential know-how or data rights that matter to the device. Explain what the company controls and why it could matter commercially. Owning a factory does not by itself establish that a particular process is legally protected.",
+      "next_step": "Look for an explicit company or contractual description of the relevant software, know-how, design or data rights and who controls them."
+    },
+    {
+      "id": "I6",
+      "question": "What could limit that control or allow competition?",
+      "need": "Identify relevant third-party rights, licences on which the developer depends and possible competing designs. Explain what the available records let us say about competition. Our search does not establish a legal right to commercialise every feature or prove freedom from infringement.",
+      "next_step": "Investigate specific overlapping claims and licence dependencies; use technical alternatives to frame the unresolved question rather than declaring legal clearance."
+    },
+    {
+      "id": "F1",
+      "question": "Was early research supported by grants?",
+      "need": "For each relevant grant, establish who received it, the award identifier, dates, amount and purpose. Explain whether it supported a precursor laboratory, the company or this product. An acknowledgement in a paper can identify a lead without revealing the money attributable to the device.",
+      "next_step": "Trace the acknowledgement to an authoritative award record and check its recipient, period, amount, purpose and relationship to this device."
+    },
+    {
+      "id": "F2",
+      "question": "What money did investors actually provide?",
+      "need": "Reconstruct the relevant early investment: who invested, when it closed, the currency, amount, type of security and any disclosed valuation. Separate money offered from money sold or received, and distinguish a company fundraising total from money allocated to this product.",
+      "next_step": "Recover the original transaction or filing and check the closing, investors, instrument, proceeds and valuation basis; keep undisclosed fields separate."
+    },
+    {
+      "id": "F3",
+      "question": "What other resources helped development?",
+      "need": "Investigate founder contributions, loans, convertible instruments, partner support, incubator facilities and in-kind resources. Explain what was actually provided and under what arrangement. Do not count an acquisition the company paid for as investment received by the company.",
+      "next_step": "Look for the relevant founder, debt, partner or acquisition record and distinguish cash received, cash spent and non-cash support."
+    },
+    {
+      "id": "F4",
+      "question": "What development work was the money intended to fund?",
+      "need": "Connect the funding to the next prototype, test, trial, manufacturing step or market-entry milestone. State whether the source reports an intention, an allocated budget or actual expenditure. A round announcement alone does not show how the company divided its money.",
+      "next_step": "Find the stated use of proceeds or project allocation and connect it to a named development milestone without treating the announcement as an invoice."
+    },
+    {
+      "id": "F5",
+      "question": "What was delivered after the funding?",
+      "need": "Place funding events and documented development outputs on the same timeline. Identify evidence of a prototype, study, regulatory decision or first sale. Timing can show that funding preceded an outcome, but additional evidence is needed to claim the funding paid for that outcome.",
+      "next_step": "Find a dated output and a source linking the relevant resources to that work; distinguish the documented sequence from a causal funding claim."
+    },
+    {
+      "id": "F6",
+      "question": "What would early development have cost if the budget is private?",
+      "need": "Build a reasoned estimate using both approaches allowed by the specification. Add up sourced staffing, engineering, testing, trial and manufacturing costs from the bottom up, and compare with similar programmes from the top down. State assumptions and ranges. This estimates capital needed; it does not reconstruct undisclosed fundraising.",
+      "next_step": "Source staff time, prototype, testing, trial and production inputs, then cross-check the range against genuinely comparable development programmes."
+    },
+    {
+      "id": "R1",
+      "question": "Exactly which product and use are being regulated?",
+      "need": "Define the hardware, software and accessories, the intended patients, user and care setting. Identify the original version being studied and separate later changes. This prevents evidence about a component or research system being applied to a different complete product.",
+      "next_step": "Retrieve the selected version's instructions and decision documents, then list the exact configuration, users, setting and intended use."
+    },
+    {
+      "id": "R2",
+      "question": "Why did it follow this regulatory route?",
+      "need": "For each market discussed, explain the device classification and the applicable rule or product code, then connect the route to the device's function and risks. Evidence of a US route does not establish UK or EU authorisation.",
+      "next_step": "Use the exact market's regulator or conformity records to establish the classification and route, explaining their connection to the device's function."
+    },
+    {
+      "id": "R3",
+      "question": "What actual decision allowed market entry?",
+      "need": "Give the decision identifier, date, type and authorised scope from the original record. Distinguish clearance, approval, registration and a manufacturer's market announcement. Check later changes separately if the report makes claims about the present product.",
+      "next_step": "Follow the original decision to any relevant supplements or later clearances, keeping each version and indication separate."
+    },
+    {
+      "id": "R4",
+      "question": "What tests and standards supported that decision?",
+      "need": "Connect the device's specific risks to the tests or standards reported in its regulatory record. Identify the edition where available and what the test showed. A general standard explains an expectation; it does not prove the manufacturer performed or passed that test.",
+      "next_step": "Read the device's test summary and the exact historical standard where accessible; record the reported test result and which supporting details remain private."
+    },
+    {
+      "id": "R5",
+      "question": "Who made the device and took responsibility for quality?",
+      "need": "Identify the legal manufacturer, important contract manufacturers or suppliers, production sites and who controlled assembly, testing and release. Distinguish a documented relationship from a supplier that merely has relevant capabilities. State the date of the manufacturing account.",
+      "next_step": "Trace the actual supplier or manufacturing agreement and responsibility split, then verify which sites and arrangements apply to the selected period."
+    },
+    {
+      "id": "R6",
+      "question": "What obligations and problems continued after launch?",
+      "need": "Explain the relevant quality and surveillance duties and investigate product-specific recalls or reported incidents. State the database, model, terms and date searched. A general quality rule does not establish company compliance, and a missing search result does not establish that no problem occurred.",
+      "next_step": "Run and document the exact-model recall and incident searches, and distinguish reported events, proven causes and general quality obligations."
+    },
+    {
+      "id": "P1",
+      "question": "Who buys what, and at what price?",
+      "need": "Describe the actual sale, lease, subscription or consumable arrangement, including the configuration, date and price. Separate the manufacturer's selling price from a hospital charge, a service payment or a modelled treatment cost.",
+      "next_step": "Find a dated quotation, tender or contract for the selected configuration and clarify what equipment, service and consumables the amount includes."
+    },
+    {
+      "id": "P2",
+      "question": "Who pays for the patient's care?",
+      "need": "Identify whether the relevant care is funded by a commissioner, insurer, hospital, patient, research grant or charity. Connect that source to a real setting. The perspective chosen by an economic model does not prove that the named payer actually funds the device.",
+      "next_step": "Find the actual commissioning, insurance or service-funding arrangement and identify the patient episode and budget it covers."
+    },
+    {
+      "id": "P3",
+      "question": "Under what rules and amounts is care paid for?",
+      "need": "For a named payer, place, setting and year, separate billing codes, clinical coverage conditions and payment amounts. A code permits classification; it does not on its own promise coverage or a particular payment. Temporary support needs its own dates and conditions.",
+      "next_step": "Retrieve the applicable payer policy, code rules and fee or contract amount, checking dates, setting and patient conditions separately."
+    },
+    {
+      "id": "P4",
+      "question": "What extra costs and savings can be supported?",
+      "need": "Compare the device pathway with the relevant alternative. Include equipment, implementation, staff, maintenance and downstream events, and state the perspective and time horizon. Explain which amounts are observed and which are model inputs; do not turn a hypothetical saving into a realised one.",
+      "next_step": "Retrieve the full economic methods and current local inputs, keeping purchase price, care cost and payment as separate quantities."
+    },
+    {
+      "id": "P5",
+      "question": "What clinical evidence supports the economic assumptions?",
+      "need": "Trace each proposed saving or health gain to evidence about an outcome or event frequency. Explain how a change in a measured endpoint leads to fewer admissions, less care or better quality of life. Faster setup or better signals do not automatically establish those later effects.",
+      "next_step": "Find measured patient outcomes and resource events for the device, then check whether the economic calculation extrapolates beyond those measurements."
+    },
+    {
+      "id": "P6",
+      "question": "Who has a practical reason to adopt it?",
+      "need": "Identify who controls the budget, who pays the extra costs and who benefits, over what time period. Include staffing, capacity and throughput. A treatment can look worthwhile to the whole health system while leaving the hospital that implements it with an immediate cost.",
+      "next_step": "Investigate the actual service budget, staff time, throughput and allocation of benefits with procurement records or appropriately scoped service enquiries."
+    },
+    {
+      "id": "P7",
+      "question": "How do the stakeholders and flows fit together?",
+      "need": "Map the verified product, care, information, money and authority flows, and explain the participants' goals or tensions. Distinguish documented relationships from proposed ones. Use the lecture's required map format once it is available rather than assuming our existing diagram matches it.",
+      "next_step": "Retrieve the actual lecture instructions and verify the case's purchasing and care relationships before treating an analytical diagram as the required final map."
+    }
+  ],
+  "devices": [
+    {
+      "device_id": "precision",
+      "summary": "Precision’s Layer 7-T is a flexible electrode placed on the brain surface for temporary recording, monitoring or stimulation during neurosurgical care. The evidence reviewed concerns this temporary component, not a permanent home-use brain–computer interface. Its FDA record and small acute study explain the product and early feasibility; they leave its effect on patient outcomes and hospital costs unresolved.",
+      "overview": {
+        "N": "The FDA indication tells us to investigate temporary cortical procedures. The five-patient study supports acute recording feasibility. We still need to measure the failure of existing mapping, count eligible procedures and establish whether the new information improves patient outcomes.",
+        "I": "The selected application identifies inventors and four independent claims, covering the array, insertion, fabrication and a wider decoding use. We can explain those features, but have not established every inventor’s original employer, the full rights chain or a complete match to the marketed component.",
+        "F": "Announcements report $12 million and $41 million company rounds, followed by a foundry acquisition. These give a financing timeline. They do not disclose the valuation, money allocated to Layer 7-T or a defensible estimate of the capital required to develop it.",
+        "R": "K242618 gives a specific US clearance and describes the temporary electrode and supporting tests. We still need the complete manufacturing responsibility split, later label changes and a dated product-specific surveillance search. The US record cannot establish a UK or EU authorisation.",
+        "P": "No verified purchase price, actual payer arrangement or exact-component economic evaluation was found. General service-payment rules explain possible mechanisms but do not establish this electrode’s payment. A real hospital contract and evidence linking device use to resource or outcome changes are needed."
+      },
+      "points": [
+        {
+          "requirement_id": "N1",
+          "found": "The FDA record describes Layer 7-T as a temporary cortical electrode used for less than 30 days. It does not describe permanent assistive use by everyone with paralysis.",
+          "use": "This lets us define the relevant population as people undergoing procedures that need temporary cortical recording or stimulation. A paralysis prevalence figure would count many people outside this product's use.",
+          "missing": "We do not yet have the annual number of eligible procedures in a specified country, or the proportion of those procedures in which this array could be used."
+        },
+        {
+          "requirement_id": "N2",
+          "found": "The electrode array is used with external recording, monitoring or stimulation equipment during neurosurgical care.",
+          "use": "We can explain where the component connects to a surgical workflow. The record does not reconstruct the whole patient pathway or show which clinical decision changes when it is used.",
+          "missing": "We need a description of the usual mapping procedure, who performs it, the equipment it replaces or supplements, and the decision at which its extra information matters."
+        },
+        {
+          "requirement_id": "N3",
+          "found": "The reviewed five-patient pilot shows acute cortical recording with the array. It does not report the rate of failures in the older mapping pathway.",
+          "use": "The pilot is evidence that the new component can record signals in these cases. It cannot establish how often existing mapping was inadequate or how much of that problem the component could solve.",
+          "missing": "We still need measured rates of inadequate mapping, localisation errors or delays, together with the consequences of those failures for the relevant procedures."
+        },
+        {
+          "requirement_id": "N4",
+          "found": "No verified study in the reviewed evidence measures the baseline patient harm or care costs attributable to the mapping problem addressed by Layer 7-T.",
+          "use": "We cannot quantify the unmet need in money or patient harm from the component's signal quality alone. The section can identify this as an unanswered part of the case.",
+          "missing": "We need evidence connecting inadequate mapping to outcomes, operating-theatre time or other resource use, with costs for a named setting and year."
+        },
+        {
+          "requirement_id": "N5",
+          "found": "The acute study involved five patients: two under anaesthesia and three undergoing awake mapping. It reports placement and recording feasibility.",
+          "use": "We can describe an early human demonstration and its setting. Five acute cases, with company interests involved, do not establish comparative patient benefit, reliable complication rates or long-term outcomes.",
+          "missing": "We need a comparison showing whether the array changes clinical decisions and improves patient outcomes, with enough patients and follow-up to assess harms as well as benefit."
+        },
+        {
+          "requirement_id": "N6",
+          "found": "The FDA record identifies a cortical-electrode predicate used in the substantial-equivalence comparison.",
+          "use": "This gives us a specific earlier product to investigate. A regulatory comparison does not establish that it is the best clinical alternative or that the new array improves outcomes over conventional grids and strips.",
+          "missing": "We need a clinical and workflow comparison with the relevant conventional electrodes, including mapping performance, practical limitations and patient consequences."
+        },
+        {
+          "requirement_id": "I1",
+          "found": "The selected application, US20230210427A1, names Rapoport, Papageorgiou, Hettick, Poole and Ho and records a 31 December 2021 priority date.",
+          "use": "We can identify the people and timing associated with this candidate invention. We cannot yet treat the application as a complete account of the first marketed component's origin.",
+          "missing": "We need evidence of each inventor's employer when the invention arose and confirmation that this is the appropriate original-device family."
+        },
+        {
+          "requirement_id": "I2",
+          "found": "The application's bibliographic and assignment information identifies Precision as an ownership lead.",
+          "use": "This supports investigating company control of the invention. It does not establish every original assignment or prove that a university licence was required or obtained.",
+          "missing": "We need the official transfer history and any relevant employment, invention-assignment or licence records linking the original rights to the developer."
+        },
+        {
+          "requirement_id": "I3",
+          "found": "Independent claims 1 and 5 concern the array and insertion; claim 13 concerns fabrication; claim 17 extends to decoding and control of another device.",
+          "use": "We can explain that these claims address different technical combinations. Claim 17's wider brain-interface use must not be presented as proof that the temporary component is authorised or configured for that complete use.",
+          "missing": "We need to match every required claim feature to documented Layer 7-T features and identify which claimed features belong to a wider system rather than the marketed component."
+        },
+        {
+          "requirement_id": "I4",
+          "found": "The reviewed document is a published US application with a 2021 priority date.",
+          "use": "This establishes the type and date of the text we read. It does not establish that these exact claims were granted, remain enforceable or apply in other countries.",
+          "missing": "We need dated official status, any granted or amended claims, and the national members of the relevant patent family."
+        },
+        {
+          "requirement_id": "I5",
+          "found": "The foundry acquisition documents fabrication capability under Precision's control. It does not identify a specific protected manufacturing secret.",
+          "use": "We can discuss control of an engineering resource. Calling that resource proprietary know-how requires evidence about the process, rights or confidentiality arrangements.",
+          "missing": "We need documented software, design, process or know-how protection and an explanation of who controls those rights."
+        },
+        {
+          "requirement_id": "I6",
+          "found": "The selected application is technically relevant, but the reviewed material does not assess overlapping third-party rights.",
+          "use": "We can explain the company's candidate protection without claiming it is free to use every feature. The existence of its own application does not answer the separate infringement question.",
+          "missing": "We need relevant competitor claims, possible alternative designs and any licences on which commercialisation depends."
+        },
+        {
+          "requirement_id": "F1",
+          "found": "No attributable precursor or early company grant was verified in the reviewed material.",
+          "use": "The financing section must leave this source of support unknown. Academic connections alone cannot be converted into a grant amount.",
+          "missing": "We need an authoritative award record giving the recipient, identifier, period, amount and purpose, with a clear relationship to the technology that became Layer 7-T."
+        },
+        {
+          "requirement_id": "F2",
+          "found": "Company announcements report a $12 million Series A in May 2021 and a $41 million Series B in January 2023.",
+          "use": "We can report the company's disclosed round amounts and timing. Those announcements do not show the whole transaction history or how much money was assigned to the temporary electrode.",
+          "missing": "We still need closing terms, disclosed valuations and the share of proceeds allocated to this product rather than other company activities."
+        },
+        {
+          "requirement_id": "F3",
+          "found": "Precision announced the acquisition of a MEMS foundry in October 2023; a verified purchase price was not available in this evidence.",
+          "use": "The acquisition helps explain how the company obtained production capability. It is a resource bought by the company, not automatically additional investment received by it.",
+          "missing": "We need the acquisition consideration and evidence of founder contributions, debt or in-kind support if those resources are to appear in the development account."
+        },
+        {
+          "requirement_id": "F4",
+          "found": "The Series B announcement describes development and manufacturing scale-up aims.",
+          "use": "We can state what the company intended the round to support. That intention is different from an allocated Layer 7-T budget or evidence of expenditure.",
+          "missing": "We need an attributable budget or spending account that connects money to the component's engineering, testing, clinical work and production milestones."
+        },
+        {
+          "requirement_id": "F5",
+          "found": "The disclosed rounds precede the 2023 foundry acquisition and the 30 March 2025 clearance.",
+          "use": "We can build a chronological development story. The order of events alone cannot show that a particular round paid for a particular completed milestone.",
+          "missing": "We need a statement or record linking identified proceeds to the actual manufacturing, testing or regulatory work delivered."
+        },
+        {
+          "requirement_id": "F6",
+          "found": "The reviewed work has not produced a sourced numerical estimate of the capital required for early development.",
+          "use": "The known company round totals do not answer what this component cost to develop. We can explain the estimation task but cannot present an unsupported budget.",
+          "missing": "We need staffing and duration assumptions, prototype and test costs, clinical-work costs and suitable comparison programmes before calculating bottom-up and top-down ranges."
+        },
+        {
+          "requirement_id": "R1",
+          "found": "The original FDA record concerns a temporary cortical electrode used with appropriate external equipment.",
+          "use": "This lets the report define the regulated component. It prevents the wider permanent brain-interface ambition from being substituted for the cleared product.",
+          "missing": "We need a complete account of the relevant accessories and users, and separate records for any later changes to the product or intended use."
+        },
+        {
+          "requirement_id": "R2",
+          "found": "The original US route is Class II under 21 CFR 882.1310, product code GYC, using a 510(k) substantial-equivalence decision.",
+          "use": "We can connect the temporary cortical-electrode function to a specific US route. That decision has no automatic evidential force for UK or EU market entry.",
+          "missing": "If the report discusses those markets, we need their own primary device and conformity records and the scope they cover."
+        },
+        {
+          "requirement_id": "R3",
+          "found": "K242618 records the US clearance dated 30 March 2025.",
+          "use": "This provides a traceable original market-entry milestone, with a particular device scope. It does not establish that every later change has the same label.",
+          "missing": "We need any subsequent relevant decisions or modifications before describing the present configuration as though the original record covers it all."
+        },
+        {
+          "requirement_id": "R4",
+          "found": "The summary reports biological-contact, electrical, mechanical, packaging and sterilisation testing, with ISO 10993 and ISO 11135 among the relevant references.",
+          "use": "We can explain why tissue contact, electrical function and sterility required evidence. The public summary is not the full test dossier and does not provide every result or edition.",
+          "missing": "We need the precise historical editions, reported acceptance and result details where public, and the supporting evidence for the selected later configuration if it differs."
+        },
+        {
+          "requirement_id": "R5",
+          "found": "The acquisition announcement places MEMS fabrication capability in a Dallas-area foundry under Precision BioMEMS.",
+          "use": "We can identify a documented manufacturing resource at that date. It does not tell us who performed every final assembly, quality check or release operation for Layer 7-T.",
+          "missing": "We need the split between in-house and outsourced work, critical suppliers and the organisation responsible for final testing and release."
+        },
+        {
+          "requirement_id": "R6",
+          "found": "The QMSR source describes general US quality-system requirements. It is not a product-specific account of Precision's performance.",
+          "use": "We can use the rule to explain obligations, but cannot infer that the company complied with every duty or that the device had no incidents.",
+          "missing": "We need a dated search of the relevant model's recall and incident records and evidence of its actual quality and surveillance responsibilities."
+        },
+        {
+          "requirement_id": "P1",
+          "found": "No verified Layer 7-T selling price or purchasing contract was obtained.",
+          "use": "A hospital purchase is a possible business arrangement, not an observed transaction in this evidence. We cannot calculate acquisition cost from the clinical study.",
+          "missing": "We need a dated quotation or contract specifying the electrode configuration, consumables, included service and commercial terms."
+        },
+        {
+          "requirement_id": "P2",
+          "found": "The CMS material explains general service-payment systems; it does not name the purchaser or funding budget for a Layer 7-T episode.",
+          "use": "We can explain how hospitals may fund equipment within care, but cannot identify an actual payer for this component from those general rules.",
+          "missing": "We need a real clinical setting and evidence identifying which organisation or budget funds the electrode and the associated care."
+        },
+        {
+          "requirement_id": "P3",
+          "found": "The reviewed general rules allow some outpatient items to be included within a broader service payment.",
+          "use": "This establishes a payment mechanism worth investigating. It does not establish that Layer 7-T qualifies for it, which procedure is billed or how much is paid.",
+          "missing": "We need the applicable procedure, payer policy, coding conditions and payment amount for a defined place, setting and year."
+        },
+        {
+          "requirement_id": "P4",
+          "found": "No verified economic evaluation of the exact temporary component was found.",
+          "use": "Better recording resolution is a technical proposition. Its financial value cannot be calculated without evidence about what changes in care and what the changes cost.",
+          "missing": "We need incremental electrode and integration costs, staff and theatre effects, training requirements and any downstream patient or resource consequences."
+        },
+        {
+          "requirement_id": "P5",
+          "found": "The five-patient study demonstrates acute use and recording, rather than a comparative change in patient outcomes or resource events.",
+          "use": "It cannot supply an observed reduction in complications, admissions or other costly events. Any savings calculation based on such changes would need additional evidence.",
+          "missing": "We need measured effects on clinical decisions, complications, patient outcomes and the frequency of resource-consuming events."
+        },
+        {
+          "requirement_id": "P6",
+          "found": "The existing draft considers hospital acquisition and integration costs alongside a proposed benefit from better information. It is an analytical proposition, not a measured hospital budget study.",
+          "use": "This identifies the adoption question: the organisation paying for the component may need evidence of a benefit it can actually capture.",
+          "missing": "We need the actual budget holder, staff and capacity effects, and an account of which patient or organisation receives each benefit."
+        },
+        {
+          "requirement_id": "P7",
+          "found": "The draft diagram connects Precision, the hospital, clinicians, patients, the regulator and a possible payer.",
+          "use": "The diagram can organise known roles and hypotheses. It does not establish contractual money flows or compliance with the lecture's required format.",
+          "missing": "We need verified purchasing and decision-making relationships and the actual lecture instructions before treating the map as a completed requirement."
+        }
+      ]
+    },
+    {
+      "device_id": "rns",
+      "summary": "NeuroPace’s RNS System uses implanted electrodes and a cranial stimulator to record brain activity and respond to detected seizure patterns with stimulation. It is studied here for selected adults with drug-resistant focal epilepsy. Trials, a prospectus, the original FDA approval and an economic model provide a connected account, while original funding allocations, current purchase prices and UK service arrangements remain incomplete.",
+      "overview": {
+        "N": "The controlled trial and nine-year follow-up let us describe measured seizure effects and distinguish short-term comparison from open-label durability. They do not count all eligible patients or quantify the original failure of care. Local pathway costs, patient selection and comparable alternatives remain necessary.",
+        "I": "The foundational patent and prospectus provide invention and protection history. The two independent claims have been read, but the remote sensor or actuator in claim 46 is not fully mapped to the product. Original assignments, inventor employment and the later live portfolio remain unresolved.",
+        "F": "A 2011 filing reports $49,126,004 sold in an offering before approval. That is useful transaction evidence, but not a complete account of cash received or original development finance. Earlier rounds, valuations, grants and the link between proceeds and particular development work still need records.",
+        "R": "P100026 establishes original US approval in 2013. The FDA material, manufacturing disclosure and model-specific MRI instructions support a development account. Later models and indications, current suppliers, complete test details and a dated postmarket search remain separate work.",
+        "P": "An insurer policy supplies coverage conditions, and the full economic paper exposes a historical nine-year model. The model’s $41,173 implantation input is not a device quote. Current prices, actual payment amounts, UK costs and the hospital’s staffing and budget position remain unverified."
+      },
+      "points": [
+        {
+          "requirement_id": "N1",
+          "found": "The original FDA population is adults with drug-resistant focal seizures arising from no more than two foci. A separate estimate counts 2.865 million US adults with active epilepsy in 2021.",
+          "use": "The FDA criteria define the relevant subgroup; the population statistic gives wider context. The wider number cannot be presented as the number eligible for RNS.",
+          "missing": "We need a country- and year-specific count of people satisfying all the treatment criteria, including the required seizure pattern and treatment history."
+        },
+        {
+          "requirement_id": "N2",
+          "found": "The FDA clinical account places implantation after seizure localisation and includes subsequent programming and monitoring.",
+          "use": "We can explain RNS as an ongoing epilepsy-care pathway rather than a one-off purchase or operation. It does not specify the staffing or referral arrangement of a London service.",
+          "missing": "We need local referral, selection, implantation and follow-up arrangements, including the staff and capacity needed at each stage."
+        },
+        {
+          "requirement_id": "N3",
+          "found": "The 191-person pivotal trial reports seizure reductions of 37.9% with treatment and 17.3% with the control during the blinded period.",
+          "use": "This is evidence about a later treatment effect. It does not measure how many patients were failed by existing care when RNS development began.",
+          "missing": "We need historical failure or access rates for the relevant focal-epilepsy group and evidence explaining why some patients could not use existing surgical options."
+        },
+        {
+          "requirement_id": "N4",
+          "found": "The full economic paper includes initial implantation and continuing care, with $41,173 as a modelled implantation input.",
+          "use": "It shows which resource categories matter to the treatment pathway. Historical US fee inputs are not observed UK patient burden or a before-and-after cost study.",
+          "missing": "We need measured care use, patient consequences and costs for the eligible UK subgroup, with the source year and service setting stated."
+        },
+        {
+          "requirement_id": "N5",
+          "found": "The nine-year follow-up reports a 75% median seizure reduction. The earlier blinded trial supplies a separate controlled comparison.",
+          "use": "We can describe both a controlled short-term effect and longer observed follow-up. The open-label follow-up cannot by itself attribute every later change to stimulation or establish superiority to all alternatives.",
+          "missing": "We need relevant comparative quality-of-life and harm evidence and outcomes that match the local patient group and treatment decision."
+        },
+        {
+          "requirement_id": "N6",
+          "found": "The economic analysis compares RNS plus medication with medication alone.",
+          "use": "This gives the report one clearly defined comparator. It is not a head-to-head comparison with resection, vagus-nerve stimulation or deep-brain stimulation in equally eligible patients.",
+          "missing": "We need to compare the alternatives available to the same patients and explain differences in eligibility, benefit, risk and follow-up requirements."
+        },
+        {
+          "requirement_id": "I1",
+          "found": "US6016449A names Robert and David Fischell and Adrian Upton and records a 1997 filing.",
+          "use": "This is a specific starting point for the invention history. Founder biographies or later affiliations do not establish each person's employer when that invention arose.",
+          "missing": "We need contemporaneous employment and original assignment evidence to connect the named inventors, originating organisations and earliest relevant invention."
+        },
+        {
+          "requirement_id": "I2",
+          "found": "The patent identifies the original inventors, while the 2021 prospectus describes invention-assignment and confidentiality agreements. The reviewed record does not establish the complete original transfer history.",
+          "use": "We can distinguish named inventors from the company's disclosed protection arrangements. Neither establishes every original transfer or a university licence; a founder's institutional connection cannot fill that gap.",
+          "missing": "We need the official original assignments, any relevant licence documents and the chain by which the developer obtained the rights used for the product."
+        },
+        {
+          "requirement_id": "I3",
+          "found": "Independent claim 1 concerns responsive intracranial stimulation and programming. Claim 46 includes an additional remote sensor or actuator.",
+          "use": "We can explain the two claimed technical combinations. We cannot assume the commercial system contains every extra feature required by claim 46.",
+          "missing": "We need an element-by-element comparison with the selected RNS configuration, especially documentation of the remote feature required by claim 46."
+        },
+        {
+          "requirement_id": "I4",
+          "found": "The aggregator's metadata indicates that the foundational patent has reached lifetime expiry.",
+          "use": "This makes it useful for historical origin, rather than sufficient evidence of a current exclusion right. Later patents may matter, but have not been fully mapped here.",
+          "missing": "We need official dated status and the relevant later families and jurisdictions before describing the present protection around the selected product."
+        },
+        {
+          "requirement_id": "I5",
+          "found": "The 2021 prospectus describes trade secrets, confidentiality provisions and invention-assignment agreements.",
+          "use": "This supports a statement that protection is not limited to the old patent. It does not reveal the confidential technical content or establish which specific assets matter to today's version.",
+          "missing": "We need the documented connection between particular software, data or know-how assets and the selected product, within what the company publicly discloses."
+        },
+        {
+          "requirement_id": "I6",
+          "found": "The historical patent's expiry and the incomplete later claim map leave current competitive control unresolved.",
+          "use": "A portfolio count cannot show whether a competitor can implement a similar system or whether NeuroPace depends on another party's rights.",
+          "missing": "We need specific competing claims, technical alternatives and relevant licence dependencies before making a bounded statement about competitive protection."
+        },
+        {
+          "requirement_id": "F1",
+          "found": "No authoritative earliest grant record was accepted in the reviewed research.",
+          "use": "The report cannot assign an amount of precompany research support from the existence of academic or founder connections.",
+          "missing": "We need the original award recipient, identifier, period, amount and purpose, with evidence connecting the award to the relevant early work."
+        },
+        {
+          "requirement_id": "F2",
+          "found": "The 2011 Form D records a first sale on 16 August and $49,126,004 sold from an offering of $61,914,481.",
+          "use": "This establishes an actual preapproval offering notice. The amount sold is different from the amount offered and is not automatically a verified all-cash round or product budget.",
+          "missing": "We need earlier rounds, investor-level terms, the form of proceeds and any disclosed valuation to reconstruct original development finance."
+        },
+        {
+          "requirement_id": "F3",
+          "found": "The offering includes equity and options-related securities.",
+          "use": "This gives some information about the financing instrument. It does not establish the full contribution from founders, loans, convertible instruments or non-cash support.",
+          "missing": "We need records of those other resources and the terms under which the company obtained or used them."
+        },
+        {
+          "requirement_id": "F4",
+          "found": "The offering notice records securities sold without allocating the proceeds to device-development tasks.",
+          "use": "It supports the fact of a transaction, but cannot show how much went to trials, engineering or production. A funding total cannot be relabelled as a trial cost.",
+          "missing": "We need a stated use of proceeds or an attributable project spending account for the preapproval period."
+        },
+        {
+          "requirement_id": "F5",
+          "found": "The public record places incorporation in 1997, the offering in 2011 and original FDA approval on 14 November 2013.",
+          "use": "This provides a dated sequence of company formation, financing and market entry. It does not identify which resources paid for each development output.",
+          "missing": "We need evidence linking particular funding or resources to prototypes, clinical work and the work required for approval."
+        },
+        {
+          "requirement_id": "F6",
+          "found": "No justified numerical range for required early-development capital has been completed.",
+          "use": "The offering amount is not a substitute for estimating the resources needed to build, verify and clinically evaluate an implantable system.",
+          "missing": "We need staffing and engineering inputs, verification and production costs, trial and follow-up costs, and comparable programmes to construct both estimation approaches."
+        },
+        {
+          "requirement_id": "R1",
+          "found": "The original system combines intracranial leads, a cranial neurostimulator and external programming and data equipment for selected adult patients.",
+          "use": "This defines a complete regulated system and use population. It does not cover every later model, accessory or indication without additional records.",
+          "missing": "We need a complete version history for the configurations and indications the report intends to discuss."
+        },
+        {
+          "requirement_id": "R2",
+          "found": "The implanted responsive stimulation system followed the US Class III premarket-approval route.",
+          "use": "We can explain the original route in relation to an implanted therapeutic system. US approval does not establish authorisation or availability in a different market.",
+          "missing": "We need the relevant primary UK or EU records if those markets form part of the report's claims."
+        },
+        {
+          "requirement_id": "R3",
+          "found": "The primary decision is P100026, approved on 14 November 2013.",
+          "use": "This gives a traceable original US market-entry event. Later supplements may change the configuration or indication and must be read separately.",
+          "missing": "We need the relevant later supplements and current label before claiming that the original decision describes the present system completely."
+        },
+        {
+          "requirement_id": "R4",
+          "found": "The original review discusses implanted-system, biological and sterilisation testing. The MRI manual distinguishes the MRI-conditional RNS-320 from the MRI-unsafe RNS-300M.",
+          "use": "We can show why device version matters to safety. The MRI permission cannot be applied to the older model, and the reviewed documents do not expose every test condition or current edition.",
+          "missing": "We need the complete conditions and exact test or standard editions for the selected configuration, together with any relevant later changes."
+        },
+        {
+          "requirement_id": "R5",
+          "found": "The 2021 prospectus describes assembly, testing and release in Mountain View while inputs are sourced externally.",
+          "use": "This supports a mixed internal and supplier production account at that date. It does not identify every current critical supplier or allocate all quality duties.",
+          "missing": "We need current supplier information, any changes in sites and the division of manufacturing and quality responsibilities."
+        },
+        {
+          "requirement_id": "R6",
+          "found": "The general QMSR record explains US quality obligations; it is not an RNS surveillance or compliance report.",
+          "use": "It can explain what a manufacturer must manage. It cannot establish the system's incident history or prove company compliance.",
+          "missing": "We need dated recall and incident searches by model, plus evidence of the actual postmarket and quality responsibilities."
+        },
+        {
+          "requirement_id": "P1",
+          "found": "No verified current acquisition quote was obtained. The economic paper's $41,173 is an estimated implantation cost based on fees.",
+          "use": "The amount can be used only as the paper's cost input. It cannot be called the manufacturer's selling price or the hospital's current purchase cost.",
+          "missing": "We need a dated product quotation or supplier contract stating the configuration and included hardware, service and follow-up elements."
+        },
+        {
+          "requirement_id": "P2",
+          "found": "Aetna's policy states coverage criteria for selected use. The economic study separately takes a public-payer perspective.",
+          "use": "The policy shows one insurer's stated conditions; the model identifies whose costs the authors analysed. Neither establishes an actual NHS commissioner or a particular patient's payment arrangement.",
+          "missing": "We need the applicable plan or commissioning arrangement for the care setting being discussed."
+        },
+        {
+          "requirement_id": "P3",
+          "found": "Aetna Clinical Policy Bulletin 0394 includes eligibility conditions for responsive cortical stimulation.",
+          "use": "This lets us explain clinical coverage conditions for that insurer. It does not provide all billing codes, actual contract fees or the rules of other payers.",
+          "missing": "We need the relevant coding, current fee schedule and actual payment terms for the selected payer, service and year."
+        },
+        {
+          "requirement_id": "P4",
+          "found": "The full paper estimates nine-year costs of $246,284 for RNS and $212,279 for medication, reporting an increment of $34,006. Its professional-fee inputs are from 2019 and facility inputs from 2017.",
+          "use": "We can explain a historical US pathway model and its assumptions. The rounded displayed totals differ by one dollar from the reported increment, so we retain the authors' result and disclose that boundary rather than inventing a corrected model.",
+          "missing": "We need current local costs and resource frequencies before using the calculation for a UK service, and we cannot treat the model as an observed saving."
+        },
+        {
+          "requirement_id": "P5",
+          "found": "The paper derives utilities indirectly from seizure frequency and estimates event costs using medication-treated cohorts.",
+          "use": "This shows the evidential bridge behind the economic result: measured seizure changes are translated into assumed quality-of-life and resource effects. The translation is not a direct RNS measurement of those effects.",
+          "missing": "We need device-specific utility and longitudinal resource-use measurements to test those assumptions."
+        },
+        {
+          "requirement_id": "P6",
+          "found": "The model values benefits over nine years, whereas implantation and continuing programming require provider resources.",
+          "use": "This identifies a timing and budget question. A favourable long-term payer result does not tell us whether the implanting hospital has the capacity or financial incentive to deliver treatment.",
+          "missing": "We need the actual budget holder, hospital revenues and costs, staff capacity and how benefits and spending fall across organisations."
+        },
+        {
+          "requirement_id": "P7",
+          "found": "The draft map connects the manufacturer, epilepsy centre, patient, FDA and an insurer subject to its coverage conditions.",
+          "use": "It can organise the roles supported by these sources. It does not verify purchasing contracts, exact money flows or the required lecture format.",
+          "missing": "We need actual purchasing and authority relationships and the lecture's map instructions before finalising the diagram."
+        }
+      ]
+    },
+    {
+      "device_id": "ceribell",
+      "summary": "Ceribell combines a rapidly applied scalp EEG system with software that helps clinicians assess brain activity in acute care. The hardware, sonification technology and later seizure-monitoring software need to be kept separate. The reviewed material explains an EEG-access problem, licensing and early finance, but it does not establish that faster EEG produces the claimed financial or patient benefits in London.",
+      "overview": {
+        "N": "DECIDE measured a median five-minute rapid EEG acquisition against a 239-minute conventional EEG delay in that study. This supports an access problem and workflow proposition. It does not establish better survival, a causal reduction in admissions or realised NHS savings.",
+        "I": "The prospectus describes a Stanford licence and amendments, while the selected patent explains sonification. These can support a concrete technology-transfer story. We still need the complete historical rights record and a feature match for later AI software rather than treating the sonification patent as protection for everything.",
+        "F": "The prospectus provides early seed, note and Series A information, plus a university support lead. This allows more than a list of recent rounds. The original award amount, valuations and spending allocated to particular technical or clinical milestones remain missing.",
+        "R": "FDA and company records distinguish system versions and document parts of the production chain. The report still needs a complete version-by-version decision and testing account, present manufacturing responsibilities and a dated recall or incident search.",
+        "P": "A publication estimates savings, while temporary US add-on payment concerns a particular software use and period. Neither establishes a current UK price or realised saving. We need actual contract terms, applicable base payment and evidence that workflow changes alter costly patient events."
+      },
+      "points": [
+        {
+          "requirement_id": "N1",
+          "found": "DECIDE examined urgent EEG in critically ill patients, with 181 encounters and complete clinical and EEG information for 164.",
+          "use": "This identifies a suspected-seizure care pathway, including patients whose recording may not show seizures. It is not a count of all patients who could need the system.",
+          "missing": "We need the annual number of eligible acute-care episodes in a defined geography, including suspected cases that ultimately prove negative."
+        },
+        {
+          "requirement_id": "N2",
+          "found": "The ACNS source explains indications and resource constraints for continuous EEG. Ceribell provides an earlier rapid recording while conventional monitoring is being arranged.",
+          "use": "We can explain the decision the rapid result could inform before conventional EEG arrives. That does not show how every hospital escalates or continues monitoring.",
+          "missing": "We need the local sequence of rapid assessment, expert interpretation, treatment and conventional EEG, including the staff available at each step."
+        },
+        {
+          "requirement_id": "N3",
+          "found": "DECIDE reports a median five-minute rapid EEG acquisition and a 239-minute delay to conventional EEG.",
+          "use": "This measures an access difference in that observational, company-funded study. It does not establish the same delay in London or isolate a causal effect on patient treatment.",
+          "missing": "We need comparable local delay data and evidence of what actually changes in treatment when earlier information is provided."
+        },
+        {
+          "requirement_id": "N4",
+          "found": "The reviewed economic model predicts approximately $5,633 saved per use in 2019 US dollars.",
+          "use": "This supplies a conditional economic consequence to examine. A manufacturer-funded model is not a measurement of cash saved by a hospital or of the harm caused by delayed EEG.",
+          "missing": "We need observed patient consequences, local resource use and costs, and evidence of savings actually realised rather than predicted."
+        },
+        {
+          "requirement_id": "N5",
+          "found": "DECIDE examines clinician interpretation and decisions. The separate 38-patient emergency-department pilot included one positive seizure case.",
+          "use": "These studies can support specific workflow observations. One positive case cannot establish universal detection performance, and neither design proves a mortality benefit.",
+          "missing": "We need broader diagnostic validation, evidence of correct treatment changes and comparative patient outcomes."
+        },
+        {
+          "requirement_id": "N6",
+          "found": "Conventional continuous EEG is the relevant monitoring comparator, while Ceribell supplies a rapid assessment with fewer electrodes.",
+          "use": "We can explain that the two methods may serve different points in the pathway. Faster reduced-montage recording does not establish that prolonged conventional monitoring is unnecessary.",
+          "missing": "We need a comparison of alternative rapid-assessment and monitoring strategies, including missed signals and the rules for escalation."
+        },
+        {
+          "requirement_id": "I1",
+          "found": "US10136862B2 names Chafe and Parvizi and records priority in May 2012. Stanford links their sonification work to Ceribell.",
+          "use": "This gives a specific academic invention trail, rather than merely a broad association with EEG research. It does not establish every inventor's employer or the entire first-product invention set.",
+          "missing": "We need contemporaneous employment evidence and a clear account of which original inventions were needed for the first system."
+        },
+        {
+          "requirement_id": "I2",
+          "found": "The 2017 amendment identifies a 2015 Stanford licence and technology dockets. A 2025 filing reports $250,000 for an exclusivity extension.",
+          "use": "These records support an actual contractual route to rights and a disclosed later payment. Redactions and incomplete schedules prevent a full reconstruction of the licensed portfolio and economics.",
+          "missing": "We need the complete licensed-family schedule and the unavailable royalty or other economic terms before describing the whole arrangement."
+        },
+        {
+          "requirement_id": "I3",
+          "found": "Independent claims 1, 18, 20 and 26 describe different method, system and software forms of converting signals into sound.",
+          "use": "We can explain the sonification invention and compare it with that part of the product. It does not automatically cover the later automated seizure-detection algorithms.",
+          "missing": "We need a docket and family map and a feature-by-feature match for the original hardware, sonification and later Clarity versions separately."
+        },
+        {
+          "requirement_id": "I4",
+          "found": "The selected grant was published in November 2018 and has a 2012 priority.",
+          "use": "This provides one patent's chronology. It does not establish the status, geographical reach or completeness of the broader portfolio.",
+          "missing": "We need official dated status, family members and the later software-related families relevant to the version being discussed."
+        },
+        {
+          "requirement_id": "I5",
+          "found": "The reviewed prospectus material has not yielded a verified inventory of specific software, datasets or other non-patent rights for this requirement.",
+          "use": "We cannot yet write a product-specific account of those assets. A general discussion of company IP does not identify which algorithm, data right or other non-patent asset the developer controls.",
+          "missing": "We need specific documented software, data, trademark or know-how assets and evidence of the company's control over them."
+        },
+        {
+          "requirement_id": "I6",
+          "found": "Some royalty terms are redacted, and the original sonification rights are distinct from later AI technology.",
+          "use": "This shows why the licence and software generation matter to commercial control. It does not establish the full obligations or whether other rights constrain the system.",
+          "missing": "We need relevant third-party claims, technical alternatives and the complete licence dependencies to make a bounded competition account."
+        },
+        {
+          "requirement_id": "F1",
+          "found": "Stanford identifies a 2012 Bio-X Round 6 seed project linked to the work that became Ceribell.",
+          "use": "This is evidence of precursor academic support, not company equity. The reviewed account does not state a grant amount attributable to the product.",
+          "missing": "We need the authoritative recipient, amount, dates and project purpose and a clear explanation of what early work it supported."
+        },
+        {
+          "requirement_id": "F2",
+          "found": "Note 10 of the S-1 reports $1 million net seed proceeds in 2015–2016 and $7 million net Series A proceeds in the second quarter of 2017.",
+          "use": "This lets us reconstruct specific early company proceeds. Net proceeds do not reveal every investor's transaction terms or establish a product-development budget.",
+          "missing": "We need exact closing and investor details and any disclosed early valuations, keeping net proceeds separate from headline round totals."
+        },
+        {
+          "requirement_id": "F3",
+          "found": "Convertible notes raised $2 million in cash in 2016 and converted in May 2017.",
+          "use": "We can identify a financing mechanism beyond equity. The conversion should not be counted as a second receipt of the same cash.",
+          "missing": "We need complete note terms and evidence of founder or in-kind contributions if those resources are to be included."
+        },
+        {
+          "requirement_id": "F4",
+          "found": "Financing and business disclosures describe development and commercialisation objectives.",
+          "use": "These establish the stated aims of company financing. They do not allocate early spending between the recorder, headband, software, validation and sales activities.",
+          "missing": "We need a first-product milestone budget or another attributable account of how the early proceeds were actually used."
+        },
+        {
+          "requirement_id": "F5",
+          "found": "The 2015 licence, early financing and 2017 hardware records provide a dated development sequence.",
+          "use": "This can connect rights access, company resources and product milestones in time. It does not prove which spending produced each output.",
+          "missing": "We need evidence linking particular funded activities to prototypes, clearances and commercial milestones."
+        },
+        {
+          "requirement_id": "F6",
+          "found": "No sourced numerical estimate of first-device development cost has been completed.",
+          "use": "Even the unusually useful early financing record does not tell us the minimum resources required to develop the system.",
+          "missing": "We need staffing, prototype, validation and manufacturing inputs, plus an appropriately matched rapid-EEG programme for the top-down comparison."
+        },
+        {
+          "requirement_id": "R1",
+          "found": "The original recorder and headband have 2017 records, while automated seizure-monitoring software appears in later records.",
+          "use": "We can define each component and explain how the system evolved. The later software's claims and evidence must not be assigned to the original hardware.",
+          "missing": "We need a complete configuration and label account for the specific generation the report chooses, including the limits of each software function."
+        },
+        {
+          "requirement_id": "R2",
+          "found": "The reviewed US hardware and later EEG software records use Class II pathways.",
+          "use": "The classification must be attached to the individual function and component. It cannot be reduced to one claim that the whole brand has a universal approval.",
+          "missing": "We need the appropriate non-US primary records if UK or EU classification or authorisation is discussed."
+        },
+        {
+          "requirement_id": "R3",
+          "found": "K170363 and K171459 document original hardware, while K223504 is a later software decision.",
+          "use": "These give traceable records for a version-specific timeline. The presence of the identifiers does not by itself complete every decision date and later modification.",
+          "missing": "We need a consolidated account of exact dates, scopes and subsequent changes for each marketed component included in the report."
+        },
+        {
+          "requirement_id": "R4",
+          "found": "The recorder summaries refer to EEG electrical, electromagnetic-compatibility and battery testing; the headband addresses skin-contact biocompatibility.",
+          "use": "We can connect different component risks to different tests. The historical summaries do not provide a complete account of later software validation.",
+          "missing": "We need the exact editions, reported results and applicable software validation for each relevant version."
+        },
+        {
+          "requirement_id": "R5",
+          "found": "The 2024 filing describes third-party headband manufacture in China and recorder final assembly in Sunnyvale.",
+          "use": "This establishes a production split at the date of the disclosure. It does not identify every present contractual responsibility or later supplier change.",
+          "missing": "We need the legal and contract-manufacturer roles, quality and release responsibilities, and any changes relevant to the selected period."
+        },
+        {
+          "requirement_id": "R6",
+          "found": "The QMSR record supplies general US quality-system context, rather than a Ceribell incident history.",
+          "use": "It can explain obligations but cannot establish compliance or prove that any particular hardware or software version had no problems.",
+          "missing": "We need version-specific surveillance information and dated recall and incident searches with the models and terms recorded."
+        },
+        {
+          "requirement_id": "P1",
+          "found": "The system has a recorder, consumable headbands and software, but no verified current complete contract or configuration price was recovered.",
+          "use": "We can identify the items that may create initial and recurring costs. We cannot determine what a particular hospital actually buys or pays from the component list.",
+          "missing": "We need the buyer, price date, hardware and consumable charges, software arrangement and included support for an actual configuration."
+        },
+        {
+          "requirement_id": "P2",
+          "found": "The reviewed payment material concerns US inpatient care; no actual hospital purchasing contract was obtained.",
+          "use": "It helps explain how the care episode may be funded. It does not identify which department or budget bears the ongoing system costs.",
+          "missing": "We need an actual hospital and payer arrangement, including who pays the supplier and who receives the service payment."
+        },
+        {
+          "requirement_id": "P3",
+          "found": "The FY2027 rule ends the seizure-monitor's temporary NTAP support; the delirium technology has a separate decision.",
+          "use": "This prevents the report from treating the separate award as a renewal or the temporary supplement as permanent. Ending the supplement does not itself remove all underlying service payment.",
+          "missing": "We need applicable base payment, codes, outpatient or private-payer terms and evidence of their relevance to the selected setting."
+        },
+        {
+          "requirement_id": "P4",
+          "found": "The economic model predicts $5,633 savings per use and savings in 75% of its simulations.",
+          "use": "We can explain the model's proposed cost difference and uncertainty. Those simulated results are not observed cash released by a hospital and depend on the authors' assumptions.",
+          "missing": "We need local input costs, actual commercial terms and measured changes in resource use before applying the estimate to a London service."
+        },
+        {
+          "requirement_id": "P5",
+          "found": "DECIDE measures acquisition and decision-related outcomes rather than a causal mortality or length-of-stay effect.",
+          "use": "This identifies the missing step between faster information and some economic claims. A recorded workflow improvement cannot be substituted for a measured reduction in expensive patient events.",
+          "missing": "We need evidence of causal treatment and resource-use changes that can credibly supply the economic model's inputs."
+        },
+        {
+          "requirement_id": "P6",
+          "found": "The existing analysis considers whether earlier information could release bed capacity without reducing fixed expenditure.",
+          "use": "This is a useful adoption question, not a verified hospital saving. More available capacity and a lower cash budget are different outcomes.",
+          "missing": "We need the actual budget holder, variable costs, throughput changes and the distribution of benefits between the hospital, payer and patient."
+        },
+        {
+          "requirement_id": "P7",
+          "found": "The draft maps Stanford's licence role, Ceribell, acute-care staff, hospital, patient and a payer subject to applicable rules.",
+          "use": "Some relationships have documents; the full payment and authority flows remain analytical. The map does not verify present purchasing arrangements.",
+          "missing": "We need current contractual and decision-making relationships and the lecture's required map format."
+        }
+      ]
+    },
+    {
+      "device_id": "saint",
+      "summary": "Magnus Medical’s SAINT combines MRI-informed targeting with an accelerated schedule of transcranial magnetic stimulation for depression. The selected case is the integrated system covered by the original US clearance, rather than accelerated TMS generally. There is a small controlled trial and useful patent and fundraising material; durability, the full delivery cost and actual local payment still need investigation.",
+      "overview": {
+        "N": "The early trial reports short-term remission in 11 of 14 active patients versus 2 of 15 sham patients. It helps assess the treatment proposition, but its small size, early stopping and short follow-up limit what we can conclude. Eligible local numbers and long-term resource consequences remain missing.",
+        "I": "The selected Stanford patent gives four independent claims and distinguishes different stimulation schedules. A disclosed licence relationship supplies an ownership lead. The report still needs original employment, the actual contractual rights and a complete match between the cleared system and the relevant claim features.",
+        "F": "The $25 million 2021 round and named backers establish an early company funding event. They do not disclose the valuation, all precursor grants or the budget spent on the integrated system. A capital estimate would require sourced MRI, stimulation, trial and engineering inputs.",
+        "R": "K220177 establishes the original 2022 US clearance and reports supporting evidence. It helps explain the integrated system’s route. Present configurations, other-market authorisations, the full manufacturer–supplier responsibility split and postmarket findings remain unverified.",
+        "P": "The five-day treatment schedule indicates resource demands, and dated US add-on support gives a payment-history lead. We still need total MRI and staff costs, retreatment frequency, actual package price and applicable payer terms. Another London TMS service is not proof of SAINT use or payment."
+      },
+      "points": [
+        {
+          "requirement_id": "N1",
+          "found": "The original clearance concerns adults with major depressive disorder that did not improve adequately with medication. The early trial included 29 participants.",
+          "use": "This defines a more specific group than everyone with depression. The trial sample is not a count of people eligible in a London service.",
+          "missing": "We need country- and year-specific eligible numbers and the exclusions applied by the relevant treatment service."
+        },
+        {
+          "requirement_id": "N2",
+          "found": "SAINT combines MRI-informed targeting and navigation with treatment over five days. A UK comparator study used 20 sessions spread across four to six weeks.",
+          "use": "This makes a concrete difference in delivery schedules visible. The UK regimen is a comparator, not evidence that SAINT is already used or funded in that pathway.",
+          "missing": "We need the actual previous-care pathway, access barriers and retreatment arrangements for the selected patient group."
+        },
+        {
+          "requirement_id": "N3",
+          "found": "The early trial reports remission in 11 of 14 active patients and 2 of 15 sham patients within a month.",
+          "use": "This measures a later short-term treatment effect. It does not quantify how frequently the existing pathway failed or how many local patients were waiting for effective treatment.",
+          "missing": "We need baseline treatment-failure and delay data and evidence of the continuing unmet need in the target service."
+        },
+        {
+          "requirement_id": "N4",
+          "found": "The protocol includes fifty ten-minute stimulation sessions, giving 500 minutes of active stimulation.",
+          "use": "This quantifies one resource component. It excludes MRI, targeting, intervals between sessions, other staff work and the patient's total attendance burden.",
+          "missing": "We need total patient and staff time, imaging and follow-up resources, and measured costs or consequences before and after treatment."
+        },
+        {
+          "requirement_id": "N5",
+          "found": "The small sham-controlled trial reports 11 of 14 active patients in remission versus 2 of 15 controls within a month.",
+          "use": "It supports a short-term proposition for that protocol. The study had 29 participants and stopped at an interim analysis, so it cannot establish broad implementation performance or durable benefit.",
+          "missing": "We need longer follow-up, retreatment rates, outcomes in routine delivery and a fuller harm assessment."
+        },
+        {
+          "requirement_id": "N6",
+          "found": "BRIGhTMIND randomised 255 UK patients between other guided stimulation regimens.",
+          "use": "This can describe relevant UK alternatives and service context. The regimens differ from SAINT, and the study is not a head-to-head SAINT comparison.",
+          "missing": "We need a comparison with the alternatives available to the same local patients, including conventional TMS or ECT where appropriate to their treatment decision."
+        },
+        {
+          "requirement_id": "I1",
+          "found": "Stanford's technology-transfer account identifies invention in the Williams laboratory. The selected patent names Williams and Sudheimer and has January 2018 priority.",
+          "use": "This gives an academic origin and specific inventors to investigate. The institutional story does not by itself verify each inventor's employment at the relevant date.",
+          "missing": "We need contemporaneous employer evidence and confirmation of the invention's relationship to the first commercial version."
+        },
+        {
+          "requirement_id": "I2",
+          "found": "Stanford is the patent assignee, and Magnus identifies patents it has licensed.",
+          "use": "This supports a specific licensor–developer relationship. It does not disclose the whole contract, its field, exclusivity or economic terms.",
+          "missing": "We need the relevant licence and assignment records and the rights granted for the selected system, keeping unavailable financial terms explicit."
+        },
+        {
+          "requirement_id": "I3",
+          "found": "Independent claims 1 and 19 cover intermittent stimulation variants; claims 10 and 24 cover continuous variants with specified schedules or intervals.",
+          "use": "We can explain the distinct technical combinations. The cleared intermittent theta-burst use should not be treated as though every claimed variant is part of the commercial protocol.",
+          "missing": "We need a feature-by-feature match to the cleared system and a separate account of any later improvements or different claimed schedules."
+        },
+        {
+          "requirement_id": "I4",
+          "found": "The selected US grant has a 2018 priority date.",
+          "use": "This identifies one patent text and its place in the chronology. It does not establish the current status of all relevant continuations or national family members.",
+          "missing": "We need official dated status and the relevant family and continuation records in each market discussed."
+        },
+        {
+          "requirement_id": "I5",
+          "found": "The commercial pathway combines targeting software, navigation and stimulation hardware.",
+          "use": "Integration creates questions about software, data and know-how control. The presence of those components is not evidence of who owns every non-patent right.",
+          "missing": "We need documented ownership or licence arrangements for the relevant software, data, branding and confidential know-how."
+        },
+        {
+          "requirement_id": "I6",
+          "found": "Magnus has made company statements about IP enforcement.",
+          "use": "We can report the interested party's account as such. It is not a verified court judgment or proof that the system has no third-party-rights exposure.",
+          "missing": "We need the actual proceedings and relevant competitor, supplier and licence records before drawing conclusions about enforceable competitive control."
+        },
+        {
+          "requirement_id": "F1",
+          "found": "Stanford names a BBRF Young Investigator Award and Schwab and Chao philanthropic support in the precursor research history.",
+          "use": "These identify real research-funding leads. They do not establish the amount that supported this invention or money received by Magnus.",
+          "missing": "We need award identifiers, recipients, dates, amounts and a defensible allocation to the relevant early work."
+        },
+        {
+          "requirement_id": "F2",
+          "found": "The October 2021 launch announcement reports a $25 million Series A co-led by JAZZ and Red Tree.",
+          "use": "This establishes a disclosed company financing event. The source's header and body date differ, and neither establishes all closing terms or an original device budget.",
+          "missing": "We need the exact closing, instruments, disclosed valuation and any earlier company financing."
+        },
+        {
+          "requirement_id": "F3",
+          "found": "The academic philanthropic support is distinct from the company's equity round.",
+          "use": "The report can explain support to precursor research without counting it as Magnus cash. Other company resources have not been reconstructed.",
+          "missing": "We need evidence of founder contributions, loans, in-kind resources or supplier support and the terms under which they were provided."
+        },
+        {
+          "requirement_id": "F4",
+          "found": "The launch release connects the capital to commercial development and Stanford licensing.",
+          "use": "This describes intended use of the money. It does not allocate actual spending to imaging, integration, validation, clinical work or launch.",
+          "missing": "We need attributable milestone budgets or expenditure records for those development tasks."
+        },
+        {
+          "requirement_id": "F5",
+          "found": "The company launched in 2021 and received the original clearance in September 2022.",
+          "use": "This supports a development timeline. It does not show that the announced round alone paid for, or caused, every step required for clearance.",
+          "missing": "We need evidence connecting funded work to specific integration, validation or clinical outputs."
+        },
+        {
+          "requirement_id": "F6",
+          "found": "No defensible numerical estimate of early required capital has been completed.",
+          "use": "The report cannot replace that estimate with the company round or combine academic and corporate costs without a basis.",
+          "missing": "We need MRI and software-development inputs, integration staff, supplier and trial costs, and comparable programmes for both estimation approaches."
+        },
+        {
+          "requirement_id": "R1",
+          "found": "The selected system integrates MRI-informed targeting, navigation, stimulation and software.",
+          "use": "This lets us define the regulated product rather than calling any accelerated TMS clinic a SAINT service.",
+          "missing": "We need the complete configuration and the later change history for whichever system version the report describes."
+        },
+        {
+          "requirement_id": "R2",
+          "found": "The original US route is Class II repetitive TMS under 21 CFR 882.5805, using a 510(k) comparison.",
+          "use": "We can relate the system's function to its US regulatory route. The record does not establish UK or EU authorisation.",
+          "missing": "We need primary records for any non-US market-access claim, including the exact configuration and intended use covered."
+        },
+        {
+          "requirement_id": "R3",
+          "found": "K220177 records clearance on 1 September 2022.",
+          "use": "This provides the original US market-entry decision and a traceable starting point for the evidence account.",
+          "missing": "We need any later relevant decisions and a complete current label before extending the original decision to later configurations or indications."
+        },
+        {
+          "requirement_id": "R4",
+          "found": "The summary addresses software and risk management, electrical and electromagnetic performance, usability and biological evaluation.",
+          "use": "This connects tests to the risks of integrated targeting and delivery. It is not the complete submission or every subsequent conformity record.",
+          "missing": "We need exact standard editions, reported results and the evidence applicable to the selected present configuration."
+        },
+        {
+          "requirement_id": "R5",
+          "found": "MagVenture confirms a role supplying MagPro equipment and providing installation or service support.",
+          "use": "This establishes a specific counterparty relationship. It does not explain the complete division of legal manufacturing, quality control and system release.",
+          "missing": "We need the responsibilities of Magnus, MagVenture and other relevant suppliers, including who releases the complete system."
+        },
+        {
+          "requirement_id": "R6",
+          "found": "The general QMSR source explains US quality obligations.",
+          "use": "It can explain the regulatory environment, but cannot verify SAINT's compliance or determine whether its components have relevant incidents.",
+          "missing": "We need dated product-specific recall and incident searches and evidence about the actual continuing quality and surveillance duties."
+        },
+        {
+          "requirement_id": "P1",
+          "found": "The treatment involves imaging, targeting, navigation, stimulation and follow-up, but no verified complete system or treatment-package price was obtained.",
+          "use": "We can identify cost-bearing activities. We cannot price the whole pathway from a stimulation-session figure or another clinic's different TMS package.",
+          "missing": "We need the actual buyer, hardware and software terms and a dated price specifying what the complete package includes."
+        },
+        {
+          "requirement_id": "P2",
+          "found": "The reviewed US inpatient add-on policy identifies one payment setting.",
+          "use": "It provides a specific funding-policy context. It does not establish outpatient, private or NHS payment for a complete treatment episode.",
+          "missing": "We need the actual payer and funding arrangement for the service and setting the report chooses."
+        },
+        {
+          "requirement_id": "P3",
+          "found": "The FY2027 rule discontinues the temporary inpatient NTAP supplement.",
+          "use": "The report must treat that supplement as dated temporary support. Its end does not establish either a continuing supplement or the absence of all base care payment.",
+          "missing": "We need applicable base payment, current codes and amounts and separate outpatient or private-payer coverage where relevant."
+        },
+        {
+          "requirement_id": "P4",
+          "found": "The protocol gives 500 active stimulation minutes but excludes MRI, session intervals and other care time from that total.",
+          "use": "This can begin a resource calculation. It cannot establish total cost or incremental value against a comparator.",
+          "missing": "We need staff, MRI, software and follow-up costs, retreatment assumptions, the model perspective and horizon, and evidence for any offsets."
+        },
+        {
+          "requirement_id": "P5",
+          "found": "The small short-term trial does not measure the long-term relapse and retreatment parameters required by a sustained-savings argument.",
+          "use": "Short-term remission can support a clinical discussion, but cannot alone supply years of avoided treatment costs or health gains.",
+          "missing": "We need long-term response, relapse, retreatment and measured resource-event data before constructing those economic assumptions."
+        },
+        {
+          "requirement_id": "P6",
+          "found": "A five-day course compresses treatment into a shorter calendar period while concentrating imaging and staff requirements.",
+          "use": "This creates separate questions about patient convenience and provider capacity. A shorter course does not by itself demonstrate more throughput or a lower service budget.",
+          "missing": "We need the actual budget holder, daily slots, staffing and MRI capacity, and who receives any benefit from the changed schedule."
+        },
+        {
+          "requirement_id": "P7",
+          "found": "The draft connects Stanford, Magnus, MagVenture, imaging and treatment services, patients and a payer subject to relevant conditions.",
+          "use": "Documented supplier and licence roles help the diagram. Payment arrows and incentives remain hypotheses where no actual service contract was obtained.",
+          "missing": "We need the contracts, authority and budget relationships and the lecture's prescribed map format before finalising it."
+        }
+      ]
+    },
+    {
+      "device_id": "exablate",
+      "summary": "Insightec’s Exablate Neuro uses MRI-guided focused ultrasound to create a targeted thermal lesion. This case focuses on the original unilateral treatment for medication-refractory essential tremor. A controlled trial, UK commissioning evidence, an England economic model and a documented London service support the investigation. Early brain-device funding, original patent ownership and actual equipment and service costs remain less complete.",
+      "overview": {
+        "N": "The original trial measures tremor benefit against sham in a selected refractory group. UK service evidence helps place treatment in a real pathway. We still need local eligible volumes, the original care shortfall, longer-term consequences and current service resource use.",
+        "I": "The selected focused-ultrasound patent allows a technical independent-claim explanation. Its exact relationship to the original brain product and rights chain remains incomplete. We must trace the original device and subsystem families rather than assume any Insightec patent covers the whole system.",
+        "F": "Investor-side records describe 2012 financing, including mixed cash and loan elements. Inconsistent valuation figures remain unresolved, and company money has not been allocated to the brain programme. Earliest resources and a justified required-capital estimate still need reconstruction.",
+        "R": "P150038 establishes the original US essential-tremor approval. The report can explain that indication and supporting evidence. Later indications, current production and UK or EU device records need separate checking; Parkinsonian-tremor guidance cannot substitute for the essential-tremor pathway.",
+        "P": "England commissioning and an economic model support a concrete reimbursement discussion. The model estimates pathway costs, rather than reporting the current purchase price. London service enquiry could help with throughput and budget questions, but no interview, current quotation or contract has been obtained."
+      },
+      "points": [
+        {
+          "requirement_id": "N1",
+          "found": "The original trial concerns adults aged at least 22 with medication-refractory essential tremor. The England model cites about one million UK essential-tremor cases overall.",
+          "use": "The trial criteria identify a much narrower group than everyone with tremor. The broad disease estimate cannot be used as the number eligible for this procedure.",
+          "missing": "We need current eligible referral numbers in a named geography and year, after the relevant treatment and safety exclusions."
+        },
+        {
+          "requirement_id": "N2",
+          "found": "UCLH describes a specialist MRI-guided focused-ultrasound service with patient selection and follow-up.",
+          "use": "This places the device in an actual care pathway rather than only a manufacturer demonstration. It does not give every current resource or waiting-time detail.",
+          "missing": "We need the current referral, screening, waiting and follow-up process and the staff and imaging resources used at each step."
+        },
+        {
+          "requirement_id": "N3",
+          "found": "The original analysis included 56 treated and 20 sham patients; the three-month tremor endpoint improved by 46.9% versus -0.1%.",
+          "use": "That is later treatment-effect evidence. It does not measure the population rate of failed medication, unavailable surgery or delayed access before the new procedure.",
+          "missing": "We need local pretreatment failure and access rates and evidence of the remaining unmet need among eligible patients."
+        },
+        {
+          "requirement_id": "N4",
+          "found": "The five-year England model estimates costs and quality-of-life consequences for alternative treatment pathways.",
+          "use": "It lets us examine a proposed health-service burden and value argument. Modelled costs are not measurements of expenditure actually avoided in the local service.",
+          "missing": "We need observed patient and resource burden and current local costs, including which patients and organisations carry them."
+        },
+        {
+          "requirement_id": "N5",
+          "found": "The device heats a targeted thalamic region to create a lesion. In the original controlled analysis, three-month tremor improvement was 46.9% with treatment and -0.1% with sham.",
+          "use": "This connects the lesion mechanism to a measured tremor effect for the selected unilateral indication. It does not settle long-term benefit or the consequences of an irreversible lesion.",
+          "missing": "We need durability, adverse-event and routine-service outcome evidence relevant to the patients and service under discussion."
+        },
+        {
+          "requirement_id": "N6",
+          "found": "The England model compares focused ultrasound with deep-brain stimulation and no procedure. The NHS policy selects patients unsuitable for deep-brain stimulation.",
+          "use": "We can identify meaningful alternatives while noticing that patients may not be eligible for both procedures. A comparison must preserve that selection difference.",
+          "missing": "We need matched clinical trade-offs and local availability, rather than assuming every patient can choose freely between all modelled options."
+        },
+        {
+          "requirement_id": "I1",
+          "found": "US8088067B2 names Vortman and Vitek and has December 2002 priority. It concerns a relevant correction technology.",
+          "use": "This gives a specific enabling-invention lead. It does not establish the definitive first brain-device patent family or all original inventors.",
+          "missing": "We need contemporaneous employers and the original brain system's relevant subsystem families and priorities."
+        },
+        {
+          "requirement_id": "I2",
+          "found": "Assignment and name information connect the selected family to the Insightec lineage.",
+          "use": "This is a starting point for investigating control. It does not provide the complete original rights chain or every licence required by the brain system.",
+          "missing": "We need official transfers, licences and a clear relationship between those rights and the selected product."
+        },
+        {
+          "requirement_id": "I3",
+          "found": "Independent claims 1, 11, 21 and 26 concern correction, focusing, ablation and software combinations.",
+          "use": "We can explain an enabling technical invention instead of counting patents. We cannot assume that one family represents every protected feature of Exablate Neuro.",
+          "missing": "We need to match each required feature to product evidence and identify the other relevant original-device protection."
+        },
+        {
+          "requirement_id": "I4",
+          "found": "The selected US grant was published in January 2012 from a December 2002 priority.",
+          "use": "This gives the reviewed publication's history. It does not establish current status or protection in every country where the product is discussed.",
+          "missing": "We need dated official status, relevant jurisdictions and other product families before describing the extent of protection."
+        },
+        {
+          "requirement_id": "I5",
+          "found": "The previous research identified calibration, production and planning know-how as possible advantages but did not document the rights or their contents.",
+          "use": "These are questions to investigate, not established confidential assets. Technical difficulty alone does not prove ownership or legal protection.",
+          "missing": "We need specific disclosed software, data, design or know-how rights and evidence of who controls them."
+        },
+        {
+          "requirement_id": "I6",
+          "found": "The selected correction patent does not provide a review of the whole system's third-party-rights exposure.",
+          "use": "We can discuss its candidate contribution without claiming complete protection or freedom to operate. The rest of the system may involve other rights and licences.",
+          "missing": "We need relevant competitor families, technical alternatives and actual licence dependencies."
+        },
+        {
+          "requirement_id": "F1",
+          "found": "No attributable grant for original brain-programme development was verified.",
+          "use": "The report must leave this source of early support unresolved. Later company financing cannot establish which precursor research received public or charitable money.",
+          "missing": "We need an award identifier, recipient, amount, period and purpose and the proportion genuinely relevant to the brain programme."
+        },
+        {
+          "requirement_id": "F2",
+          "found": "The December 2012 release reports a $30.9 million Series C, including $27.6 million from GE and $3.3 million from others. October agreement material contains conflicting $106.4 million and $104.6 million post-money figures.",
+          "use": "The transaction amount and the valuation do not have the same evidential status. We can report the disclosed round without selecting an unreconciled valuation as fact.",
+          "missing": "We need reconciled transaction terms and valuation evidence, plus an account of any allocation to brain-device development."
+        },
+        {
+          "requirement_id": "F3",
+          "found": "The October terms combine cash investment with conversion of a GE loan.",
+          "use": "This prevents a loan conversion from being counted as new cash for a second time. The reviewed records do not fully reconcile the cash received and final transaction.",
+          "missing": "We need the loan terms, actual cash proceeds and relevant founder or in-kind contributions."
+        },
+        {
+          "requirement_id": "F4",
+          "found": "The financing records concern the company or platform, rather than a disclosed brain-only development budget.",
+          "use": "They support company resource history. They cannot tell us how much paid for transcranial engineering, clinical work or other business programmes.",
+          "missing": "We need the original brain-development allocations and the milestones those resources were intended to fund."
+        },
+        {
+          "requirement_id": "F5",
+          "found": "The 2012 financing preceded the July 2016 US brain indication approval.",
+          "use": "This gives a financing-to-market-entry timeline. It does not show which investment financed which engineering, trial or manufacturing result.",
+          "missing": "We need dated outputs and records linking particular proceeds or other resources to the work delivered."
+        },
+        {
+          "requirement_id": "F6",
+          "found": "No justified numerical estimate of original brain-device capital has been completed.",
+          "use": "Shared platform spending cannot be assigned to the brain product without an explicit allocation method. A later company round is not that estimate.",
+          "missing": "We need acoustic and MRI engineering, verification, trial and production inputs and appropriately matched programmes for a top-down check."
+        },
+        {
+          "requirement_id": "R1",
+          "found": "The original US brain case concerns unilateral treatment of medication-refractory essential tremor.",
+          "use": "This defines the selected indication. Later bilateral or Parkinsonian uses are separate regulatory questions and should not be folded into the original case.",
+          "missing": "We need a complete model, accessory and indication history for any later uses included in the report."
+        },
+        {
+          "requirement_id": "R2",
+          "found": "The original brain indication followed the US Class III premarket-approval route for lesion-producing therapy.",
+          "use": "We can relate the route to the therapeutic function and risk. The US decision is separate from UK or EU conformity and registration.",
+          "missing": "We need the applicable primary UK or EU device documents if the report makes market-access claims there."
+        },
+        {
+          "requirement_id": "R3",
+          "found": "P150038 records approval on 11 July 2016.",
+          "use": "This is a traceable US market-entry event. UK procedure guidance and commissioning decisions answer different questions from this device approval.",
+          "missing": "We need later relevant approvals and documents for the markets and versions discussed beyond the original US indication."
+        },
+        {
+          "requirement_id": "R4",
+          "found": "The FDA review addresses acoustic and heating control, imaging guidance, electrical and electromagnetic performance, contact risks and clinical evidence.",
+          "use": "This allows a risk-to-evidence explanation. The public review does not expose every standard edition, test result or later conformity file.",
+          "missing": "We need the exact standards and results where public and the applicable evidence for later configurations."
+        },
+        {
+          "requirement_id": "R5",
+          "found": "The original FDA material describes preapproval manufacturing inspection.",
+          "use": "This establishes an inspection step at market entry. It does not identify every present production site, critical supplier or outsourced duty.",
+          "missing": "We need the actual sites, process-transfer arrangements and responsibility for critical production and final release."
+        },
+        {
+          "requirement_id": "R6",
+          "found": "The general QMSR source and historical inspection describe obligations and an earlier manufacturing event.",
+          "use": "Neither establishes present product compliance or gives a complete history of recalls or reported incidents.",
+          "missing": "We need a dated exact-model recall and incident search and evidence of the relevant ongoing surveillance responsibilities."
+        },
+        {
+          "requirement_id": "P1",
+          "found": "The economic model uses £19,779 as a focused-ultrasound pathway cost; no actual equipment purchase quote was verified.",
+          "use": "That amount belongs to a modelled treatment pathway. It must not be presented as the price of the Exablate system or a supplier's current invoice.",
+          "missing": "We need a dated equipment contract or quotation including configuration, maintenance, consumables and any associated MRI costs."
+        },
+        {
+          "requirement_id": "P2",
+          "found": "The 2020 NHS England policy funds a defined pathway for selected adults with refractory essential tremor who are unsuitable for deep-brain stimulation.",
+          "use": "This gives a real public commissioning route with eligibility conditions. It does not establish the present local contract, available treatment slots or funding of every referred patient.",
+          "missing": "We need the current commissioner, contract and capacity arrangements for the local service being investigated."
+        },
+        {
+          "requirement_id": "P3",
+          "found": "The essential-tremor commissioning policy is different from NICE's research-only guidance for Parkinsonian tremor.",
+          "use": "This lets the report explain why payment and procedural conditions must stay indication-specific. One cannot substitute for the other.",
+          "missing": "We need applicable local codes, actual payment or tariff amounts and the present service contract for the selected indication."
+        },
+        {
+          "requirement_id": "P4",
+          "found": "The five-year model reports pathway costs of £19,779 for focused ultrasound, £62,348 for deep-brain stimulation and £3,735 for no procedure, with £20,851 per additional quality-adjusted life-year versus no procedure.",
+          "use": "We can explain a conditional NHS-perspective comparison. The earlier review records an abstract/body discrepancy; these are the body values used in that review, not current observed costs.",
+          "missing": "We need current local capital, staff, MRI and throughput inputs and must retain the recorded publication discrepancy when discussing the calculation."
+        },
+        {
+          "requirement_id": "P5",
+          "found": "The controlled trial measures tremor effects, while the model projects longer-term costs and quality of life.",
+          "use": "The report can show which assumptions extend beyond the observed trial period. A measured tremor effect does not directly establish every later resource saving.",
+          "missing": "We need current durability, harm and resource-event evidence to check the model's extrapolation."
+        },
+        {
+          "requirement_id": "P6",
+          "found": "The published critique and reply discuss throughput, capital costs and comparator choices.",
+          "use": "This identifies why cost per case can depend on service volume and existing equipment. It does not settle the affordability or opportunity cost of a particular London service.",
+          "missing": "We need actual MRI time displaced, treatment capacity and the budget holder's costs and benefits."
+        },
+        {
+          "requirement_id": "P7",
+          "found": "The draft map connects Insightec, the specialist and MRI services, patients and a commissioner subject to the policy's eligibility rules.",
+          "use": "It can separate sourced roles from unverified contract amounts. It is not evidence that each payment arrow or decision right has been checked.",
+          "missing": "We need actual purchasing and authority flows and the lecture's required map format."
+        }
+      ]
+    },
+    {
+      "device_id": "arcex",
+      "summary": "ONWARD Medical’s ARC-EX applies external spinal stimulation alongside rehabilitation to improve hand function in selected people with chronic incomplete cervical spinal cord injury. It is separate from ONWARD’s implanted and brain-interface programmes. Regulatory documents, a rehabilitation study and nearby service connections help explain the case, while the original patent match, attributable early funding and payment arrangements remain unresolved.",
+      "overview": {
+        "N": "Up-LIFT measured hand strength and function after stimulation was added to rehabilitation; 43 of 60 completers met its combined endpoint. Its sequential, non-randomised design leaves causal attribution unresolved. Broad spinal-injury numbers do not establish eligibility or reduced care needs for this product.",
+        "I": "University licensing and NeuroRecovery Technologies history identify places to investigate. The selected claim has not been securely matched to ARC-EX’s external product. The original family, licence schedule, inventor employment and complete product-to-claim relationship remain important gaps.",
+        "F": "Public filings give corporate financing and predecessor leads. Grants acknowledged by academic work are not automatically ARC-EX funding, and an implanted-programme round must stay separate. We still need attributable early resources, transaction terms and a sourced capital estimate for the external system.",
+        "R": "The US De Novo record and later home-use clearance define two specific milestones. Component and supplier details support manufacture discussion. Primary EU or UK records, the complete production responsibility chain and a dated surveillance search remain incomplete.",
+        "P": "Near-London rehabilitation and charity arrangements provide real service questions, not proof of routine NHS coverage. We still need device and session prices, independent payer conditions, incremental treatment costs and controlled evidence for reduced care needs or other proposed savings."
+      },
+      "points": [
+        {
+          "requirement_id": "N1",
+          "found": "The original label concerns people aged 18–75 with chronic incomplete C2–C8 spinal cord injury. A UK account separately estimates 105,000 people living with spinal cord injury and 4,400 new cases annually.",
+          "use": "The broad numbers describe disease burden, not the group eligible for this external stimulation and training programme.",
+          "missing": "We need the UK number meeting the injury level, completeness, chronicity and training criteria, in a stated year."
+        },
+        {
+          "requirement_id": "N2",
+          "found": "Up-LIFT used a rehabilitation-only phase followed by rehabilitation with stimulation. The provider describes intensive functional practice.",
+          "use": "We can explain the actual study sequence and why therapy delivery matters. The research schedule does not establish every local referral and long-term care arrangement.",
+          "missing": "We need local selection and exclusion rules, session intensity and the pathway before and after treatment."
+        },
+        {
+          "requirement_id": "N3",
+          "found": "Up-LIFT enrolled 65 people, analysed 60 completers and reported 43 meeting the combined strength and function endpoint.",
+          "use": "This is a later change after stimulation was added. The sequential design does not isolate the stimulation effect or count the patients failed by existing rehabilitation.",
+          "missing": "We need the baseline unmet functional goals and a controlled estimate of the added benefit over comparable rehabilitation alone."
+        },
+        {
+          "requirement_id": "N4",
+          "found": "The reviewed evidence does not verify a reduction in care hours or costs caused by ARC-EX.",
+          "use": "A large overall spinal-injury burden cannot be presented as money recoverable through this device. The economic consequence of better hand function still needs measurement.",
+          "missing": "We need changes in independence, assistance and other resource use and the corresponding UK costs."
+        },
+        {
+          "requirement_id": "N5",
+          "found": "External stimulation accompanies task practice; 43 of 60 Up-LIFT completers met the combined endpoint. The Pathfinder2 abstract reports no significant group change in its neurological impairment score.",
+          "use": "We can distinguish improvement in particular functional measures from universal neurological recovery. The sequential study and abstract-level findings do not establish a durable causal effect for every patient.",
+          "missing": "We need controlled incremental effects, follow-up durability and evidence of broader patient benefits."
+        },
+        {
+          "requirement_id": "N6",
+          "found": "The rehabilitation-only phase supplies one comparison. ONWARD's implanted and brain-interface programmes are different technologies.",
+          "use": "We can compare external stimulation with the care it supplements. We cannot import an implanted device's benefits, risks or evidence into this product.",
+          "missing": "We need matched alternative rehabilitation and stimulation strategies and their practical, clinical and eligibility trade-offs."
+        },
+        {
+          "requirement_id": "I1",
+          "found": "The 2015 precursor paper links Edgerton and Gerasimenko, an NRT-supplied stimulator and licensed University of California IP.",
+          "use": "This documents a specific precursor lineage. It does not name every inventor and employer associated with the exact marketed ARC-EX configuration.",
+          "missing": "We need contemporaneous employment and the original invention families that actually underpin the external product."
+        },
+        {
+          "requirement_id": "I2",
+          "found": "The merger release and prospectus connect NeuroRecovery Technologies and university licensing to ONWARD.",
+          "use": "This gives a corporate and licensing route to investigate. It does not reveal the complete ARC-EX family schedule or every original assignment.",
+          "missing": "We need the actual relevant licence schedules, original transfers and terms connecting those rights to the external system."
+        },
+        {
+          "requirement_id": "I3",
+          "found": "Claim 1 of US10806927B2 uses locomotor, postural and bladder-function wording, although other text discusses grasping or reaching.",
+          "use": "A related mechanism and later hand-function language are not enough to establish that this independent claim covers the marketed hand-function product.",
+          "missing": "We need the correct original product family and a complete independent-claim-to-feature match; the present candidate cannot settle that requirement."
+        },
+        {
+          "requirement_id": "I4",
+          "found": "The candidate family has November 2011 priority and an October 2020 grant publication.",
+          "use": "This is a history for the candidate we read, not a verified map of ARC-EX protection. The unresolved product match carries into any geographical claim.",
+          "missing": "We need the applicable licensed families, official dated status and jurisdictions for the actual external product."
+        },
+        {
+          "requirement_id": "I5",
+          "found": "ARC-EX uses software, programming and electrodes, but no specific non-patent-rights inventory was verified.",
+          "use": "The presence of these components creates ownership questions; it does not answer them. We cannot infer control of data or know-how from product integration.",
+          "missing": "We need documented software, design, trademark, data or know-how rights and who owns or licenses them."
+        },
+        {
+          "requirement_id": "I6",
+          "found": "The commercial history involves a merged company and academic licences with incomplete schedules in this review.",
+          "use": "These may be important dependencies, but the records do not establish all field restrictions, sublicences or competing rights.",
+          "missing": "We need the relevant third-party claims and licence conditions, including restrictions on the fields in which rights may be used."
+        },
+        {
+          "requirement_id": "F1",
+          "found": "The precursor paper prints NIH acknowledgements including U01EB15521 and R01EB007615 and names Reeve and other support.",
+          "use": "These are leads to authoritative awards, not verified ARC-EX funding amounts. The identifier and product allocation must be checked against the original award record.",
+          "missing": "We need verified award identifiers, recipients, periods, amounts and the portion of work genuinely attributable to the external system."
+        },
+        {
+          "requirement_id": "F2",
+          "found": "The prospectus records €5 million from former NRT investors in the merger context.",
+          "use": "This is more relevant to the external-device lineage than the excluded €36 million implanted-programme package. It is still not a complete account of the earliest NRT financing or a device budget.",
+          "missing": "We need the earliest external-programme rounds, investors, closing terms and valuations and any attributable product allocation."
+        },
+        {
+          "requirement_id": "F3",
+          "found": "The €10 million 2016 innovation loan belongs to the implant programme. Later UK charity device loans concern access rather than original development cash.",
+          "use": "These facts help prevent unrelated money or equipment access from being counted as ARC-EX's original finance.",
+          "missing": "We need founder, debt, in-kind and partnership resources specifically supporting external-system development."
+        },
+        {
+          "requirement_id": "F4",
+          "found": "The academic, merger and service-access records describe support at different stages.",
+          "use": "They identify possible resources but do not allocate commercial ARC-EX development spending or demonstrate the use of particular proceeds.",
+          "missing": "We need a company or project account connecting identified resources to engineering, trials, supplier setup and other development milestones."
+        },
+        {
+          "requirement_id": "F5",
+          "found": "The record runs from precursor work in 2015 through the 2019 merger, 2024 authorisation and 2025 home-use extension.",
+          "use": "This provides a development and corporate timeline. Continuity of organisations does not prove which funding paid for each output.",
+          "missing": "We need attributable links between resources and the prototype, Up-LIFT trial, manufacturing setup and authorisation work."
+        },
+        {
+          "requirement_id": "F6",
+          "found": "No sourced numerical estimate of external-system development capital has been completed.",
+          "use": "An implanted-programme financing figure is not a valid shortcut without explaining major differences in product and trial demands.",
+          "missing": "We need external stimulator and software costs, rehabilitation-trial resources, verification and production inputs and suitable comparison programmes."
+        },
+        {
+          "requirement_id": "R1",
+          "found": "The system combines external stimulation and electrodes with functional practice. Original professional use and a later home-use extension have separate records.",
+          "use": "This prevents the clinic, home and implanted systems from being treated as one product scope.",
+          "missing": "We need the complete components, intended users and applicable label for each market and configuration actually discussed."
+        },
+        {
+          "requirement_id": "R2",
+          "found": "The original US route was De Novo, with Class II, 21 CFR 890.5851 and product code SDO; home use later followed a 510(k).",
+          "use": "We can explain the sequence of creating a device category and then a later decision. This does not establish the original EU or UK status.",
+          "missing": "We need the primary EU certificate and verified UK record rather than relying only on a company announcement."
+        },
+        {
+          "requirement_id": "R3",
+          "found": "DEN240014 is dated 19 December 2024; K251821 is dated 14 November 2025.",
+          "use": "These establish two distinct US milestones. They should not be collapsed into one date or treated as decisions by other jurisdictions.",
+          "missing": "We need independent EU and UK documentation if those market-entry claims are included."
+        },
+        {
+          "requirement_id": "R4",
+          "found": "The review covers electrical, electromagnetic, software and skin-contact risks; some biological support uses prior electrode and material evidence.",
+          "use": "This explains an actual testing strategy rather than assuming every test was newly run. The summary is not a complete present whole-system conformity file.",
+          "missing": "We need exact editions, reported results and the evidence applicable to the selected clinic or home configuration."
+        },
+        {
+          "requirement_id": "R5",
+          "found": "The revision 5 EU manual identifies a Samsung tablet and Axelgaard PALS electrodes.",
+          "use": "These are documented component relationships. They do not identify every party making the stimulator or controlling final assembly, quality and release.",
+          "missing": "We need the stimulator's actual contract-manufacturing relationship, production site and division of quality and release duties."
+        },
+        {
+          "requirement_id": "R6",
+          "found": "The annual report describes company status, while QMSR gives general US quality requirements.",
+          "use": "Neither is an independent product-surveillance audit or a complete history of problems affecting clinic or home use.",
+          "missing": "We need dated recall and incident searches and the relevant continuing duties for both settings."
+        },
+        {
+          "requirement_id": "P1",
+          "found": "Clinic equipment, home equipment and rehabilitation sessions are distinct possible purchases; no verified exact price was obtained.",
+          "use": "A general rehabilitation-session fee cannot establish the device's acquisition cost or a complete home-use contract.",
+          "missing": "We need dated equipment and session terms, consumables, support and replacement arrangements for the selected commercial model."
+        },
+        {
+          "requirement_id": "P2",
+          "found": "Spinal Research supports UK device loans and Neurokinex provides rehabilitation sessions.",
+          "use": "This establishes a real access mechanism. It does not establish who sustainably funds every session, replacement or future home-use episode.",
+          "missing": "We need the recurring patient, insurer or commissioner terms and the obligations attached to the loan and session arrangements."
+        },
+        {
+          "requirement_id": "P3",
+          "found": "The annual report discusses use of existing rehabilitation billing and unfinished home-category or coding work.",
+          "use": "This is the company's payment strategy, not an independent payer decision promising coverage or a particular amount.",
+          "missing": "We need the exact payer policy, codes, eligible patients and payment amounts for each setting discussed."
+        },
+        {
+          "requirement_id": "P4",
+          "found": "No complete device-specific economic model or measured care saving was verified.",
+          "use": "Additional equipment and training have costs, while possible offsets remain unmeasured. Neither can be assigned a supported net value from function scores alone.",
+          "missing": "We need incremental staffing and sessions, maintenance, changes in care hours, the perspective and horizon and the relevant prices."
+        },
+        {
+          "requirement_id": "P5",
+          "found": "The sequential functional findings do not measure a causal reduction in assistance hours or other costly events.",
+          "use": "We can explain a possible route from better hand function to independence, but cannot put an observed economic saving at the end of that route.",
+          "missing": "We need durable changes in assistance and resource use and a controlled estimate of the device's incremental contribution."
+        },
+        {
+          "requirement_id": "P6",
+          "found": "A charity equipment loan may reduce an upfront barrier while leaving session staffing and future replacement to be funded.",
+          "use": "This identifies a concrete adoption tension. It is not evidence of the provider's margin, capacity or long-term affordability.",
+          "missing": "We need the actual budget holder, recurring costs, capacity, patient charges and replacement funding."
+        },
+        {
+          "requirement_id": "P7",
+          "found": "The draft connects ONWARD, therapists and the centre, the charity, patients or helpers and possible payer or home-use routes.",
+          "use": "It helps distinguish documented access relationships from assumed payments. It does not verify every contract, incentive or decision right.",
+          "missing": "We need actual contracts and authority flows and the lecture's required map format before finalising the diagram."
+        }
+      ]
+    },
+    {
+      "device_id": "terra",
+      "summary": "Siemens Healthineers’ MAGNETOM Terra is a 7-tesla MRI platform, studied here within the original head and extremity imaging scope. The original system must be separated from Terra.X and later upgrades. Regulatory and subsystem records, a neurovascular comparison and exact equipment at King’s support investigation; original scanner IP, attributable development capital and the economics of clinical use are still incomplete.",
+      "overview": {
+        "N": "The exact-device neurovascular study shows diagnostic reclassification in selected uncertain cases, not established accuracy or better patient outcomes. A separate epilepsy publication is a protocol. We need a defined clinical use, eligible referrals, downstream consequences and separate evidence for musculoskeletal benefits.",
+        "I": "The previously selected optimisation application has a 2021 priority, after the original scanner’s market entry. It cannot establish original 2017 IP. The report needs the original magnet, coil and system families, their inventors and employers, and the agreements giving the developer control.",
+        "F": "Siemens parent IPO proceeds and a customer’s research-infrastructure grant answer different questions from Terra development finance. Neither can serve as the scanner’s budget. Original internal R&D resources, supplier-development arrangements and a justified estimate of required capital remain missing.",
+        "R": "K170840 defines original US head and extremity scope and identifies important components. This supports a specific engineering and regulatory account. It does not settle the installed London configuration, current UK permissions, all supplier responsibilities or later changes.",
+        "P": "King’s documents exact Terra equipment and research support, which makes a scoped local investigation possible. It does not establish routine clinical commissioning or per-scan payment. Actual acquisition and operating costs, funded clinical use and comparative pathway economics remain unresolved."
+      },
+      "points": [
+        {
+          "requirement_id": "N1",
+          "found": "The original US record limits Terra to head and extremity imaging in patients above 30 kg. The neurovascular study selected 53 patients with uncertain findings.",
+          "use": "This defines a particular imaging scope and research group. It does not make the entire MRI or neurological-disease population eligible for the same proposed benefit.",
+          "missing": "We need annual eligible local referrals and exclusions for a chosen use, with a separate population and rationale for musculoskeletal imaging."
+        },
+        {
+          "requirement_id": "N2",
+          "found": "The clinical study compares Terra with 3T Prisma after unclear vascular findings.",
+          "use": "This places the additional scan after uncertainty in standard imaging. It is a pathway in one study, not evidence of the same referral and reporting process at a London facility.",
+          "missing": "We need local patient selection, referral, image reading and escalation arrangements for the use being investigated."
+        },
+        {
+          "requirement_id": "N3",
+          "found": "Among 53 selected patients, aneurysm was suspected in 42 at 3T and 23 at 7T. The study did not use DSA as an independent reference, and readers were not blinded to field strength.",
+          "use": "We can report diagnostic reclassification. We cannot call every changed diagnosis a corrected false positive or calculate established diagnostic accuracy from those counts.",
+          "missing": "We need independent accuracy and management evidence and a measure of how often the relevant local pathway produces uncertainty."
+        },
+        {
+          "requirement_id": "N4",
+          "found": "The study discusses the possibility of avoiding unnecessary investigations but does not report a cost-effectiveness analysis.",
+          "use": "This identifies a hypothesis worth testing. A changed imaging assessment does not show that an investigation was actually cancelled or that a patient avoided harm or cost.",
+          "missing": "We need observed management changes, investigations added or avoided, patient consequences and local resource costs."
+        },
+        {
+          "requirement_id": "N5",
+          "found": "The reviewed neurovascular paper reports exact-device findings. The separate epilepsy publication is a study protocol, rather than completed outcome evidence.",
+          "use": "This supports a bounded neurovascular investigation. It cannot establish patient benefit in epilepsy or musculoskeletal imaging from the same evidence.",
+          "missing": "We need patient outcomes, completed epilepsy results and separate comparative knee or other musculoskeletal evidence for any claims in those fields."
+        },
+        {
+          "requirement_id": "N6",
+          "found": "The direct clinical comparator is 3T MRI, and further specialist imaging is a possible pathway alternative.",
+          "use": "We can frame the decision as whether an extra high-field scan adds useful information in selected cases. A higher field strength is not evidence that it is the better option for every examination.",
+          "missing": "We need matched alternative-imaging trade-offs, patient exclusions, scan time and resource consequences in the chosen pathway."
+        },
+        {
+          "requirement_id": "I1",
+          "found": "The brochure attributes magnet development and manufacture to Oxford, while the FDA record names system and coil manufacturers.",
+          "use": "These identify organisations and engineering roles to investigate. A manufacturing location is not the name or employer of the original inventor.",
+          "missing": "We need original magnet, coil and system inventors, their employers and the relevant earliest priority families."
+        },
+        {
+          "requirement_id": "I2",
+          "found": "The later optimisation application lists Siemens as its original assignee.",
+          "use": "This establishes an ownership detail for that later method only. It does not establish who controlled every technology in the original 2017 scanner.",
+          "missing": "We need original subsystem assignments and licences and the route by which the developer obtained the rights required for the first system."
+        },
+        {
+          "requirement_id": "I3",
+          "found": "GB2606208A has a 2021 priority; independent claims 1 and 12 concern voxel-clustering optimisation and a processing system.",
+          "use": "We can explain those later claims, but they postdate the original scanner. Using Terra in a later invention does not make that invention the core IP behind its 2017 market entry.",
+          "missing": "We need the original relevant magnet, coil and imaging-system families and their independent claims matched to the first product."
+        },
+        {
+          "requirement_id": "I4",
+          "found": "The optimisation application records April 2021 priority and November 2022 publication.",
+          "use": "That chronology cannot supply an original Terra protection map. Its status and jurisdictions would answer a different, later-development question.",
+          "missing": "We need the original product families, priorities, countries and official dated status of the rights relevant to them."
+        },
+        {
+          "requirement_id": "I5",
+          "found": "The earlier analysis identifies magnet fabrication, calibration and software as possible sources of non-patent advantage, without a verified rights inventory.",
+          "use": "These are technical questions to pursue, not established protected assets. Complexity and company involvement do not disclose which processes or rights the developer controls.",
+          "missing": "We need specific documented software, data, design or confidential know-how rights and their ownership or licensing arrangements."
+        },
+        {
+          "requirement_id": "I6",
+          "found": "The system combines magnet, coil, imaging and software technologies from multiple documented organisations.",
+          "use": "This makes supplier rights and licences relevant. One later optimisation patent cannot resolve the legal exposure of the complete original system.",
+          "missing": "We need original supplier-rights arrangements, competing claims, technical alternatives and any licence dependencies."
+        },
+        {
+          "requirement_id": "F1",
+          "found": "King's and Wellcome supported the 2018 London project, but the reviewed account gives no amount.",
+          "use": "This is customer infrastructure support after original clearance. It is not evidence of a grant that financed original Terra development.",
+          "missing": "We need any original development award's recipient, identifier, period, amount and purpose and its relationship to the scanner programme."
+        },
+        {
+          "requirement_id": "F2",
+          "found": "The 2018 IPO generated about €4.2 billion gross proceeds for parent Siemens.",
+          "use": "This is a corporate financing event with a different recipient and purpose. It cannot be reassigned as capital received by Terra's original development programme.",
+          "missing": "We need attributable original corporate investment and any genuinely relevant financing terms for work before the scanner's market entry."
+        },
+        {
+          "requirement_id": "F3",
+          "found": "The manufacturer's account describes in-house engineering without valuing the staff, facilities or other resources used.",
+          "use": "This supports the existence of corporate engineering activity. It neither measures its value nor rules out external or partner contributions.",
+          "missing": "We need attributable staff time, facilities, partner or in-kind support and any relevant debt or other resources."
+        },
+        {
+          "requirement_id": "F4",
+          "found": "No original Terra programme spending allocation was verified.",
+          "use": "A group R&D total would describe a much wider business. It cannot establish the budget intended for the scanner's magnet, coils, software or validation.",
+          "missing": "We need an original programme budget or another defensible allocation of resources to named development milestones."
+        },
+        {
+          "requirement_id": "F5",
+          "found": "The brochure places the first installation of the new magnet in April 2015, and the FDA cleared Terra in October 2017.",
+          "use": "These are dated engineering and regulatory outputs. They do not identify the investment that paid for each output.",
+          "missing": "We need records connecting specific resources to magnet development, integration, verification and clinical validation work."
+        },
+        {
+          "requirement_id": "F6",
+          "found": "No justified numerical estimate of original-system development capital has been completed.",
+          "use": "Shared MRI platform work and supplier-developed components need an explicit allocation method. Customer installation funding is not a substitute.",
+          "missing": "We need magnet, coil and software staffing, prototypes, testing and tooling inputs and comparable programmes for the top-down estimate."
+        },
+        {
+          "requirement_id": "R1",
+          "found": "The original scope is head and extremity imaging above 30 kg with specified head and knee coils; clinical and research modes differ.",
+          "use": "This keeps original Terra separate from Terra.X and research options. The exact installed London configuration may have changed and is not established by the original record alone.",
+          "missing": "We need the local model, software, coils, upgrades and enabled clinical options before describing that installation's clinical scope."
+        },
+        {
+          "requirement_id": "R2",
+          "found": "The original US route is Class II under 21 CFR 892.1000 with product codes LNH, LNI and MOS, using a 510(k).",
+          "use": "We can explain the original US MRI-system route. Those codes do not establish the installed system's UK or EU permissions.",
+          "missing": "We need the applicable primary conformity and registration documents for the selected local configuration."
+        },
+        {
+          "requirement_id": "R3",
+          "found": "K170840 records clearance on 12 October 2017. Terra.X has a separate later history.",
+          "use": "This gives a traceable original decision. Later upgrade functions must not be folded into the 2017 record without their own documentation.",
+          "missing": "We need the relevant later authorisations and the actual installed upgrade documentation if the report discusses those features."
+        },
+        {
+          "requirement_id": "R4",
+          "found": "The summary includes MRI safety, image-quality, software and risk-management evidence. A 35-person peripheral-nerve-stimulation study informed safety limits.",
+          "use": "We can explain why the scanner needed safety and performance evidence. The nerve-stimulation work evaluates unwanted stimulation limits, not diagnostic benefit to patients.",
+          "missing": "We need complete reported results and historical editions and the conformity evidence applicable to the configuration under discussion."
+        },
+        {
+          "requirement_id": "R5",
+          "found": "The FDA record names an Erlangen system site, Nova for the head coil and QED for the knee coil; the brochure attributes magnet manufacture to Oxford.",
+          "use": "This supports a documented subsystem supply chain at that time. It does not allocate every quality or final-release duty or establish the current suppliers.",
+          "missing": "We need the current responsibility split, changes in suppliers or components and who controls system quality and release."
+        },
+        {
+          "requirement_id": "R6",
+          "found": "General QMSR material and original safety testing are available, but neither is a Terra postmarket record.",
+          "use": "They explain obligations and historical evidence. They cannot establish later incidents or confirm that the installed software and hardware have no outstanding issues.",
+          "missing": "We need dated model- and software-specific recall and incident searches and the relevant continuing surveillance duties."
+        },
+        {
+          "requirement_id": "P1",
+          "found": "King's documents a real Terra installation, but no verified scanner price or recurring commercial terms were obtained.",
+          "use": "The equipment's presence establishes a relevant local facility. It does not reveal capital cost, a lease, maintenance or the price of access.",
+          "missing": "We need dated acquisition or lease terms, coil and maintenance costs and any actual research or clinical access charges."
+        },
+        {
+          "requirement_id": "P2",
+          "found": "King's and Wellcome project funding is documented for the London infrastructure.",
+          "use": "This identifies an infrastructure-funding relationship. It does not establish that routine NHS scans, every research session or ongoing operations are funded through that same route.",
+          "missing": "We need the current research sponsors, clinical payer or service budget and any operating subsidy for the activities being costed."
+        },
+        {
+          "requirement_id": "P3",
+          "found": "No verified Terra-specific coverage rule, tariff or 7T premium was found; an earlier NHS payment-scheme retrieval failed.",
+          "use": "The failed retrieval is an unresolved search, not proof that payment is absent. No special payment can be asserted from equipment ownership or field strength.",
+          "missing": "We need the applicable coverage, coding and service-contract terms for a defined country and clinical or research setting."
+        },
+        {
+          "requirement_id": "P4",
+          "found": "No accepted economic model compares the selected Terra pathway with its actual alternative.",
+          "use": "More detailed images are not an incremental economic result. A cost calculation must include what the extra scan changes downstream.",
+          "missing": "We need annualised capital and site costs, staff, maintenance, utilisation, a time horizon and measured or explicitly assumed offsets."
+        },
+        {
+          "requirement_id": "P5",
+          "found": "The 53-patient study measures imaging assessments, rather than prevented illness or realised resource savings.",
+          "use": "It cannot tell us that changed assessments avoided angiography, follow-up or patient harm. Those are additional steps that require evidence.",
+          "missing": "We need actual management changes, investigations or visits avoided or added, and patient outcomes in the relevant pathway."
+        },
+        {
+          "requirement_id": "P6",
+          "found": "The existing analysis considers demands on high-field scanner time and staff and the possibility that savings occur elsewhere in care.",
+          "use": "This frames a possible budget tension, not a measured local capacity or affordability result. The facility paying for scans may not receive downstream savings.",
+          "missing": "We need actual utilisation, opportunity costs, budget ownership and the distribution of benefits between the facility and other services."
+        },
+        {
+          "requirement_id": "P7",
+          "found": "The draft connects Siemens and suppliers, the facility, project funders, investigators, referrers and patients, with clinical payment left conditional.",
+          "use": "The documented relationships can inform a map. They do not verify every current contract, authority link or recurring payment.",
+          "missing": "We need current funding and decision-making agreements and the lecture's required map format."
+        }
+      ]
+    }
+  ]
+}

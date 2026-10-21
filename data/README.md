@@ -1,5 +1,7 @@
 # Evidence records
 
+research-explanations.json is the authored plain-language reading layer added after feedback on condensed tables. It contains 31 full requirement explanations, seven device summaries and 217 device-specific accounts of source content, what it supports and exactly what remains unanswered. It adds no new findings. Its hashes bind it to the unchanged evidence-checklists.json and source catalog. The builder renders bullet lists and a device-organised overview, with no visible evidence grades. Original search strings and earlier support labels remain in the evidence record for provenance; they do not replace prose analysis in research/.
+
 The current source-to-need assessment is **evidence-checklists.json**, rendered by tools/build_evidence_checklists.py at the end of tools/build_docs.py. It holds the supplied guide's 31 required elements, 217 explicit evidence matches/gaps across seven devices, exact source locators, claim-specific support, proposed queries and actual Imperial access outcomes. The sole new full-text review deepens the existing RNS economic paper; it is not independent corroboration. Run tools/validate_checklists.py as well as the two earlier validators. checklist-preservation.json protects six prior evidence files and all seven full Markdown drafts by exact hash.
 
 The older screening-matrix.json access labels remain as a historical record. README now points to research/ rather than repeating those broad labels. Original device/source data are not silently regraded.
